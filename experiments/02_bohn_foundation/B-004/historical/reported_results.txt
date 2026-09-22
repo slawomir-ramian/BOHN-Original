@@ -1,0 +1,23 @@
+============================================================
+CORRECTNESS TESTS FOR THE REVERSIBLE LAYER
+============================================================
+
+Test 1: Reversibility
+  eps_rec = max|X - X_rec| = 0.0
+  Status: PASSED
+
+Test 2: Gradient w.r.t. input X
+  eps_grad_X = 2.04e-09
+  Analytical gradient norm: 5.672341
+  Numerical gradient norm:  5.672341
+  Status: PASSED
+
+Test 3: Gradient w.r.t. weights W
+  eps_grad_W = 8.70e-08
+  Analytical gradient norm: 7.845123
+  Numerical gradient norm:  7.845123
+  Status: PASSED
+
+============================================================
+SUMMARY: PASSED, PASSED, PASSED
+============================================================

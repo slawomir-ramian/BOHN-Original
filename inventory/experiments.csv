@@ -1,13 +1,13 @@
 id,chapter,section,title,kind,printed_pages,pdf_pages,code_source,source_code_level,reported_results,reproduction_status
-B-001,2,2.1.4,Wyznaczanie orbit grupy Z3 na 64 stanach,program_test,15,16,A.1 / Listing A.1,FULL,YES,NOT_RUN
-B-002,2,2.2.1,Obliczanie histogramu orbitowego Phi(X),program_test,16,17,A.1 / Listing A.2,FULL,YES,NOT_RUN
-B-003,2,2.3.1,ReversibleRMIGLayer - forward i inverse,program,16,17,A.1 / Listing A.3,FULL,YES,NOT_RUN
-B-004,2,2.4.1,Testy odwracalności i poprawności gradientów,test,16-17,17-18,A.1 / Listing A.4,FULL,YES,NOT_RUN
-B-005,2,2.5,Benchmark I - problem liniowy,benchmark,17,18,A.1 / Listing A.5,FULL,YES,NOT_RUN
-B-006,2,2.6,Benchmark II - problem Z3-symetryczny z etykietą kwadratową,benchmark,17-18,18-19,A.1 / Listing A.6,FULL,YES,NOT_RUN
-B-007,2,2.7,Benchmark III - Orbit Energy Network,benchmark,18,19,A.1 / Listing A.7,FULL,YES,NOT_RUN
-B-008,2,2.8,Benchmark IV - Orbit Histogram Network (BOHN),benchmark,18-19,19-20,A.1 / Listing A.8,FULL,YES,NOT_RUN
-B-009,2,2.9,Test inwariantności histogramu orbitowego względem Z3,test,19,20,A.1 / Listing A.9,FULL,YES,NOT_RUN
+B-001,2,2.1.4,Wyznaczanie orbit grupy Z3 na 64 stanach,program_test,15,16,A.1 / Listing A.1,FULL,YES,EXACT_MATCH
+B-002,2,2.2.1,Obliczanie histogramu orbitowego Phi(X),program_test,16,17,A.1 / Listing A.2,FULL,YES,EXACT_MATCH
+B-003,2,2.3.1,ReversibleRMIGLayer - forward i inverse,program,16,17,A.1 / Listing A.3,FULL,YES,EXACT_MATCH
+B-004,2,2.4.1,Testy odwracalności i poprawności gradientów,test,16-17,17-18,A.1 / Listing A.4,FULL,YES,CLOSE_MATCH
+B-005,2,2.5,Benchmark I - problem liniowy,benchmark,17,18,A.1 / Listing A.5,FULL,YES,DIVERGENT
+B-006,2,2.6,Benchmark II - problem Z3-symetryczny z etykietą kwadratową,benchmark,17-18,18-19,A.1 / Listing A.6,FULL,YES,PARTIAL
+B-007,2,2.7,Benchmark III - Orbit Energy Network,benchmark,18,19,A.1 / Listing A.7,FULL,YES,DIVERGENT
+B-008,2,2.8,Benchmark IV - Orbit Histogram Network (BOHN),benchmark,18-19,19-20,A.1 / Listing A.8,FULL,YES,DIVERGENT
+B-009,2,2.9,Test inwariantności histogramu orbitowego względem Z3,test,19,20,A.1 / Listing A.9,FULL,YES,CLOSE_MATCH
 S-001,3,3.2.1,SBOHN-1 - dublet z MLP,experiment_negative,24,25,A.2 / Listings A.10-A.11,FULL,YES,NOT_RUN
 S-002,3,3.2.2,SBOHN-2 - dublet przy małej liczbie danych,experiment_negative,24,25,A.2 / Listings A.12-A.13,FULL,YES,NOT_RUN
 S-003,3,3.2.3,"SBOHN-3 - test liniowy x vs [x+g(x), x-g(x)]",experiment_negative,24,25,A.2 / Listings A.14-A.15,FULL,YES,NOT_RUN

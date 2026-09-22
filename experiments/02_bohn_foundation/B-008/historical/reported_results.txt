@@ -1,0 +1,17 @@
+Input dimension X:        64
+Dimension of Phi(X):      72
+  - Energies (E_i):      24
+  - Means (M_i):         24
+  - Amplitudes (A_i):    24
+
+============================================================
+BENCHMARK IV: ORBIT HISTOGRAM NETWORK (BOHN)
+============================================================
+  Linear raw X:              0.506
+  Linear orbit histogram:    0.968
+  MLP orbit histogram:       0.984
+
+Conclusion: The orbit histogram is a strong
+invariant representation achieving
+the highest results. This justifies the full name:
+Burnside Orbit Histogram Network (BOHN).

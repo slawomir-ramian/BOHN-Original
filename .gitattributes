@@ -13,3 +13,6 @@
 *.jpg binary
 *.jpeg binary
 
+# Historyczne listingi są zachowane bajtowo, łącznie ze spacjami końcowymi
+# występującymi w źródłowym LaTeX-u.
+experiments/02_bohn_foundation/*/historical/source_from_monograph.py whitespace=-trailing-space

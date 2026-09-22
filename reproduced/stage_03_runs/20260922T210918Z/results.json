@@ -1,0 +1,200 @@
+{
+  "stage": "03",
+  "run_utc": "2026-09-22T21:09:18+00:00",
+  "mode": "full",
+  "selected": [
+    "B-001",
+    "B-002",
+    "B-003",
+    "B-004",
+    "B-005",
+    "B-006",
+    "B-007",
+    "B-008",
+    "B-009"
+  ],
+  "environment": {
+    "python": "3.14.5 (tags/v3.14.5:5607950, May 10 2026, 10:43:50) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "numpy": "2.5.3",
+    "scikit_learn": "1.9.1",
+    "processor_count": 4
+  },
+  "experiments": {
+    "B-001": {
+      "status": "EXACT_MATCH",
+      "values": {
+        "states": 64,
+        "orbits": 24,
+        "singletons": 4,
+        "triples": 20,
+        "fix_e": 64,
+        "fix_g": 4,
+        "fix_g2": 4,
+        "singleton_states": [
+          0,
+          21,
+          42,
+          63
+        ]
+      }
+    },
+    "B-002": {
+      "status": "VERIFIED_NO_REFERENCE_BLOCK",
+      "values": {
+        "input_dimension": 64,
+        "histogram_dimension": 72,
+        "first_five_energy": [
+          0.24672494980166626,
+          1.0997716981905672,
+          0.6400888165116388,
+          2.4962392132976006,
+          2.301697814493934
+        ],
+        "first_five_mean": [
+          0.4967141530112327,
+          -0.46174959874298144,
+          0.05490564247593549,
+          0.7028701391808404,
+          0.5152530481892158
+        ],
+        "first_five_amplitude": [
+          0.4967141530112327,
+          0.46174959874298144,
+          0.3768867162578595,
+          0.7028701391808404,
+          0.6713443528220028
+        ]
+      }
+    },
+    "B-003": {
+      "status": "VERIFIED_NO_REFERENCE_BLOCK",
+      "values": {
+        "states": 64,
+        "weight_shape": [
+          64
+        ],
+        "unique_weights": [
+          -1.0,
+          1.0
+        ],
+        "perm_first_five": [
+          0,
+          4,
+          8,
+          12,
+          16
+        ],
+        "exact_roundtrip": true
+      }
+    },
+    "B-004": {
+      "status": "CLOSE_MATCH",
+      "note": "Zgodność kryteriów PASS; wartości zmiennoprzecinkowe zależą od środowiska.",
+      "values": {
+        "reversibility_error": 0.0,
+        "input_gradient_error": 1.7709833599610647e-11,
+        "input_gradient_analytic_norm": 8.129972506421053,
+        "input_gradient_numeric_norm": 8.129972506437243,
+        "weight_gradient_error": 1.2745804411906647e-11,
+        "weight_gradient_analytic_norm": 7.933483706978764,
+        "weight_gradient_numeric_norm": 7.933483706989668,
+        "all_tests_passed": true
+      }
+    },
+    "B-005": {
+      "status": "DIVERGENT",
+      "values": {
+        "linear": 0.97,
+        "rmig_frozen": 0.97,
+        "rmig_trainable": 0.97
+      },
+      "reported": {
+        "linear": 0.962,
+        "rmig_frozen": 0.741,
+        "rmig_trainable": 0.94
+      },
+      "delta_reproduced_minus_reported": {
+        "linear": 0.008,
+        "rmig_frozen": 0.229,
+        "rmig_trainable": 0.03
+      },
+      "audit_note": "Odwracalne przestawienie i zmiana znaków zachowują klasę modeli liniowych; listing daje identyczne predykcje dla trzech wariantów w tym środowisku."
+    },
+    "B-006": {
+      "status": "PARTIAL",
+      "values": {
+        "linear_raw": 0.48833333333333334,
+        "rmig_frozen": 0.48833333333333334,
+        "rmig_trainable_reported_constant": 0.47,
+        "orbit_energy": 0.98
+      },
+      "reported": {
+        "linear_raw": 0.483,
+        "rmig_frozen": 0.471,
+        "rmig_trainable_reported_constant": 0.47,
+        "orbit_energy": 0.981
+      },
+      "delta_reproduced_minus_reported": {
+        "linear_raw": 0.005333333333,
+        "rmig_frozen": 0.017333333333,
+        "rmig_trainable_reported_constant": 0.0,
+        "orbit_energy": -0.001
+      },
+      "audit_note": "W listingu wartość RMIG trainable = 0.470 jest wpisana na stałe i nie jest obliczana; dlatego reprodukcja pozostaje PARTIAL."
+    },
+    "B-007": {
+      "status": "DIVERGENT",
+      "values": {
+        "linear_raw": 0.48833333333333334,
+        "linear_orbit_energy": 0.98,
+        "mlp_orbit_energy": 0.9716666666666667
+      },
+      "reported": {
+        "linear_raw": 0.483,
+        "linear_orbit_energy": 0.982,
+        "mlp_orbit_energy": 0.983
+      },
+      "delta_reproduced_minus_reported": {
+        "linear_raw": 0.005333333333,
+        "linear_orbit_energy": -0.002,
+        "mlp_orbit_energy": -0.011333333333
+      }
+    },
+    "B-008": {
+      "status": "DIVERGENT",
+      "values": {
+        "linear_raw": 0.5066666666666667,
+        "linear_histogram": 0.94,
+        "mlp_histogram": 0.8166666666666667
+      },
+      "reported": {
+        "linear_raw": 0.506,
+        "linear_histogram": 0.968,
+        "mlp_histogram": 0.984
+      },
+      "delta_reproduced_minus_reported": {
+        "linear_raw": 0.000666666667,
+        "linear_histogram": -0.028,
+        "mlp_histogram": -0.167333333333
+      }
+    },
+    "B-009": {
+      "status": "CLOSE_MATCH",
+      "note": "Zgodność kryteriów inwariantności; dokładny błąd maszynowy zależy od NumPy/platformy.",
+      "values": {
+        "single_error_g": 8.881784197001252e-16,
+        "single_error_g2": 8.881784197001252e-16,
+        "batch_max_error": 3.552713678800501e-15,
+        "batch_error_g": 3.552713678800501e-15,
+        "batch_error_g2": 3.552713678800501e-15,
+        "dimension": 72,
+        "energy_max_error": 8.881784197001252e-16,
+        "mean_max_error": 6.938893903907228e-18,
+        "amplitude_max_error": 2.220446049250313e-16,
+        "discrimination": 6.4060532617762975,
+        "all_tests_passed": true
+      }
+    }
+  }
+}

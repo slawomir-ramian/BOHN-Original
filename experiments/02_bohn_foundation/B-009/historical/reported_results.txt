@@ -1,0 +1,32 @@
+============================================================
+INVARIANCE TEST Phi(X) = Phi(gX) = Phi(g^2 X)
+============================================================
+
+Test 1: Single vector
+  ||Phi(X) - Phi(gX)||_inf   = 8.88e-16
+  ||Phi(X) - Phi(g^2 X)||_inf = 8.88e-16
+  Dimension of Phi:            72
+  eps_single = 8.88e-16
+  Status: PASSED
+
+  Error breakdown by component:
+    E_i max error: 8.88e-16
+    M_i max error: 5.55e-17
+    A_i max error: 5.55e-17
+
+Test 2: Batch (100 vectors)
+  max ||Phi(X) - Phi(gX)||_inf   = 1.78e-15
+  max ||Phi(X) - Phi(g^2 X)||_inf = 1.78e-15
+  eps_batch = 1.78e-15
+  Status: PASSED
+
+Discrimination verification:
+  ||Phi(X1) - Phi(X2)||_inf = 3.8472
+  (different X yield different Phi -> representation
+   preserves information)
+
+============================================================
+INVARIANCE SUMMARY: PASSED, PASSED
+Errors at the level of machine precision (10^-15 -- 10^-16)
+Invariance is STRUCTURAL, not learned.
+============================================================

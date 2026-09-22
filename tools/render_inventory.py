@@ -59,6 +59,8 @@ def render_index(rows: list[dict[str, str]]) -> None:
     grouped: dict[str, list[dict[str, str]]] = defaultdict(list)
     for row in rows:
         grouped[row["chapter"]].append(row)
+    status_counts = Counter(row["reproduction_status"] for row in rows)
+    evaluated = len(rows) - status_counts.get("NOT_RUN", 0)
 
     chapter_names = {
         "2": "BOHN - fundament orbitowy",
@@ -78,8 +80,8 @@ def render_index(rows: list[dict[str, str]]) -> None:
     lines = [
         "# Indeks eksperymentów, testów i programów",
         "",
-        f"Rejestr po audycie Etapu 02 obejmuje **{len(rows)} jednostki** wykryte w monografii.",
-        "Każda pozycja zachowuje osobny status reprodukcji; obecnie wszystkie mają `NOT_RUN`.",
+        f"Rejestr obejmuje **{len(rows)} jednostki** wykryte w monografii.",
+        f"Po Etapie 03 wykonano **{evaluated} jednostek**; **{status_counts.get('NOT_RUN', 0)}** pozostaje `NOT_RUN`.",
         "",
         "Kolumna `Kod` opisuje poziom materiału dostępnego w PDF. `NARRATIVE_ONLY` nie",
         "oznacza pominięcia - przeciwnie, wskazuje jednostkę wymagającą ostrożnej rekonstrukcji",
@@ -91,8 +93,8 @@ def render_index(rows: list[dict[str, str]]) -> None:
             [
                 f"## Rozdział {chapter}: {chapter_names[chapter]}",
                 "",
-                "| ID | Sekcja | Jednostka | Typ | Strony drukowane / PDF | Kod |",
-                "|---|---|---|---|---|---|",
+                "| ID | Sekcja | Jednostka | Typ | Strony drukowane / PDF | Kod | Reprodukcja |",
+                "|---|---|---|---|---|---|---|",
             ]
         )
         for row in grouped[chapter]:
@@ -100,7 +102,8 @@ def render_index(rows: list[dict[str, str]]) -> None:
             pages = f"{row['printed_pages']} / {row['pdf_pages']}"
             lines.append(
                 f"| `{row['id']}` | {row['section']} | {title} | "
-                f"{row['kind']} | {pages} | `{row['source_code_level']}` |"
+                f"{row['kind']} | {pages} | `{row['source_code_level']}` | "
+                f"`{row['reproduction_status']}` |"
             )
         lines.append("")
     OUT_PATH.write_text("\n".join(lines) + "\n", encoding="utf-8")

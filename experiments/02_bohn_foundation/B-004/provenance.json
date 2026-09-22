@@ -1,0 +1,12 @@
+{
+  "experiment_id": "B-004",
+  "canonical_source": "docs/source/BOHN_PL.pdf",
+  "extraction_source": "docs/source/BOHN_EN_SOURCE.tex",
+  "listing_index": 4,
+  "latex_start_line": 8121,
+  "latex_end_line": 8231,
+  "historical_source_sha256": "c03f0f073851eb2cc2a890f35dd74c112d4bbe3d4c220f86eb7c742a2e0279fa",
+  "reported_result_sha256": "4355d3324bb2b1d9ce2e71e0ca72ca7c822920378e318c30a5770557504ffda0",
+  "historical_code_modified": false,
+  "runner_layer": "technical_adapter"
+}

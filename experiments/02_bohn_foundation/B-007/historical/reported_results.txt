@@ -1,0 +1,14 @@
+Input dimension X:          64
+Orbit energy dimension E(X): 24
+
+============================================================
+BENCHMARK III: ORBIT ENERGY NETWORK
+============================================================
+  Linear raw X:          0.483
+  Linear orbit energy:   0.982
+  MLP orbit energy:      0.983
+
+Conclusion: Orbit energy is a nearly sufficient
+representation for Z3-symmetric tasks.
+A nonlinear problem in R^64 becomes nearly
+linear in R^24 (orbit energy).

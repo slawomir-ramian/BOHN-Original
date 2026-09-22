@@ -1,0 +1,3 @@
+# Środowisko użyte do kontrolnego uruchomienia pakietu 2026-09-22.
+numpy==2.3.5
+scikit-learn==1.8.0

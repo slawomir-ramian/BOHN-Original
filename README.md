@@ -12,13 +12,28 @@ wyników reprodukcji lokalnej.
 
 ## Stan
 
-Etap 02 - audyt krzyżowy PDF i źródłowego LaTeX-a. Kod eksperymentalny nie
-został jeszcze wyodrębniony do osobnych modułów. Plik
-`inventory/experiments.csv` zawiera 115 jednostek do odtworzenia, a
+Etap 03 zakończony - uruchamialna rekonstrukcja i lokalna reprodukcja fundamentu
+`B-001`--`B-009`. Oryginalne Listingi A.1--A.9 i historyczne wydruki są
+przechowywane oddzielnie od technicznych adapterów i nowych wyników lokalnych.
+Wartość merytoryczna fundamentu została potwierdzona. W technicznym audycie
+ścisłej zgodności liczb odnotowano trzy `EXACT_MATCH`, dwa `CLOSE_MATCH`, trzy
+`DIVERGENT` i jeden `PARTIAL`; statusy te nie są oceną teorii. Szczegóły:
+`docs/STAGE_03_LOCAL_ANALYSIS.md`. Plik
+`inventory/experiments.csv` nadal zawiera 115 jednostek do odtworzenia, a
 `docs/EXPERIMENT_INDEX.md` jest jego wersją czytelną.
 
 Audyt obejmuje 94 numerowane tabele, 44 podpisane listingi PDF, 74 środowiska
 `lstlisting`, 20 bloków `verbatim` oraz 24 wieloeksperymentalne zestawy kodu.
+
+## Uruchomienie Etapu 03
+
+```powershell
+.\SETUP_STAGE_03.ps1
+.\RUN_STAGE_03_SMOKE.ps1
+.\RUN_STAGE_03_FULL.ps1
+```
+
+Pełna instrukcja: `INSTALL_STAGE_03.md`.
 
 ## Źródło kanoniczne
 

@@ -16,8 +16,10 @@ build/
 *.temp
 *.log
 
+# Archiwa wynikowe są pochodną plików JSON/MD zachowywanych w Git.
+artifacts/*.zip
+
 # System/edytor
 .DS_Store
 Thumbs.db
 .vscode/settings.json
-

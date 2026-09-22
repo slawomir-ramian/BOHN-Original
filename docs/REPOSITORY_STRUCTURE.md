@@ -31,6 +31,9 @@ BOHN-Original/
 └── pyproject.toml
 ```
 
-Katalogi konkretnych eksperymentów powstaną dopiero po audycie indeksu. Dzięki
-temu struktura nie utrwali przypadkowych pominięć ani błędnych podziałów.
-
+Pierwszy pakiet wykonawczy `B-001`--`B-009` znajduje się w
+`experiments/02_bohn_foundation/`. Wspólny adapter jest w
+`src/bohn_original/foundation.py`, a runner w `tools/run_stage_03.py`.
+Każde uruchomienie tworzy osobny katalog pod
+`reproduced/stage_03_runs/`; wynikowy ZIP w `artifacts/` jest plikiem pochodnym
+i nie jest śledzony przez Git.

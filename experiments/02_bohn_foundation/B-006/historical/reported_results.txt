@@ -1,0 +1,7 @@
+============================================================
+BENCHMARK II: Z3-SYMMETRIC PROBLEM
+============================================================
+  Linear raw X:              0.483
+  RMIG frozen:               0.471
+  RMIG trainable:            0.470
+  Orbit energy upper bound:  0.981
