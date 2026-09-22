@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+
+# Wyniki lokalnych reprodukcji mogą być duże. Zasady śledzenia zostaną
+# ustalone przed pierwszym uruchomieniem; na razie ignorujemy tylko pliki
+# tymczasowe, nie katalogi wynikowe.
+*.tmp
+*.temp
+*.log
+
+# System/edytor
+.DS_Store
+Thumbs.db
+.vscode/settings.json
+

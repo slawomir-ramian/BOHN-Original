@@ -1,0 +1,104 @@
+id,chapter,section,title,kind,printed_pages,pdf_pages,code_source,source_code_level,reported_results,reproduction_status
+B-001,2,2.1.4,Wyznaczanie orbit grupy Z3 na 64 stanach,program_test,15,16,A.1 / Listing A.1,FULL,YES,NOT_RUN
+B-002,2,2.2.1,Obliczanie histogramu orbitowego Phi(X),program_test,16,17,A.1 / Listing A.2,FULL,YES,NOT_RUN
+B-003,2,2.3.1,ReversibleRMIGLayer - forward i inverse,program,16,17,A.1 / Listing A.3,FULL,YES,NOT_RUN
+B-004,2,2.4.1,Testy odwracalności i poprawności gradientów,test,16-17,17-18,A.1 / Listing A.4,FULL,YES,NOT_RUN
+B-005,2,2.5,Benchmark I - problem liniowy,benchmark,17,18,A.1 / Listing A.5,FULL,YES,NOT_RUN
+B-006,2,2.6,Benchmark II - problem Z3-symetryczny z etykietą kwadratową,benchmark,17-18,18-19,A.1 / Listing A.6,FULL,YES,NOT_RUN
+B-007,2,2.7,Benchmark III - Orbit Energy Network,benchmark,18,19,A.1 / Listing A.7,FULL,YES,NOT_RUN
+B-008,2,2.8,Benchmark IV - Orbit Histogram Network (BOHN),benchmark,18-19,19-20,A.1 / Listing A.8,FULL,YES,NOT_RUN
+B-009,2,2.9,Test inwariantności histogramu orbitowego względem Z3,test,19,20,A.1 / Listing A.9,FULL,YES,NOT_RUN
+S-001,3,3.2.1,SBOHN-1 - dublet z MLP,experiment_negative,24,25,A.2 / Listings A.10-A.11,FULL,YES,NOT_RUN
+S-002,3,3.2.2,SBOHN-2 - dublet przy małej liczbie danych,experiment_negative,24,25,A.2 / Listings A.12-A.13,FULL,YES,NOT_RUN
+S-003,3,3.2.3,"SBOHN-3 - test liniowy x vs [x+g(x), x-g(x)]",experiment_negative,24,25,A.2 / Listings A.14-A.15,FULL,YES,NOT_RUN
+S-004,3,3.3.1,SBOHN-4 - czysty test |x-g(x)|,experiment,24,25,A.2 / Listings A.16-A.17,FULL,YES,NOT_RUN
+S-005,3,3.3.2,SBOHN-5 - porównanie wariantów cech,experiment,24-25,25-26,A.2 / Listings A.18-A.19,FULL,YES,NOT_RUN
+S-006,3,3.4.1,SBOHN-6 - rozszerzenie na pełną grupę Z3,experiment,25-27,26-28,A.2 / Listings A.20-A.21,FULL,YES,NOT_RUN
+S-007,3,3.5.1,SBOHN-7 - losowe współrzędne i wagi,stability_test,27,28,A.2 / Listings A.22-A.23,FULL,YES,NOT_RUN
+S-008,3,3.5.2,SBOHN-8 - odporność na błędną symetrię,robustness_test,27,28,A.2 / Listings A.24-A.25,FULL,YES,NOT_RUN
+S-009,3,3.6.1,SBOHN-9 - ranking kandydatów i wykrywanie ukrytej symetrii,discovery_test,27-28,28-29,A.2 / Listings A.26-A.27,FULL,YES,NOT_RUN
+G-001,4,4.1,Adaptacyjny Router Permutacji z kryterium Fishera na Iris,experiment,29-31,30-32,A.3 / Listings A.28-A.29,FULL,YES,NOT_RUN
+SO-001,4,4.2.1,SO(2) - numeryczna weryfikacja zerowania symetryzatora,numerical_test,31,32,A.3 / Listings A.30-A.31,FULL,YES,NOT_RUN
+SO-002,4,4.2.2,SO(2) - profil asymetrii numeryczny vs analityczny,numerical_test,31-32,32-33,A.3 / Listing A.32,PARTIAL,YES,NOT_RUN
+SO-003,4,4.2.3,SO(2) - momenty M1-M6 numeryczne vs analityczne,numerical_test,31-32,32-33,A.3 / Listing A.33,PARTIAL,YES,NOT_RUN
+SO-004,4,4.2.4,SO(2) - współczynniki Fouriera rozróżniają orientację,numerical_test,32,33,A.3 / Listing A.34,PARTIAL,YES,NOT_RUN
+SO-005,4,4.2.6,SO(2)-SBOHN - klasyfikacja w R4,experiment,32-33,33-34,A.3 / Listings A.35-A.36,FULL,YES,NOT_RUN
+SO-006,4,4.2.6,SO(2)-SBOHN - klasyfikacja w R8,experiment,32-33,33-34,A.3 / Listings A.35-A.37,FULL,YES,NOT_RUN
+SO-007,4,4.2.6,SO(2)-SBOHN - test inwariantności reprezentacji,test,32-33,33-34,A.3 / Listing A.38,PARTIAL,YES,NOT_RUN
+SD-001,4,4.3.2,Symmetry Discovery 1 - symetria przesunięcia na digits,discovery_test,34-35,35-36,A.3,FULL_UNCAPTIONED,YES,NOT_RUN
+SD-002,4,4.3.3,Symmetry Discovery 2 - kontrola negatywna z losowymi etykietami,negative_control,35-36,36-37,A.3,FULL_UNCAPTIONED,YES,NOT_RUN
+SD-003,4,4.3.4,Symmetry Discovery 3 - ukryta symetria odbicia poziomego,discovery_test,36-38,37-39,A.3,FULL_UNCAPTIONED,YES,NOT_RUN
+SD-004,4,4.3.5,Symmetry Discovery 4 - ukryta symetria obrotu o 180 stopni,discovery_test,38-39,39-40,A.3,FULL_UNCAPTIONED,YES,NOT_RUN
+ASD-001,4,4.4,Autonomous Symmetry Discovery - selekcja kandydatów,discovery_test,40-41,41-42,A.3,FULL_UNCAPTIONED,YES,NOT_RUN
+PL-001,5,5.1,SBOHN-PL - ewolucyjne uczenie permutacji rotate180,experiment,43-47,44-48,A.4,FULL_UNCAPTIONED,YES,NOT_RUN
+PL-002,5,5.2.1,SBOHN-PL2 - uczenie dwóch permutacji jednocześnie,experiment,47-48,48-49,Narracja rozdziału 5,NARRATIVE_ONLY,YES,NOT_RUN
+PL-003,5,5.2.2,SBOHN-K - skalowanie liczby permutacji,scaling_test,48-49,49-50,Narracja rozdziału 5,NARRATIVE_ONLY,YES,NOT_RUN
+AR-001,5,5.3.2,SBOHN-AR v1 - ewolucyjne generowanie jednej transformacji,experiment,49-50,50-51,A.4,FULL_UNCAPTIONED,YES,NOT_RUN
+AR-002,5,5.3.3,SBOHN-AR v2 - Generate-Represent-Select,experiment,50-52,51-53,A.4,FULL_UNCAPTIONED,YES,NOT_RUN
+AR-003,5,5.4.1,SBOHN-AR - test korelacji reprezentacji,analysis_test,52-53,53-54,A.4,FULL_UNCAPTIONED,YES,NOT_RUN
+AR-004,5,5.4.2,SBOHN-AR - reprezentacyjne klasy równoważności,analysis_test,53-55,54-56,A.4,FULL_UNCAPTIONED,YES,NOT_RUN
+HD-001,5,5.5.5,SBOHN - skalowanie względem wymiaru d=63..4095,scaling_test,56,57,A.4 p.227 / PDF p.228,FULL_UNCAPTIONED,YES,NOT_RUN
+HD-002,5,5.5.7,SBOHN - wpływ liczby próbek przy d=4095,scaling_test,57,58,A.4 p.227 / PDF p.228,FULL_UNCAPTIONED,YES,NOT_RUN
+HD-003,5,5.5.11,SBOHN - wariant proportional-signal,robustness_test,57-58,58-59,Narracja rozdziału 5,NARRATIVE_ONLY,YES,NOT_RUN
+CMP-001,5,5.6.2,SBOHN-AE - PCA-48 vs autoenkoder rekonstrukcyjny,compression_test,58-59,59-60,Narracja rozdziału 5,NARRATIVE_ONLY,YES,NOT_RUN
+CMP-002,5,5.6.3,"SBOHN-SRL - supervised latent k=2,4,8,16 vs PCA",compression_test,59-60,60-61,Narracja rozdziału 5,NARRATIVE_ONLY,YES,NOT_RUN
+LS-001,6,6.2.2-6.2.3,Learnable SBOHN - pięciokrokowy pipeline Task A i Task B,experiment_suite,64-65,65-66,A.5 / Listing A.39,FULL,YES,NOT_RUN
+LS-002,6,6.2.4 EXP 1,SBOHN-K3 - regularyzacja ortogonalności,ablation,65,66,A.5 / Listing A.39,FULL,YES,NOT_RUN
+LS-003,6,6.2.4 EXP 2,Input-Dependent SBOHN - wyżarzanie temperatury i eksplozja NaN,stability_test_negative,65-66,66-67,A.5 / Listing A.39,FULL,YES,NOT_RUN
+LS-004,6,6.2.4 EXP 3,Low-Rank Sinkhorn 784x784 - sweep rangu,scaling_ablation,66,67,A.5 / Listing A.39,FULL,YES,NOT_RUN
+LS-005,6,6.2.4 EXP 4,Analiza algebraiczna wyuczonych macierzy i podgrup,analysis_test_negative,66,67,A.5 / Listing A.39,FULL,YES,NOT_RUN
+LS-006,6,6.2.4 EXP 5,Task C - regresja z czterema ukrytymi symetriami,experiment,66-67,67-68,A.5 / Listing A.39,FULL,YES,NOT_RUN
+LD-001,6,6.3.1,Log-domain vs naive Sinkhorn,stability_test,67-68,68-69,A.5 / Listing A.40,FULL,YES,NOT_RUN
+LD-002,6,6.3.2,Input-Dependent log-domain z wyżarzaniem temperatury,stability_test,68,69,A.5 / Listing A.40,FULL,YES,NOT_RUN
+LD-003,6,6.3.3,Regularyzacja entropii - Global K=3,ablation,68,69,A.5 / Listing A.40,FULL,YES,NOT_RUN
+LD-004,6,6.3.4,Full Stack - InpDep K=2 + LogDomain + Entropy + Ortho,experiment,68-69,69-70,A.5 / Listing A.41,FULL,YES,NOT_RUN
+LD-005,6,6.3.5,Analiza algebraiczna modelu z regularyzacją entropii,analysis_test,69,70,A.5 / Listing A.41,FULL,YES,NOT_RUN
+FR-001,7,7.1,Fractal Input-Dependent SBOHN - test przełomowy i analiza per-level,experiment,71-73,72-74,Kod w rozdziale 7.1,PARTIAL_IN_CHAPTER,YES,NOT_RUN
+FR-002,7,7.2,Fractal SBOHN - MNIST,experiment,75-81,76-82,7.2.5-7.2.6,FULL_IN_CHAPTER,YES,NOT_RUN
+FR-003,7,7.2,Fractal SBOHN - Fashion-MNIST,experiment,75-81,76-82,7.2.5-7.2.6,FULL_IN_CHAPTER,YES,NOT_RUN
+PT-001,7,7.3,Patch SBOHN / Permutation Transformer - MNIST,experiment,83-89,84-90,7.3.6-7.3.7,FULL_IN_CHAPTER,YES,NOT_RUN
+PT-002,7,7.3,Patch SBOHN / Permutation Transformer - Fashion-MNIST,experiment,83-89,84-90,7.3.6-7.3.7,FULL_IN_CHAPTER,YES,NOT_RUN
+HR-001,7,7.4,HighRes Patch SBOHN - test 4K na MNIST,scaling_test,90-91,91-92,Narracja rozdziału 7,NARRATIVE_ONLY,YES,NOT_RUN
+HR-002,7,7.4,HighRes Patch SBOHN - test 4K na Fashion-MNIST,scaling_test,90-91,91-92,Narracja rozdziału 7,NARRATIVE_ONLY,YES,NOT_RUN
+HR-003,7,7.5,HighRes Fractal SBOHN v2 - permutacja patchy vs cech,experiment,92-93,93-94,Narracja rozdziału 7,NARRATIVE_ONLY,YES,NOT_RUN
+MS-001,8,8.1.1,Meta-SBOHN Score Generator v1,experiment,95-96,96-97,A.6 / Listing A.42,FULL_SUITE,YES,NOT_RUN
+MS-002,8,8.1.2,Meta-SBOHN v2 - Geometry-Aware Generator,experiment,96,97,A.6 / Listing A.42,FULL_SUITE,YES,NOT_RUN
+MS-003,8,8.1.3,Meta-SBOHN v2 + SRL,experiment,96,97,A.6 / Listing A.42,FULL_SUITE,YES,NOT_RUN
+MS-004,8,8.1.4,Meta-Meta-SBOHN v1,experiment,96-97,97-98,A.6 / Listing A.42,FULL_SUITE,YES,NOT_RUN
+MS-005,8,8.1.5,SBOHN-Curriculum v1 - prosty warm-start,experiment,97,98,A.6 / Listing A.43,PARTIAL,YES,NOT_RUN
+MS-006,8,8.1.6,SBOHN-Curriculum v2 - Mixed Population Transfer,experiment,97-98,98-99,A.6 / Listing A.43,PARTIAL,YES,NOT_RUN
+MS-007,8,8.1.7,SBOHN-Curriculum v3 - transfer elit,experiment,98,99,A.6 / Listing A.43,PARTIAL,YES,NOT_RUN
+MS-008,8,8.1.7,SBOHN-Curriculum v4 - analiza basinów,analysis_test,98,99,A.6 / Listing A.43,PARTIAL,YES,NOT_RUN
+MS-009,8,8.1.8,Meta-SBOHN v5 - Geometry Regularization,ablation,98,99,A.6 / Listing A.42,FULL_SUITE,YES,NOT_RUN
+MS-010,8,8.1.9,Meta-SBOHN v6 - Geometry Annealing,ablation,98-99,99-100,A.6 / Listing A.42,FULL_SUITE,YES,NOT_RUN
+AD-001,9,9.1,Perm+Head - porównanie sześciu metod adaptacji,experiment_suite,100-102,101-103,A.7.1,FULL,YES,NOT_RUN
+AD-002,9,9.2.1-9.2.2,Few-shot transfer MNIST -> Fashion-MNIST,transfer_test,102-103,103-104,A.7.2,FULL,YES,NOT_RUN
+AD-003,9,9.2.4,Head-only vs full-tune - test modularności enkodera,ablation,103,104,A.7.2,FULL,YES,NOT_RUN
+CL-001,9,9.3,Continual learning - przełączanie zadań i forgetting,continual_test,103-104,104-105,A.7.2,FULL,YES,NOT_RUN
+SOTA-001,10,10.1-10.2,Porównanie accuracy modeli na Fashion-MNIST,benchmark,106-107,107-108,A.8.1,FULL,YES,NOT_RUN
+SOTA-002,10,10.3,Benchmark skalowania inferencji z rozdzielczością do 4K,scaling_benchmark,107-109,108-110,A.8.2 / Listing code,FULL,YES,NOT_RUN
+SYS-001,11,11.1,Meta-learned Permutation Generator,experiment,111-112,112-113,A.9.1,FULL_SUITE,YES,NOT_RUN
+SYS-002,11,11.2,Multi-task MoE Routing,experiment,112-113,113-114,A.9.1,FULL_SUITE,YES,NOT_RUN
+SYS-003,11,11.3.1,Deep Encoder - skalowanie głębokości,scaling_test,113,114,A.9.2-A.9.3,FULL_SUITE,YES,NOT_RUN
+SYS-004,11,11.3.2,Partial Unfreeze - odmrażanie wybranych warstw,ablation,113-114,114-115,A.9.2-A.9.3,FULL_SUITE,YES,NOT_RUN
+SYS-005,11,11.4,System zintegrowany MoE + Meta-Generator + Frozen Encoder,experiment,114-116,115-117,A.9.2,FULL,YES,NOT_RUN
+CPU-001,11,11.5.1,Bateria CPU 1 - Shallow vs Deep Encoder,experiment,116,117,A.9.3,FULL,YES,NOT_RUN
+CPU-002,11,11.5.2,Bateria CPU 2 - MoE Multi-Domain Routing,experiment,116-117,117-118,A.9.3,FULL,YES,NOT_RUN
+CPU-003,11,11.5.3,Bateria CPU 3 - Cross-Domain Meta-Generator,experiment,116-117,117-118,A.9.3,FULL,YES,NOT_RUN
+CPU-004,11,11.5.4,Bateria CPU 4 - Partial Unfreeze: accuracy vs forgetting,experiment,117,118,A.9.3,FULL,YES,NOT_RUN
+CPU-005,11,11.5.5,Bateria CPU 5 - Few-Shot Scaling z frozen encoder,scaling_test,117-118,118-119,A.9.3,FULL,YES,NOT_RUN
+MOE-001,12,12.1,Partial Unfreeze + MoE - eliminacja zapominania,experiment,119-121,120-122,A.10.1,FULL,YES,NOT_RUN
+MOE-002,12,12.2.2,Sparse MoE + Gate Specialization Loss - expert collapse,experiment_negative,121-122,122-123,A.10.2,FULL,YES,NOT_RUN
+MOE-003,12,12.2.3,Sparse MoE - sweep lambda_spec,ablation_negative,121-122,122-123,A.10.2,FULL,YES,NOT_RUN
+MOE-004,12,12.3,Hard Assignment + Gate Distillation,experiment,122-123,123-124,A.10.3,FULL,YES,NOT_RUN
+MOE-005,12,12.4.1-12.4.3,LayerNorm vs BatchNorm - routing experiments,ablation,123-124,124-125,A.10.4,FULL,YES,NOT_RUN
+MOE-006,12,12.4.4,Confidence routing,experiment,124,125,A.10.4,FULL,YES,NOT_RUN
+MOE-007,12,12.4.5,Shared Expert - wynik negatywny,experiment_negative,124,125,A.10.4,FULL,YES,NOT_RUN
+MOE-008,12,12.5,Hybrid BN/LN - kulminacja,experiment,125-127,126-128,A.10.5,FULL,YES,NOT_RUN
+RF-001,13,13.4,RMIG-FBOHN v1,experiment,129,130,B / Listing B.1,FULL_SUITE,YES,NOT_RUN
+RF-002,13,13.5,RMIG-FBOHN - test out-of-representation,robustness_test,129-130,130-131,B / Listing B.1,FULL_SUITE,YES,NOT_RUN
+MF-001,14,14.2,Meta-FBOHN v1 - negatywny wynik skalowania cech,experiment_negative,131,132,B / Listing B.1,FULL_SUITE,YES,NOT_RUN
+MF-002,14,14.2,Meta-FBOHN v2 - negatywny wynik skalowania cech,experiment_negative,131-132,132-133,B / Listing B.1,FULL_SUITE,YES,NOT_RUN
+MF-003,14,14.3,Meta-FBOHN v3 - Learned Orbit Mixing,experiment,132,133,B / Listing B.1,FULL_SUITE,YES,NOT_RUN
+MF-004,14,14.4,Meta-FBOHN v4 - Symbolic Orbit Composer,experiment,132-133,133-134,B / Listing B.1,FULL_SUITE,YES,NOT_RUN
+MF-005,14,14.5,Meta-FBOHN v5 - Symbolic Library Discovery,experiment,133-134,134-135,B / Listing B.1,FULL_SUITE,YES,NOT_RUN
