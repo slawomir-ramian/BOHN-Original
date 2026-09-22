@@ -1,6 +1,6 @@
 # Indeks eksperymentów, testów i programów
 
-Rejestr Etapu 01 obejmuje **103 jednostki** wykryte w monografii.
+Rejestr po audycie Etapu 02 obejmuje **115 jednostki** wykryte w monografii.
 Każda pozycja zachowuje osobny status reprodukcji; obecnie wszystkie mają `NOT_RUN`.
 
 Kolumna `Kod` opisuje poziom materiału dostępnego w PDF. `NARRATIVE_ONLY` nie
@@ -31,6 +31,8 @@ z opisu i tabel, bez udawania, że pełny kod został opublikowany.
 | `S-004` | 3.3.1 | SBOHN-4 - czysty test \|x-g(x)\| | experiment | 24 / 25 | `FULL` |
 | `S-005` | 3.3.2 | SBOHN-5 - porównanie wariantów cech | experiment | 24-25 / 25-26 | `FULL` |
 | `S-006` | 3.4.1 | SBOHN-6 - rozszerzenie na pełną grupę Z3 | experiment | 25-27 / 26-28 | `FULL` |
+| `S-010` | 3.4.3 | SBOHN-LR - referencyjny model i kod implementacji | program | 25-27 / 26-28 | `FULL_UNCAPTIONED` |
+| `S-011` | 3.4.3 | SBOHN-LR - referencyjny benchmark 100 seedów | benchmark | 25-27 / 26-28 | `FULL_UNCAPTIONED` |
 | `S-007` | 3.5.1 | SBOHN-7 - losowe współrzędne i wagi | stability_test | 27 / 28 | `FULL` |
 | `S-008` | 3.5.2 | SBOHN-8 - odporność na błędną symetrię | robustness_test | 27 / 28 | `FULL` |
 | `S-009` | 3.6.1 | SBOHN-9 - ranking kandydatów i wykrywanie ukrytej symetrii | discovery_test | 27-28 / 28-29 | `FULL` |
@@ -91,22 +93,30 @@ z opisu i tabel, bez udawania, że pełny kod został opublikowany.
 | ID | Sekcja | Jednostka | Typ | Strony drukowane / PDF | Kod |
 |---|---|---|---|---|---|
 | `FR-001` | 7.1 | Fractal Input-Dependent SBOHN - test przełomowy i analiza per-level | experiment | 71-73 / 72-74 | `PARTIAL_IN_CHAPTER` |
+| `FR-004` | 7.1.4 | Fractal SBOHN - osobna analiza per-level modelu InpDep 5L | analysis_test | 72-73 / 73-74 | `PARTIAL_IN_CHAPTER` |
 | `FR-002` | 7.2 | Fractal SBOHN - MNIST | experiment | 75-81 / 76-82 | `FULL_IN_CHAPTER` |
 | `FR-003` | 7.2 | Fractal SBOHN - Fashion-MNIST | experiment | 75-81 / 76-82 | `FULL_IN_CHAPTER` |
 | `PT-001` | 7.3 | Patch SBOHN / Permutation Transformer - MNIST | experiment | 83-89 / 84-90 | `FULL_IN_CHAPTER` |
 | `PT-002` | 7.3 | Patch SBOHN / Permutation Transformer - Fashion-MNIST | experiment | 83-89 / 84-90 | `FULL_IN_CHAPTER` |
+| `PT-003` | 7.3.1 | Patch SBOHN - skalowanie względem rozdzielczości | scaling_test | 83-84 / 84-85 | `FULL_IN_CHAPTER` |
+| `PT-004` | 7.3.2-7.3.3 | Patch SBOHN - ablation input-dependency | ablation | 84 / 85 | `FULL_IN_CHAPTER` |
+| `PT-005` | 7.3.2-7.3.3 | Patch SBOHN - ablation liczby głów | ablation | 84 / 85 | `FULL_IN_CHAPTER` |
 | `HR-001` | 7.4 | HighRes Patch SBOHN - test 4K na MNIST | scaling_test | 90-91 / 91-92 | `NARRATIVE_ONLY` |
 | `HR-002` | 7.4 | HighRes Patch SBOHN - test 4K na Fashion-MNIST | scaling_test | 90-91 / 91-92 | `NARRATIVE_ONLY` |
 | `HR-003` | 7.5 | HighRes Fractal SBOHN v2 - permutacja patchy vs cech | experiment | 92-93 / 93-94 | `NARRATIVE_ONLY` |
+| `HR-004` | 7.4.3 | HighRes Patch SBOHN - pełne skalowanie rozdzielczości do 4K | scaling_test | 91-92 / 92-93 | `NARRATIVE_ONLY` |
+| `HR-005` | 7.5.2 | HighRes Fractal SBOHN v2 - wkład poszczególnych poprawek | ablation | 93 / 94 | `NARRATIVE_ONLY` |
+| `HR-006` | 7.5.2 | HighRes Fractal SBOHN v2 - MNIST | experiment | 93 / 94 | `NARRATIVE_ONLY` |
+| `HR-007` | 7.5.2 | HighRes Fractal SBOHN v2 - Fashion-MNIST | experiment | 94 / 95 | `NARRATIVE_ONLY` |
 
 ## Rozdział 8: Meta-SBOHN
 
 | ID | Sekcja | Jednostka | Typ | Strony drukowane / PDF | Kod |
 |---|---|---|---|---|---|
-| `MS-001` | 8.1.1 | Meta-SBOHN Score Generator v1 | experiment | 95-96 / 96-97 | `FULL_SUITE` |
-| `MS-002` | 8.1.2 | Meta-SBOHN v2 - Geometry-Aware Generator | experiment | 96 / 97 | `FULL_SUITE` |
-| `MS-003` | 8.1.3 | Meta-SBOHN v2 + SRL | experiment | 96 / 97 | `FULL_SUITE` |
-| `MS-004` | 8.1.4 | Meta-Meta-SBOHN v1 | experiment | 96-97 / 97-98 | `FULL_SUITE` |
+| `MS-001` | 8.1.1 | Meta-SBOHN Score Generator v1 | experiment | 95-96 / 96-97 | `NARRATIVE_ONLY` |
+| `MS-002` | 8.1.2 | Meta-SBOHN v2 - Geometry-Aware Generator | experiment | 96 / 97 | `NARRATIVE_ONLY` |
+| `MS-003` | 8.1.3 | Meta-SBOHN v2 + SRL | experiment | 96 / 97 | `NARRATIVE_ONLY` |
+| `MS-004` | 8.1.4 | Meta-Meta-SBOHN v1 | experiment | 96-97 / 97-98 | `NARRATIVE_ONLY` |
 | `MS-005` | 8.1.5 | SBOHN-Curriculum v1 - prosty warm-start | experiment | 97 / 98 | `PARTIAL` |
 | `MS-006` | 8.1.6 | SBOHN-Curriculum v2 - Mixed Population Transfer | experiment | 97-98 / 98-99 | `PARTIAL` |
 | `MS-007` | 8.1.7 | SBOHN-Curriculum v3 - transfer elit | experiment | 98 / 99 | `PARTIAL` |
@@ -122,6 +132,7 @@ z opisu i tabel, bez udawania, że pełny kod został opublikowany.
 | `AD-002` | 9.2.1-9.2.2 | Few-shot transfer MNIST -> Fashion-MNIST | transfer_test | 102-103 / 103-104 | `FULL` |
 | `AD-003` | 9.2.4 | Head-only vs full-tune - test modularności enkodera | ablation | 103 / 104 | `FULL` |
 | `CL-001` | 9.3 | Continual learning - przełączanie zadań i forgetting | continual_test | 103-104 / 104-105 | `FULL` |
+| `CL-002` | 9.3.1 | Continual learning - wariant perm-only z większym modelem | continual_test | 104 / 105 | `FULL` |
 
 ## Rozdział 10: Porównanie SOTA i skalowanie
 
@@ -150,6 +161,7 @@ z opisu i tabel, bez udawania, że pełny kod został opublikowany.
 | ID | Sekcja | Jednostka | Typ | Strony drukowane / PDF | Kod |
 |---|---|---|---|---|---|
 | `MOE-001` | 12.1 | Partial Unfreeze + MoE - eliminacja zapominania | experiment | 119-121 / 120-122 | `FULL` |
+| `MOE-009` | 12.1.3 | Partial Unfreeze + MoE - osobny test trzech domen | experiment | 120-121 / 121-122 | `FULL` |
 | `MOE-002` | 12.2.2 | Sparse MoE + Gate Specialization Loss - expert collapse | experiment_negative | 121-122 / 122-123 | `FULL` |
 | `MOE-003` | 12.2.3 | Sparse MoE - sweep lambda_spec | ablation_negative | 121-122 / 122-123 | `FULL` |
 | `MOE-004` | 12.3 | Hard Assignment + Gate Distillation | experiment | 122-123 / 123-124 | `FULL` |

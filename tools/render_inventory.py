@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate the Stage 01 inventory and render its Markdown views."""
+"""Validate the audited BOHN inventory and render its Markdown views."""
 
 from __future__ import annotations
 
@@ -12,11 +12,20 @@ ROOT = Path(__file__).resolve().parents[1]
 CSV_PATH = ROOT / "inventory" / "experiments.csv"
 OUT_PATH = ROOT / "docs" / "EXPERIMENT_INDEX.md"
 AUDIT_PATH = ROOT / "docs" / "INDEX_AUDIT_REPORT.md"
+CROSS_AUDIT_PATH = ROOT / "docs" / "STAGE_02_CROSS_AUDIT.md"
+TABLE_MAP_PATH = ROOT / "inventory" / "table_map.csv"
+CODE_BLOCK_MAP_PATH = ROOT / "inventory" / "code_block_map.csv"
+LATEX_LISTING_MAP_PATH = ROOT / "inventory" / "latex_listing_map.csv"
+LATEX_VERBATIM_MAP_PATH = ROOT / "inventory" / "latex_verbatim_map.csv"
+
+
+def load_csv(path: Path) -> list[dict[str, str]]:
+    with path.open(encoding="utf-8", newline="") as handle:
+        return list(csv.DictReader(handle))
 
 
 def load_rows() -> list[dict[str, str]]:
-    with CSV_PATH.open(encoding="utf-8", newline="") as handle:
-        rows = list(csv.DictReader(handle))
+    rows = load_csv(CSV_PATH)
     if not rows:
         raise SystemExit("Empty experiment inventory")
     ids = [row["id"] for row in rows]
@@ -69,7 +78,7 @@ def render_index(rows: list[dict[str, str]]) -> None:
     lines = [
         "# Indeks eksperymentów, testów i programów",
         "",
-        f"Rejestr Etapu 01 obejmuje **{len(rows)} jednostki** wykryte w monografii.",
+        f"Rejestr po audycie Etapu 02 obejmuje **{len(rows)} jednostki** wykryte w monografii.",
         "Każda pozycja zachowuje osobny status reprodukcji; obecnie wszystkie mają `NOT_RUN`.",
         "",
         "Kolumna `Kod` opisuje poziom materiału dostępnego w PDF. `NARRATIVE_ONLY` nie",
@@ -97,18 +106,48 @@ def render_index(rows: list[dict[str, str]]) -> None:
     OUT_PATH.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
-def render_audit(rows: list[dict[str, str]]) -> None:
+def split_links(value: str) -> list[str]:
+    return [item.strip() for item in value.split(";") if item.strip()]
+
+
+def validate_cross_maps(
+    rows: list[dict[str, str]],
+    tables: list[dict[str, str]],
+    code_blocks: list[dict[str, str]],
+) -> None:
+    known = {row["id"] for row in rows}
+    table_numbers = [row["table"] for row in tables]
+    if len(table_numbers) != len(set(table_numbers)):
+        raise SystemExit("Duplicate table numbers in table_map.csv")
+    for source_name, mapped_rows in (("table", tables), ("code block", code_blocks)):
+        for mapped in mapped_rows:
+            unknown = sorted(set(split_links(mapped["linked_ids"])) - known)
+            if unknown:
+                raise SystemExit(f"Unknown IDs in {source_name} map: {unknown}")
+
+
+def render_audit(
+    rows: list[dict[str, str]],
+    tables: list[dict[str, str]],
+    code_blocks: list[dict[str, str]],
+    latex_listings: list[dict[str, str]],
+    latex_verbatim: list[dict[str, str]],
+) -> None:
     chapter_counts = Counter(row["chapter"] for row in rows)
     code_counts = Counter(row["source_code_level"] for row in rows)
     negative = [
         row for row in rows if "negative" in row["kind"] or "NEGATIVE" in row["title"].upper()
     ]
     lines = [
-        "# Raport audytu indeksu - Etap 01",
+        "# Raport audytu indeksu - Etap 02",
         "",
         f"- Łączna liczba jednostek: **{len(rows)}**.",
         f"- Liczba unikalnych identyfikatorów: **{len({r['id'] for r in rows})}**.",
         f"- Jawnie oznaczone jednostki negatywne/obalające: **{len(negative)}**.",
+        f"- Zmapowane numerowane tabele wynikowe i porównawcze: **{len(tables)}**.",
+        f"- Zmapowane niepodpisane lub wieloeksperymentalne bloki kodu: **{len(code_blocks)}**.",
+        f"- Zmapowane środowiska LaTeX `lstlisting`: **{len(latex_listings)}**.",
+        f"- Zmapowane środowiska LaTeX `verbatim`: **{len(latex_verbatim)}**.",
         "- Wszystkie pozycje mają wskazany rozdział, sekcję, strony, źródło kodu,",
         "  informację o wynikach raportowanych i status reprodukcji.",
         "- Zweryfikowano regułę numeracji: strona PDF = strona drukowana + 1",
@@ -135,21 +174,92 @@ def render_audit(rows: list[dict[str, str]]) -> None:
     lines.extend(
         [
             "",
-            "## Zastrzeżenie",
+            "## Wynik audytu krzyżowego",
             "",
-            "Rejestr rozdziela osobne baterie, podtesty i warianty, nawet gdy korzystają z",
-            "jednego wspólnego skryptu. To celowe: żaden wynik lub wariant nie może zniknąć",
-            "pod zbiorczą nazwą programu. Przed rekonstrukcją kodu wykonamy drugi audyt",
-            "krzyżowy: indeks vs wszystkie tabele, listingi A.1-A.43 i B.1 oraz surowe bloki",
-            "wyników bez podpisu `Listing`.",
+            "Audyt rozdzielił wcześniej zgrupowane ablacje i warianty z rozdziałów 7, 9 i 12.",
+            "Każda z 94 numerowanych tabel jest przypisana do co najmniej jednego ID, a każdy",
+            "zidentyfikowany blok kodu w dodatkach ma wskazane jednostki docelowe. Pozycje",
+            "`NARRATIVE_ONLY` pozostają jawne i nie będą traktowane jak pełny kod źródłowy.",
         ]
     )
     AUDIT_PATH.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
+def render_cross_audit(
+    rows: list[dict[str, str]],
+    tables: list[dict[str, str]],
+    code_blocks: list[dict[str, str]],
+    latex_listings: list[dict[str, str]],
+    latex_verbatim: list[dict[str, str]],
+) -> None:
+    additions = [
+        "S-010",
+        "S-011",
+        "FR-004",
+        "PT-003",
+        "PT-004",
+        "PT-005",
+        "HR-004",
+        "HR-005",
+        "HR-006",
+        "HR-007",
+        "CL-002",
+        "MOE-009",
+    ]
+    lines = [
+        "# Etap 02 - audyt krzyżowy monografii",
+        "",
+        "## Wynik",
+        "",
+        f"Indeks wzrósł ze 103 do **{len(rows)} jednostek**. Dodano {len(additions)} pozycji, które w",
+        "pierwszym rejestrze były ukryte wewnątrz szerszych eksperymentów.",
+        "",
+        "| Nowe ID | Powód wydzielenia |",
+        "|---|---|",
+    ]
+    lookup = {row["id"]: row for row in rows}
+    for item in additions:
+        lines.append(f"| `{item}` | {lookup[item]['title']} |")
+    lines.extend(
+        [
+            "",
+            "## Warstwy kontroli",
+            "",
+            f"1. **{len(rows)} jednostek** w `inventory/experiments.csv`.",
+            f"2. **{len(tables)} numerowane tabele** w `inventory/table_map.csv`.",
+            "3. **44 podpisane listingi** A.1-A.43 i B.1 w `inventory/appendix_listings.csv`.",
+            f"4. **{len(code_blocks)} bloki bez osobnego podpisu lub skrypty wieloeksperymentalne**",
+            "   w `inventory/code_block_map.csv`.",
+            f"5. **{len(latex_listings)} bloków `lstlisting`** i **{len(latex_verbatim)} bloków `verbatim`**",
+            "   z dokładnymi numerami linii oraz hashami SHA-256.",
+            "6. Osobne oznaczenie pozycji z pełnym kodem, kodem częściowym i opisem narracyjnym.",
+            "",
+            "## Granica audytu",
+            "",
+            "Audyt potwierdza kompletność rejestru na poziomie rozpoznawalnych jednostek",
+            "wykonawczych w PDF. Nie potwierdza jeszcze, że każdy listing jest wykonywalny bez",
+            "rekonstrukcji: tę właściwość sprawdzimy osobno podczas ekstrakcji kodu B-001, B-002, ...",
+        ]
+    )
+    CROSS_AUDIT_PATH.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
 if __name__ == "__main__":
     inventory = load_rows()
+    table_map = load_csv(TABLE_MAP_PATH)
+    code_block_map = load_csv(CODE_BLOCK_MAP_PATH)
+    latex_listing_map = load_csv(LATEX_LISTING_MAP_PATH)
+    latex_verbatim_map = load_csv(LATEX_VERBATIM_MAP_PATH)
+    validate_cross_maps(inventory, table_map, code_block_map)
+    validate_cross_maps(inventory, [], latex_listing_map)
+    validate_cross_maps(inventory, [], latex_verbatim_map)
     render_index(inventory)
-    render_audit(inventory)
-    print(f"OK: {len(inventory)} unique inventory rows")
-
+    render_audit(inventory, table_map, code_block_map, latex_listing_map, latex_verbatim_map)
+    render_cross_audit(
+        inventory, table_map, code_block_map, latex_listing_map, latex_verbatim_map
+    )
+    print(
+        f"OK: {len(inventory)} unique inventory rows; "
+        f"{len(table_map)} tables; {len(code_block_map)} code suites; "
+        f"{len(latex_listing_map)} listings; {len(latex_verbatim_map)} verbatim blocks"
+    )

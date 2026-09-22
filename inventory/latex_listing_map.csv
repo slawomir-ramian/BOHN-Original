@@ -1,0 +1,75 @@
+index,environment,start_line,end_line,kind,linked_ids,caption,sha256
+1,lstlisting,7888,7975,python_code,B-001,Computing orbits of the group $\mathbb{Z,5965928c2547acf5537dbf3f6b88aa4fec21d218fc617648b3750fa825ba9d95
+2,lstlisting,7978,8046,python_code,B-002,Implementation of the orbit histogram $\Phi(X)$,c50cf72978b3d3ffe45384c836d937efc80c08e6e2bab51c017bbe905d4b7227
+3,lstlisting,8049,8118,python_code,B-003,Full implementation of the reversible RMIG layer,f23e5623274113a4c308ecf9b8b1c070b97563a8f8f32dad56287c2f7a6f4475
+4,lstlisting,8121,8231,python_code,B-004,Reversibility and gradient correctness tests,c03f0f073851eb2cc2a890f35dd74c112d4bbe3d4c220f86eb7c742a2e0279fa
+5,lstlisting,8234,8308,python_code,B-005,Benchmark I --- linear problem,44f69f2965f75725603d640bf9b9af1e9472dd41f2c4f906d31070d41081de77
+6,lstlisting,8311,8399,python_code,B-006,Benchmark II --- $\mathbb{Z,9ea8f43b89fd45abd8f90ddc31243b95cc173509641351ee22c5a23cd56d6494
+7,lstlisting,8402,8467,python_code,B-007,Benchmark III --- Orbit Energy Network,ab4c7d65504721f8a88358545339194f97a9eddda7912b4f56f77fb2a9111737
+8,lstlisting,8470,8557,python_code,B-008,Benchmark IV --- Orbit Histogram Network (BOHN),179508ec74bf01dd7669cc8fd543103f15207d34e0f2fd89b5a2f07cebbed873
+9,lstlisting,8560,8674,python_code,B-009,Orbit histogram invariance test,1c8cd3ba4f71c421f7cb79475190b6ff403fd2096cdecc88b05c6828236b60ef
+10,lstlisting,8679,8724,python_code,S-001,SBOHN Experiment 1: doublet with MLP,ba014f9b5cfc12bf83feb7914de907d0f971dcf07349da44fcbe3d0883cefb2f
+11,lstlisting,8727,8731,reported_result,S-001,Result of SBOHN-1 experiment,aa82785139a4502454b8b243d58a0664735f6e26c51895aa5ba9d93f4d915bb9
+12,lstlisting,8734,8805,python_code,S-002,SBOHN Experiment 2: doublet with small data,5d61e5e784fef2397229cffb7523686aa00d9859253e1999d981fc52128d03f1
+13,lstlisting,8808,8821,reported_result,S-002,Result of SBOHN-2 experiment,f080bae423b2556422fcdce8933225c1d2b7ae6ecd8ba921b49b56db081aad20
+14,lstlisting,8824,8891,python_code,S-003,SBOHN Experiment 3: linear test,e3c0c9d85de25e20e9e41599e6f56682ce602d48a86ddfb19c487e3b0dea945c
+15,lstlisting,8894,8905,reported_result,S-003,Result of SBOHN-3 experiment,d5c54b6dd0f541203ad1f9d01b2f7e61cd0e71b9bf59453b2ccc6fed35b542c1
+16,lstlisting,8908,8977,python_code,S-004,SBOHN Experiment 4: pure $|x-g(x)|$ test,ae9eb0383f4457f6a579e6cad42c378dfa1b5087a857bf09bd1ab174763ca30a
+17,lstlisting,8980,8994,reported_result,S-004,Result of SBOHN-4 experiment,b2f100ef635cfc5041f053cfd8d12e90cd2983a3ae6ebcecfa00a804708a8412
+18,lstlisting,8997,9081,python_code,S-005,SBOHN Experiment 5: feature variant comparison,022bbfe68089e3d4f11fb62c888c53018ba6a852ee8ec3f405b1de67257dc624
+19,lstlisting,9084,9105,reported_result,S-005,Result of SBOHN-5 experiment,45ebdffefdf2692b973963021983f1b22ec54b2bb65b5edfdfd6ab7e88b0e83b
+20,lstlisting,9108,9196,python_code,S-006,SBOHN Experiment 6: full $\mathbb{Z}_3$ group,e374bcf2f95a748861d7e63227c9a70224dd5dd3e6ef1aa6578a7aae95dea368
+21,lstlisting,9199,9220,reported_result,S-006,Result of SBOHN-6 experiment,e9d3db75f76c5e67de6c4d2a43a3516388fb1c22c293dfca48c147812d96da8c
+22,lstlisting,9223,9309,python_code,S-010,,67698e3313ca4e1b185d71505b1af183e1e5e45ed3b4f10dea315ab5762e3e27
+23,lstlisting,9312,9475,python_code,S-011,,05b1b4c7dbd1705b58c49ddaaa2eaf29208cfc2ae379c50bab79f6c73767744b
+24,lstlisting,9478,9574,python_code,S-007,SBOHN Experiment 7: random coordinates and weights,b80d0bf1961a106f41f417b656c748cf3909e08a128faaf79dde647d20af67f5
+25,lstlisting,9577,9600,reported_result,S-007,Result of SBOHN-7 experiment,904faf52d157def40c1057e1bbf6bbbb8cd3ad8d99115c8942d9517bd56aa30a
+26,lstlisting,9603,9724,python_code,S-008,SBOHN Experiment 8: robustness to incorrect symmetry,bf78a8094549f96c1af7ba51b5ef9cb1118739c770bb3d391ff3e19711ee16a2
+27,lstlisting,9727,9746,reported_result,S-008,Result of SBOHN-8 experiment,7428315917219d2c973ff7050c9928b95be48429cb3eab7f14d55db0fe4baf5d
+28,lstlisting,9749,9859,python_code,S-009,SBOHN Experiment 9: hidden symmetry detection,573e19518b1035794cf91345abf4107753f269f95a2da701831e934cb307ce9e
+29,lstlisting,9862,9880,reported_result,S-009,Result of SBOHN-9 experiment,ccac96a7c8418823f6e2583d09641e6079b1a98a23ab9cf57e0f10e11d29a902
+30,lstlisting,9885,10036,python_code,G-001,Adaptive Permutation Router with Fisher criterion,4ad53f2ae552131e3f2939e2814b860c46fd0c56c6631c1d3c7c49425e0da6f4
+31,lstlisting,10039,10059,python_code,G-001,Results of Adaptive BOHN Soft Router on binary Iris,e8a9e545ec53c67fd3b7cb8a93ee51f17bf0ba598b06369ce707fe3065edb090
+32,lstlisting,10062,10087,python_code,SO-001,SO(2) symmetrizer --- numerical verification of vanishing,082df403d121150f217eee25ad03304b1f08f85972ce058e632cd76b5a8cf354
+33,lstlisting,10090,10097,reported_result,SO-001,Result: $\|S_{\mathrm{SO,acaa19e2b4dba66e9fd9f17b3b7dcbab018043027999e2f1d09585f5ace46cb0
+34,lstlisting,10100,10111,reported_result,SO-002,Comparison of numerical $A_x(\theta)$ with~$2r|\sin\frac{\theta,cb2b1e47f378330ebdee87b889e8678bababb2fbc90505568649922589e4fe6d
+35,lstlisting,10114,10121,reported_result,SO-003,Moments $M_1$--$M_6$: numerical vs.\ analytical,00ab19f161042938f07884e346e76c9e496fe41f6e3a2eb52ad983fa88f72a23
+36,lstlisting,10124,10136,reported_result,SO-004,"$|c_n|$ for two points with the same $r=5$: $x_1=(3,4)$, $x_2=(0,5)$",6a47cb36efcf0b9c06061b16a9d3b3447ffaff1acbe64794b1f9382b55da3a18
+37,lstlisting,10139,10154,python_code,SO-005;SO-006;SO-007,Data generation and SO(2)-SBOHN classification,f87f89237ba1be1a577c9c2b5c113406f353060e6845e419ca24c282a0ba870e
+38,lstlisting,10157,10163,reported_result,SO-005,Classification results in~$\mathbb{R,3dbefe122341d75024557033c1fe26297de188e28a1ef152a7dcc551a5dc03bc
+39,lstlisting,10166,10171,reported_result,SO-006,Classification results in~$\mathbb{R,4ad85bff65803c4ecffbe0413a0716a465075d3ba0432fb98a51c3990dc579dc
+40,lstlisting,10174,10177,reported_result,SO-007,"Invariance: $\|\Phi(x)-\Phi(R_\theta\,x)\|$",ffa266885532e544d5f6bdc678a45c65b118c720864df71cbcdfdfcf82350db1
+41,lstlisting,10180,10424,python_code,SD-001,,95ae7caf9178846a81c84fa36d20fc957db07fc3bb6d112e3c76a112172f2a29
+42,lstlisting,10427,10669,python_code,SD-002,,0fca377253fe2313dd121f5a8e0e74df198b28e2d62c11ad3041f4a65d34e61c
+43,lstlisting,10672,10941,python_code,SD-003,,c2eccad28bd0fd6e9d7d7de5f05c77d66a4386f01f699d282198fdc7e4695ff0
+44,lstlisting,10944,11221,python_code,SD-004,,76d19b8fa8f7a2a329f1c5e177803da17db6f337a14a0e7aa31f1013cc5bfd27
+45,lstlisting,11224,11358,python_code,ASD-001,,49b818f044d8196374084213a0bbccc03c41dcd3fd4f7775f8c0c57662d9f4e0
+46,lstlisting,11363,11701,python_code,PL-001,,b37017035afd087c74a1acf5e8608d70a990ed930e2dc65a72877f22b4850bee
+47,lstlisting,11704,12009,python_code,AR-001,,06ac86d3f6ab1a4c673d9762180f7324aac198114a269dc610a91feeaa02f753
+48,lstlisting,12012,12423,python_code,AR-002,,41816b741a745c237a60e42f329b39729d85f55e00414395fedcc3bdec763b34
+49,lstlisting,12426,12743,python_code,AR-003,,d8e2edfedc2e61ad56da84bb908c3169ac318930d03aca791457f253fb20716c
+50,lstlisting,12746,13105,python_code,AR-004,,b6e5888aea5fa308102b9897e35d1f467bb0800f8997590be8757ca567fad56d
+51,lstlisting,13108,13116,python_code,HD-001;HD-002,,4da22b86096f97e2674f96e8e2709fcf9f5b961531c6ac15318a221a9e41e8c9
+52,lstlisting,13119,13189,python_code,HD-001;HD-002,,7e47b0d07f6bc907c11d758a971bfbe33bed7574d1c17bcc9f899723d6d4dac5
+53,lstlisting,13194,13658,python_code,LS-001;LS-002;LS-003;LS-004;LS-005;LS-006,Learnable SBOHN --- 5-step experimental pipeline (\texttt{sbohn\_5steps.py,3b0842c544a1468062d494578c4db7e3137dcdce9e0447f77ca950483219139e
+54,lstlisting,13661,13931,python_code,LD-001;LD-002;LD-003,Log-Domain Sinkhorn --- Tests A--C (\texttt{sbohn\_logdomain\_test\_abc.py,d6d0ed5e1b1491d88b3a7c56c07d1710ac45360afa54e94cd65caf3813a5bbe5
+55,lstlisting,13934,14278,python_code,LD-004;LD-005,Log-Domain Sinkhorn --- Tests D--E (\texttt{sbohn\_logdomain\_test\_de.py,d597b80fc210d6dc0c3a6d305870d6fe6b84eb69d43c4e294a85b4c1c69a85b6
+56,lstlisting,14283,14619,python_code,MS-009;MS-010,Unified Python code for Meta-SBOHN v5/v6 tests.,9dbd24a14e37ee27c07cd5fc5d14413613ccdcc1d9c2be4d6532a43dcdf441ed
+57,lstlisting,14622,14671,python_code,MS-005;MS-006;MS-007;MS-008,Population initialization for curriculum and elite transfer.,5e4777e8129a918e92175eb5555c75c34c59f774fda7ea97af57a22800ea9222
+58,lstlisting,14688,14863,python_code,AD-001,,1b25fe9bcb44d6a822d886f6e3e112bfdf6e48696fab20acc5f7d7d72d1c2edd
+59,lstlisting,14870,15028,python_code,AD-002;AD-003;CL-001;CL-002,,bfa5c0cd6d989d782a54c943347e3b681ec4a51dc01ae7bc352f385faf7645ea
+60,lstlisting,15042,15134,python_code,SOTA-001,,ddc6005c6b4b1b19225dc2c0f47a0eb92f94d0f9e7468b817f4586e499a37942
+61,lstlisting,15142,15252,python_code,SOTA-002,,5bbb31513c6983dead35704874fc81b31dd8e5eb1bbc1314061ef7fec645b249
+62,lstlisting,15271,15402,python_code,SYS-001;SYS-002,,c825116384be142633eb3d07611ff7b3fc63f405a737788cbc6861965127cae4
+63,lstlisting,15411,15532,python_code,SYS-005,,28c817f5305580e65c75cf03281cccc70689307f2304617fc135099bd7c96de4
+64,lstlisting,15541,15988,python_code,SYS-003;SYS-004;CPU-001;CPU-002;CPU-003;CPU-004;CPU-005,,18a059f09e0fd4b97f761077880459c0df2feabe9d0fbfca6996e3ac5ab7e288
+65,lstlisting,16008,16174,python_code,MOE-001;MOE-009,,6784039bb6215563223dd30722a20e396ffc12692da8cfb2cdd4593e381ab52b
+66,lstlisting,16184,16436,python_code,MOE-002;MOE-003,,d0f292652220f876b7aecd167d38de06a3cbf8eb8256dd49bda37c6688b10874
+67,lstlisting,16446,16733,python_code,MOE-004,,2794c75cfa10c2b2de28030c6100d2a466351d6517234706089292a40b734a94
+68,lstlisting,16743,17044,python_code,MOE-005;MOE-006;MOE-007,,96f1383ce8e846f78f23ad6fe61338e1ecda159e80acb0c67aee4b7212d2ba72
+69,lstlisting,17054,17408,python_code,MOE-008,,c2008d55994e73dcc92a4ef484fa3d45ff257ceb8593749905ac86e461733338
+70,lstlisting,17422,17427,usage,RF-001;RF-002;MF-001;MF-002;MF-003;MF-004;MF-005,,a279239b9648f5a8deaa79e36e768a257d48aeafb5baa038d3170858cf93a2bb
+71,lstlisting,17429,17887,python_code,RF-001;RF-002;MF-001;MF-002;MF-003;MF-004;MF-005,Full Python script: RMIG-FBOHN and Meta-FBOHN suite,7c22f9b681a821e5e7be402b3173f909e0c30ffa50ac48ee8f2086af0c33da60
+72,lstlisting,17892,17897,reported_result,RF-001,,1bce09e89369e3eb037dde1dcf5e2bddc3220e24b0b6e3eddfaadd60c2c2fc91
+73,lstlisting,17900,17906,reported_result,RF-002,,34b447b7b0f5ccd046e9d780b86813a3933c07be4ed6995ec324d285de454217
+74,lstlisting,17909,17930,reported_result,MF-005,,c5c3b7fbf772acf78e4d420ab7a1318a35a26ed851ace29997aa5344ad44e1e4
