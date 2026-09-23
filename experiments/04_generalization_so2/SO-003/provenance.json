@@ -1,0 +1,17 @@
+{
+  "experiment_id": "SO-003",
+  "source_sequence_in_stage": 4,
+  "source_order_in_monograph": 24,
+  "canonical_source": "docs/source/BOHN_PL.pdf",
+  "extraction_source": "docs/source/BOHN_EN_SOURCE.tex",
+  "source_code_level": "FORMULA_AND_RESULT",
+  "execution_mode": "RECONSTRUCTION",
+  "listing_index": null,
+  "source_filename": null,
+  "latex_start_line": null,
+  "latex_end_line": null,
+  "historical_source_sha256": null,
+  "reported_result_index": 35,
+  "reported_result_sha256": "00ab19f161042938f07884e346e76c9e496fe41f6e3a2eb52ad983fa88f72a23",
+  "historical_code_modified": false
+}

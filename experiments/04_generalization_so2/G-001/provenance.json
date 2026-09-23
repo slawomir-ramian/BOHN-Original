@@ -1,0 +1,17 @@
+{
+  "experiment_id": "G-001",
+  "source_sequence_in_stage": 1,
+  "source_order_in_monograph": 21,
+  "canonical_source": "docs/source/BOHN_PL.pdf",
+  "extraction_source": "docs/source/BOHN_EN_SOURCE.tex",
+  "source_code_level": "FULL",
+  "execution_mode": "HISTORICAL_SOURCE",
+  "listing_index": 30,
+  "source_filename": "source_from_monograph.py",
+  "latex_start_line": 9885,
+  "latex_end_line": 10036,
+  "historical_source_sha256": "4ad53f2ae552131e3f2939e2814b860c46fd0c56c6631c1d3c7c49425e0da6f4",
+  "reported_result_index": 31,
+  "reported_result_sha256": "e8a9e545ec53c67fd3b7cb8a93ee51f17bf0ba598b06369ce707fe3065edb090",
+  "historical_code_modified": false
+}

@@ -41,3 +41,8 @@ i nie jest śledzony przez Git.
 Rozdział SBOHN znajduje się w `experiments/03_sbohn/`. Jego jednostki są
 uruchamiane według `inventory/source_chronology.csv`, ponieważ chronologia PDF-a
 nie jest identyczna z numerycznym sortowaniem ID.
+
+Adaptacyjny router i uogólnienie SO(2) znajdują się w
+`experiments/04_generalization_so2/`. Kod wydrukowany w monografii pozostaje w
+`historical/`, natomiast brakujące procedury wykonawcze są jawnie oddzielone w
+`reconstruction/`.

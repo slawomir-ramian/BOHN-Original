@@ -1,0 +1,4 @@
+Method                                Accuracy
+-----------------------------------------------
+  Raw coordinates (x1..x8)              0.415
+  SO(2)-SBOHN (4 blocks, M_1..M_4)          1.000

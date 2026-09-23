@@ -1,0 +1,2 @@
+  ||Phi(x) - Phi(R*x)|| = 3.42e-13
+  => Invariance confirmed (error ~ integration accuracy)

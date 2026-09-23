@@ -30,9 +30,18 @@ niedeterministycznym testem pojedynczym, a w `S-004` zachowano historyczny błą
 licznika wydruku. Główne wyniki SBOHN, odporność i wykrywanie ukrytej
 symetrii zostały potwierdzone. Szczegóły: `docs/STAGE_04_LOCAL_ANALYSIS.md`.
 
+Etap 05 zakończony - odtworzono następny ciągły fragment PDF-a: `G-001` oraz
+`SO-001`--`SO-007`. Historyczny adaptacyjny router Fishera dał dokładnie ten
+sam wydruk, a własności matematyczne uogólnienia SBOHN na ciągłą grupę SO(2)
+zostały potwierdzone. `SO-005` i `SO-006` pozostają jawnie częściowymi
+rekonstrukcjami, ponieważ monografia nie publikuje pełnego generatora danych
+ani protokołu. Mimo różnic surowych baz odniesienia główny wynik SO(2)-SBOHN
+wynosi w obu przypadkach `1.000`, zgodnie z monografią. Szczegóły:
+`docs/STAGE_05_LOCAL_ANALYSIS.md`.
+
 Kolejność źródłowa jest zapisana niezależnie od numeracji ID w
-`inventory/source_chronology.csv`. Po Etapach 03 i 04 wykonano 20 ze 115
-jednostek; 95 pozostaje do odtworzenia.
+`inventory/source_chronology.csv`. Po Etapach 03--05 wykonano 28 ze 115
+jednostek; 87 pozostaje do odtworzenia.
 
 Audyt obejmuje 94 numerowane tabele, 44 podpisane listingi PDF, 74 środowiska
 `lstlisting`, 20 bloków `verbatim` oraz 24 wieloeksperymentalne zestawy kodu.
@@ -56,6 +65,16 @@ Pełna instrukcja: `INSTALL_STAGE_03.md`.
 ```
 
 Pełna instrukcja: `INSTALL_STAGE_04.md`.
+
+## Uruchomienie Etapu 05
+
+```powershell
+.\SETUP_STAGE_05.ps1
+.\RUN_STAGE_05_SMOKE.ps1
+.\RUN_STAGE_05_FULL.ps1
+```
+
+Pełna instrukcja: `INSTALL_STAGE_05.md`.
 
 ## Źródło kanoniczne
 

@@ -19,14 +19,14 @@ S-011,3,3.4.3,SBOHN-LR - referencyjny benchmark 100 seedów,benchmark,25-27,26-2
 S-007,3,3.5.1,SBOHN-7 - losowe współrzędne i wagi,stability_test,27,28,A.2 / Listings A.22-A.23,FULL,YES,EXACT_MATCH
 S-008,3,3.5.2,SBOHN-8 - odporność na błędną symetrię,robustness_test,27,28,A.2 / Listings A.24-A.25,FULL,YES,CLOSE_MATCH
 S-009,3,3.6.1,SBOHN-9 - ranking kandydatów i wykrywanie ukrytej symetrii,discovery_test,27-28,28-29,A.2 / Listings A.26-A.27,FULL,YES,EXACT_MATCH
-G-001,4,4.1,Adaptacyjny Router Permutacji z kryterium Fishera na Iris,experiment,29-31,30-32,A.3 / Listings A.28-A.29,FULL,YES,NOT_RUN
-SO-001,4,4.2.1,SO(2) - numeryczna weryfikacja zerowania symetryzatora,numerical_test,31,32,A.3 / Listings A.30-A.31,FULL,YES,NOT_RUN
-SO-002,4,4.2.2,SO(2) - profil asymetrii numeryczny vs analityczny,numerical_test,31-32,32-33,A.3 / Listing A.32,PARTIAL,YES,NOT_RUN
-SO-003,4,4.2.3,SO(2) - momenty M1-M6 numeryczne vs analityczne,numerical_test,31-32,32-33,A.3 / Listing A.33,PARTIAL,YES,NOT_RUN
-SO-004,4,4.2.4,SO(2) - współczynniki Fouriera rozróżniają orientację,numerical_test,32,33,A.3 / Listing A.34,PARTIAL,YES,NOT_RUN
-SO-005,4,4.2.6,SO(2)-SBOHN - klasyfikacja w R4,experiment,32-33,33-34,A.3 / Listings A.35-A.36,FULL,YES,NOT_RUN
-SO-006,4,4.2.6,SO(2)-SBOHN - klasyfikacja w R8,experiment,32-33,33-34,A.3 / Listings A.35-A.37,FULL,YES,NOT_RUN
-SO-007,4,4.2.6,SO(2)-SBOHN - test inwariantności reprezentacji,test,32-33,33-34,A.3 / Listing A.38,PARTIAL,YES,NOT_RUN
+G-001,4,4.1,Adaptacyjny Router Permutacji z kryterium Fishera na Iris,experiment,29-31,30-32,A.3 / Listings A.28-A.29,FULL,YES,EXACT_MATCH
+SO-001,4,4.2.1,SO(2) - numeryczna weryfikacja zerowania symetryzatora,numerical_test,31,32,A.3 / Listings A.30-A.31,FULL,YES,CLOSE_MATCH
+SO-002,4,4.2.2,SO(2) - profil asymetrii numeryczny vs analityczny,numerical_test,31-32,32-33,A.3 / Listing A.32,PARTIAL,YES,FORMULA_MATCH
+SO-003,4,4.2.3,SO(2) - momenty M1-M6 numeryczne vs analityczne,numerical_test,31-32,32-33,A.3 / Listing A.33,PARTIAL,YES,FORMULA_MATCH
+SO-004,4,4.2.4,SO(2) - współczynniki Fouriera rozróżniają orientację,numerical_test,32,33,A.3 / Listing A.34,PARTIAL,YES,FORMULA_MATCH
+SO-005,4,4.2.6,SO(2)-SBOHN - klasyfikacja w R4,experiment,32-33,33-34,A.3 / Listings A.35-A.36,FULL,YES,PARTIAL_RECONSTRUCTION
+SO-006,4,4.2.6,SO(2)-SBOHN - klasyfikacja w R8,experiment,32-33,33-34,A.3 / Listings A.35-A.37,FULL,YES,PARTIAL_RECONSTRUCTION
+SO-007,4,4.2.6,SO(2)-SBOHN - test inwariantności reprezentacji,test,32-33,33-34,A.3 / Listing A.38,PARTIAL,YES,CLOSE_MATCH
 SD-001,4,4.3.2,Symmetry Discovery 1 - symetria przesunięcia na digits,discovery_test,34-35,35-36,A.3,FULL_UNCAPTIONED,YES,NOT_RUN
 SD-002,4,4.3.3,Symmetry Discovery 2 - kontrola negatywna z losowymi etykietami,negative_control,35-36,36-37,A.3,FULL_UNCAPTIONED,YES,NOT_RUN
 SD-003,4,4.3.4,Symmetry Discovery 3 - ukryta symetria odbicia poziomego,discovery_test,36-38,37-39,A.3,FULL_UNCAPTIONED,YES,NOT_RUN

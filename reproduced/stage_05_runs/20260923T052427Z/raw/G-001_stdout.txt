@@ -1,0 +1,19 @@
+======================================================================
+ADAPTIVE BOHN SOFT ROUTER - BINARY IRIS (classes 0 vs 1)
+======================================================================
+Seed   0: raw=1.0000  random=0.9667  optimized=1.0000  Fisher=0.2789
+Seed   1: raw=1.0000  random=0.8667  optimized=0.9667  Fisher=0.3095
+Seed   2: raw=1.0000  random=0.9000  optimized=1.0000  Fisher=0.3413
+Seed   3: raw=1.0000  random=0.9333  optimized=1.0000  Fisher=0.3649
+Seed   4: raw=1.0000  random=0.9333  optimized=1.0000  Fisher=0.2981
+Seed   5: raw=1.0000  random=0.8667  optimized=1.0000  Fisher=0.3715
+Seed  42: raw=1.0000  random=0.8667  optimized=1.0000  Fisher=0.3361
+Seed 123: raw=1.0000  random=0.8667  optimized=1.0000  Fisher=0.2905
+Seed 999: raw=1.0000  random=0.8667  optimized=1.0000  Fisher=0.3523
+
+======================================================================
+SUMMARY
+======================================================================
+Raw Iris baseline:       mean=1.0000 +/- 0.0000
+BOHN random routing:     mean=0.8963 +/- 0.0367
+BOHN optimized (Fisher): mean=0.9963 +/- 0.0105

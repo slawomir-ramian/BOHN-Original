@@ -1,0 +1,5 @@
+Method                             LogReg   RandomForest
+--------------------------------------------------------
+  Raw coordinates (x1..x4)       0.519          1.000
+  SO(2)-SBOHN (M_1..M_4)        1.000          1.000
+  Oracle (r1, r2)                1.000            ---

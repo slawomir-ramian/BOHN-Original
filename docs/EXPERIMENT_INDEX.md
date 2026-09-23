@@ -1,7 +1,7 @@
 # Indeks eksperymentów, testów i programów
 
 Rejestr obejmuje **115 jednostek** wykrytych w monografii.
-Po zakończonych etapach wykonano **20 jednostek**; **95** pozostaje `NOT_RUN`.
+Po zakończonych etapach wykonano **28 jednostek**; **87** pozostaje `NOT_RUN`.
 
 Kolumna `Kod` opisuje poziom materiału dostępnego w PDF. `NARRATIVE_ONLY` nie
 oznacza pominięcia - przeciwnie, wskazuje jednostkę wymagającą ostrożnej rekonstrukcji
@@ -41,14 +41,14 @@ z opisu i tabel, bez udawania, że pełny kod został opublikowany.
 
 | ID | Sekcja | Jednostka | Typ | Strony drukowane / PDF | Kod | Reprodukcja |
 |---|---|---|---|---|---|---|
-| `G-001` | 4.1 | Adaptacyjny Router Permutacji z kryterium Fishera na Iris | experiment | 29-31 / 30-32 | `FULL` | `NOT_RUN` |
-| `SO-001` | 4.2.1 | SO(2) - numeryczna weryfikacja zerowania symetryzatora | numerical_test | 31 / 32 | `FULL` | `NOT_RUN` |
-| `SO-002` | 4.2.2 | SO(2) - profil asymetrii numeryczny vs analityczny | numerical_test | 31-32 / 32-33 | `PARTIAL` | `NOT_RUN` |
-| `SO-003` | 4.2.3 | SO(2) - momenty M1-M6 numeryczne vs analityczne | numerical_test | 31-32 / 32-33 | `PARTIAL` | `NOT_RUN` |
-| `SO-004` | 4.2.4 | SO(2) - współczynniki Fouriera rozróżniają orientację | numerical_test | 32 / 33 | `PARTIAL` | `NOT_RUN` |
-| `SO-005` | 4.2.6 | SO(2)-SBOHN - klasyfikacja w R4 | experiment | 32-33 / 33-34 | `FULL` | `NOT_RUN` |
-| `SO-006` | 4.2.6 | SO(2)-SBOHN - klasyfikacja w R8 | experiment | 32-33 / 33-34 | `FULL` | `NOT_RUN` |
-| `SO-007` | 4.2.6 | SO(2)-SBOHN - test inwariantności reprezentacji | test | 32-33 / 33-34 | `PARTIAL` | `NOT_RUN` |
+| `G-001` | 4.1 | Adaptacyjny Router Permutacji z kryterium Fishera na Iris | experiment | 29-31 / 30-32 | `FULL` | `EXACT_MATCH` |
+| `SO-001` | 4.2.1 | SO(2) - numeryczna weryfikacja zerowania symetryzatora | numerical_test | 31 / 32 | `FULL` | `CLOSE_MATCH` |
+| `SO-002` | 4.2.2 | SO(2) - profil asymetrii numeryczny vs analityczny | numerical_test | 31-32 / 32-33 | `PARTIAL` | `FORMULA_MATCH` |
+| `SO-003` | 4.2.3 | SO(2) - momenty M1-M6 numeryczne vs analityczne | numerical_test | 31-32 / 32-33 | `PARTIAL` | `FORMULA_MATCH` |
+| `SO-004` | 4.2.4 | SO(2) - współczynniki Fouriera rozróżniają orientację | numerical_test | 32 / 33 | `PARTIAL` | `FORMULA_MATCH` |
+| `SO-005` | 4.2.6 | SO(2)-SBOHN - klasyfikacja w R4 | experiment | 32-33 / 33-34 | `FULL` | `PARTIAL_RECONSTRUCTION` |
+| `SO-006` | 4.2.6 | SO(2)-SBOHN - klasyfikacja w R8 | experiment | 32-33 / 33-34 | `FULL` | `PARTIAL_RECONSTRUCTION` |
+| `SO-007` | 4.2.6 | SO(2)-SBOHN - test inwariantności reprezentacji | test | 32-33 / 33-34 | `PARTIAL` | `CLOSE_MATCH` |
 | `SD-001` | 4.3.2 | Symmetry Discovery 1 - symetria przesunięcia na digits | discovery_test | 34-35 / 35-36 | `FULL_UNCAPTIONED` | `NOT_RUN` |
 | `SD-002` | 4.3.3 | Symmetry Discovery 2 - kontrola negatywna z losowymi etykietami | negative_control | 35-36 / 36-37 | `FULL_UNCAPTIONED` | `NOT_RUN` |
 | `SD-003` | 4.3.4 | Symmetry Discovery 3 - ukryta symetria odbicia poziomego | discovery_test | 36-38 / 37-39 | `FULL_UNCAPTIONED` | `NOT_RUN` |
