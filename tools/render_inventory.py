@@ -80,8 +80,8 @@ def render_index(rows: list[dict[str, str]]) -> None:
     lines = [
         "# Indeks eksperymentów, testów i programów",
         "",
-        f"Rejestr obejmuje **{len(rows)} jednostki** wykryte w monografii.",
-        f"Po Etapie 03 wykonano **{evaluated} jednostek**; **{status_counts.get('NOT_RUN', 0)}** pozostaje `NOT_RUN`.",
+        f"Rejestr obejmuje **{len(rows)} jednostek** wykrytych w monografii.",
+        f"Po zakończonych etapach wykonano **{evaluated} jednostek**; **{status_counts.get('NOT_RUN', 0)}** pozostaje `NOT_RUN`.",
         "",
         "Kolumna `Kod` opisuje poziom materiału dostępnego w PDF. `NARRATIVE_ONLY` nie",
         "oznacza pominięcia - przeciwnie, wskazuje jednostkę wymagającą ostrożnej rekonstrukcji",

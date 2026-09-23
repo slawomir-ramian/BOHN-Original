@@ -1,0 +1,223 @@
+{
+  "stage": "04",
+  "run_utc": "2026-09-22T22:10:33+00:00",
+  "mode": "full",
+  "source_chronology": [
+    "S-001",
+    "S-002",
+    "S-003",
+    "S-004",
+    "S-005",
+    "S-006",
+    "S-010",
+    "S-011",
+    "S-007",
+    "S-008",
+    "S-009"
+  ],
+  "full_source_chronology": [
+    "S-001",
+    "S-002",
+    "S-003",
+    "S-004",
+    "S-005",
+    "S-006",
+    "S-010",
+    "S-011",
+    "S-007",
+    "S-008",
+    "S-009"
+  ],
+  "environment": {
+    "python": "3.14.5 (tags/v3.14.5:5607950, May 10 2026, 10:43:50) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "numpy": "2.5.3",
+    "scikit_learn": "1.9.1",
+    "processor_count": 4
+  },
+  "experiments": {
+    "S-001": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 5.821459,
+      "stdout_sha256": "d6c66c5629da68edcaa6aaf79d30a30914e9d4f122b5f53ea009b0fbdf802206",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_file": "raw/S-001_stdout.txt",
+      "stderr_file": "raw/S-001_stderr.txt",
+      "preliminary_comparison": {
+        "status": "TEXT_OR_NUMERIC_DIFFERENCE",
+        "actual_line_count": 3,
+        "reported_line_count": 3,
+        "matching_actual_lines": 0,
+        "max_numeric_delta": 0.01200000000000001
+      },
+      "audit_note": "Listing nie ustawia seedu NumPy; pojedynczy wynik nie jest deterministyczny."
+    },
+    "S-002": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 19.085196,
+      "stdout_sha256": "e2517fd40b0f4a412a007d2c757d0d9faae2ae5af6a88dce23947731bcffd5cb",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_file": "raw/S-002_stdout.txt",
+      "stderr_file": "raw/S-002_stderr.txt",
+      "preliminary_comparison": {
+        "status": "REPORTED_SUPERSET_MATCH",
+        "actual_line_count": 7,
+        "reported_line_count": 10,
+        "matching_actual_lines": 7,
+        "max_numeric_delta": null
+      },
+      "audit_note": "Historyczny blok wyniku zawiera statystyki, których listing sam nie drukuje."
+    },
+    "S-003": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 3.135858,
+      "stdout_sha256": "73ac3990158736bd5cb3ca4bde4b461455a99dea6150c26244738d41f0903056",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_file": "raw/S-003_stdout.txt",
+      "stderr_file": "raw/S-003_stderr.txt",
+      "preliminary_comparison": {
+        "status": "REPORTED_SUPERSET_MATCH",
+        "actual_line_count": 6,
+        "reported_line_count": 8,
+        "matching_actual_lines": 6,
+        "max_numeric_delta": null
+      },
+      "audit_note": "Historyczny blok wyniku zawiera statystyki, których listing sam nie drukuje."
+    },
+    "S-004": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 3.154407,
+      "stdout_sha256": "860230f41d6b7be7fa95b44b55f7dc0eab62bc16234115b1e392b88a7652fc4d",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_file": "raw/S-004_stdout.txt",
+      "stderr_file": "raw/S-004_stderr.txt",
+      "preliminary_comparison": {
+        "status": "TEXT_OR_NUMERIC_DIFFERENCE",
+        "actual_line_count": 6,
+        "reported_line_count": 10,
+        "matching_actual_lines": 5,
+        "max_numeric_delta": null
+      },
+      "audit_note": "W historycznym listingu licznik 'worse' omyłkowo używa warunku gains > 0; kod zachowano bez zmian."
+    },
+    "S-005": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 6.434391,
+      "stdout_sha256": "a63c9ab114971874b73c16d7f8e11f55a4a558379ac573c343df4f2e41fbfb15",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_file": "raw/S-005_stdout.txt",
+      "stderr_file": "raw/S-005_stderr.txt",
+      "preliminary_comparison": {
+        "status": "CLOSE_NUMERIC_MATCH",
+        "actual_line_count": 15,
+        "reported_line_count": 15,
+        "matching_actual_lines": 13,
+        "max_numeric_delta": 9.999999999998899e-05
+      },
+      "audit_note": null
+    },
+    "S-006": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 7.928756,
+      "stdout_sha256": "0f9b975e3d4a3e511f31b62cd7ad42620b77f148fdfacab1b11c70c925a27fe0",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_file": "raw/S-006_stdout.txt",
+      "stderr_file": "raw/S-006_stderr.txt",
+      "preliminary_comparison": {
+        "status": "EXACT_TEXT_MATCH",
+        "actual_line_count": 15,
+        "reported_line_count": 15,
+        "matching_actual_lines": 15,
+        "max_numeric_delta": null
+      },
+      "audit_note": null
+    },
+    "S-010": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 1.797012,
+      "stdout_sha256": "cb501ba2b6aba1d024d19d3db7e9f13de3a9b67c8f97adae65c5dd249f08acbe",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_file": "raw/S-010_stdout.txt",
+      "stderr_file": "raw/S-010_stderr.txt",
+      "preliminary_comparison": {
+        "status": "CONTRACT_PASS"
+      },
+      "audit_note": "Jednostka jest klasą referencyjną bez głównego przebiegu; sprawdzany jest kontrakt 64 -> 192."
+    },
+    "S-011": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 6.713802,
+      "stdout_sha256": "4866c1a681887cc9ae9b2c94dcd47e53fb3cb30eb4bbddcad0d24f3794ac64af",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_file": "raw/S-011_stdout.txt",
+      "stderr_file": "raw/S-011_stderr.txt",
+      "preliminary_comparison": {
+        "status": "EXACT_TEXT_MATCH",
+        "actual_line_count": 15,
+        "reported_line_count": 15,
+        "matching_actual_lines": 15,
+        "max_numeric_delta": null
+      },
+      "audit_note": null
+    },
+    "S-007": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 16.710085,
+      "stdout_sha256": "8bbe0984e484a044974de9b8a75446bb34a3d8d7a9542ece5f09f0348c994ca5",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_file": "raw/S-007_stdout.txt",
+      "stderr_file": "raw/S-007_stderr.txt",
+      "preliminary_comparison": {
+        "status": "EXACT_TEXT_MATCH",
+        "actual_line_count": 17,
+        "reported_line_count": 17,
+        "matching_actual_lines": 17,
+        "max_numeric_delta": null
+      },
+      "audit_note": null
+    },
+    "S-008": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 28.574442,
+      "stdout_sha256": "90b35a3c8e46f3e37d3c5116d509b8fcc46da37683fab7c6998879aab86f4440",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_file": "raw/S-008_stdout.txt",
+      "stderr_file": "raw/S-008_stderr.txt",
+      "preliminary_comparison": {
+        "status": "CLOSE_NUMERIC_MATCH",
+        "actual_line_count": 13,
+        "reported_line_count": 13,
+        "matching_actual_lines": 12,
+        "max_numeric_delta": 0.00010000000000010001
+      },
+      "audit_note": null
+    },
+    "S-009": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 76.396753,
+      "stdout_sha256": "e0e9e587d339260ba6fd509228acbece35fe6c265f60c25b5db2b238a2a761b3",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_file": "raw/S-009_stdout.txt",
+      "stderr_file": "raw/S-009_stderr.txt",
+      "preliminary_comparison": {
+        "status": "EXACT_TEXT_MATCH",
+        "actual_line_count": 12,
+        "reported_line_count": 12,
+        "matching_actual_lines": 12,
+        "max_numeric_delta": null
+      },
+      "audit_note": null
+    }
+  }
+}

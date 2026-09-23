@@ -1,0 +1,14 @@
+{
+  "experiment_id": "S-006",
+  "source_sequence_in_chapter": 6,
+  "canonical_source": "docs/source/BOHN_PL.pdf",
+  "extraction_source": "docs/source/BOHN_EN_SOURCE.tex",
+  "listing_index": 20,
+  "latex_start_line": 9108,
+  "latex_end_line": 9196,
+  "historical_source_sha256": "e374bcf2f95a748861d7e63227c9a70224dd5dd3e6ef1aa6578a7aae95dea368",
+  "reported_result_environment": "lstlisting",
+  "reported_result_index": 21,
+  "reported_result_sha256": "e9d3db75f76c5e67de6c4d2a43a3516388fb1c22c293dfca48c147812d96da8c",
+  "historical_code_modified": false
+}

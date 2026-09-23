@@ -1,0 +1,18 @@
+======================================
+TEST: ROBUSTNESS TO INCORRECT SYMMETRY
+======================================
+x               mean=0.5837  std=0.0461
+SBOHN_true      mean=0.8471  std=0.0243
+SBOHN_bad_05    mean=0.8396  std=0.0232
+SBOHN_bad_10    mean=0.8297  std=0.0274
+SBOHN_bad_20    mean=0.8039  std=0.0316
+SBOHN_random    mean=0.6169  std=0.0416
+
+======================================
+GAIN RELATIVE TO x
+======================================
+SBOHN_true      gain_mean=0.2635  better=100/100  worse=  0/100
+SBOHN_bad_05    gain_mean=0.2559  better=100/100  worse=  0/100
+SBOHN_bad_10    gain_mean=0.2460  better=100/100  worse=  0/100
+SBOHN_bad_20    gain_mean=0.2203  better=100/100  worse=  0/100
+SBOHN_random    gain_mean=0.0332  better= 75/100  worse= 24/100

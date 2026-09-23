@@ -8,17 +8,17 @@ B-006,2,2.6,Benchmark II - problem Z3-symetryczny z etykietą kwadratową,benchm
 B-007,2,2.7,Benchmark III - Orbit Energy Network,benchmark,18,19,A.1 / Listing A.7,FULL,YES,DIVERGENT
 B-008,2,2.8,Benchmark IV - Orbit Histogram Network (BOHN),benchmark,18-19,19-20,A.1 / Listing A.8,FULL,YES,DIVERGENT
 B-009,2,2.9,Test inwariantności histogramu orbitowego względem Z3,test,19,20,A.1 / Listing A.9,FULL,YES,CLOSE_MATCH
-S-001,3,3.2.1,SBOHN-1 - dublet z MLP,experiment_negative,24,25,A.2 / Listings A.10-A.11,FULL,YES,NOT_RUN
-S-002,3,3.2.2,SBOHN-2 - dublet przy małej liczbie danych,experiment_negative,24,25,A.2 / Listings A.12-A.13,FULL,YES,NOT_RUN
-S-003,3,3.2.3,"SBOHN-3 - test liniowy x vs [x+g(x), x-g(x)]",experiment_negative,24,25,A.2 / Listings A.14-A.15,FULL,YES,NOT_RUN
-S-004,3,3.3.1,SBOHN-4 - czysty test |x-g(x)|,experiment,24,25,A.2 / Listings A.16-A.17,FULL,YES,NOT_RUN
-S-005,3,3.3.2,SBOHN-5 - porównanie wariantów cech,experiment,24-25,25-26,A.2 / Listings A.18-A.19,FULL,YES,NOT_RUN
-S-006,3,3.4.1,SBOHN-6 - rozszerzenie na pełną grupę Z3,experiment,25-27,26-28,A.2 / Listings A.20-A.21,FULL,YES,NOT_RUN
-S-010,3,3.4.3,SBOHN-LR - referencyjny model i kod implementacji,program,25-27,26-28,A.2 / uncaptioned LaTeX listing 22,FULL_UNCAPTIONED,YES,NOT_RUN
-S-011,3,3.4.3,SBOHN-LR - referencyjny benchmark 100 seedów,benchmark,25-27,26-28,A.2 / uncaptioned LaTeX listing 23,FULL_UNCAPTIONED,YES,NOT_RUN
-S-007,3,3.5.1,SBOHN-7 - losowe współrzędne i wagi,stability_test,27,28,A.2 / Listings A.22-A.23,FULL,YES,NOT_RUN
-S-008,3,3.5.2,SBOHN-8 - odporność na błędną symetrię,robustness_test,27,28,A.2 / Listings A.24-A.25,FULL,YES,NOT_RUN
-S-009,3,3.6.1,SBOHN-9 - ranking kandydatów i wykrywanie ukrytej symetrii,discovery_test,27-28,28-29,A.2 / Listings A.26-A.27,FULL,YES,NOT_RUN
+S-001,3,3.2.1,SBOHN-1 - dublet z MLP,experiment_negative,24,25,A.2 / Listings A.10-A.11,FULL,YES,NONDETERMINISTIC
+S-002,3,3.2.2,SBOHN-2 - dublet przy małej liczbie danych,experiment_negative,24,25,A.2 / Listings A.12-A.13,FULL,YES,REPORTED_SUPERSET_MATCH
+S-003,3,3.2.3,"SBOHN-3 - test liniowy x vs [x+g(x), x-g(x)]",experiment_negative,24,25,A.2 / Listings A.14-A.15,FULL,YES,REPORTED_SUPERSET_MATCH
+S-004,3,3.3.1,SBOHN-4 - czysty test |x-g(x)|,experiment,24,25,A.2 / Listings A.16-A.17,FULL,YES,SOURCE_BUG_PRESERVED
+S-005,3,3.3.2,SBOHN-5 - porównanie wariantów cech,experiment,24-25,25-26,A.2 / Listings A.18-A.19,FULL,YES,CLOSE_MATCH
+S-006,3,3.4.1,SBOHN-6 - rozszerzenie na pełną grupę Z3,experiment,25-27,26-28,A.2 / Listings A.20-A.21,FULL,YES,EXACT_MATCH
+S-010,3,3.4.3,SBOHN-LR - referencyjny model i kod implementacji,program,25-27,26-28,A.2 / uncaptioned LaTeX listing 22,FULL_UNCAPTIONED,YES,CONTRACT_MATCH
+S-011,3,3.4.3,SBOHN-LR - referencyjny benchmark 100 seedów,benchmark,25-27,26-28,A.2 / uncaptioned LaTeX listing 23,FULL_UNCAPTIONED,YES,EXACT_MATCH
+S-007,3,3.5.1,SBOHN-7 - losowe współrzędne i wagi,stability_test,27,28,A.2 / Listings A.22-A.23,FULL,YES,EXACT_MATCH
+S-008,3,3.5.2,SBOHN-8 - odporność na błędną symetrię,robustness_test,27,28,A.2 / Listings A.24-A.25,FULL,YES,CLOSE_MATCH
+S-009,3,3.6.1,SBOHN-9 - ranking kandydatów i wykrywanie ukrytej symetrii,discovery_test,27-28,28-29,A.2 / Listings A.26-A.27,FULL,YES,EXACT_MATCH
 G-001,4,4.1,Adaptacyjny Router Permutacji z kryterium Fishera na Iris,experiment,29-31,30-32,A.3 / Listings A.28-A.29,FULL,YES,NOT_RUN
 SO-001,4,4.2.1,SO(2) - numeryczna weryfikacja zerowania symetryzatora,numerical_test,31,32,A.3 / Listings A.30-A.31,FULL,YES,NOT_RUN
 SO-002,4,4.2.2,SO(2) - profil asymetrii numeryczny vs analityczny,numerical_test,31-32,32-33,A.3 / Listing A.32,PARTIAL,YES,NOT_RUN

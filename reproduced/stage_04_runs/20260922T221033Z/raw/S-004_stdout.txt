@@ -1,0 +1,8 @@
+======================================
+PURE TEST |x - g(x)|
+======================================
+Mean baseline on x:      0.4970
+Mean |x-g(x)|:           0.8725
+Mean gain:               0.3755
+|x-g(x)| better in 50 / 50 seeds
+|x-g(x)| worse in 50 / 50 seeds

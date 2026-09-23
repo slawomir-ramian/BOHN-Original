@@ -37,3 +37,7 @@ Pierwszy pakiet wykonawczy `B-001`--`B-009` znajduje się w
 Każde uruchomienie tworzy osobny katalog pod
 `reproduced/stage_03_runs/`; wynikowy ZIP w `artifacts/` jest plikiem pochodnym
 i nie jest śledzony przez Git.
+
+Rozdział SBOHN znajduje się w `experiments/03_sbohn/`. Jego jednostki są
+uruchamiane według `inventory/source_chronology.csv`, ponieważ chronologia PDF-a
+nie jest identyczna z numerycznym sortowaniem ID.

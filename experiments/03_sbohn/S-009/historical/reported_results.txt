@@ -1,0 +1,17 @@
+======================================
+TEST: HIDDEN SYMMETRY DETECTION
+======================================
+Baseline x mean:          0.5848
+SBOHN true mean:          0.8471
+Random SBOHN mean:        0.6198
+Best random SBOHN mean:   0.6979
+
+True gain over x:         0.2624
+True gain over rand mean: 0.2273
+True gain over rand max:  0.1493
+
+True symmetry best in:    30 / 30 runs
+Average true rank:        1.00 / 51
+
+Ranks true symmetry:
+[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]

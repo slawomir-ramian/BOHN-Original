@@ -1,0 +1,20 @@
+======================================
+FEATURE VARIANT COMPARISON BOHN/AOO
+======================================
+x                      mean=0.5987  std=0.0377
+x_plus_gx              mean=0.5990  std=0.0385
+x_minus_gx             mean=0.5470  std=0.0281
+abs_x_minus_gx         mean=0.7995  std=0.0233
+sigma_plus_abs_delta   mean=0.8377  std=0.0214
+x_plus_abs_delta       mean=0.8390  std=0.0228
+full_doublet           mean=0.5986  std=0.0382
+
+======================================
+GAIN RELATIVE TO BASELINE x
+======================================
+x_plus_gx              gain_mean=0.0003  better=10/50  worse= 6/50
+x_minus_gx             gain_mean=-0.0517  better= 4/50  worse=43/50
+abs_x_minus_gx         gain_mean=0.2008  better=50/50  worse= 0/50
+sigma_plus_abs_delta   gain_mean=0.2390  better=50/50  worse= 0/50
+x_plus_abs_delta       gain_mean=0.2403  better=50/50  worse= 0/50
+full_doublet           gain_mean=-0.0001  better= 6/50  worse= 6/50

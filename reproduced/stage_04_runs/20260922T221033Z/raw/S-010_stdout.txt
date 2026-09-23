@@ -1,0 +1,5 @@
+SBOHNFeatureExtractor contract
+input_shape=(12, 64)
+output_shape=(12, 192)
+z3_order_three=True
+wrong_dimension_rejected=True

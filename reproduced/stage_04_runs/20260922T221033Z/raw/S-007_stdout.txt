@@ -1,0 +1,22 @@
+======================================
+RANDOM TEST: SBOHN / AOO
+======================================
+x                  mean=0.5837  std=0.0461
+full_linear_Z3     mean=0.5836  std=0.0464
+A1                 mean=0.8066  std=0.0302
+A2                 mean=0.8066  std=0.0302
+A1_A2              mean=0.8051  std=0.0300
+x_A1_A2            mean=0.8158  std=0.0269
+S3                 mean=0.6036  std=0.0423
+S3_A1_A2           mean=0.8471  std=0.0243
+
+======================================
+GAIN RELATIVE TO x
+======================================
+full_linear_Z3     gain_mean=-0.0000  better= 13/100  worse= 15/100
+A1                 gain_mean=0.2229  better=100/100  worse=  0/100
+A2                 gain_mean=0.2229  better=100/100  worse=  0/100
+A1_A2              gain_mean=0.2215  better=100/100  worse=  0/100
+x_A1_A2            gain_mean=0.2321  better=100/100  worse=  0/100
+S3                 gain_mean=0.0200  better= 74/100  worse= 24/100
+S3_A1_A2           gain_mean=0.2635  better=100/100  worse=  0/100

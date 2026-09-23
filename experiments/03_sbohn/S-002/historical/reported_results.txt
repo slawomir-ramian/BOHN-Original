@@ -1,0 +1,12 @@
+======================================
+DOUBLET TEST RESULTS
+======================================
+Mean baseline: 0.8023
+Mean doublet:  0.8054
+Mean gain:     0.0031
+Median gain:   0.0029
+Min gain:         -0.0400
+Max gain:         0.0457
+Doublet better in 10 / 20 seeds
+Doublet equal in  2 / 20 seeds
+Doublet worse in 8 / 20 seeds

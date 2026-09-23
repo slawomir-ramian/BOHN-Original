@@ -1,0 +1,20 @@
+======================================
+Z3 TEST: |x-g(x)| and |x-g^2(x)|
+======================================
+x                        mean=0.5847  std=0.0326
+A1_abs_x_minus_gx        mean=0.8064  std=0.0228
+A2_abs_x_minus_g2x       mean=0.8064  std=0.0228
+A1_plus_A2               mean=0.8044  std=0.0233
+x_plus_A1_A2             mean=0.8179  std=0.0264
+sigma3_plus_A1_A2        mean=0.8456  std=0.0280
+full_linear_Z3           mean=0.5844  std=0.0327
+
+======================================
+GAIN RELATIVE TO BASELINE x
+======================================
+A1_abs_x_minus_gx        gain_mean=0.2218  better=50/50  worse= 0/50
+A2_abs_x_minus_g2x       gain_mean=0.2218  better=50/50  worse= 0/50
+A1_plus_A2               gain_mean=0.2198  better=50/50  worse= 0/50
+x_plus_A1_A2             gain_mean=0.2332  better=50/50  worse= 0/50
+sigma3_plus_A1_A2        gain_mean=0.2609  better=50/50  worse= 0/50
+full_linear_Z3           gain_mean=-0.0002  better= 6/50  worse= 9/50

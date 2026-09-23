@@ -1,0 +1,8 @@
+======================================
+LINEAR TEST: X vs DOUBLET
+======================================
+Mean baseline: 0.8177
+Mean doublet:  0.8137
+Mean gain:     -0.0040
+Doublet better in 16 / 50 seeds
+Doublet worse in 29 / 50 seeds

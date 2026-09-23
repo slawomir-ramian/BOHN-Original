@@ -1,7 +1,7 @@
 # Indeks eksperymentów, testów i programów
 
-Rejestr obejmuje **115 jednostki** wykryte w monografii.
-Po Etapie 03 wykonano **9 jednostek**; **106** pozostaje `NOT_RUN`.
+Rejestr obejmuje **115 jednostek** wykrytych w monografii.
+Po zakończonych etapach wykonano **20 jednostek**; **95** pozostaje `NOT_RUN`.
 
 Kolumna `Kod` opisuje poziom materiału dostępnego w PDF. `NARRATIVE_ONLY` nie
 oznacza pominięcia - przeciwnie, wskazuje jednostkę wymagającą ostrożnej rekonstrukcji
@@ -25,17 +25,17 @@ z opisu i tabel, bez udawania, że pełny kod został opublikowany.
 
 | ID | Sekcja | Jednostka | Typ | Strony drukowane / PDF | Kod | Reprodukcja |
 |---|---|---|---|---|---|---|
-| `S-001` | 3.2.1 | SBOHN-1 - dublet z MLP | experiment_negative | 24 / 25 | `FULL` | `NOT_RUN` |
-| `S-002` | 3.2.2 | SBOHN-2 - dublet przy małej liczbie danych | experiment_negative | 24 / 25 | `FULL` | `NOT_RUN` |
-| `S-003` | 3.2.3 | SBOHN-3 - test liniowy x vs [x+g(x), x-g(x)] | experiment_negative | 24 / 25 | `FULL` | `NOT_RUN` |
-| `S-004` | 3.3.1 | SBOHN-4 - czysty test \|x-g(x)\| | experiment | 24 / 25 | `FULL` | `NOT_RUN` |
-| `S-005` | 3.3.2 | SBOHN-5 - porównanie wariantów cech | experiment | 24-25 / 25-26 | `FULL` | `NOT_RUN` |
-| `S-006` | 3.4.1 | SBOHN-6 - rozszerzenie na pełną grupę Z3 | experiment | 25-27 / 26-28 | `FULL` | `NOT_RUN` |
-| `S-010` | 3.4.3 | SBOHN-LR - referencyjny model i kod implementacji | program | 25-27 / 26-28 | `FULL_UNCAPTIONED` | `NOT_RUN` |
-| `S-011` | 3.4.3 | SBOHN-LR - referencyjny benchmark 100 seedów | benchmark | 25-27 / 26-28 | `FULL_UNCAPTIONED` | `NOT_RUN` |
-| `S-007` | 3.5.1 | SBOHN-7 - losowe współrzędne i wagi | stability_test | 27 / 28 | `FULL` | `NOT_RUN` |
-| `S-008` | 3.5.2 | SBOHN-8 - odporność na błędną symetrię | robustness_test | 27 / 28 | `FULL` | `NOT_RUN` |
-| `S-009` | 3.6.1 | SBOHN-9 - ranking kandydatów i wykrywanie ukrytej symetrii | discovery_test | 27-28 / 28-29 | `FULL` | `NOT_RUN` |
+| `S-001` | 3.2.1 | SBOHN-1 - dublet z MLP | experiment_negative | 24 / 25 | `FULL` | `NONDETERMINISTIC` |
+| `S-002` | 3.2.2 | SBOHN-2 - dublet przy małej liczbie danych | experiment_negative | 24 / 25 | `FULL` | `REPORTED_SUPERSET_MATCH` |
+| `S-003` | 3.2.3 | SBOHN-3 - test liniowy x vs [x+g(x), x-g(x)] | experiment_negative | 24 / 25 | `FULL` | `REPORTED_SUPERSET_MATCH` |
+| `S-004` | 3.3.1 | SBOHN-4 - czysty test \|x-g(x)\| | experiment | 24 / 25 | `FULL` | `SOURCE_BUG_PRESERVED` |
+| `S-005` | 3.3.2 | SBOHN-5 - porównanie wariantów cech | experiment | 24-25 / 25-26 | `FULL` | `CLOSE_MATCH` |
+| `S-006` | 3.4.1 | SBOHN-6 - rozszerzenie na pełną grupę Z3 | experiment | 25-27 / 26-28 | `FULL` | `EXACT_MATCH` |
+| `S-010` | 3.4.3 | SBOHN-LR - referencyjny model i kod implementacji | program | 25-27 / 26-28 | `FULL_UNCAPTIONED` | `CONTRACT_MATCH` |
+| `S-011` | 3.4.3 | SBOHN-LR - referencyjny benchmark 100 seedów | benchmark | 25-27 / 26-28 | `FULL_UNCAPTIONED` | `EXACT_MATCH` |
+| `S-007` | 3.5.1 | SBOHN-7 - losowe współrzędne i wagi | stability_test | 27 / 28 | `FULL` | `EXACT_MATCH` |
+| `S-008` | 3.5.2 | SBOHN-8 - odporność na błędną symetrię | robustness_test | 27 / 28 | `FULL` | `CLOSE_MATCH` |
+| `S-009` | 3.6.1 | SBOHN-9 - ranking kandydatów i wykrywanie ukrytej symetrii | discovery_test | 27-28 / 28-29 | `FULL` | `EXACT_MATCH` |
 
 ## Rozdział 4: Uogólnienia i odkrywanie symetrii
 

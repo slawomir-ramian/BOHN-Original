@@ -1,0 +1,21 @@
+===================================
+SBOHN-LR multi-seed reference test
+===================================
+
+Number of seeds:       100
+Input dimension x:     64
+SBOHN dimension Phi:   192
+
+Accuracy:
+Baseline LR on x:      0.5871 +/- 0.0460
+SBOHN-LR:              0.8460 +/- 0.0236
+Gain:                  0.2589 +/- 0.0504
+
+Robustness:
+SBOHN better in:       100 / 100 seeds
+SBOHN equal in:        0 / 100 seeds
+SBOHN worse in:        0 / 100 seeds
+
+Gain range:
+Min gain:              0.1393
+Max gain:              0.3857

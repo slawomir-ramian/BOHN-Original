@@ -1,0 +1,116 @@
+source_order,id,chapter,section,pdf_pages,title
+1,B-001,2,2.1.4,16,Wyznaczanie orbit grupy Z3 na 64 stanach
+2,B-002,2,2.2.1,17,Obliczanie histogramu orbitowego Phi(X)
+3,B-003,2,2.3.1,17,ReversibleRMIGLayer - forward i inverse
+4,B-004,2,2.4.1,17-18,Testy odwracalności i poprawności gradientów
+5,B-005,2,2.5,18,Benchmark I - problem liniowy
+6,B-006,2,2.6,18-19,Benchmark II - problem Z3-symetryczny z etykietą kwadratową
+7,B-007,2,2.7,19,Benchmark III - Orbit Energy Network
+8,B-008,2,2.8,19-20,Benchmark IV - Orbit Histogram Network (BOHN)
+9,B-009,2,2.9,20,Test inwariantności histogramu orbitowego względem Z3
+10,S-001,3,3.2.1,25,SBOHN-1 - dublet z MLP
+11,S-002,3,3.2.2,25,SBOHN-2 - dublet przy małej liczbie danych
+12,S-003,3,3.2.3,25,"SBOHN-3 - test liniowy x vs [x+g(x), x-g(x)]"
+13,S-004,3,3.3.1,25,SBOHN-4 - czysty test |x-g(x)|
+14,S-005,3,3.3.2,25-26,SBOHN-5 - porównanie wariantów cech
+15,S-006,3,3.4.1,26-28,SBOHN-6 - rozszerzenie na pełną grupę Z3
+16,S-010,3,3.4.3,26-28,SBOHN-LR - referencyjny model i kod implementacji
+17,S-011,3,3.4.3,26-28,SBOHN-LR - referencyjny benchmark 100 seedów
+18,S-007,3,3.5.1,28,SBOHN-7 - losowe współrzędne i wagi
+19,S-008,3,3.5.2,28,SBOHN-8 - odporność na błędną symetrię
+20,S-009,3,3.6.1,28-29,SBOHN-9 - ranking kandydatów i wykrywanie ukrytej symetrii
+21,G-001,4,4.1,30-32,Adaptacyjny Router Permutacji z kryterium Fishera na Iris
+22,SO-001,4,4.2.1,32,SO(2) - numeryczna weryfikacja zerowania symetryzatora
+23,SO-002,4,4.2.2,32-33,SO(2) - profil asymetrii numeryczny vs analityczny
+24,SO-003,4,4.2.3,32-33,SO(2) - momenty M1-M6 numeryczne vs analityczne
+25,SO-004,4,4.2.4,33,SO(2) - współczynniki Fouriera rozróżniają orientację
+26,SO-005,4,4.2.6,33-34,SO(2)-SBOHN - klasyfikacja w R4
+27,SO-006,4,4.2.6,33-34,SO(2)-SBOHN - klasyfikacja w R8
+28,SO-007,4,4.2.6,33-34,SO(2)-SBOHN - test inwariantności reprezentacji
+29,SD-001,4,4.3.2,35-36,Symmetry Discovery 1 - symetria przesunięcia na digits
+30,SD-002,4,4.3.3,36-37,Symmetry Discovery 2 - kontrola negatywna z losowymi etykietami
+31,SD-003,4,4.3.4,37-39,Symmetry Discovery 3 - ukryta symetria odbicia poziomego
+32,SD-004,4,4.3.5,39-40,Symmetry Discovery 4 - ukryta symetria obrotu o 180 stopni
+33,ASD-001,4,4.4,41-42,Autonomous Symmetry Discovery - selekcja kandydatów
+34,PL-001,5,5.1,44-48,SBOHN-PL - ewolucyjne uczenie permutacji rotate180
+35,PL-002,5,5.2.1,48-49,SBOHN-PL2 - uczenie dwóch permutacji jednocześnie
+36,PL-003,5,5.2.2,49-50,SBOHN-K - skalowanie liczby permutacji
+37,AR-001,5,5.3.2,50-51,SBOHN-AR v1 - ewolucyjne generowanie jednej transformacji
+38,AR-002,5,5.3.3,51-53,SBOHN-AR v2 - Generate-Represent-Select
+39,AR-003,5,5.4.1,53-54,SBOHN-AR - test korelacji reprezentacji
+40,AR-004,5,5.4.2,54-56,SBOHN-AR - reprezentacyjne klasy równoważności
+41,HD-001,5,5.5.5,57,SBOHN - skalowanie względem wymiaru d=63..4095
+42,HD-002,5,5.5.7,58,SBOHN - wpływ liczby próbek przy d=4095
+43,HD-003,5,5.5.11,58-59,SBOHN - wariant proportional-signal
+44,CMP-001,5,5.6.2,59-60,SBOHN-AE - PCA-48 vs autoenkoder rekonstrukcyjny
+45,CMP-002,5,5.6.3,60-61,"SBOHN-SRL - supervised latent k=2,4,8,16 vs PCA"
+46,LS-001,6,6.2.2-6.2.3,65-66,Learnable SBOHN - pięciokrokowy pipeline Task A i Task B
+47,LS-002,6,6.2.4 EXP 1,66,SBOHN-K3 - regularyzacja ortogonalności
+48,LS-003,6,6.2.4 EXP 2,66-67,Input-Dependent SBOHN - wyżarzanie temperatury i eksplozja NaN
+49,LS-004,6,6.2.4 EXP 3,67,Low-Rank Sinkhorn 784x784 - sweep rangu
+50,LS-005,6,6.2.4 EXP 4,67,Analiza algebraiczna wyuczonych macierzy i podgrup
+51,LS-006,6,6.2.4 EXP 5,67-68,Task C - regresja z czterema ukrytymi symetriami
+52,LD-001,6,6.3.1,68-69,Log-domain vs naive Sinkhorn
+53,LD-002,6,6.3.2,69,Input-Dependent log-domain z wyżarzaniem temperatury
+54,LD-003,6,6.3.3,69,Regularyzacja entropii - Global K=3
+55,LD-004,6,6.3.4,69-70,Full Stack - InpDep K=2 + LogDomain + Entropy + Ortho
+56,LD-005,6,6.3.5,70,Analiza algebraiczna modelu z regularyzacją entropii
+57,FR-001,7,7.1,72-74,Fractal Input-Dependent SBOHN - test przełomowy i analiza per-level
+58,FR-004,7,7.1.4,73-74,Fractal SBOHN - osobna analiza per-level modelu InpDep 5L
+59,FR-002,7,7.2,76-82,Fractal SBOHN - MNIST
+60,FR-003,7,7.2,76-82,Fractal SBOHN - Fashion-MNIST
+61,PT-001,7,7.3,84-90,Patch SBOHN / Permutation Transformer - MNIST
+62,PT-002,7,7.3,84-90,Patch SBOHN / Permutation Transformer - Fashion-MNIST
+63,PT-003,7,7.3.1,84-85,Patch SBOHN - skalowanie względem rozdzielczości
+64,PT-004,7,7.3.2-7.3.3,85,Patch SBOHN - ablation input-dependency
+65,PT-005,7,7.3.2-7.3.3,85,Patch SBOHN - ablation liczby głów
+66,HR-001,7,7.4,91-92,HighRes Patch SBOHN - test 4K na MNIST
+67,HR-002,7,7.4,91-92,HighRes Patch SBOHN - test 4K na Fashion-MNIST
+68,HR-003,7,7.5,93-94,HighRes Fractal SBOHN v2 - permutacja patchy vs cech
+69,HR-004,7,7.4.3,92-93,HighRes Patch SBOHN - pełne skalowanie rozdzielczości do 4K
+70,HR-005,7,7.5.2,94,HighRes Fractal SBOHN v2 - wkład poszczególnych poprawek
+71,HR-006,7,7.5.2,94,HighRes Fractal SBOHN v2 - MNIST
+72,HR-007,7,7.5.2,95,HighRes Fractal SBOHN v2 - Fashion-MNIST
+73,MS-001,8,8.1.1,96-97,Meta-SBOHN Score Generator v1
+74,MS-002,8,8.1.2,97,Meta-SBOHN v2 - Geometry-Aware Generator
+75,MS-003,8,8.1.3,97,Meta-SBOHN v2 + SRL
+76,MS-004,8,8.1.4,97-98,Meta-Meta-SBOHN v1
+77,MS-005,8,8.1.5,98,SBOHN-Curriculum v1 - prosty warm-start
+78,MS-006,8,8.1.6,98-99,SBOHN-Curriculum v2 - Mixed Population Transfer
+79,MS-007,8,8.1.7,99,SBOHN-Curriculum v3 - transfer elit
+80,MS-008,8,8.1.7,99,SBOHN-Curriculum v4 - analiza basinów
+81,MS-009,8,8.1.8,99,Meta-SBOHN v5 - Geometry Regularization
+82,MS-010,8,8.1.9,99-100,Meta-SBOHN v6 - Geometry Annealing
+83,AD-001,9,9.1,101-103,Perm+Head - porównanie sześciu metod adaptacji
+84,AD-002,9,9.2.1-9.2.2,103-104,Few-shot transfer MNIST -> Fashion-MNIST
+85,AD-003,9,9.2.4,104,Head-only vs full-tune - test modularności enkodera
+86,CL-001,9,9.3,104-105,Continual learning - przełączanie zadań i forgetting
+87,CL-002,9,9.3.1,105,Continual learning - wariant perm-only z większym modelem
+88,SOTA-001,10,10.1-10.2,107-108,Porównanie accuracy modeli na Fashion-MNIST
+89,SOTA-002,10,10.3,108-110,Benchmark skalowania inferencji z rozdzielczością do 4K
+90,SYS-001,11,11.1,112-113,Meta-learned Permutation Generator
+91,SYS-002,11,11.2,113-114,Multi-task MoE Routing
+92,SYS-003,11,11.3.1,114,Deep Encoder - skalowanie głębokości
+93,SYS-004,11,11.3.2,114-115,Partial Unfreeze - odmrażanie wybranych warstw
+94,SYS-005,11,11.4,115-117,System zintegrowany MoE + Meta-Generator + Frozen Encoder
+95,CPU-001,11,11.5.1,117,Bateria CPU 1 - Shallow vs Deep Encoder
+96,CPU-002,11,11.5.2,117-118,Bateria CPU 2 - MoE Multi-Domain Routing
+97,CPU-003,11,11.5.3,117-118,Bateria CPU 3 - Cross-Domain Meta-Generator
+98,CPU-004,11,11.5.4,118,Bateria CPU 4 - Partial Unfreeze: accuracy vs forgetting
+99,CPU-005,11,11.5.5,118-119,Bateria CPU 5 - Few-Shot Scaling z frozen encoder
+100,MOE-001,12,12.1,120-122,Partial Unfreeze + MoE - eliminacja zapominania
+101,MOE-009,12,12.1.3,121-122,Partial Unfreeze + MoE - osobny test trzech domen
+102,MOE-002,12,12.2.2,122-123,Sparse MoE + Gate Specialization Loss - expert collapse
+103,MOE-003,12,12.2.3,122-123,Sparse MoE - sweep lambda_spec
+104,MOE-004,12,12.3,123-124,Hard Assignment + Gate Distillation
+105,MOE-005,12,12.4.1-12.4.3,124-125,LayerNorm vs BatchNorm - routing experiments
+106,MOE-006,12,12.4.4,125,Confidence routing
+107,MOE-007,12,12.4.5,125,Shared Expert - wynik negatywny
+108,MOE-008,12,12.5,126-128,Hybrid BN/LN - kulminacja
+109,RF-001,13,13.4,130,RMIG-FBOHN v1
+110,RF-002,13,13.5,130-131,RMIG-FBOHN - test out-of-representation
+111,MF-001,14,14.2,132,Meta-FBOHN v1 - negatywny wynik skalowania cech
+112,MF-002,14,14.2,132-133,Meta-FBOHN v2 - negatywny wynik skalowania cech
+113,MF-003,14,14.3,133,Meta-FBOHN v3 - Learned Orbit Mixing
+114,MF-004,14,14.4,133-134,Meta-FBOHN v4 - Symbolic Orbit Composer
+115,MF-005,14,14.5,134-135,Meta-FBOHN v5 - Symbolic Library Discovery
