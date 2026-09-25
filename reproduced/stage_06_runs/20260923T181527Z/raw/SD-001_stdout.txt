@@ -1,0 +1,3 @@
+baseline=0.7556
+best_structured=shift_left
+best_net=0.0463

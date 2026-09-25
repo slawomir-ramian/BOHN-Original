@@ -1,0 +1,84 @@
+{
+  "stage": "06",
+  "run_utc": "2026-09-23T18:15:27+00:00",
+  "mode": "smoke",
+  "source_chronology": [
+    "SD-001",
+    "SD-003",
+    "ASD-001"
+  ],
+  "full_source_chronology": [
+    "SD-001",
+    "SD-002",
+    "SD-003",
+    "SD-004",
+    "ASD-001"
+  ],
+  "environment": {
+    "python": "3.14.5 (tags/v3.14.5:5607950, May 10 2026, 10:43:50) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scikit_learn": "1.9.1",
+    "processor_count": 4
+  },
+  "experiments": {
+    "SD-001": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 5.038781,
+      "execution_mode": "SMOKE_PROBE",
+      "executed_file": "tools/smoke_stage_06.py",
+      "stdout_sha256": "8a2ee1aa45cb5585a23b4363f1837bf6f272745b0dc16668c7d050e81a7c1ef5",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/SD-001_stdout.txt",
+      "stderr_file": "raw/SD-001_stderr.txt",
+      "comparison": {
+        "status": "SMOKE_PROBE_PASS",
+        "scientific_conclusion_preserved": null,
+        "max_reported_numeric_delta": null,
+        "actual_summary": {},
+        "note": "Smoke nie zastępuje pełnego programu."
+      }
+    },
+    "SD-003": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 4.008625,
+      "execution_mode": "SMOKE_PROBE",
+      "executed_file": "tools/smoke_stage_06.py",
+      "stdout_sha256": "26716e8fd4f691ad91f4b40eb5c491baf6dff1255d08e260ca1fbc9822dd2894",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/SD-003_stdout.txt",
+      "stderr_file": "raw/SD-003_stderr.txt",
+      "comparison": {
+        "status": "SMOKE_PROBE_PASS",
+        "scientific_conclusion_preserved": null,
+        "max_reported_numeric_delta": null,
+        "actual_summary": {},
+        "note": "Smoke nie zastępuje pełnego programu."
+      }
+    },
+    "ASD-001": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 17.009586,
+      "execution_mode": "SMOKE_PROBE",
+      "executed_file": "tools/smoke_stage_06.py",
+      "stdout_sha256": "229a6dd04f179cc5f458cf5548efdfa529a12ea84421a5531e865ee92439fa8c",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/ASD-001_stdout.txt",
+      "stderr_file": "raw/ASD-001_stderr.txt",
+      "comparison": {
+        "status": "SMOKE_PROBE_PASS",
+        "scientific_conclusion_preserved": null,
+        "max_reported_numeric_delta": null,
+        "actual_summary": {},
+        "note": "Smoke nie zastępuje pełnego programu."
+      }
+    }
+  }
+}

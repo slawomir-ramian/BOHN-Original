@@ -1,0 +1,27 @@
+=== C = 0.02 ===
+  Accuracy:          0.9426
+  Top1 True:         10/10
+  Both True Top10:   0/10
+  Mean Best Rank:    1.0
+  Mean Worst Rank:   77.6
+
+=== C = 0.05 ===
+  Accuracy:          0.9472
+  Top1 True:         10/10
+  Both True Top10:   0/10
+  Mean Best Rank:    1.0
+  Mean Worst Rank:   69.4
+
+=== C = 0.10 ===
+  Accuracy:          0.9443
+  Top1 True:         10/10
+  Both True Top10:   0/10
+  Mean Best Rank:    1.0
+  Mean Worst Rank:   55.7
+
+=== C = 0.20 ===
+  Accuracy:          0.9307
+  Top1 True:         10/10
+  Both True Top10:   1/10
+  Mean Best Rank:    1.0
+  Mean Worst Rank:   39.8

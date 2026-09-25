@@ -1,0 +1,28 @@
+======================================
+HIDDEN FLIP SYMMETRY TEST
+======================================
+
+Seeds: 30
+Random permutations per seed: 20
+
+Baseline mean:     0.7567
+Random mean:       0.7845
+
+      candidate  mean_acc  std_acc  mean_dim  gain_vs_baseline  net_vs_random_mean
+flip_horizontal  0.959506 0.009723     128.0          0.202840            0.175052
+     shift_left  0.827716 0.042109     128.0          0.071049            0.043262
+    shift_right  0.825926 0.041628     128.0          0.069259            0.041472
+      rotate_90  0.812407 0.034416     128.0          0.055741            0.027954
+     rotate_180  0.789938 0.043911     128.0          0.033272            0.005485
+  flip_vertical  0.740864 0.032721     128.0         -0.015802           -0.043590
+     baseline_x  0.756667 0.028192      64.0          0.000000           -0.027787
+
+Best candidate per seed:
+flip_horizontal    30
+
+Rank of flip_horizontal per seed:
+Mean rank: 1.00
+Median rank: 1.00
+Best rank count: 30 / 30
+Ranks:
+[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]

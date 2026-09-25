@@ -1,0 +1,28 @@
+======================================
+HIDDEN ROTATE180 SYMMETRY TEST
+======================================
+
+Seeds: 30
+Random permutations per seed: 20
+
+Baseline mean:     0.7515
+Random mean:       0.7925
+
+      candidate  mean_acc  std_acc  mean_dim  gain_vs_baseline  net_vs_random_mean
+     rotate_180  0.964568 0.006786     128.0          0.213086            0.172102
+flip_horizontal  0.795679 0.030000     128.0          0.044198            0.003213
+    shift_right  0.794198 0.028402     128.0          0.042716            0.001731
+     shift_left  0.793519 0.029692     128.0          0.042037            0.001052
+      rotate_90  0.788580 0.026370     128.0          0.037099           -0.003886
+  flip_vertical  0.757099 0.036749     128.0          0.005617           -0.035367
+     baseline_x  0.751481 0.029798      64.0          0.000000           -0.040985
+
+Best candidate per seed:
+rotate_180    30
+
+Rank of rotate_180 per seed:
+Mean rank: 1.00
+Median rank: 1.00
+Best rank count: 30 / 30
+Ranks:
+[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]

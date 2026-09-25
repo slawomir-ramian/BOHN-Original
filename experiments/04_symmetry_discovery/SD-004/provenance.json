@@ -1,0 +1,19 @@
+{
+  "experiment_id": "SD-004",
+  "source_sequence_in_stage": 4,
+  "source_order_in_monograph": 32,
+  "canonical_source": "docs/source/BOHN_PL.pdf",
+  "extraction_source": "docs/source/BOHN_EN_SOURCE.tex",
+  "source_code_level": "FULL_UNCAPTIONED",
+  "execution_mode": "HISTORICAL_SOURCE",
+  "listing_index": 44,
+  "latex_start_line": 10944,
+  "latex_end_line": 11221,
+  "historical_source_sha256": "76d19b8fa8f7a2a329f1c5e177803da17db6f337a14a0e7aa31f1013cc5bfd27",
+  "reported_result_kind": "VERBATIM",
+  "reported_result_file": "reported_results.txt",
+  "reported_result_start_line": 1760,
+  "reported_result_end_line": 1789,
+  "reported_result_sha256": "1641306b8ec9b5fa05c27f23195cc89fefc6272d2f7cbd93a9b7fe5d4090f5e1",
+  "historical_code_modified": false
+}

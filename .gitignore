@@ -19,7 +19,14 @@ build/
 # Archiwa wynikowe są pochodną plików JSON/MD zachowywanych w Git.
 artifacts/*.zip
 
+# Checkpointy i wyniki pilota ASD-001R są robocze. Do Git trafia wyłącznie
+# zamrożony pełny wynik potwierdzający wskazany przez LATEST_RUN.txt.
+reproduced/stage_06_asd_001r_pilot/
+reproduced/stage_06_asd_001r_pilot_checkpoint/
+reproduced/stage_06_asd_001r_full_checkpoint/
+
 # System/edytor
 .DS_Store
 Thumbs.db
 .vscode/settings.json
+reproduced/stage_06_asd_checkpoint/

@@ -1,0 +1,18 @@
+======================================
+SBOHN NEGATIVE CONTROL: RANDOM LABELS
+======================================
+
+Seeds: 30
+Random permutations per seed: 20
+
+Baseline and random controls:
+baseline mean:    0.5005 +/- 0.0212
+random mean:      0.5012 +/- 0.0149
+random best mean: 0.5283 +/- 0.0156
+
+Structured candidates:
+  candidate  acc_mean  acc_std  gain_vs_baseline_mean  net_vs_random_mean
+ shift_left  0.501667 0.023320               0.001173            0.000417
+   shift_up  0.499815 0.021827              -0.000679           -0.001435
+shift_right  0.499630 0.022389              -0.000864           -0.001620
+ shift_down  0.499259 0.025375              -0.001235           -0.001991

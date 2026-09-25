@@ -1,0 +1,22 @@
+======================================
+SBOHN NET SCORE TEST
+======================================
+
+Seeds: 30
+Random permutations per seed: 20
+
+Baseline and random controls:
+baseline mean:    0.7409 +/- 0.0168
+random mean:      0.7961 +/- 0.0125
+random best mean: 0.8244 +/- 0.0118
+
+Structured candidates:
+  candidate  acc_mean  acc_std  gain_vs_baseline_mean  net_vs_random_mean
+ shift_left  0.831975 0.015371               0.091049            0.035883
+shift_right  0.831358 0.014621               0.090432            0.035265
+   shift_up  0.790000 0.018807               0.049074           -0.006093
+ shift_down  0.788580 0.018034               0.047654           -0.007512
+
+Best structured per seed:
+shift_left     19
+shift_right    11

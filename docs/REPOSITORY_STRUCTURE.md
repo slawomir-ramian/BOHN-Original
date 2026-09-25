@@ -15,6 +15,7 @@ BOHN-Original/
 ├── experiments/
 │   ├── 02_bohn_foundation/
 │   ├── 03_sbohn/
+│   ├── 04_generalization_so2/
 │   ├── 04_symmetry_discovery/
 │   ├── 05_permutation_and_representation/
 │   ├── 06_learnable_sbohn/
@@ -46,3 +47,13 @@ Adaptacyjny router i uogólnienie SO(2) znajdują się w
 `experiments/04_generalization_so2/`. Kod wydrukowany w monografii pozostaje w
 `historical/`, natomiast brakujące procedury wykonawcze są jawnie oddzielone w
 `reconstruction/`.
+
+Wykrywanie symetrii znajduje się w `experiments/04_symmetry_discovery/`.
+Etap zachowuje pozycje 29--33 z PDF-a: `SD-001`--`SD-004`, a następnie
+`ASD-001`. Kod historyczny jest uruchamiany bez modyfikacji, a lekkie sondy
+smoke znajdują się poza katalogiem `historical/`.
+
+Eksperymenty zaprojektowane po audycie, które nie są jednostkami źródłowego
+PDF-a, mają osobny rejestr `inventory/supplementary_experiments.csv`. Dzięki
+temu mogą potwierdzać mechanizmy publikacji bez zmiany kanonicznej liczby 115
+jednostek ani ich kolejności. Pierwszym takim wpisem jest ASD-001R.

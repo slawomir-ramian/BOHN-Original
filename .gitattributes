@@ -19,3 +19,4 @@ experiments/02_bohn_foundation/*/historical/source_from_monograph.py whitespace=
 experiments/03_sbohn/*/historical/source_from_monograph.py whitespace=-trailing-space
 experiments/04_generalization_so2/*/historical/source_from_monograph.py whitespace=-trailing-space
 experiments/04_generalization_so2/*/historical/source_fragment_from_monograph.py whitespace=-trailing-space
+experiments/04_symmetry_discovery/*/historical/source_from_monograph.py whitespace=-trailing-space

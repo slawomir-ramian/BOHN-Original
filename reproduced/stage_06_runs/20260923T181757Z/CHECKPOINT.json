@@ -1,0 +1,194 @@
+{
+  "stage": "06",
+  "run_utc": "2026-09-23T18:17:57+00:00",
+  "mode": "full",
+  "source_chronology": [
+    "SD-001",
+    "SD-002",
+    "SD-003",
+    "SD-004",
+    "ASD-001"
+  ],
+  "completed_units": [
+    "SD-001",
+    "SD-002",
+    "SD-003",
+    "SD-004",
+    "ASD-001"
+  ],
+  "experiments": {
+    "SD-001": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 43.079183,
+      "execution_mode": "HISTORICAL_SOURCE",
+      "executed_file": "experiments/04_symmetry_discovery/SD-001/historical/source_from_monograph.py",
+      "stdout_sha256": "5d72fc82bed4a076a73fb4d74fa22a7cf7ef68b5818b7ce740505cd9d28fc1a1",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/SD-001_stdout.txt",
+      "stderr_file": "raw/SD-001_stderr.txt",
+      "comparison": {
+        "status": "CLOSE_NUMERIC_MATCH",
+        "scientific_conclusion_preserved": true,
+        "max_reported_numeric_delta": 0.00040000000000006697,
+        "actual_summary": {
+          "baseline": 0.7409,
+          "random": 0.7961,
+          "best": 0.824,
+          "candidates": {
+            "shift_left": {
+              "acc": 0.832222,
+              "net": 0.03612,
+              "positive": 30
+            },
+            "shift_right": {
+              "acc": 0.831296,
+              "net": 0.035194,
+              "positive": 30
+            },
+            "shift_up": {
+              "acc": 0.790185,
+              "net": -0.005917,
+              "positive": 11
+            },
+            "shift_down": {
+              "acc": 0.788765,
+              "net": -0.007336,
+              "positive": 12
+            }
+          },
+          "left_acc": 0.832222,
+          "left_net": 0.03612,
+          "right_acc": 0.831296,
+          "right_net": 0.035194
+        },
+        "note": "Poziome przesunięcia zachowują dodatni net score w 30/30 seedach."
+      }
+    },
+    "SD-002": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 48.03095,
+      "execution_mode": "HISTORICAL_SOURCE",
+      "executed_file": "experiments/04_symmetry_discovery/SD-002/historical/source_from_monograph.py",
+      "stdout_sha256": "845e166a327f1b62fa0c2ca694d66e3b002171348093b03c6e9d08b5b067db61",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/SD-002_stdout.txt",
+      "stderr_file": "raw/SD-002_stderr.txt",
+      "comparison": {
+        "status": "CLOSE_NUMERIC_MATCH",
+        "scientific_conclusion_preserved": true,
+        "max_reported_numeric_delta": 0.00030900000000000003,
+        "actual_summary": {
+          "baseline": 0.5005,
+          "random": 0.5013,
+          "best": 0.5286,
+          "candidates": {
+            "shift_left": {
+              "acc": 0.50142,
+              "net": 0.000108,
+              "positive": 14
+            },
+            "shift_right": {
+              "acc": 0.499444,
+              "net": -0.001867,
+              "positive": 13
+            },
+            "shift_up": {
+              "acc": 0.499753,
+              "net": -0.001559,
+              "positive": 15
+            },
+            "shift_down": {
+              "acc": 0.499259,
+              "net": -0.002052,
+              "positive": 14
+            }
+          },
+          "left_acc": 0.50142,
+          "left_net": 0.000108
+        },
+        "note": "Losowe etykiety pozostają na poziomie przypadku."
+      }
+    },
+    "SD-003": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 44.035036,
+      "execution_mode": "HISTORICAL_SOURCE",
+      "executed_file": "experiments/04_symmetry_discovery/SD-003/historical/source_from_monograph.py",
+      "stdout_sha256": "96e91b3c3ace719e4ea816b4afe6dba52b570f1bc39e9ce7f0d7e643b5e4b6c1",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/SD-003_stdout.txt",
+      "stderr_file": "raw/SD-003_stderr.txt",
+      "comparison": {
+        "status": "CLOSE_NUMERIC_MATCH",
+        "scientific_conclusion_preserved": true,
+        "max_reported_numeric_delta": 9.999999999998899e-05,
+        "actual_summary": {
+          "baseline": 0.7566,
+          "random": 0.7845,
+          "target_acc": 0.959506,
+          "target_net": 0.175049,
+          "winner_count": 30,
+          "best_rank": [
+            30,
+            30
+          ]
+        },
+        "note": "flip_horizontal: ranga 1 w 30/30 seedach."
+      }
+    },
+    "SD-004": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 44.027124,
+      "execution_mode": "HISTORICAL_SOURCE",
+      "executed_file": "experiments/04_symmetry_discovery/SD-004/historical/source_from_monograph.py",
+      "stdout_sha256": "f089dcd718a162fd5bfc82fe4a074a76d734ae01f838f6f805991fcbefd231dd",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/SD-004_stdout.txt",
+      "stderr_file": "raw/SD-004_stderr.txt",
+      "comparison": {
+        "status": "CLOSE_NUMERIC_MATCH",
+        "scientific_conclusion_preserved": true,
+        "max_reported_numeric_delta": 2.4999999999997247e-05,
+        "actual_summary": {
+          "baseline": 0.7515,
+          "random": 0.7925,
+          "target_acc": 0.964568,
+          "target_net": 0.172077,
+          "winner_count": 30,
+          "best_rank": [
+            30,
+            30
+          ]
+        },
+        "note": "rotate_180: ranga 1 w 30/30 seedach."
+      }
+    },
+    "ASD-001": {
+      "execution_status": "FAILED",
+      "return_code": 1,
+      "duration_seconds": 14400.278326,
+      "execution_mode": "HISTORICAL_SOURCE",
+      "executed_file": "experiments/04_symmetry_discovery/ASD-001/historical/source_from_monograph.py",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "39ea8e14942985caa88ce66fb489cd3c6d28518b4ea3dd78edb651590909276f",
+      "stderr_nonempty": true,
+      "stdout_file": "raw/ASD-001_stdout.txt",
+      "stderr_file": "raw/ASD-001_stderr.txt",
+      "comparison": {
+        "status": "UNPARSEABLE_OUTPUT",
+        "scientific_conclusion_preserved": false,
+        "max_reported_numeric_delta": 0.0,
+        "actual_summary": {},
+        "note": "brak wierszy ASD"
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+accuracy=0.9537
+top1=rotate_180
+flip_horizontal_rank=5

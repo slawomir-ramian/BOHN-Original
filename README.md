@@ -39,9 +39,37 @@ ani protokołu. Mimo różnic surowych baz odniesienia główny wynik SO(2)-SBOH
 wynosi w obu przypadkach `1.000`, zgodnie z monografią. Szczegóły:
 `docs/STAGE_05_LOCAL_ANALYSIS.md`.
 
+Etap 06 obejmuje następny ciągły fragment PDF-a: `SD-001`--`SD-004` oraz
+`ASD-001`. Wszystkie pięć jednostek ma pełny, niezmieniony kod historyczny
+i zapisany wynik odniesienia. Szybkie sondy smoke są technicznie oddzielone od
+pełnego wykonania. `SD-001`--`SD-004` uzyskały `CLOSE_NUMERIC_MATCH`. W
+`ASD-001` odtworzono odkrycie symetrii faktycznie kodującej etykiety w 40/40
+prób, natomiast druga symetria deklarowana w tabeli nie jest użyta przez
+historyczne `make_labels`; status to
+`PRIMARY_MATCH_SECONDARY_CODE_TABLE_MISMATCH`. Szczegóły:
+`docs/STAGE_06_LOCAL_ANALYSIS.md`.
+
+Osobno przygotowano `ASD-001R`, jawny pilot hipotezy, że tabela 4.2 mogła
+powstać z wersji generatora etykiet zależnej od obu deklarowanych symetrii.
+Nie jest to historyczna jednostka ani dowód istnienia takiej wersji kodu.
+Projekt: `docs/STAGE_06_ASD_001R_DESIGN.md`.
+
+Pilot ASD-001R przeszedł kryteria strukturalne w 6/6 prób. Przed pełnym biegiem
+zamrożono kod i kryteria eksperymentu uzupełniającego obejmującego 40
+dopasowań oraz pełne 97 kandydatów losowych. Prerejestracja:
+`docs/STAGE_06_ASD_001R_FULL_PREREGISTRATION.md`.
+
+Pełny ASD-001R zakończył 40/40 dopasowań i odtworzył rangi 1--2 obu prawdziwych
+symetrii wśród 99 kandydatów dla każdego `C`. Status
+`STRUCTURAL_RECONSTRUCTION_CONFIRMED` stanowi uzupełniające potwierdzenie
+mechanizmu publikacji. Nie jest to historyczne `EXACT_MATCH`; dokładności
+różnią się od tabeli o `0.0075`--`0.0400`. Szczegóły:
+`docs/STAGE_06_ASD_001R_FULL_ANALYSIS.md`.
+
 Kolejność źródłowa jest zapisana niezależnie od numeracji ID w
-`inventory/source_chronology.csv`. Po Etapach 03--05 wykonano 28 ze 115
-jednostek; 87 pozostaje do odtworzenia.
+`inventory/source_chronology.csv`. Etap 06 zajmuje pozycje 29--33, dokładnie
+tak jak w PDF-ie. Po Etapach 03--06 przygotowano 33 ze 115 jednostek;
+82 pozostają do odtworzenia.
 
 Audyt obejmuje 94 numerowane tabele, 44 podpisane listingi PDF, 74 środowiska
 `lstlisting`, 20 bloków `verbatim` oraz 24 wieloeksperymentalne zestawy kodu.
@@ -75,6 +103,16 @@ Pełna instrukcja: `INSTALL_STAGE_04.md`.
 ```
 
 Pełna instrukcja: `INSTALL_STAGE_05.md`.
+
+## Uruchomienie Etapu 06
+
+```powershell
+.\SETUP_STAGE_06.ps1
+.\RUN_STAGE_06_SMOKE.ps1
+.\RUN_STAGE_06_FULL.ps1
+```
+
+Pełna instrukcja: `INSTALL_STAGE_06.md`.
 
 ## Źródło kanoniczne
 

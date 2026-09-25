@@ -1,0 +1,19 @@
+{
+  "experiment_id": "ASD-001",
+  "source_sequence_in_stage": 5,
+  "source_order_in_monograph": 33,
+  "canonical_source": "docs/source/BOHN_PL.pdf",
+  "extraction_source": "docs/source/BOHN_EN_SOURCE.tex",
+  "source_code_level": "FULL_UNCAPTIONED",
+  "execution_mode": "HISTORICAL_SOURCE",
+  "listing_index": 45,
+  "latex_start_line": 11224,
+  "latex_end_line": 11358,
+  "historical_source_sha256": "49b818f044d8196374084213a0bbccc03c41dcd3fd4f7775f8c0c57662d9f4e0",
+  "reported_result_kind": "TABLE_4.2",
+  "reported_result_file": "reported_results_table.tex",
+  "reported_result_start_line": 1939,
+  "reported_result_end_line": 1958,
+  "reported_result_sha256": "2b4b61c3d8a59d0df7e6efd63ffd876aa424bdfe6a5c77d809ebcbecaa704420",
+  "historical_code_modified": false
+}

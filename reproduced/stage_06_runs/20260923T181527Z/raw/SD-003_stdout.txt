@@ -1,0 +1,2 @@
+winner=flip_horizontal
+flip_horizontal_rank=1

@@ -1,0 +1,24 @@
+{
+  "protocol_id": "ASD-001R_TWO_SYMMETRY_V1",
+  "status": "FROZEN_AFTER_PILOT_BEFORE_CONFIRMATION",
+  "protocol_file": "experiments/04_symmetry_discovery/ASD-001/reconstruction/two_symmetry_protocol.py",
+  "protocol_sha256": "04b1faad75e4f15caecf84ab974ccf326c3e18eb0686f45742caf81532fc0d7e",
+  "pilot_seeds": [100, 101, 102],
+  "confirmation_seeds": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+  "confirmation_c_values": [0.02, 0.05, 0.10, 0.20],
+  "random_candidates": 97,
+  "max_iter": 5000,
+  "workers_max": 2,
+  "acceptance": {
+    "completed_fits": 40,
+    "top1_true_per_c": "10/10",
+    "both_true_top10_per_c": "10/10",
+    "mean_best_rank_per_c": 1.0,
+    "mean_worst_rank_per_c": 2.0,
+    "both_true_positive_importance": "40/40",
+    "positive_margin_over_best_random": "40/40",
+    "positive_combined_ablation_gain": "40/40",
+    "convergence_warnings": 0
+  },
+  "interpretation": "Supplementary structural confirmation; never historical exact reproduction."
+}

@@ -1,0 +1,3 @@
+ConvergenceWarning: 1
+FutureWarning: 40
+UserWarning: 40
