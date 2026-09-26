@@ -1,0 +1,22 @@
+AUDITED_REPORTED_RESULT
+\subsubsection*{EXP 3: Low-Rank Sinkhorn ($784 \times 784$)}
+
+We test the approximation $P = \text{Sinkhorn}(UV^\top)$ with $U, V \in \mathbb{R}^{784 \times r}$:
+
+\begin{table}[h]
+\centering
+\caption{EXP~3: Low-rank Sinkhorn on $784 \times 784$.}
+\begin{tabular}{rrcccr}
+\hline
+\textbf{Rank} & \textbf{Parameters} & \textbf{Compression} & \textbf{Accuracy} & \textbf{$P_{\max}$} & \textbf{Time} \\
+\hline
+8   & 13\,329  & 2.2\%  & 65.2\% & 0.644 & 3.6s \\
+16  & 25\,873  & 4.2\%  & 65.5\% & 0.957 & 3.5s \\
+32  & 50\,961  & 8.3\%  & 66.3\% & 1.000 & 3.6s \\
+\textbf{64} & \textbf{101\,137} & \textbf{16.4\%} & \textbf{67.2\%} & 1.000 & 3.7s \\
+Full (784) & 615\,441 & 100\% & 64.8\% & --- & 3.4s \\
+\hline
+\end{tabular}
+\end{table}
+
+\textbf{Key discovery:} Low-rank $r=64$ \textbf{outperforms} full-rank (67.2\% vs 64.8\%) with 6$\times$ fewer parameters! Rank restriction acts as an \emph{implicit regularizer} --- this is not a~compromise but an improvement. The result is consistent with the RMIG philosophy of information compression.

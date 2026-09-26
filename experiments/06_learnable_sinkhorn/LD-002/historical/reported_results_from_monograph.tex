@@ -1,0 +1,24 @@
+\subsection{Test B --- InpDep with temperature annealing}
+
+\textbf{Previously} (naive Sinkhorn, EXP~2 from Section~\ref{sec:learnable_sbohn}): 4/5 variants with annealing $\to$ NaN.
+\textbf{Now} (log-domain):
+
+\begin{table}[h]
+\centering
+\caption{Test~B: InpDep + $\tau$ annealing with log-domain Sinkhorn. All variants stable!}
+\begin{tabular}{lccc}
+\hline
+\textbf{Configuration} & \textbf{Accuracy} & $P_{\max}$ & \textbf{Status} \\
+\hline
+\textbf{Fixed $\tau=0.5$} & \textbf{89.3\%} & 0.931 & \checkmark \\
+Cosine $\tau$: $0.5 \to 0.1$ & 88.2\% & 1.000 & \checkmark \\
+Linear $\tau$: $0.5 \to 0.1$ & 88.0\% & 1.000 & \checkmark \\
+Linear $\tau$: $0.5 \to 0.05$ & 87.8\% & 1.000 & \checkmark \\
+Cosine $\tau$: $1 \to 0.05$ & 87.4\% & 1.000 & \checkmark \\
+\hline
+\end{tabular}
+\end{table}
+
+\textbf{All 5~variants passed without NaN!} Log-domain Sinkhorn fully solves the numerical stability problem of InpDep.
+
+\textbf{Surprise:} Fixed $\tau=0.5$ still wins (89.3\%). Annealing yields harder permutations ($P_{\max}=1.0$), but at the cost of accuracy. Interpretation: \textbf{InpDep needs soft routing} --- per-sample adaptation requires flexibility, and overly hard permutations lose gradient information.

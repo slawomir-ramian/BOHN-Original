@@ -1,0 +1,28 @@
+\subsection{Test C --- Entropy regularization (Global K=3)}
+
+The entropy of the matrix $P$ is defined as the mean row entropy:
+\begin{equation}
+H(P) = -\frac{1}{n}\sum_i \sum_j P_{ij} \log P_{ij}.
+\end{equation}
+
+Lower entropy means sharper (closer to permutation) matrices.
+
+\begin{table}[h]
+\centering
+\caption{Test~C: Entropy regularization on the global K=3 model.}
+\begin{tabular}{lccc}
+\hline
+\textbf{Configuration} & \textbf{Accuracy} & \textbf{Entropy} & $P_{\max}$ \\
+\hline
+No regularization & 85.7\% & 1.637 & 0.922 \\
+$\lambda_{\text{ent}} = 0.01$ & 86.1\% & 1.449 & 0.941 \\
+$\lambda_{\text{ent}} = 0.1$ & 85.7\% & \textbf{1.223} & 0.984 \\
+$\lambda_{\text{ent}} = 0.5$ & 84.1\% & 1.451 & 0.858 \\
+$\lambda_{\text{ent}} = 1.0$ & 84.4\% & 1.682 & 0.610 \\
+$\lambda_{\text{ent}}=0.1 + \lambda_{\text{ort}}=0.1$ & 85.2\% & 1.250 & \textbf{0.997} \\
+$\lambda_{\text{ent}}=0.5 + \lambda_{\text{ort}}=0.1$ & 83.2\% & 1.460 & 0.922 \\
+\hline
+\end{tabular}
+\end{table}
+
+$\lambda_{\text{ent}}=0.1$ is the sweet spot --- it reduces entropy by 25\% ($1.637 \to 1.223$) without loss of accuracy. The combination ent+ortho ($0.1+0.1$) yields the sharpest $P$ ($P_{\max}=0.997$) while maintaining 85.2\% accuracy.

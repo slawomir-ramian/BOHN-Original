@@ -1,0 +1,333 @@
+{
+  "stage": "08",
+  "run_utc": "2026-09-26T18:12:27+00:00",
+  "mode": "full",
+  "source_chronology": [
+    "LS-001",
+    "LS-002",
+    "LS-003",
+    "LS-004",
+    "LS-005",
+    "LS-006",
+    "LD-001",
+    "LD-002",
+    "LD-003",
+    "LD-004",
+    "LD-005"
+  ],
+  "full_source_chronology": [
+    "LS-001",
+    "LS-002",
+    "LS-003",
+    "LS-004",
+    "LS-005",
+    "LS-006",
+    "LD-001",
+    "LD-002",
+    "LD-003",
+    "LD-004",
+    "LD-005"
+  ],
+  "environment": {
+    "python": "3.14.5 (tags/v3.14.5:5607950, May 10 2026, 10:43:50) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "numpy": "2.5.3",
+    "scikit_learn": "1.9.1",
+    "torch": "2.14.0+cpu",
+    "processor_count": 4
+  },
+  "source_boundary": {
+    "shared_listing": 53,
+    "target_code_absent_for": [
+      "LS-002",
+      "LS-003",
+      "LS-004",
+      "LS-005",
+      "LS-006"
+    ]
+  },
+  "experiments": {
+    "LS-001": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 409.343865,
+      "execution_mode": "HISTORICAL_SOURCE",
+      "executed_file": "experiments/06_learnable_sinkhorn/LS-001/historical/source_from_monograph.py",
+      "stdout_sha256": "44ccd64fc18206df97d9aee4386a232fa511329754d1a592df81570e5be3b9de",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/LS-001_stdout.txt",
+      "stderr_file": "raw/LS-001_stderr.txt",
+      "comparison": {
+        "status": "CLOSE_NUMERIC_MATCH",
+        "scientific_conclusion_preserved": true,
+        "max_reported_numeric_delta": 0.0020999999999999908,
+        "actual_summary": {
+          "A_sbohn_v1_fixed": 0.8315,
+          "A_sbohn_v1_anneal": 0.8741,
+          "A_sbohn_inpdep": 0.8778,
+          "B_mlp": 0.7185,
+          "B_sbohn_inpdep": 0.7241
+        },
+        "note": "Kontrola annealingu Task A oraz przewagi InpDep nad MLP w Task B."
+      },
+      "historical_result_file": "raw/LS-001_historical_result.json",
+      "historical_result_sha256": "5e2a88a8054acc89c4d2d66de302c692c635cb7f37899b22ebfb9e3f36993175"
+    },
+    "LS-002": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "AUDITED_REPORTED_RESULT",
+      "executed_file": "experiments/06_learnable_sinkhorn/LS-002/historical/reported_results_from_monograph.tex",
+      "stdout_sha256": "9f48597b72805e4745cfd311025bba9a34bfa6a599eec564d25ff443c65ec21f",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/LS-002_stdout.txt",
+      "stderr_file": "raw/LS-002_stderr.txt",
+      "comparison": {
+        "status": "AUDITED_REPORTED_RESULT",
+        "scientific_conclusion_preserved": null,
+        "max_reported_numeric_delta": null,
+        "actual_summary": {},
+        "note": "Opublikowany wspólny listing nie zawiera kodu docelowego tej tabeli; zachowano dokładny wynik źródłowy."
+      }
+    },
+    "LS-003": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "AUDITED_REPORTED_RESULT",
+      "executed_file": "experiments/06_learnable_sinkhorn/LS-003/historical/reported_results_from_monograph.tex",
+      "stdout_sha256": "475e1515acffe89fa36e77354a315928e9b492ee80bc88c500eeb90f71758956",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/LS-003_stdout.txt",
+      "stderr_file": "raw/LS-003_stderr.txt",
+      "comparison": {
+        "status": "AUDITED_REPORTED_RESULT",
+        "scientific_conclusion_preserved": null,
+        "max_reported_numeric_delta": null,
+        "actual_summary": {},
+        "note": "Opublikowany wspólny listing nie zawiera kodu docelowego tej tabeli; zachowano dokładny wynik źródłowy."
+      }
+    },
+    "LS-004": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "AUDITED_REPORTED_RESULT",
+      "executed_file": "experiments/06_learnable_sinkhorn/LS-004/historical/reported_results_from_monograph.tex",
+      "stdout_sha256": "b53a410bc772f85f48137b23a2ceffcd570e9cae63b8e3d22c4c1796298696d2",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/LS-004_stdout.txt",
+      "stderr_file": "raw/LS-004_stderr.txt",
+      "comparison": {
+        "status": "AUDITED_REPORTED_RESULT",
+        "scientific_conclusion_preserved": null,
+        "max_reported_numeric_delta": null,
+        "actual_summary": {},
+        "note": "Opublikowany wspólny listing nie zawiera kodu docelowego tej tabeli; zachowano dokładny wynik źródłowy."
+      }
+    },
+    "LS-005": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "AUDITED_REPORTED_RESULT",
+      "executed_file": "experiments/06_learnable_sinkhorn/LS-005/historical/reported_results_from_monograph.tex",
+      "stdout_sha256": "70c901b547885543c51dbc02d94968254ac0f81bc9c8d9eb41596f8df64da4ff",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/LS-005_stdout.txt",
+      "stderr_file": "raw/LS-005_stderr.txt",
+      "comparison": {
+        "status": "AUDITED_REPORTED_RESULT",
+        "scientific_conclusion_preserved": null,
+        "max_reported_numeric_delta": null,
+        "actual_summary": {},
+        "note": "Opublikowany wspólny listing nie zawiera kodu docelowego tej tabeli; zachowano dokładny wynik źródłowy."
+      }
+    },
+    "LS-006": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "AUDITED_REPORTED_RESULT",
+      "executed_file": "experiments/06_learnable_sinkhorn/LS-006/historical/reported_results_from_monograph.tex",
+      "stdout_sha256": "9487b69d2223b7d958ccb39598a4e6b75e65f8d3c211840880ba9bf36e17fdef",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/LS-006_stdout.txt",
+      "stderr_file": "raw/LS-006_stderr.txt",
+      "comparison": {
+        "status": "AUDITED_REPORTED_RESULT",
+        "scientific_conclusion_preserved": null,
+        "max_reported_numeric_delta": null,
+        "actual_summary": {},
+        "note": "Opublikowany wspólny listing nie zawiera kodu docelowego tej tabeli; zachowano dokładny wynik źródłowy."
+      }
+    },
+    "LD-001": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 584.492441,
+      "execution_mode": "HISTORICAL_SOURCE",
+      "executed_file": "experiments/06_learnable_sinkhorn/LD-001/historical/source_from_monograph.py",
+      "stdout_sha256": "d56377e5647fa165196b34c72af33b57d7a63d932ff735e8164a04a6137309f3",
+      "stderr_sha256": "7e120a6b0964ceacd26d632cbbed5170a04a409802f434c468afef1a9ba024c3",
+      "stderr_nonempty": true,
+      "stdout_file": "raw/LD-001_stdout.txt",
+      "stderr_file": "raw/LD-001_stderr.txt",
+      "comparison": {
+        "status": "CLOSE_NUMERIC_MATCH",
+        "scientific_conclusion_preserved": true,
+        "max_reported_numeric_delta": 3.4599208831809225e-05,
+        "actual_summary": {
+          "naive_ds_0.001": 0.34472179412841797,
+          "log_ds_0.001": 0.3001345992088318,
+          "naive_ok": true,
+          "log_ok": true
+        },
+        "note": "Obie wersje są skończone; przy tau=0.001 log-domain ma mniejszy błąd DS."
+      },
+      "historical_result_file": "raw/LD-001_historical_result.json",
+      "historical_result_sha256": "763dad2308083691a9f870a2b378f10d2b7574fd385ec1fe955ad8f58a3cb912"
+    },
+    "LD-002": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "HISTORICAL_SOURCE_SHARED_RUN",
+      "executed_file": "experiments/06_learnable_sinkhorn/LD-001/historical/source_from_monograph.py",
+      "stdout_sha256": "a82aea08b2a560544718bafa111c51475d00616e29691690ad8cba9afc439f2d",
+      "stderr_sha256": "7e120a6b0964ceacd26d632cbbed5170a04a409802f434c468afef1a9ba024c3",
+      "stderr_nonempty": true,
+      "stdout_file": "raw/LD-002_stdout.txt",
+      "stderr_file": "raw/LD-002_stderr.txt",
+      "comparison": {
+        "status": "CLOSE_NUMERIC_MATCH",
+        "scientific_conclusion_preserved": true,
+        "max_reported_numeric_delta": 0.0022592477798462074,
+        "actual_summary": {
+          "fixed_acc": 0.8907407522201538,
+          "all_stable": true,
+          "accuracies": {
+            "fixed_0.5": 0.8907407522201538,
+            "cos_1->0.05": 0.8703703880310059,
+            "cos_0.5->0.1": 0.8833333253860474,
+            "lin_0.5->0.05": 0.8777777552604675,
+            "lin_0.5->0.1": 0.8777777552604675
+          }
+        },
+        "note": "Kontrola 5/5 stabilnych wariantów i najlepszego wyniku dla stałego tau=0.5."
+      },
+      "historical_result_file": "raw/LD-002_historical_result.json",
+      "historical_result_sha256": "763dad2308083691a9f870a2b378f10d2b7574fd385ec1fe955ad8f58a3cb912"
+    },
+    "LD-003": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "HISTORICAL_SOURCE_SHARED_RUN",
+      "executed_file": "experiments/06_learnable_sinkhorn/LD-001/historical/source_from_monograph.py",
+      "stdout_sha256": "a82aea08b2a560544718bafa111c51475d00616e29691690ad8cba9afc439f2d",
+      "stderr_sha256": "7e120a6b0964ceacd26d632cbbed5170a04a409802f434c468afef1a9ba024c3",
+      "stderr_nonempty": true,
+      "stdout_file": "raw/LD-003_stdout.txt",
+      "stderr_file": "raw/LD-003_stderr.txt",
+      "comparison": {
+        "status": "CLOSE_NUMERIC_MATCH",
+        "scientific_conclusion_preserved": true,
+        "max_reported_numeric_delta": 0.0003281478881835831,
+        "actual_summary": {
+          "no_reg_entropy": 1.6373281478881836,
+          "ent_0.1_entropy": 1.2227238416671753,
+          "no_reg_acc": 0.8574073910713196,
+          "ent_0.1_acc": 0.8574073910713196
+        },
+        "note": "Kontrola spadku entropii bez materialnej utraty accuracy dla lambda_ent=0.1."
+      },
+      "historical_result_file": "raw/LD-003_historical_result.json",
+      "historical_result_sha256": "763dad2308083691a9f870a2b378f10d2b7574fd385ec1fe955ad8f58a3cb912"
+    },
+    "LD-004": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 676.413338,
+      "execution_mode": "HISTORICAL_SOURCE",
+      "executed_file": "experiments/06_learnable_sinkhorn/LD-004/historical/source_from_monograph.py",
+      "stdout_sha256": "2aa90b0b00853a5f2f8587ecf6a4c5d09338e266e64ede1807be8d88b0ca20d3",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/LD-004_stdout.txt",
+      "stderr_file": "raw/LD-004_stderr.txt",
+      "comparison": {
+        "status": "CLOSE_NUMERIC_MATCH",
+        "scientific_conclusion_preserved": true,
+        "max_reported_numeric_delta": 0.0017777552604675284,
+        "actual_summary": {
+          "no_reg_acc": 0.8777777552604675,
+          "no_reg_entropy": 0.5864216685295105,
+          "accuracies": {
+            "no_reg_anneal": 0.8777777552604675,
+            "ent0.1_ort0.1_anneal": 0.8611111044883728,
+            "ent0.5_ort0.1_anneal": 0.8537036776542664,
+            "ent0.1_ort0.1_fixed": 0.8592592477798462
+          }
+        },
+        "note": "Kontrola naturalnie niskiej entropii i przewagi wariantu bez regularyzacji."
+      },
+      "historical_result_file": "raw/LD-004_historical_result.json",
+      "historical_result_sha256": "5899502380a8bee372faf0e4011f639de344db98eea573e66cc06e84378230a8"
+    },
+    "LD-005": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "HISTORICAL_SOURCE_SHARED_RUN",
+      "executed_file": "experiments/06_learnable_sinkhorn/LD-004/historical/source_from_monograph.py",
+      "stdout_sha256": "faf3b8916539d3108e5295eda68fae281afb78969fed1ebf9b78da56afe8d854",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/LD-005_stdout.txt",
+      "stderr_file": "raw/LD-005_stderr.txt",
+      "comparison": {
+        "status": "CLOSE_NUMERIC_MATCH",
+        "scientific_conclusion_preserved": true,
+        "max_reported_numeric_delta": 0.00022219705581660865,
+        "actual_summary": {
+          "model_acc": 0.8277778029441833,
+          "valid_permutations": [
+            false,
+            false,
+            false
+          ],
+          "unique_columns": [
+            63,
+            60,
+            60
+          ],
+          "closest_soft": [
+            [
+              "v_flip",
+              10.573
+            ],
+            [
+              "rot270",
+              10.257
+            ],
+            [
+              "rot270",
+              9.993
+            ]
+          ]
+        },
+        "note": "Kontrola braku twardych permutacji i złożonej struktury algebraicznej."
+      },
+      "historical_result_file": "raw/LD-005_historical_result.json",
+      "historical_result_sha256": "5899502380a8bee372faf0e4011f639de344db98eea573e66cc06e84378230a8"
+    }
+  }
+}

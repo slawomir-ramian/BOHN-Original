@@ -1,0 +1,37 @@
+======================================================================
+TEST D: Full Stack InpDep K=2 + LogDomain + Entropy + Ortho
+======================================================================
+  [no_reg_anneal            ] Acc=0.8778 Ent=0.586 Pmax=0.999 (108s)
+  [ent0.1_ort0.1_anneal     ] Acc=0.8611 Ent=0.147 Pmax=1.000 (200s)
+  [ent0.5_ort0.1_anneal     ] Acc=0.8537 Ent=0.151 Pmax=1.000 (246s)
+  [ent0.1_ort0.1_fixed      ] Acc=0.8593 Ent=0.187 Pmax=1.000 (107s)
+
+======================================================================
+TEST E: Algebraic Analysis (Entropy-Regularized Global K=3)
+======================================================================
+  Model accuracy (ent0.5+ort0.1, 100ep): 0.8278
+
+  P1: P_max=1.0000, Entropy=0.309, valid_perm=False, unique=63/64
+    Soft closest: v_flip(10.573), rot270(10.579)
+    Hard closest: v_flip(11.045), rot180(11.136)
+    Min power P^n approx I: P^8 (dist=10.0)
+    Cycle structure: [42+8+7+2+2+2+1]
+
+  P2: P_max=1.0000, Entropy=0.432, valid_perm=False, unique=60/64
+    Soft closest: rot270(10.257), h_flip(10.456)
+    Hard closest: rot270(11.045), h_flip(11.225)
+    Min power P^n approx I: P^4 (dist=10.77)
+    Cycle structure: [37+7+5+4+2+2+2+1+1+1+...(12 total)]
+
+  P3: P_max=1.0000, Entropy=0.552, valid_perm=False, unique=60/64
+    Soft closest: rot270(9.993), h_flip(10.051)
+    Hard closest: h_flip(11.045), rot270(11.136)
+    Min power P^n approx I: P^7 (dist=10.677)
+    Cycle structure: [20+13+10+7+5+2+2+1+1+1+...(12 total)]
+
+  Pairwise products:
+    P1 P2^T: closest=identity (8.6)
+    P1 P3^T: closest=identity (9.8)
+    P2 P3^T: closest=identity (9.1)
+
+All results saved.

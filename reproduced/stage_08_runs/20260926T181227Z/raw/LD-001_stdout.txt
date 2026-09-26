@@ -1,0 +1,32 @@
+======================================================================
+TEST A: Log-Domain vs Naive Sinkhorn -- Numerical Stability
+======================================================================
+  tau=1.0    | Naive: ok       DS=0.0000 Pmax=0.066 | Log: ok       DS=0.000000 Pmax=0.066
+  tau=0.5    | Naive: ok       DS=0.0000 Pmax=0.188 | Log: ok       DS=0.000000 Pmax=0.188
+  tau=0.1    | Naive: ok       DS=0.0001 Pmax=0.898 | Log: ok       DS=0.000063 Pmax=0.898
+  tau=0.05   | Naive: ok       DS=0.0056 Pmax=0.994 | Log: ok       DS=0.005615 Pmax=0.994
+  tau=0.01   | Naive: ok       DS=0.0997 Pmax=1.000 | Log: ok       DS=0.099425 Pmax=1.000
+  tau=0.005  | Naive: ok       DS=0.1737 Pmax=1.000 | Log: ok       DS=0.173042 Pmax=1.000
+  tau=0.001  | Naive: ok       DS=0.3447 Pmax=1.000 | Log: ok       DS=0.300135 Pmax=1.000
+
+======================================================================
+TEST B: Input-Dependent + tau Annealing (Log-Domain)
+======================================================================
+  [fixed_0.5      ] Acc=0.8907 Pmax=0.931 (93.2s)
+  [cos_1->0.05    ] Acc=0.8704 Pmax=1.000 (145.4s)
+  [cos_0.5->0.1   ] Acc=0.8833 Pmax=1.000 (112.1s)
+  [lin_0.5->0.05  ] Acc=0.8778 Pmax=1.000 (117.8s)
+  [lin_0.5->0.1   ] Acc=0.8778 Pmax=1.000 (95.8s)
+
+======================================================================
+TEST C: Entropy Regularization on P (Global K=3)
+======================================================================
+  [no_reg            ] Acc=0.8574 | Entropy=1.637 | P_max=0.922
+  [ent_0.01          ] Acc=0.8611 | Entropy=1.449 | P_max=0.941
+  [ent_0.1           ] Acc=0.8574 | Entropy=1.223 | P_max=0.984
+  [ent_0.5           ] Acc=0.8407 | Entropy=1.451 | P_max=0.858
+  [ent_1.0           ] Acc=0.8444 | Entropy=1.682 | P_max=0.610
+  [ent0.1+ort0.1     ] Acc=0.8519 | Entropy=1.250 | P_max=0.997
+  [ent0.5+ort0.1     ] Acc=0.8315 | Entropy=1.460 | P_max=0.922
+
+All results saved.

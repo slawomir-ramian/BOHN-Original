@@ -30,6 +30,11 @@ reproduced/stage_07_runs/*/
 !reproduced/stage_07_runs/20260925T222755Z/
 !reproduced/stage_07_runs/20260925T222755Z/**
 reproduced/stage_07r_pilot/
+
+# Etap 08: smoke jest roboczy; w closeoucie śledzimy wskazany pełny bieg.
+reproduced/stage_08_runs/*/
+!reproduced/stage_08_runs/20260926T181227Z/
+!reproduced/stage_08_runs/20260926T181227Z/**
 reproduced/stage_07r_full/*/
 !reproduced/stage_07r_full/20260926T074159Z/
 !reproduced/stage_07r_full/20260926T074159Z/**
@@ -41,6 +46,3 @@ reproduced/stage_07r_pilot/
 .DS_Store
 Thumbs.db
 .vscode/settings.json
-
-# Roboczy checkpoint ASD-001
-reproduced/stage_06_asd_checkpoint/

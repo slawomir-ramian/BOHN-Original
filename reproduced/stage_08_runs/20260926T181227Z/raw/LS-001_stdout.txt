@@ -1,0 +1,126 @@
+======================================================================
+TASK A: Known symmetry (horizontal flip)
+======================================================================
+Train: torch.Size([1257, 64]), Test: torch.Size([540, 64])
+
+--- Step 2: Baselines ---
+  [Linear] Ep   1/80 | Loss: 0.6979 | Acc: 0.5926
+  [Linear] Ep  20/80 | Loss: 0.5179 | Acc: 0.7556
+  [Linear] Ep  40/80 | Loss: 0.4891 | Acc: 0.7704
+  [Linear] Ep  60/80 | Loss: 0.4803 | Acc: 0.7704
+  [Linear] Ep  80/80 | Loss: 0.4761 | Acc: 0.7704
+  >> Best Acc: 0.7759 @ ep 33 (0.1s)
+
+  [MLP] Ep   1/80 | Loss: 0.6849 | Acc: 0.7352
+  [MLP] Ep  20/80 | Loss: 0.2059 | Acc: 0.8796
+  [MLP] Ep  40/80 | Loss: 0.0142 | Acc: 0.9019
+  [MLP] Ep  60/80 | Loss: 0.0008 | Acc: 0.8963
+  [MLP] Ep  80/80 | Loss: 0.0003 | Acc: 0.8944
+  >> Best Acc: 0.9056 @ ep 37 (0.57s)
+
+--- Step 1a: SBOHN v1 (tau=1.0, fixed) ---
+  [SBOHN-v1 tau=1.0] Ep   1/80 | Loss: 0.6944 | Acc: 0.5778 | P_max: 0.0167 | DS_err: 0.000000
+  [SBOHN-v1 tau=1.0] Ep  20/80 | Loss: 0.5338 | Acc: 0.7630 | P_max: 0.0214 | DS_err: 0.000000
+  [SBOHN-v1 tau=1.0] Ep  40/80 | Loss: 0.4549 | Acc: 0.8000 | P_max: 0.0307 | DS_err: 0.000000
+  [SBOHN-v1 tau=1.0] Ep  60/80 | Loss: 0.3999 | Acc: 0.8222 | P_max: 0.0453 | DS_err: 0.000000
+  [SBOHN-v1 tau=1.0] Ep  80/80 | Loss: 0.3534 | Acc: 0.8315 | P_max: 0.0652 | DS_err: 0.000000
+  >> Best Acc: 0.8315 @ ep 80 (1.02s)
+
+--- Step 1b: SBOHN v1 (tau cosine 1.0->0.05) ---
+  [SBOHN-v1 tau-cos] Ep   1/80 | Loss: 0.7661 | Acc: 0.4722 | P_max: 0.0167 | tau: 0.9996 | DS_err: 0.000000
+  [SBOHN-v1 tau-cos] Ep  20/80 | Loss: 0.5852 | Acc: 0.7370 | P_max: 0.0214 | tau: 0.8609 | DS_err: 0.000000
+  [SBOHN-v1 tau-cos] Ep  40/80 | Loss: 0.4691 | Acc: 0.7926 | P_max: 0.0432 | tau: 0.5250 | DS_err: 0.000000
+  [SBOHN-v1 tau-cos] Ep  60/80 | Loss: 0.3278 | Acc: 0.8574 | P_max: 0.2556 | tau: 0.1891 | DS_err: 0.000000
+  [SBOHN-v1 tau-cos] Ep  80/80 | Loss: 0.2420 | Acc: 0.8741 | P_max: 0.9326 | tau: 0.0500 | DS_err: 0.004205
+  >> Best Acc: 0.8741 @ ep 69 (1.24s)
+
+--- Step 3: SBOHN-K (K=3, tau cosine) ---
+  [SBOHN-K3] Ep   1/80 | Loss: 0.8616 | Acc: 0.4630 | P_max: 0.0167 | tau: 0.9996 | DS_err: 0.000000
+  [SBOHN-K3] Ep  20/80 | Loss: 0.6042 | Acc: 0.7315 | P_max: 0.0190 | tau: 0.8609 | DS_err: 0.000000
+  [SBOHN-K3] Ep  40/80 | Loss: 0.5014 | Acc: 0.7759 | P_max: 0.0277 | tau: 0.5250 | DS_err: 0.000000
+  [SBOHN-K3] Ep  60/80 | Loss: 0.3733 | Acc: 0.8222 | P_max: 0.1152 | tau: 0.1891 | DS_err: 0.000000
+  [SBOHN-K3] Ep  80/80 | Loss: 0.2494 | Acc: 0.8722 | P_max: 0.7091 | tau: 0.0500 | DS_err: 0.000274
+  >> Best Acc: 0.8722 @ ep 69 (3.3s)
+
+--- Step 4: SBOHN Input-Dependent P ---
+  [SBOHN-InpDep] Ep   1/80 | Loss: 0.7058 | Acc: 0.5815 | P_max: 0.0158 | DS_err: 0.000000
+  [SBOHN-InpDep] Ep  20/80 | Loss: 0.3391 | Acc: 0.8463 | P_max: 0.3623 | DS_err: 0.000000
+  [SBOHN-InpDep] Ep  40/80 | Loss: 0.1276 | Acc: 0.8722 | P_max: 0.9079 | DS_err: 0.000471
+  [SBOHN-InpDep] Ep  60/80 | Loss: 0.0336 | Acc: 0.8704 | P_max: 0.9367 | DS_err: 0.004914
+  [SBOHN-InpDep] Ep  80/80 | Loss: 0.0100 | Acc: 0.8704 | P_max: 0.9515 | DS_err: 0.014031
+  >> Best Acc: 0.8778 @ ep 65 (162.05s)
+
+======================================================================
+STEP 5 -- TASK B: Blind symmetry discovery (rot90 + vflip)
+======================================================================
+Train: torch.Size([1257, 64]), Test: torch.Size([540, 64])
+
+--- Baseline: Linear ---
+  [Linear-B] Ep   1/120 | Loss: 0.7292 | Acc: 0.5389
+  [Linear-B] Ep  20/120 | Loss: 0.6087 | Acc: 0.6685
+  [Linear-B] Ep  40/120 | Loss: 0.5868 | Acc: 0.6667
+  [Linear-B] Ep  60/120 | Loss: 0.5789 | Acc: 0.6815
+  [Linear-B] Ep  80/120 | Loss: 0.5755 | Acc: 0.6704
+  [Linear-B] Ep 100/120 | Loss: 0.5738 | Acc: 0.6796
+  [Linear-B] Ep 120/120 | Loss: 0.5729 | Acc: 0.6778
+  >> Best Acc: 0.6833 @ ep 59 (0.17s)
+
+--- Baseline: MLP ---
+  [MLP-B] Ep   1/120 | Loss: 0.6948 | Acc: 0.6222
+  [MLP-B] Ep  20/120 | Loss: 0.4363 | Acc: 0.6833
+  [MLP-B] Ep  40/120 | Loss: 0.1641 | Acc: 0.7037
+  [MLP-B] Ep  60/120 | Loss: 0.0263 | Acc: 0.7056
+  [MLP-B] Ep  80/120 | Loss: 0.0049 | Acc: 0.7056
+  [MLP-B] Ep 100/120 | Loss: 0.0019 | Acc: 0.7074
+  [MLP-B] Ep 120/120 | Loss: 0.0012 | Acc: 0.7037
+  >> Best Acc: 0.7185 @ ep 49 (0.81s)
+
+--- SBOHN v1 (single perm, tau cosine) ---
+  [SBOHN-v1-B] Ep   1/120 | Loss: 0.7431 | Acc: 0.5037 | P_max: 0.0166 | tau: 0.9998 | DS_err: 0.000000
+  [SBOHN-v1-B] Ep  20/120 | Loss: 0.6405 | Acc: 0.6074 | P_max: 0.0205 | tau: 0.9364 | DS_err: 0.000000
+  [SBOHN-v1-B] Ep  40/120 | Loss: 0.5932 | Acc: 0.6389 | P_max: 0.0302 | tau: 0.7625 | DS_err: 0.000000
+  [SBOHN-v1-B] Ep  60/120 | Loss: 0.5386 | Acc: 0.6593 | P_max: 0.0607 | tau: 0.5250 | DS_err: 0.000000
+  [SBOHN-v1-B] Ep  80/120 | Loss: 0.4663 | Acc: 0.6815 | P_max: 0.1772 | tau: 0.2875 | DS_err: 0.000000
+  [SBOHN-v1-B] Ep 100/120 | Loss: 0.4096 | Acc: 0.6852 | P_max: 0.6768 | tau: 0.1136 | DS_err: 0.000679
+  [SBOHN-v1-B] Ep 120/120 | Loss: 0.3769 | Acc: 0.6815 | P_max: 0.9107 | tau: 0.0500 | DS_err: 0.019574
+  >> Best Acc: 0.6926 @ ep 89 (1.42s)
+
+--- SBOHN-K3 (3 permutations, tau cosine) ---
+  [SBOHN-K3-B] Ep   1/120 | Loss: 0.7289 | Acc: 0.5074 | P_max: 0.0167 | tau: 0.9998 | DS_err: 0.000000
+  [SBOHN-K3-B] Ep  20/120 | Loss: 0.6265 | Acc: 0.6000 | P_max: 0.0185 | tau: 0.9364 | DS_err: 0.000000
+  [SBOHN-K3-B] Ep  40/120 | Loss: 0.5850 | Acc: 0.6370 | P_max: 0.0227 | tau: 0.7625 | DS_err: 0.000000
+  [SBOHN-K3-B] Ep  60/120 | Loss: 0.5405 | Acc: 0.6444 | P_max: 0.0338 | tau: 0.5250 | DS_err: 0.000000
+  [SBOHN-K3-B] Ep  80/120 | Loss: 0.4680 | Acc: 0.6648 | P_max: 0.0911 | tau: 0.2875 | DS_err: 0.000000
+  [SBOHN-K3-B] Ep 100/120 | Loss: 0.3807 | Acc: 0.6722 | P_max: 0.3622 | tau: 0.1136 | DS_err: 0.000000
+  [SBOHN-K3-B] Ep 120/120 | Loss: 0.3216 | Acc: 0.6907 | P_max: 0.8655 | tau: 0.0500 | DS_err: 0.000216
+  >> Best Acc: 0.7000 @ ep 113 (3.55s)
+
+--- SBOHN Input-Dependent (blind) ---
+  [SBOHN-InpDep-B] Ep   1/120 | Loss: 0.7123 | Acc: 0.5167 | P_max: 0.0158 | DS_err: 0.000000
+  [SBOHN-InpDep-B] Ep  20/120 | Loss: 0.5189 | Acc: 0.6648 | P_max: 0.1157 | DS_err: 0.000000
+  [SBOHN-InpDep-B] Ep  40/120 | Loss: 0.3414 | Acc: 0.6981 | P_max: 0.6156 | DS_err: 0.000016
+  [SBOHN-InpDep-B] Ep  60/120 | Loss: 0.1650 | Acc: 0.7056 | P_max: 0.7270 | DS_err: 0.000487
+  [SBOHN-InpDep-B] Ep  80/120 | Loss: 0.0593 | Acc: 0.7111 | P_max: 0.9313 | DS_err: 0.003947
+  [SBOHN-InpDep-B] Ep 100/120 | Loss: 0.0229 | Acc: 0.7148 | P_max: 0.9619 | DS_err: 0.016816
+  [SBOHN-InpDep-B] Ep 120/120 | Loss: 0.0117 | Acc: 0.7222 | P_max: 0.9877 | DS_err: 0.036537
+  >> Best Acc: 0.7241 @ ep 116 (219.19s)
+
+
+======================================================================
+RESULTS SUMMARY
+======================================================================
+Model                        Task      Best Acc  Epoch    Time
+--------------------------------------------------------------
+Linear                       A(flip)     0.7759     33   0.10s
+MLP                          A(flip)     0.9056     37   0.57s
+SBOHN-v1 tau=1.0             A(flip)     0.8315     80   1.02s
+SBOHN-v1 tau-cos             A(flip)     0.8741     69   1.24s
+SBOHN-K3                     A(flip)     0.8722     69   3.30s
+SBOHN-InpDep                 A(flip)     0.8778     65 162.05s
+Linear-B                     B(blind)    0.6833     59   0.17s
+MLP-B                        B(blind)    0.7185     49   0.81s
+SBOHN-v1-B                   B(blind)    0.6926     89   1.42s
+SBOHN-K3-B                   B(blind)    0.7000    113   3.55s
+SBOHN-InpDep-B               B(blind)    0.7241    116 219.19s
+
+Results saved to /tmp/sbohn_results.json

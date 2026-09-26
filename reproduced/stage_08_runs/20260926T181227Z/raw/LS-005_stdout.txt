@@ -1,0 +1,26 @@
+AUDITED_REPORTED_RESULT
+\subsubsection*{EXP 4: Algebraic subgroup analysis}
+
+We checked whether the learned matrices $P$ correspond to known geometric symmetries (flip, rot90, rot180, rot270) or their subgroups.
+
+\textbf{Distances to known symmetries:}
+\begin{table}[h]
+\centering
+\caption{EXP~4: Frobenius distances of learned $P$ to geometric symmetries.}
+\begin{tabular}{lccc}
+\hline
+ & $P_1$ & $P_2$ & $P_3$ \\
+\hline
+Identity & 10.89 & 10.87 & 10.75 \\
+H-Flip   & 10.81 & 10.80 & 10.61 \\
+\textbf{V-Flip} & \textbf{10.53} & \textbf{10.49} & \textbf{10.39} \\
+Rot90    & 10.69 & 10.68 & 10.55 \\
+Rot180   & 10.73 & 10.70 & 10.59 \\
+Rot270   & 10.89 & 10.87 & 10.75 \\
+\hline
+\end{tabular}
+\end{table}
+
+No power $P^2$ through $P^6$ approached the identity (distances 8.9--10.3). No matrix exhibited the conjugation relation $PJP^\top \approx J$ with any known symmetry.
+
+\textbf{Conclusion:} The model \textbf{does not recover} standard geometric symmetries. The closest is V-Flip (10.39), which is consistent with Task~B containing vflip, but the distance is still enormous. The model learns \textbf{functional} permutations (minimizing loss), not \textbf{geometric} ones (corresponding to physical transformations).

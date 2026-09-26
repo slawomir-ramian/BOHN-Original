@@ -44,17 +44,17 @@ HD-002,5,5.5.7,SBOHN - wpływ liczby próbek przy d=4095,scaling_test,57,58,A.4 
 HD-003,5,5.5.11,SBOHN - wariant proportional-signal,robustness_test,57-58,58-59,Narracja rozdziału 5,NARRATIVE_ONLY,YES,AUDITED_REPORTED_RESULT
 CMP-001,5,5.6.2,SBOHN-AE - PCA-48 vs autoenkoder rekonstrukcyjny,compression_test,58-59,59-60,Narracja rozdziału 5,NARRATIVE_ONLY,YES,AUDITED_REPORTED_RESULT
 CMP-002,5,5.6.3,"SBOHN-SRL - supervised latent k=2,4,8,16 vs PCA",compression_test,59-60,60-61,Narracja rozdziału 5,NARRATIVE_ONLY,YES,AUDITED_REPORTED_RESULT
-LS-001,6,6.2.2-6.2.3,Learnable SBOHN - pięciokrokowy pipeline Task A i Task B,experiment_suite,64-65,65-66,A.5 / Listing A.39,FULL,YES,NOT_RUN
-LS-002,6,6.2.4 EXP 1,SBOHN-K3 - regularyzacja ortogonalności,ablation,65,66,A.5 / Listing A.39,FULL,YES,NOT_RUN
-LS-003,6,6.2.4 EXP 2,Input-Dependent SBOHN - wyżarzanie temperatury i eksplozja NaN,stability_test_negative,65-66,66-67,A.5 / Listing A.39,FULL,YES,NOT_RUN
-LS-004,6,6.2.4 EXP 3,Low-Rank Sinkhorn 784x784 - sweep rangu,scaling_ablation,66,67,A.5 / Listing A.39,FULL,YES,NOT_RUN
-LS-005,6,6.2.4 EXP 4,Analiza algebraiczna wyuczonych macierzy i podgrup,analysis_test_negative,66,67,A.5 / Listing A.39,FULL,YES,NOT_RUN
-LS-006,6,6.2.4 EXP 5,Task C - regresja z czterema ukrytymi symetriami,experiment,66-67,67-68,A.5 / Listing A.39,FULL,YES,NOT_RUN
-LD-001,6,6.3.1,Log-domain vs naive Sinkhorn,stability_test,67-68,68-69,A.5 / Listing A.40,FULL,YES,NOT_RUN
-LD-002,6,6.3.2,Input-Dependent log-domain z wyżarzaniem temperatury,stability_test,68,69,A.5 / Listing A.40,FULL,YES,NOT_RUN
-LD-003,6,6.3.3,Regularyzacja entropii - Global K=3,ablation,68,69,A.5 / Listing A.40,FULL,YES,NOT_RUN
-LD-004,6,6.3.4,Full Stack - InpDep K=2 + LogDomain + Entropy + Ortho,experiment,68-69,69-70,A.5 / Listing A.41,FULL,YES,NOT_RUN
-LD-005,6,6.3.5,Analiza algebraiczna modelu z regularyzacją entropii,analysis_test,69,70,A.5 / Listing A.41,FULL,YES,NOT_RUN
+LS-001,6,6.2.2-6.2.3,Learnable SBOHN - pięciokrokowy pipeline Task A i Task B,experiment_suite,64-65,65-66,A.5 / Listing A.39,FULL_SHARED_LISTING,YES,CLOSE_NUMERIC_MATCH
+LS-002,6,6.2.4 EXP 1,SBOHN-K3 - regularyzacja ortogonalności,ablation,65,66,A.5 / Listing A.39 (shared context; target code absent),SHARED_LISTING_TARGET_CODE_ABSENT,YES,AUDITED_REPORTED_RESULT
+LS-003,6,6.2.4 EXP 2,Input-Dependent SBOHN - wyżarzanie temperatury i eksplozja NaN,stability_test_negative,65-66,66-67,A.5 / Listing A.39 (shared context; target code absent),SHARED_LISTING_TARGET_CODE_ABSENT,YES,AUDITED_REPORTED_RESULT
+LS-004,6,6.2.4 EXP 3,Low-Rank Sinkhorn 784x784 - sweep rangu,scaling_ablation,66,67,A.5 / Listing A.39 (shared context; target code absent),SHARED_LISTING_TARGET_CODE_ABSENT,YES,AUDITED_REPORTED_RESULT
+LS-005,6,6.2.4 EXP 4,Analiza algebraiczna wyuczonych macierzy i podgrup,analysis_test_negative,66,67,A.5 / Listing A.39 (shared context; target code absent),SHARED_LISTING_TARGET_CODE_ABSENT,YES,AUDITED_REPORTED_RESULT
+LS-006,6,6.2.4 EXP 5,Task C - regresja z czterema ukrytymi symetriami,experiment,66-67,67-68,A.5 / Listing A.39 (shared context; target code absent),SHARED_LISTING_TARGET_CODE_ABSENT,YES,AUDITED_REPORTED_RESULT
+LD-001,6,6.3.1,Log-domain vs naive Sinkhorn,stability_test,67-68,68-69,A.5 / Listing A.40,FULL_SHARED_LISTING,YES,CLOSE_NUMERIC_MATCH
+LD-002,6,6.3.2,Input-Dependent log-domain z wyżarzaniem temperatury,stability_test,68,69,A.5 / Listing A.40,FULL_SHARED_LISTING,YES,CLOSE_NUMERIC_MATCH
+LD-003,6,6.3.3,Regularyzacja entropii - Global K=3,ablation,68,69,A.5 / Listing A.40,FULL_SHARED_LISTING,YES,CLOSE_NUMERIC_MATCH
+LD-004,6,6.3.4,Full Stack - InpDep K=2 + LogDomain + Entropy + Ortho,experiment,68-69,69-70,A.5 / Listing A.41,FULL_SHARED_LISTING,YES,CLOSE_NUMERIC_MATCH
+LD-005,6,6.3.5,Analiza algebraiczna modelu z regularyzacją entropii,analysis_test,69,70,A.5 / Listing A.41,FULL_SHARED_LISTING,YES,CLOSE_NUMERIC_MATCH
 FR-001,7,7.1,Fractal Input-Dependent SBOHN - test przełomowy i analiza per-level,experiment,71-73,72-74,Kod w rozdziale 7.1,PARTIAL_IN_CHAPTER,YES,NOT_RUN
 FR-004,7,7.1.4,Fractal SBOHN - osobna analiza per-level modelu InpDep 5L,analysis_test,72-73,73-74,Kod w rozdziale 7.1,PARTIAL_IN_CHAPTER,YES,NOT_RUN
 FR-002,7,7.2,Fractal SBOHN - MNIST,experiment,75-81,76-82,7.2.5-7.2.6,FULL_IN_CHAPTER,YES,NOT_RUN

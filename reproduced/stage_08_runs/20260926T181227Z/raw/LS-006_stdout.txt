@@ -1,0 +1,23 @@
+AUDITED_REPORTED_RESULT
+\subsubsection*{EXP 5: Task C --- Regression with 4 hidden symmetries}
+
+Multi-target regression with a~signal composed of 4 symmetries: h-flip (weight 0.4), rot90 (0.3), rot180 (0.2), v-flip (0.1).
+
+\begin{table}[h]
+\centering
+\caption{EXP~5: Task~C --- regression with 4 hidden symmetries.}
+\begin{tabular}{lcc}
+\hline
+\textbf{Model} & $R^2$ & \textbf{MSE} \\
+\hline
+Linear Baseline   & 0.638 & 0.343 \\
+SBOHN-K2          & 0.724 & 0.261 \\
+SBOHN-K5          & 0.780 & 0.209 \\
+SBOHN-K4          & 0.789 & 0.200 \\
+\textbf{SBOHN-K3} & \textbf{0.794} & \textbf{0.195} \\
+MLP Baseline      & 0.898 & 0.096 \\
+\hline
+\end{tabular}
+\end{table}
+
+SBOHN-K3 is the best among SBOHN variants ($R^2=0.794$). Although the signal contains 4~symmetries, 3 dominate (weights $0.4+0.3+0.2=0.9$), which explains why $K=3$ is optimal. The progression $K=2 \to 3$ (+7pp $R^2$) is much larger than $K=3 \to 4$ (+0pp).

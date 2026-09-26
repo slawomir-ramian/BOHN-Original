@@ -1,0 +1,30 @@
+\subsection{Results --- Task A (known symmetry) and Task B (blind discovery)}
+
+Table~\ref{tab:sbohn_5steps} summarizes the results of all models on both tasks.
+Task~A is binary classification based on asymmetry with respect to a~\emph{known} horizontal flip (8$\times$8, digits dataset).
+Task~B requires \emph{blind discovery} of symmetry --- the label depends on two \emph{unknown} transformations (90° rotation and vertical flip).
+
+\begin{table}[h]
+\centering
+\caption{Results of the 5-step SBOHN pipeline. Task~A: known symmetry (flip), Task~B: blind discovery (rot90 + vflip).}
+\label{tab:sbohn_5steps}
+\begin{tabular}{lcc}
+\hline
+\textbf{Model} & \textbf{Task A (flip)} & \textbf{Task B (blind)} \\
+\hline
+Linear             & 0.776 & 0.683 \\
+MLP                & 0.907 & 0.719 \\
+SBOHN-v1 $\tau$=1.0  & 0.832 & --- \\
+SBOHN-v1 $\tau$-cos   & 0.874 & 0.693 \\
+SBOHN-K3           & 0.872 & 0.700 \\
+\textbf{SBOHN-InpDep} & \textbf{0.878} & \textbf{0.722} \\
+\hline
+\end{tabular}
+\end{table}
+
+Key observations:
+\begin{itemize}
+    \item \textbf{InpDep beats MLP in blind discovery} (0.722 vs 0.719) --- this is the first time a~model based on Sinkhorn permutations outperforms an MLP on a~task requiring discovery of an unknown symmetry.
+    \item \textbf{Annealing $\tau$ improves v1:} fixed $\tau=1.0$ gives 0.832, while cosine annealing raises the score to 0.874 (+4.2pp).
+    \item \textbf{K3 $\approx$ v1 with annealing} (0.872 vs 0.874) --- more permutation channels do not help without input-dependency. The channels learn similar permutations.
+\end{itemize}

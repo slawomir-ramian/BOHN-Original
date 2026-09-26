@@ -1,0 +1,18 @@
+\subsection{Test D --- Full Stack: InpDep K=2 + LogDomain + Entropy + Ortho}
+
+\begin{table}[h]
+\centering
+\caption{Test~D: Full stack InpDep K=2 with log-domain Sinkhorn.}
+\begin{tabular}{lccc}
+\hline
+\textbf{Configuration} & \textbf{Accuracy} & \textbf{Entropy} & $P_{\max}$ \\
+\hline
+\textbf{No reg, annealing} & \textbf{87.6\%} & 0.586 & 0.999 \\
+$\lambda_{\text{ent}}=0.1 + \lambda_{\text{ort}}=0.1$, annealing & 86.1\% & \textbf{0.147} & 1.000 \\
+$\lambda_{\text{ent}}=0.5 + \lambda_{\text{ort}}=0.1$, annealing & 85.2\% & 0.151 & 1.000 \\
+$\lambda_{\text{ent}}=0.1 + \lambda_{\text{ort}}=0.1$, fixed & 85.6\% & 0.187 & 1.000 \\
+\hline
+\end{tabular}
+\end{table}
+
+\textbf{Key discovery:} The entropy of the InpDep model is \textbf{naturally low} (0.586) even without regularization --- compare with the global model (1.637). The hypernet learns to generate sharp permutations on its own; it does not need an additional penalty. Adding entropy regularization reduces it further ($0.586 \to 0.147$), but at the cost of 1.5pp accuracy.

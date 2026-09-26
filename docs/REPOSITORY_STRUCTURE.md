@@ -18,7 +18,7 @@ BOHN-Original/
 │   ├── 04_generalization_so2/
 │   ├── 04_symmetry_discovery/
 │   ├── 05_permutation_and_representation/
-│   ├── 06_learnable_sbohn/
+│   ├── 06_learnable_sinkhorn/
 │   ├── 07_fractal_and_patch/
 │   ├── 08_meta_sbohn/
 │   ├── 09_adaptation_and_continual/
@@ -68,3 +68,9 @@ Pięć jawnych rekonstrukcji rozdziału 5 znajduje się osobno w
 `experiments/05_permutation_and_representation_supplementary/`. Mają sufiks
 `R`, zamrożony protokół `STAGE_07R_V1` i pozostają poza chronologią PDF-a.
 Pełny wynik ma status częściowy: cztery z pięciu kryteriów potwierdzono.
+
+Learnable SBOHN i Log-Domain Sinkhorn z rozdziału 6 znajdują się w
+`experiments/06_learnable_sinkhorn/`. Listing 53 jest zachowany jako wspólny
+kontekst `LS-001`--`LS-006`, ale tylko `LS-001` ma w nim kod docelowego
+eksperymentu. Listingi 54 i 55 są wykonywane jednokrotnie, a wyniki są
+klasyfikowane osobno dla `LD-001`--`LD-005`.

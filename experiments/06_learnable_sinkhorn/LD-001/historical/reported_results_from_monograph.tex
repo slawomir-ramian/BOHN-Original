@@ -1,0 +1,23 @@
+\subsection{Test A --- Log-domain vs naive Sinkhorn}
+
+Comparison of numerical stability on a~static matrix $M \in \mathbb{R}^{64 \times 64}$:
+
+\begin{table}[h]
+\centering
+\caption{Test~A: Numerical stability of log-domain vs naive Sinkhorn.}
+\begin{tabular}{ccccc}
+\hline
+$\tau$ & Naive & Log-Domain & DS Error (Naive) & DS Error (Log) \\
+\hline
+1.0   & \checkmark & \checkmark & 0.0000 & 0.0000 \\
+0.5   & \checkmark & \checkmark & 0.0000 & 0.0000 \\
+0.1   & \checkmark & \checkmark & 0.0001 & 0.0001 \\
+0.05  & \checkmark & \checkmark & 0.0056 & 0.0056 \\
+0.01  & \checkmark & \checkmark & 0.0997 & 0.0994 \\
+0.005 & \checkmark & \checkmark & 0.1737 & 0.1730 \\
+0.001 & \checkmark & \checkmark & 0.3447 & \textbf{0.3001} \\
+\hline
+\end{tabular}
+\end{table}
+
+On static matrices both versions are stable. Log-domain has slightly better DS error at extremely low $\tau=0.001$. The key difference manifests only with \emph{dynamic} log-potentials from the hypernet (Test~B).

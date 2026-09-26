@@ -1,0 +1,21 @@
+AUDITED_REPORTED_RESULT
+\subsubsection*{EXP 2: Input-Dependent with $\tau$ annealing}
+
+We investigated whether temperature annealing improves the InpDep model:
+
+\begin{table}[h]
+\centering
+\caption{EXP~2: InpDep + $\tau$ annealing.}
+\begin{tabular}{lcc}
+\hline
+\textbf{Configuration} & \textbf{Accuracy} & \textbf{Stability} \\
+\hline
+$\boldsymbol{\tau=0.5}$ \textbf{(fixed)} & $\boldsymbol{85.0\%}$ & \checkmark\ Stable \\
+$\tau=0.1$ (fixed) & 83.7\% & \checkmark\ Stable \\
+$\tau$: $1 \to 0.05$ (cosine) & 50.0\% (NaN) & $\times$ Explosion \\
+$\tau$: $1 \to 0.05$ (linear) & 50.0\% (NaN) & $\times$ Explosion \\
+\hline
+\end{tabular}
+\end{table}
+
+\textbf{Aggressive annealing to $\tau=0.05$ causes numerical instability} in the Input-Dependent model. The hypernet generates log-potentials with high variance, and dividing by small $\tau$ causes overflow in $\exp()$. Fixed $\tau=0.5$ is optimal for InpDep. This problem motivates the transition to log-domain Sinkhorn (Section~\ref{sec:logdomain}).

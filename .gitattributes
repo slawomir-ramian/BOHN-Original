@@ -22,3 +22,5 @@ experiments/04_generalization_so2/*/historical/source_fragment_from_monograph.py
 experiments/04_symmetry_discovery/*/historical/source_from_monograph.py whitespace=-trailing-space
 experiments/05_permutation_and_representation/*/historical/source_from_monograph.py whitespace=-trailing-space
 experiments/05_permutation_and_representation/*/historical/source_fragment_*_from_monograph.py whitespace=-trailing-space
+experiments/06_learnable_sinkhorn/*/historical/source_from_monograph.py whitespace=-trailing-space
+experiments/06_learnable_sinkhorn/*/historical/shared_listing_context_from_monograph.py whitespace=-trailing-space

@@ -1,0 +1,21 @@
+AUDITED_REPORTED_RESULT
+\subsubsection*{EXP 1: Orthogonality Regularization}
+
+The goal is to force the $K=3$ Sinkhorn matrices to discover \emph{different} symmetries via the penalty $\sum_{i<j} \|P_i P_j^\top - I\|$.
+
+\begin{table}[h]
+\centering
+\caption{EXP~1: Orthogonality regularization for SBOHN-K3.}
+\begin{tabular}{lccc}
+\hline
+\textbf{Configuration} & \textbf{Accuracy} & \textbf{Mean $\|P_iP_j^\top - I\|$} & \textbf{$P_{\max}$ (avg)} \\
+\hline
+$\lambda=0$ (no penalty) & 84.4\% & 7.59 & 0.930 \\
+$\boldsymbol{\lambda=0.1}$ & $\boldsymbol{85.2\%}$ & $\boldsymbol{6.66}$ & 0.910 \\
+$\lambda=0.5$ & 84.3\% & 5.68 & 0.924 \\
+$\lambda=1.0$ & 83.0\% & 5.75 & 0.947 \\
+\hline
+\end{tabular}
+\end{table}
+
+$\lambda=0.1$ is the \emph{sweet spot} --- better accuracy (85.2\%) than without penalty (84.4\%), with a~moderate increase in matrix diversity (cross-norm dropped from 7.59 to 6.66). Too strong regularization ($\lambda=1.0$) lowers accuracy by 2.2pp.

@@ -1,0 +1,79 @@
+{
+  "A_linear": {
+    "label": "Linear",
+    "best_acc": 0.7759,
+    "best_epoch": 33,
+    "final_loss": 0.4761,
+    "time_s": 0.1
+  },
+  "A_mlp": {
+    "label": "MLP",
+    "best_acc": 0.9056,
+    "best_epoch": 37,
+    "final_loss": 0.0003,
+    "time_s": 0.57
+  },
+  "A_sbohn_v1_fixed": {
+    "label": "SBOHN-v1 tau=1.0",
+    "best_acc": 0.8315,
+    "best_epoch": 80,
+    "final_loss": 0.3534,
+    "time_s": 1.02
+  },
+  "A_sbohn_v1_anneal": {
+    "label": "SBOHN-v1 tau-cos",
+    "best_acc": 0.8741,
+    "best_epoch": 69,
+    "final_loss": 0.242,
+    "time_s": 1.24
+  },
+  "A_sbohn_K3": {
+    "label": "SBOHN-K3",
+    "best_acc": 0.8722,
+    "best_epoch": 69,
+    "final_loss": 0.2494,
+    "time_s": 3.3
+  },
+  "A_sbohn_inpdep": {
+    "label": "SBOHN-InpDep",
+    "best_acc": 0.8778,
+    "best_epoch": 65,
+    "final_loss": 0.01,
+    "time_s": 162.05
+  },
+  "B_linear": {
+    "label": "Linear-B",
+    "best_acc": 0.6833,
+    "best_epoch": 59,
+    "final_loss": 0.5729,
+    "time_s": 0.17
+  },
+  "B_mlp": {
+    "label": "MLP-B",
+    "best_acc": 0.7185,
+    "best_epoch": 49,
+    "final_loss": 0.0012,
+    "time_s": 0.81
+  },
+  "B_sbohn_v1": {
+    "label": "SBOHN-v1-B",
+    "best_acc": 0.6926,
+    "best_epoch": 89,
+    "final_loss": 0.3769,
+    "time_s": 1.42
+  },
+  "B_sbohn_K3": {
+    "label": "SBOHN-K3-B",
+    "best_acc": 0.7,
+    "best_epoch": 113,
+    "final_loss": 0.3216,
+    "time_s": 3.55
+  },
+  "B_sbohn_inpdep": {
+    "label": "SBOHN-InpDep-B",
+    "best_acc": 0.7241,
+    "best_epoch": 116,
+    "final_loss": 0.0117,
+    "time_s": 219.19
+  }
+}

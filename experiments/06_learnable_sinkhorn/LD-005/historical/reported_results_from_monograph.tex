@@ -1,0 +1,39 @@
+\subsection{Test E --- Algebraic analysis of the entropy-regularized model}
+
+Model: K=3, $\lambda_{\text{ent}}=0.5$, $\lambda_{\text{ort}}=0.1$, 100 epochs, accuracy=82.8\%.
+
+\textbf{Structure of learned permutations:}
+
+\begin{table}[h]
+\centering
+\caption{Test~E: Structure of matrices $P$ after entropy regularization.}
+\begin{tabular}{lccc}
+\hline
+ & $P_1$ & $P_2$ & $P_3$ \\
+\hline
+$P_{\max}$ & 1.000 & 1.000 & 1.000 \\
+Entropy & 0.309 & 0.432 & 0.552 \\
+Valid perm (hard) & $\times$ (63/64) & $\times$ (60/64) & $\times$ (60/64) \\
+Closest sym (soft) & v\_flip (10.57) & rot270 (10.26) & rot270 (9.99) \\
+Min $P^n \approx I$ & $P^8$ (10.0) & $P^4$ (10.8) & $P^7$ (10.7) \\
+\hline
+\end{tabular}
+\end{table}
+
+\textbf{Cycle structure (hardened):}
+\begin{itemize}
+    \item $P_1$: $[42, 8, 7, 2, 2, 2, 1]$ --- dominant 42-element cycle.
+    \item $P_2$: $[37, 7, 5, 4, 2, 2, 2, 1, 1, 1, 1, 1]$ --- dominant cycle of 37.
+    \item $P_3$: $[20, 13, 10, 7, 5, 2, 2, 1, 1, 1, 1, 1]$ --- more dispersed structure.
+\end{itemize}
+
+No power $P^n$ approaches the identity (min.\ distance $\sim$10). Cycles of 42, 37, 20~elements are huge, complex permutations --- no closed subgroups.
+
+\textbf{Pairwise products $P_iP_j^\top$:}
+\begin{itemize}
+    \item $P_1 P_2^\top$: closest = identity (dist 8.6)
+    \item $P_1 P_3^\top$: closest = identity (dist 9.8)
+    \item $P_2 P_3^\top$: closest = identity (dist 9.1)
+\end{itemize}
+
+The matrices are closer \emph{to each other} than to any pure symmetry --- ortho regularization did not fully separate them.

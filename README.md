@@ -81,10 +81,19 @@ wygranej w każdym seedzie przy `d=1023` i `d=4095`; status całego biegu to
 `PARTIAL_SUPPLEMENTARY_CONFIRMATION`. Szczegóły:
 `docs/STAGE_07R_FULL_ANALYSIS.md`.
 
+Etap 08 zakończony - wykonano pozycje 46--56 rozdziału 6: Learnable SBOHN
+i Log-Domain Sinkhorn. `LS-001` oraz `LD-001`--`LD-005` uzyskały
+`CLOSE_NUMERIC_MATCH`; największa różnica wobec tabeli wyniosła `0.00226`.
+Wspólny listing 53 wykonuje pipeline `LS-001`, ale nie zawiera kodu
+zaawansowanych eksperymentów `LS-002`--`LS-006`. Te pięć pozycji zachowano
+uczciwie jako `AUDITED_REPORTED_RESULT`, bez udawania lokalnej reprodukcji.
+Szczegóły: `docs/STAGE_08_LOCAL_ANALYSIS.md`.
+
 Kolejność źródłowa jest zapisana niezależnie od numeracji ID w
-`inventory/source_chronology.csv`. Etap 06 zajmuje pozycje 29--33, a Etap 07
-pozycje 34--45, dokładnie tak jak w PDF-ie. Po Etapach 03--07 przygotowano
-45 ze 115 jednostek; 70 pozostaje do odtworzenia. Eksperymenty z sufiksem `R`
+`inventory/source_chronology.csv`. Etap 06 zajmuje pozycje 29--33, Etap 07
+pozycje 34--45, a Etap 08 pozycje 46--56, dokładnie tak jak w PDF-ie.
+Po Etapach 03--08 przygotowano 56 ze 115 jednostek; 59 pozostaje do
+odtworzenia. Eksperymenty z sufiksem `R`
 nie zwiększają tej liczby, ponieważ należą do osobnego rejestru uzupełniającego.
 
 Audyt obejmuje 94 numerowane tabele, 44 podpisane listingi PDF, 74 środowiska
@@ -142,6 +151,16 @@ Pełna instrukcja: `INSTALL_STAGE_06.md`.
 ```
 
 Instrukcje: `INSTALL_STAGE_07.md` oraz `INSTALL_STAGE_07R.md`.
+
+## Uruchomienie Etapu 08
+
+```powershell
+.\SETUP_STAGE_08.ps1
+.\RUN_STAGE_08_SMOKE.ps1
+.\RUN_STAGE_08_FULL.ps1
+```
+
+Pełna instrukcja: `INSTALL_STAGE_08.md`.
 
 ## Źródło kanoniczne
 

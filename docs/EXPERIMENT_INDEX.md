@@ -1,7 +1,7 @@
 # Indeks eksperymentów, testów i programów
 
 Rejestr obejmuje **115 jednostek** wykrytych w monografii.
-Po zakończonych etapach wykonano **45 jednostek**; **70** pozostaje `NOT_RUN`.
+Po zakończonych etapach wykonano **56 jednostek**; **59** pozostaje `NOT_RUN`.
 
 Kolumna `Kod` opisuje poziom materiału dostępnego w PDF. `NARRATIVE_ONLY` nie
 oznacza pominięcia - przeciwnie, wskazuje jednostkę wymagającą ostrożnej rekonstrukcji
@@ -76,17 +76,17 @@ z opisu i tabel, bez udawania, że pełny kod został opublikowany.
 
 | ID | Sekcja | Jednostka | Typ | Strony drukowane / PDF | Kod | Reprodukcja |
 |---|---|---|---|---|---|---|
-| `LS-001` | 6.2.2-6.2.3 | Learnable SBOHN - pięciokrokowy pipeline Task A i Task B | experiment_suite | 64-65 / 65-66 | `FULL` | `NOT_RUN` |
-| `LS-002` | 6.2.4 EXP 1 | SBOHN-K3 - regularyzacja ortogonalności | ablation | 65 / 66 | `FULL` | `NOT_RUN` |
-| `LS-003` | 6.2.4 EXP 2 | Input-Dependent SBOHN - wyżarzanie temperatury i eksplozja NaN | stability_test_negative | 65-66 / 66-67 | `FULL` | `NOT_RUN` |
-| `LS-004` | 6.2.4 EXP 3 | Low-Rank Sinkhorn 784x784 - sweep rangu | scaling_ablation | 66 / 67 | `FULL` | `NOT_RUN` |
-| `LS-005` | 6.2.4 EXP 4 | Analiza algebraiczna wyuczonych macierzy i podgrup | analysis_test_negative | 66 / 67 | `FULL` | `NOT_RUN` |
-| `LS-006` | 6.2.4 EXP 5 | Task C - regresja z czterema ukrytymi symetriami | experiment | 66-67 / 67-68 | `FULL` | `NOT_RUN` |
-| `LD-001` | 6.3.1 | Log-domain vs naive Sinkhorn | stability_test | 67-68 / 68-69 | `FULL` | `NOT_RUN` |
-| `LD-002` | 6.3.2 | Input-Dependent log-domain z wyżarzaniem temperatury | stability_test | 68 / 69 | `FULL` | `NOT_RUN` |
-| `LD-003` | 6.3.3 | Regularyzacja entropii - Global K=3 | ablation | 68 / 69 | `FULL` | `NOT_RUN` |
-| `LD-004` | 6.3.4 | Full Stack - InpDep K=2 + LogDomain + Entropy + Ortho | experiment | 68-69 / 69-70 | `FULL` | `NOT_RUN` |
-| `LD-005` | 6.3.5 | Analiza algebraiczna modelu z regularyzacją entropii | analysis_test | 69 / 70 | `FULL` | `NOT_RUN` |
+| `LS-001` | 6.2.2-6.2.3 | Learnable SBOHN - pięciokrokowy pipeline Task A i Task B | experiment_suite | 64-65 / 65-66 | `FULL_SHARED_LISTING` | `CLOSE_NUMERIC_MATCH` |
+| `LS-002` | 6.2.4 EXP 1 | SBOHN-K3 - regularyzacja ortogonalności | ablation | 65 / 66 | `SHARED_LISTING_TARGET_CODE_ABSENT` | `AUDITED_REPORTED_RESULT` |
+| `LS-003` | 6.2.4 EXP 2 | Input-Dependent SBOHN - wyżarzanie temperatury i eksplozja NaN | stability_test_negative | 65-66 / 66-67 | `SHARED_LISTING_TARGET_CODE_ABSENT` | `AUDITED_REPORTED_RESULT` |
+| `LS-004` | 6.2.4 EXP 3 | Low-Rank Sinkhorn 784x784 - sweep rangu | scaling_ablation | 66 / 67 | `SHARED_LISTING_TARGET_CODE_ABSENT` | `AUDITED_REPORTED_RESULT` |
+| `LS-005` | 6.2.4 EXP 4 | Analiza algebraiczna wyuczonych macierzy i podgrup | analysis_test_negative | 66 / 67 | `SHARED_LISTING_TARGET_CODE_ABSENT` | `AUDITED_REPORTED_RESULT` |
+| `LS-006` | 6.2.4 EXP 5 | Task C - regresja z czterema ukrytymi symetriami | experiment | 66-67 / 67-68 | `SHARED_LISTING_TARGET_CODE_ABSENT` | `AUDITED_REPORTED_RESULT` |
+| `LD-001` | 6.3.1 | Log-domain vs naive Sinkhorn | stability_test | 67-68 / 68-69 | `FULL_SHARED_LISTING` | `CLOSE_NUMERIC_MATCH` |
+| `LD-002` | 6.3.2 | Input-Dependent log-domain z wyżarzaniem temperatury | stability_test | 68 / 69 | `FULL_SHARED_LISTING` | `CLOSE_NUMERIC_MATCH` |
+| `LD-003` | 6.3.3 | Regularyzacja entropii - Global K=3 | ablation | 68 / 69 | `FULL_SHARED_LISTING` | `CLOSE_NUMERIC_MATCH` |
+| `LD-004` | 6.3.4 | Full Stack - InpDep K=2 + LogDomain + Entropy + Ortho | experiment | 68-69 / 69-70 | `FULL_SHARED_LISTING` | `CLOSE_NUMERIC_MATCH` |
+| `LD-005` | 6.3.5 | Analiza algebraiczna modelu z regularyzacją entropii | analysis_test | 69 / 70 | `FULL_SHARED_LISTING` | `CLOSE_NUMERIC_MATCH` |
 
 ## Rozdział 7: Architektura fraktalna i Permutation Transformer
 
