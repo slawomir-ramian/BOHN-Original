@@ -1,0 +1,12 @@
+{
+  "protocol_id": "STAGE_07R_V1",
+  "frozen_after_pilot": true,
+  "pilot_status": "5_OF_5_STRUCTURAL_PILOT_PASS",
+  "confirmation_status": "AWAITING_FULL_RUN",
+  "files": {
+    "src/bohn_original/stage07_supplementary.py": "3fba108a31b7cddbea0bb51dc526c59d47b098664e27d4e6f4b6000a752777e8",
+    "tools/run_stage_07r_unit.py": "cb218868a871a3558005ad53dadbe430af71ef6c281b2ce5fd1fbea09471475c",
+    "tools/run_stage_07r.py": "c43286587c90ac40804d594600d3c6366c9932c61fff8979e4904d4f9849ec29",
+    "experiments/05_permutation_and_representation_supplementary/STAGE_07R_PROTOCOL.json": "04a4b93ea718397fe2b86990d43de1127275aa545a18bacee8972396f3512a3f"
+  }
+}

@@ -1,0 +1,37 @@
+\subsubsection{Results}
+
+The following results were obtained:
+
+\begin{center}
+\begin{tabular}{lr}
+\toprule
+Model & Accuracy \\
+\midrule
+Baseline $x$ & 0.7537 \\
+True flip & 0.8833 \\
+True rotate180 & 0.9167 \\
+Random mean & 0.7827 \\
+Random best & 0.8611 \\
+Best evolved & 0.9537 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Gains:
+\[
+0.9537-0.7537=0.2000,
+\]
+\[
+0.9537-0.7827=0.1710,
+\]
+\[
+0.9537-0.8611=0.0926.
+\]
+
+Similarity of the best permutation to the true symmetries was:
+\[
+\operatorname{sim}(P_{\mathrm{evolved}},P_{\mathrm{flip}})=0.0469,
+\]
+\[
+\operatorname{sim}(P_{\mathrm{evolved}},P_{\mathrm{rot}})=0.0469.
+\]

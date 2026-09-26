@@ -27,23 +27,23 @@ SO-004,4,4.2.4,SO(2) - współczynniki Fouriera rozróżniają orientację,numer
 SO-005,4,4.2.6,SO(2)-SBOHN - klasyfikacja w R4,experiment,32-33,33-34,A.3 / Listings A.35-A.36,FULL,YES,PARTIAL_RECONSTRUCTION
 SO-006,4,4.2.6,SO(2)-SBOHN - klasyfikacja w R8,experiment,32-33,33-34,A.3 / Listings A.35-A.37,FULL,YES,PARTIAL_RECONSTRUCTION
 SO-007,4,4.2.6,SO(2)-SBOHN - test inwariantności reprezentacji,test,32-33,33-34,A.3 / Listing A.38,PARTIAL,YES,CLOSE_MATCH
-SD-001,4,4.3.2,Symmetry Discovery 1 - symetria przesunięcia na digits,discovery_test,34-35,35-36,A.3,FULL_UNCAPTIONED,YES,NOT_RUN
-SD-002,4,4.3.3,Symmetry Discovery 2 - kontrola negatywna z losowymi etykietami,negative_control,35-36,36-37,A.3,FULL_UNCAPTIONED,YES,NOT_RUN
-SD-003,4,4.3.4,Symmetry Discovery 3 - ukryta symetria odbicia poziomego,discovery_test,36-38,37-39,A.3,FULL_UNCAPTIONED,YES,NOT_RUN
-SD-004,4,4.3.5,Symmetry Discovery 4 - ukryta symetria obrotu o 180 stopni,discovery_test,38-39,39-40,A.3,FULL_UNCAPTIONED,YES,NOT_RUN
-ASD-001,4,4.4,Autonomous Symmetry Discovery - selekcja kandydatów,discovery_test,40-41,41-42,A.3,FULL_UNCAPTIONED,YES,NOT_RUN
-PL-001,5,5.1,SBOHN-PL - ewolucyjne uczenie permutacji rotate180,experiment,43-47,44-48,A.4,FULL_UNCAPTIONED,YES,NOT_RUN
-PL-002,5,5.2.1,SBOHN-PL2 - uczenie dwóch permutacji jednocześnie,experiment,47-48,48-49,Narracja rozdziału 5,NARRATIVE_ONLY,YES,NOT_RUN
-PL-003,5,5.2.2,SBOHN-K - skalowanie liczby permutacji,scaling_test,48-49,49-50,Narracja rozdziału 5,NARRATIVE_ONLY,YES,NOT_RUN
-AR-001,5,5.3.2,SBOHN-AR v1 - ewolucyjne generowanie jednej transformacji,experiment,49-50,50-51,A.4,FULL_UNCAPTIONED,YES,NOT_RUN
-AR-002,5,5.3.3,SBOHN-AR v2 - Generate-Represent-Select,experiment,50-52,51-53,A.4,FULL_UNCAPTIONED,YES,NOT_RUN
-AR-003,5,5.4.1,SBOHN-AR - test korelacji reprezentacji,analysis_test,52-53,53-54,A.4,FULL_UNCAPTIONED,YES,NOT_RUN
-AR-004,5,5.4.2,SBOHN-AR - reprezentacyjne klasy równoważności,analysis_test,53-55,54-56,A.4,FULL_UNCAPTIONED,YES,NOT_RUN
-HD-001,5,5.5.5,SBOHN - skalowanie względem wymiaru d=63..4095,scaling_test,56,57,A.4 p.227 / PDF p.228,FULL_UNCAPTIONED,YES,NOT_RUN
-HD-002,5,5.5.7,SBOHN - wpływ liczby próbek przy d=4095,scaling_test,57,58,A.4 p.227 / PDF p.228,FULL_UNCAPTIONED,YES,NOT_RUN
-HD-003,5,5.5.11,SBOHN - wariant proportional-signal,robustness_test,57-58,58-59,Narracja rozdziału 5,NARRATIVE_ONLY,YES,NOT_RUN
-CMP-001,5,5.6.2,SBOHN-AE - PCA-48 vs autoenkoder rekonstrukcyjny,compression_test,58-59,59-60,Narracja rozdziału 5,NARRATIVE_ONLY,YES,NOT_RUN
-CMP-002,5,5.6.3,"SBOHN-SRL - supervised latent k=2,4,8,16 vs PCA",compression_test,59-60,60-61,Narracja rozdziału 5,NARRATIVE_ONLY,YES,NOT_RUN
+SD-001,4,4.3.2,Symmetry Discovery 1 - symetria przesunięcia na digits,discovery_test,34-35,35-36,A.3,FULL_UNCAPTIONED,YES,CLOSE_NUMERIC_MATCH
+SD-002,4,4.3.3,Symmetry Discovery 2 - kontrola negatywna z losowymi etykietami,negative_control,35-36,36-37,A.3,FULL_UNCAPTIONED,YES,CLOSE_NUMERIC_MATCH
+SD-003,4,4.3.4,Symmetry Discovery 3 - ukryta symetria odbicia poziomego,discovery_test,36-38,37-39,A.3,FULL_UNCAPTIONED,YES,CLOSE_NUMERIC_MATCH
+SD-004,4,4.3.5,Symmetry Discovery 4 - ukryta symetria obrotu o 180 stopni,discovery_test,38-39,39-40,A.3,FULL_UNCAPTIONED,YES,CLOSE_NUMERIC_MATCH
+ASD-001,4,4.4,Autonomous Symmetry Discovery - selekcja kandydatów,discovery_test,40-41,41-42,A.3,FULL_UNCAPTIONED,YES,PRIMARY_MATCH_SECONDARY_CODE_TABLE_MISMATCH
+PL-001,5,5.1,SBOHN-PL - ewolucyjne uczenie permutacji rotate180,experiment,43-47,44-48,A.4,FULL_UNCAPTIONED,YES,CLOSE_NUMERIC_MATCH
+PL-002,5,5.2.1,SBOHN-PL2 - uczenie dwóch permutacji jednocześnie,experiment,47-48,48-49,Narracja rozdziału 5,NARRATIVE_ONLY,YES,AUDITED_REPORTED_RESULT
+PL-003,5,5.2.2,SBOHN-K - skalowanie liczby permutacji,scaling_test,48-49,49-50,Narracja rozdziału 5,NARRATIVE_ONLY,YES,AUDITED_REPORTED_RESULT
+AR-001,5,5.3.2,SBOHN-AR v1 - ewolucyjne generowanie jednej transformacji,experiment,49-50,50-51,A.4,FULL_UNCAPTIONED,YES,CLOSE_NUMERIC_MATCH
+AR-002,5,5.3.3,SBOHN-AR v2 - Generate-Represent-Select,experiment,50-52,51-53,A.4,FULL_UNCAPTIONED,YES,CONCLUSION_MATCH
+AR-003,5,5.4.1,SBOHN-AR - test korelacji reprezentacji,analysis_test,52-53,53-54,A.4,FULL_UNCAPTIONED,YES,CLOSE_NUMERIC_MATCH
+AR-004,5,5.4.2,SBOHN-AR - reprezentacyjne klasy równoważności,analysis_test,53-55,54-56,A.4,FULL_UNCAPTIONED,YES,CLOSE_NUMERIC_MATCH
+HD-001,5,5.5.5,SBOHN - skalowanie względem wymiaru d=63..4095,scaling_test,56,57,A.4 p.227 / PDF p.228,FULL_UNCAPTIONED,YES,CONCLUSION_MATCH
+HD-002,5,5.5.7,SBOHN - wpływ liczby próbek przy d=4095,scaling_test,57,58,A.4 p.227 / PDF p.228,FULL_UNCAPTIONED,YES,CONCLUSION_MATCH
+HD-003,5,5.5.11,SBOHN - wariant proportional-signal,robustness_test,57-58,58-59,Narracja rozdziału 5,NARRATIVE_ONLY,YES,AUDITED_REPORTED_RESULT
+CMP-001,5,5.6.2,SBOHN-AE - PCA-48 vs autoenkoder rekonstrukcyjny,compression_test,58-59,59-60,Narracja rozdziału 5,NARRATIVE_ONLY,YES,AUDITED_REPORTED_RESULT
+CMP-002,5,5.6.3,"SBOHN-SRL - supervised latent k=2,4,8,16 vs PCA",compression_test,59-60,60-61,Narracja rozdziału 5,NARRATIVE_ONLY,YES,AUDITED_REPORTED_RESULT
 LS-001,6,6.2.2-6.2.3,Learnable SBOHN - pięciokrokowy pipeline Task A i Task B,experiment_suite,64-65,65-66,A.5 / Listing A.39,FULL,YES,NOT_RUN
 LS-002,6,6.2.4 EXP 1,SBOHN-K3 - regularyzacja ortogonalności,ablation,65,66,A.5 / Listing A.39,FULL,YES,NOT_RUN
 LS-003,6,6.2.4 EXP 2,Input-Dependent SBOHN - wyżarzanie temperatury i eksplozja NaN,stability_test_negative,65-66,66-67,A.5 / Listing A.39,FULL,YES,NOT_RUN

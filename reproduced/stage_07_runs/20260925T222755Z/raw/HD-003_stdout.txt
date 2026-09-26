@@ -1,0 +1,19 @@
+AUDITED_REPORTED_RESULT
+\subsection{Proportional-signal variant}
+
+To verify whether the observed effects do not depend on the specific signal distribution, the dimension scaling experiment was repeated in the \emph{proportional-signal} variant, in which the signal amplitude is scaled proportionally to the dimension. Results:
+
+\begin{center}
+\begin{tabular}{rccc}
+\toprule
+$d$ & Baseline & SBOHN & Gain \\
+\midrule
+63 & 0.544 & 0.802 & $+0.258$ \\
+255 & 0.532 & 0.760 & $+0.228$ \\
+1023 & 0.507 & 0.668 & $+0.161$ \\
+4095 & 0.519 & 0.581 & $+0.062$ \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+The proportional-signal variant yields lower absolute values than the standard variant (e.g.,~$d=63$: $0.802$ vs~$0.963$), which is due to the more challenging signal regime. However, \textbf{the pattern is identical}: SBOHN dominates for every dimension, and the gain decreases monotonically with~$d$, confirming the role of the ratio $n/\dim\Phi$ as the key variable.

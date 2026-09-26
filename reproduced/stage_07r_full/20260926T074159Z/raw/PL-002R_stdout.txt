@@ -1,0 +1,27 @@
+PL-002R generation 1/25 best=0.8741
+PL-002R generation 2/25 best=0.8889
+PL-002R generation 3/25 best=0.8889
+PL-002R generation 4/25 best=0.8926
+PL-002R generation 5/25 best=0.9148
+PL-002R generation 6/25 best=0.9167
+PL-002R generation 7/25 best=0.9185
+PL-002R generation 8/25 best=0.9204
+PL-002R generation 9/25 best=0.9259
+PL-002R generation 10/25 best=0.9259
+PL-002R generation 11/25 best=0.9259
+PL-002R generation 12/25 best=0.9259
+PL-002R generation 13/25 best=0.9259
+PL-002R generation 14/25 best=0.9259
+PL-002R generation 15/25 best=0.9333
+PL-002R generation 16/25 best=0.9389
+PL-002R generation 17/25 best=0.9389
+PL-002R generation 18/25 best=0.9389
+PL-002R generation 19/25 best=0.9389
+PL-002R generation 20/25 best=0.9389
+PL-002R generation 21/25 best=0.9407
+PL-002R generation 22/25 best=0.9426
+PL-002R generation 23/25 best=0.9426
+PL-002R generation 24/25 best=0.9444
+PL-002R generation 25/25 best=0.9463
+PL-002R: STRUCTURAL_RECONSTRUCTION_CONFIRMED
+RESULT_JSON={"convergence_warning_count": 0, "experiment_id": "PL-002R", "history": [{"best": 0.8740740740740741, "generation": 0, "mean": 0.8146296296296296}, {"best": 0.8888888888888888, "generation": 1, "mean": 0.8378703703703703}, {"best": 0.8888888888888888, "generation": 2, "mean": 0.8505092592592594}, {"best": 0.8925925925925926, "generation": 3, "mean": 0.8628703703703703}, {"best": 0.9148148148148149, "generation": 4, "mean": 0.8627314814814815}, {"best": 0.9166666666666666, "generation": 5, "mean": 0.868287037037037}, {"best": 0.9185185185185185, "generation": 6, "mean": 0.8829166666666666}, {"best": 0.9203703703703704, "generation": 7, "mean": 0.8940277777777776}, {"best": 0.9259259259259259, "generation": 8, "mean": 0.8973148148148148}, {"best": 0.9259259259259259, "generation": 9, "mean": 0.8928703703703704}, {"best": 0.9259259259259259, "generation": 10, "mean": 0.8943055555555552}, {"best": 0.9259259259259259, "generation": 11, "mean": 0.9003703703703703}, {"best": 0.9259259259259259, "generation": 12, "mean": 0.8974537037037038}, {"best": 0.9259259259259259, "generation": 13, "mean": 0.893611111111111}, {"best": 0.9333333333333333, "generation": 14, "mean": 0.9}, {"best": 0.9388888888888889, "generation": 15, "mean": 0.900324074074074}, {"best": 0.9388888888888889, "generation": 16, "mean": 0.9025925925925927}, {"best": 0.9388888888888889, "generation": 17, "mean": 0.9075}, {"best": 0.9388888888888889, "generation": 18, "mean": 0.9049074074074074}, {"best": 0.9388888888888889, "generation": 19, "mean": 0.9084259259259259}, {"best": 0.9407407407407408, "generation": 20, "mean": 0.9143518518518519}, {"best": 0.9425925925925925, "generation": 21, "mean": 0.913287037037037}, {"best": 0.9425925925925925, "generation": 22, "mean": 0.9087037037037037}, {"best": 0.9444444444444444, "generation": 23, "mean": 0.913101851851852}, {"best": 0.9462962962962963, "generation": 24, "mean": 0.9141666666666666}], "metrics": {"baseline": 0.7537037037037037, "evolved_best_pair": 0.9462962962962963, "gain_over_baseline": 0.19259259259259265, "gain_over_initial": 0.07222222222222219, "initial_random_best_pair": 0.8740740740740741, "true_flip": 0.8833333333333333, "true_pair": 0.9722222222222222, "true_rot180": 0.9166666666666666}, "mode": "full", "primary_criterion_pass": true, "protocol_id": "STAGE_07R_V1", "status": "STRUCTURAL_RECONSTRUCTION_CONFIRMED", "warnings": []}

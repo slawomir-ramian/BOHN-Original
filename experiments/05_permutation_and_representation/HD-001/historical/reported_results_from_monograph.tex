@@ -1,0 +1,19 @@
+\subsection{Scaling with respect to dimension}
+
+An experiment was conducted for $d \in \{63, 255, 1023, 4095\}$ with a fixed number of samples $n=2000$.
+
+\begin{table}[H]
+\centering
+\caption{Scaling of SBOHN with respect to dimension ($n=2000$, 10~seeds)}
+\label{tab:scale_d}
+\begin{tabular}{rrrrl}
+\toprule
+$d$ & Baseline & SBOHN & Gain & Wins \\
+\midrule
+63    & 0.7412 & 0.9630 & 0.222 & 10/10 \\
+255   & 0.7408 & 0.9002 & 0.159 & 10/10 \\
+1\,023  & 0.6472 & 0.7748 & 0.128 & 10/10 \\
+4\,095  & 0.5467 & 0.6565 & 0.110 & 10/10 \\
+\bottomrule
+\end{tabular}
+\end{table}

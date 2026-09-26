@@ -1,0 +1,50 @@
+\subsection{SBOHN-SRL: Supervised Representation Learning}
+
+\subsubsection{Experiment description}
+
+Instead of unsupervised compression (PCA, AE), a bottleneck architecture trained end-to-end with the classification task was used:
+\[
+A(x) \;\xrightarrow{\text{32}}\; z \in \mathbb{R}^k \;\xrightarrow{\text{32}}\; \hat{y},
+\]
+where $A(x)$ is the full SBOHN representation, $z$~is the low-dimensional latent, and~$k\in\{2,4,8,16\}$.
+
+\subsubsection{Results --- multi-seed benchmark (10~seeds)}
+
+\begin{center}
+\begin{tabular}{lc}
+\toprule
+Model & Accuracy \\
+\midrule
+Baseline (raw $x$) & 0.775 \\
+PCA-16 & 0.839 \\
+SRL-2 & \textbf{0.897} \\
+SRL-4 & 0.893 \\
+SRL-8 & 0.892 \\
+SRL-16 & 0.890 \\
+SBOHN-AR (full) & 0.925 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Additionally, comparison of SRL vs PCA for each $k$:
+\begin{itemize}
+\item SRL-2 $>$ PCA-2 in 10/10 seeds,
+\item SRL-4 $>$ PCA-4 in 10/10 seeds,
+\item SRL-8 $>$ PCA-8 in 10/10 seeds,
+\item SRL-16 $>$ PCA-16 in 10/10 seeds.
+\end{itemize}
+
+\subsubsection{Analysis}
+
+\begin{enumerate}
+\item \textbf{A low-dimensional latent is sufficient.} SRL-2 ($k=2$) achieves~$0.897$ --- that is $97\%$ of the effectiveness of the full SBOHN-AR ($0.925$). Predictive information can be compressed to just two dimensions.
+
+\item \textbf{SRL dominates PCA for every $k$.} Supervised compression consistently wins over unsupervised, confirming that the directions of maximum variance do not coincide with the directions of maximum task-relevant information.
+
+\item \textbf{SRL plateau.} Accuracy is nearly constant for $k=2,4,8,16$ ($0.890$--$0.897$), suggesting that the intrinsic dimensionality of predictive information in SBOHN is approximately $2$--$4$.
+
+\item \textbf{Gap to full SBOHN-AR.} The difference $0.925 - 0.897 = 0.028$ indicates that a small fraction of information is spread across more than 16~directions, but the main signal is low-dimensional.
+\end{enumerate}
+
+\[
+\boxed{\text{SBOHN possesses a low-dimensional predictive latent: 2--4 dimensions suffice.}}

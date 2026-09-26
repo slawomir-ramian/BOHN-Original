@@ -1,0 +1,29 @@
+{
+  "experiment_id": "AR-001",
+  "source_sequence_in_stage": 4,
+  "source_order_in_monograph": 37,
+  "canonical_source": "docs/source/BOHN_PL.pdf",
+  "extraction_source": "docs/source/BOHN_EN_SOURCE.tex",
+  "source_code_level": "FULL_UNCAPTIONED",
+  "execution_mode": "HISTORICAL_SOURCE",
+  "listing_indices": [
+    47
+  ],
+  "historical_source_files": [
+    "source_from_monograph.py"
+  ],
+  "historical_source_sha256": [
+    "06ac86d3f6ab1a4c673d9762180f7324aac198114a269dc610a91feeaa02f753"
+  ],
+  "historical_source_line_ranges": [
+    [
+      11704,
+      12009
+    ]
+  ],
+  "reported_result_file": "reported_results_from_monograph.tex",
+  "reported_result_start_line": 2497,
+  "reported_result_end_line": 2533,
+  "reported_result_sha256": "d858ca266ef80c04ee1d6913eb09db0ed226e953ff60c04c4f06209569c3767a",
+  "historical_code_modified": false
+}

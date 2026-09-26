@@ -1,0 +1,36 @@
+{
+  "experiment_id": "HD-002",
+  "source_sequence_in_stage": 9,
+  "source_order_in_monograph": 42,
+  "canonical_source": "docs/source/BOHN_PL.pdf",
+  "extraction_source": "docs/source/BOHN_EN_SOURCE.tex",
+  "source_code_level": "FULL_UNCAPTIONED",
+  "execution_mode": "HISTORICAL_SOURCE",
+  "listing_indices": [
+    51,
+    52
+  ],
+  "historical_source_files": [
+    "source_fragment_1_from_monograph.py",
+    "source_fragment_2_from_monograph.py"
+  ],
+  "historical_source_sha256": [
+    "4da22b86096f97e2674f96e8e2709fcf9f5b961531c6ac15318a221a9e41e8c9",
+    "7e47b0d07f6bc907c11d758a971bfbe33bed7574d1c17bcc9f899723d6d4dac5"
+  ],
+  "historical_source_line_ranges": [
+    [
+      13108,
+      13116
+    ],
+    [
+      13119,
+      13189
+    ]
+  ],
+  "reported_result_file": "reported_results_from_monograph.tex",
+  "reported_result_start_line": 2993,
+  "reported_result_end_line": 3010,
+  "reported_result_sha256": "2331b1d443ee12d227876dac71bf227fe0850731391651327ecf87286f78c111",
+  "historical_code_modified": false
+}

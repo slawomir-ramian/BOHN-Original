@@ -1,0 +1,23 @@
+AUDITED_REPORTED_RESULT
+\subsubsection{Results}
+
+\begin{center}
+\begin{tabular}{lr}
+\toprule
+Model & Accuracy \\
+\midrule
+Baseline $x$ & 0.7537 \\
+True flip only & 0.8796 \\
+True rot180 only & 0.9130 \\
+True pair (flip+rot180) & 0.9648 \\
+Best evolved pair & 0.9259 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Gain of the evolved pair over baseline:
+\[
+\Delta_{\text{PL2}} = 0.9259 - 0.7537 = +0.1722.
+\]
+
+The gap to the true pair is $0.9648-0.9259=0.039$.

@@ -1,0 +1,15 @@
+{
+  "experiment_id": "CMP-001R",
+  "metrics": {
+    "pca_accuracy": 0.9629629629629629,
+    "autoencoder_accuracy": 0.8111111111111111,
+    "pca_minus_autoencoder": 0.1518518518518518,
+    "autoencoder_iterations": 18
+  },
+  "primary_criterion_pass": true,
+  "status": "STRUCTURAL_RECONSTRUCTION_CONFIRMED",
+  "mode": "full",
+  "protocol_id": "STAGE_07R_V1",
+  "warnings": [],
+  "convergence_warning_count": 0
+}

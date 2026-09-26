@@ -1,0 +1,128 @@
+======================================
+SBOHN-AR REPRESENTATION CORRELATION TEST
+======================================
+
+Baseline x accuracy:  0.7537
+True flip accuracy:   0.8833
+True rot accuracy:    0.9167
+
+Evolving best permutation...
+
+gen=00 best_acc=0.8611 sim_flip=0.0312 sim_rot=0.0781 mean_acc=0.7826
+gen=01 best_acc=0.8685 sim_flip=0.0000 sim_rot=0.0469 mean_acc=0.8110
+gen=02 best_acc=0.8889 sim_flip=0.0000 sim_rot=0.0625 mean_acc=0.8351
+gen=03 best_acc=0.8944 sim_flip=0.0000 sim_rot=0.0625 mean_acc=0.8554
+gen=04 best_acc=0.9093 sim_flip=0.0000 sim_rot=0.0625 mean_acc=0.8631
+gen=05 best_acc=0.9093 sim_flip=0.0000 sim_rot=0.0625 mean_acc=0.8700
+gen=06 best_acc=0.9130 sim_flip=0.0312 sim_rot=0.0625 mean_acc=0.8704
+gen=07 best_acc=0.9222 sim_flip=0.0312 sim_rot=0.0625 mean_acc=0.8751
+gen=08 best_acc=0.9259 sim_flip=0.0000 sim_rot=0.0469 mean_acc=0.8835
+gen=09 best_acc=0.9278 sim_flip=0.0312 sim_rot=0.0312 mean_acc=0.8778
+gen=10 best_acc=0.9278 sim_flip=0.0312 sim_rot=0.0312 mean_acc=0.8812
+gen=11 best_acc=0.9278 sim_flip=0.0312 sim_rot=0.0312 mean_acc=0.8789
+gen=12 best_acc=0.9278 sim_flip=0.0312 sim_rot=0.0312 mean_acc=0.8813
+gen=13 best_acc=0.9296 sim_flip=0.0312 sim_rot=0.0781 mean_acc=0.8759
+gen=14 best_acc=0.9296 sim_flip=0.0312 sim_rot=0.0781 mean_acc=0.8786
+gen=15 best_acc=0.9315 sim_flip=0.0625 sim_rot=0.0781 mean_acc=0.8905
+gen=16 best_acc=0.9315 sim_flip=0.0625 sim_rot=0.0781 mean_acc=0.8780
+gen=17 best_acc=0.9352 sim_flip=0.0312 sim_rot=0.0781 mean_acc=0.8814
+gen=18 best_acc=0.9389 sim_flip=0.0312 sim_rot=0.0781 mean_acc=0.8834
+gen=19 best_acc=0.9389 sim_flip=0.0312 sim_rot=0.0781 mean_acc=0.8887
+gen=20 best_acc=0.9389 sim_flip=0.0312 sim_rot=0.0781 mean_acc=0.8835
+gen=21 best_acc=0.9389 sim_flip=0.0312 sim_rot=0.0781 mean_acc=0.8836
+gen=22 best_acc=0.9389 sim_flip=0.0312 sim_rot=0.0781 mean_acc=0.8809
+gen=23 best_acc=0.9389 sim_flip=0.0312 sim_rot=0.0781 mean_acc=0.8857
+gen=24 best_acc=0.9407 sim_flip=0.0312 sim_rot=0.0625 mean_acc=0.8889
+gen=25 best_acc=0.9407 sim_flip=0.0312 sim_rot=0.0625 mean_acc=0.8887
+gen=26 best_acc=0.9463 sim_flip=0.0312 sim_rot=0.0625 mean_acc=0.8847
+gen=27 best_acc=0.9463 sim_flip=0.0312 sim_rot=0.0625 mean_acc=0.8840
+gen=28 best_acc=0.9463 sim_flip=0.0312 sim_rot=0.0625 mean_acc=0.8806
+gen=29 best_acc=0.9463 sim_flip=0.0312 sim_rot=0.0625 mean_acc=0.8939
+gen=30 best_acc=0.9463 sim_flip=0.0312 sim_rot=0.0625 mean_acc=0.8934
+gen=31 best_acc=0.9463 sim_flip=0.0312 sim_rot=0.0625 mean_acc=0.8903
+gen=32 best_acc=0.9463 sim_flip=0.0312 sim_rot=0.0625 mean_acc=0.8914
+gen=33 best_acc=0.9463 sim_flip=0.0312 sim_rot=0.0625 mean_acc=0.8841
+gen=34 best_acc=0.9463 sim_flip=0.0312 sim_rot=0.0625 mean_acc=0.8861
+gen=35 best_acc=0.9500 sim_flip=0.0312 sim_rot=0.0625 mean_acc=0.8936
+gen=36 best_acc=0.9519 sim_flip=0.0312 sim_rot=0.0625 mean_acc=0.8894
+gen=37 best_acc=0.9519 sim_flip=0.0312 sim_rot=0.0625 mean_acc=0.8847
+gen=38 best_acc=0.9537 sim_flip=0.0312 sim_rot=0.0625 mean_acc=0.8980
+gen=39 best_acc=0.9574 sim_flip=0.0469 sim_rot=0.0625 mean_acc=0.8939
+gen=40 best_acc=0.9574 sim_flip=0.0469 sim_rot=0.0625 mean_acc=0.9002
+gen=41 best_acc=0.9574 sim_flip=0.0469 sim_rot=0.0625 mean_acc=0.9010
+gen=42 best_acc=0.9574 sim_flip=0.0469 sim_rot=0.0625 mean_acc=0.8947
+gen=43 best_acc=0.9574 sim_flip=0.0469 sim_rot=0.0625 mean_acc=0.9003
+gen=44 best_acc=0.9574 sim_flip=0.0469 sim_rot=0.0625 mean_acc=0.9008
+gen=45 best_acc=0.9574 sim_flip=0.0469 sim_rot=0.0625 mean_acc=0.9025
+gen=46 best_acc=0.9574 sim_flip=0.0469 sim_rot=0.0625 mean_acc=0.9116
+gen=47 best_acc=0.9574 sim_flip=0.0469 sim_rot=0.0625 mean_acc=0.8985
+gen=48 best_acc=0.9574 sim_flip=0.0469 sim_rot=0.0625 mean_acc=0.8986
+gen=49 best_acc=0.9574 sim_flip=0.0469 sim_rot=0.0625 mean_acc=0.8970
+
+======================================
+FINAL RESULT
+======================================
+
+Best evolved accuracy: 0.9574
+Best sim to flip:      0.0469
+Best sim to rot180:    0.0625
+Elapsed time:          134.72 sec
+
+Representation similarity:
+    comparison  linear_cka  mean_abs_corr  median_abs_corr  max_abs_corr  mean_sample_cosine  median_sample_cosine  min_sample_cosine  max_sample_cosine
+  best_vs_flip    0.499088       0.305337         0.224866           1.0            0.554420              0.556894           0.274936           0.767216
+best_vs_rot180    0.440145       0.291064         0.177512           1.0            0.545716              0.548660           0.279069           0.719960
+flip_vs_rot180    0.491969       0.356203         0.232540           1.0            0.690749              0.689193           0.392940           0.978817
+
+History:
+ generation  best_accuracy  best_true_sim  sim_flip  sim_rot  mean_accuracy
+          0       0.861111       0.078125  0.031250 0.078125       0.782630
+          1       0.868519       0.046875  0.000000 0.046875       0.810963
+          2       0.888889       0.062500  0.000000 0.062500       0.835056
+          3       0.894444       0.062500  0.000000 0.062500       0.855352
+          4       0.909259       0.062500  0.000000 0.062500       0.863130
+          5       0.909259       0.062500  0.000000 0.062500       0.870037
+          6       0.912963       0.062500  0.031250 0.062500       0.870426
+          7       0.922222       0.062500  0.031250 0.062500       0.875074
+          8       0.925926       0.046875  0.000000 0.046875       0.883519
+          9       0.927778       0.031250  0.031250 0.031250       0.877815
+         10       0.927778       0.031250  0.031250 0.031250       0.881167
+         11       0.927778       0.031250  0.031250 0.031250       0.878926
+         12       0.927778       0.031250  0.031250 0.031250       0.881333
+         13       0.929630       0.078125  0.031250 0.078125       0.875944
+         14       0.929630       0.078125  0.031250 0.078125       0.878648
+         15       0.931481       0.078125  0.062500 0.078125       0.890463
+         16       0.931481       0.078125  0.062500 0.078125       0.878000
+         17       0.935185       0.078125  0.031250 0.078125       0.881444
+         18       0.938889       0.078125  0.031250 0.078125       0.883444
+         19       0.938889       0.078125  0.031250 0.078125       0.888741
+         20       0.938889       0.078125  0.031250 0.078125       0.883500
+         21       0.938889       0.078125  0.031250 0.078125       0.883556
+         22       0.938889       0.078125  0.031250 0.078125       0.880870
+         23       0.938889       0.078125  0.031250 0.078125       0.885722
+         24       0.940741       0.062500  0.031250 0.062500       0.888852
+         25       0.940741       0.062500  0.031250 0.062500       0.888685
+         26       0.946296       0.062500  0.031250 0.062500       0.884704
+         27       0.946296       0.062500  0.031250 0.062500       0.883963
+         28       0.946296       0.062500  0.031250 0.062500       0.880630
+         29       0.946296       0.062500  0.031250 0.062500       0.893889
+         30       0.946296       0.062500  0.031250 0.062500       0.893389
+         31       0.946296       0.062500  0.031250 0.062500       0.890315
+         32       0.946296       0.062500  0.031250 0.062500       0.891389
+         33       0.946296       0.062500  0.031250 0.062500       0.884056
+         34       0.946296       0.062500  0.031250 0.062500       0.886093
+         35       0.950000       0.062500  0.031250 0.062500       0.893611
+         36       0.951852       0.062500  0.031250 0.062500       0.889352
+         37       0.951852       0.062500  0.031250 0.062500       0.884741
+         38       0.953704       0.062500  0.031250 0.062500       0.898000
+         39       0.957407       0.062500  0.046875 0.062500       0.893926
+         40       0.957407       0.062500  0.046875 0.062500       0.900204
+         41       0.957407       0.062500  0.046875 0.062500       0.900981
+         42       0.957407       0.062500  0.046875 0.062500       0.894667
+         43       0.957407       0.062500  0.046875 0.062500       0.900278
+         44       0.957407       0.062500  0.046875 0.062500       0.900815
+         45       0.957407       0.062500  0.046875 0.062500       0.902500
+         46       0.957407       0.062500  0.046875 0.062500       0.911611
+         47       0.957407       0.062500  0.046875 0.062500       0.898500
+         48       0.957407       0.062500  0.046875 0.062500       0.898574
+         49       0.957407       0.062500  0.046875 0.062500       0.897037

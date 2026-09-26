@@ -1,0 +1,86 @@
+{
+  "experiment_id": "HD-003R",
+  "metrics": {
+    "rows": [
+      {
+        "dimension": 63,
+        "baseline": 0.7245,
+        "sbohn": 0.844,
+        "gain": 0.11950000000000001,
+        "wins": 10,
+        "runs": 10
+      },
+      {
+        "dimension": 255,
+        "baseline": 0.6526666666666667,
+        "sbohn": 0.7208333333333332,
+        "gain": 0.06816666666666668,
+        "wins": 10,
+        "runs": 10
+      },
+      {
+        "dimension": 1023,
+        "baseline": 0.5425,
+        "sbohn": 0.5608333333333333,
+        "gain": 0.018333333333333347,
+        "wins": 7,
+        "runs": 10
+      },
+      {
+        "dimension": 4095,
+        "baseline": 0.5103333333333333,
+        "sbohn": 0.5138333333333334,
+        "gain": 0.003499999999999992,
+        "wins": 6,
+        "runs": 10
+      }
+    ]
+  },
+  "primary_criterion_pass": false,
+  "status": "STRUCTURAL_RECONSTRUCTION_NOT_CONFIRMED",
+  "mode": "full",
+  "protocol_id": "STAGE_07R_V1",
+  "warnings": [
+    {
+      "category": "ConvergenceWarning",
+      "message": "Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit."
+    },
+    {
+      "category": "ConvergenceWarning",
+      "message": "Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit."
+    },
+    {
+      "category": "ConvergenceWarning",
+      "message": "Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit."
+    },
+    {
+      "category": "ConvergenceWarning",
+      "message": "Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit."
+    },
+    {
+      "category": "ConvergenceWarning",
+      "message": "Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit."
+    },
+    {
+      "category": "ConvergenceWarning",
+      "message": "Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit."
+    },
+    {
+      "category": "ConvergenceWarning",
+      "message": "Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit."
+    },
+    {
+      "category": "ConvergenceWarning",
+      "message": "Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit."
+    },
+    {
+      "category": "ConvergenceWarning",
+      "message": "Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit."
+    },
+    {
+      "category": "ConvergenceWarning",
+      "message": "Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit."
+    }
+  ],
+  "convergence_warning_count": 10
+}

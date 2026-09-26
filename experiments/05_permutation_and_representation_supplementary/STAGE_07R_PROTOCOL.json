@@ -1,0 +1,45 @@
+{
+  "protocol_id": "STAGE_07R_V1",
+  "relationship_to_publication": "parallel_supplementary_reconstruction",
+  "outside_original_115_chronology": true,
+  "target_units": ["PL-002R", "PL-003R", "HD-003R", "CMP-001R", "CMP-002R"],
+  "pilot": {
+    "seed": 707,
+    "pl2_population": 8,
+    "pl2_generations": 3,
+    "pl3_k_values": [1, 5, 20],
+    "hd_dimensions": [63, 255],
+    "hd_seeds": [101, 102],
+    "cmp_seeds": [101]
+  },
+  "full": {
+    "label_seed": 42,
+    "pl2_evolution_seed": 42,
+    "pl2_population": 40,
+    "pl2_generations": 25,
+    "pl2_elite": 8,
+    "pl2_mutation_swaps": 4,
+    "pl3_seed": 42,
+    "pl3_k_values": [1, 2, 5, 10, 20, 50, 99],
+    "hd_n": 2000,
+    "hd_dimensions": [63, 255, 1023, 4095],
+    "hd_seeds": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+    "hd_noise_std": 0.1,
+    "cmp1_seed": 42,
+    "cmp1_bottleneck": 48,
+    "cmp1_autoencoder_hidden": [96, 48, 96],
+    "cmp1_autoencoder_max_iter": 150,
+    "cmp2_seeds": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+    "cmp2_latent_dimensions": [2, 4, 8, 16],
+    "cmp2_hidden_width": 32,
+    "cmp2_max_iter": 300
+  },
+  "primary_criteria": {
+    "PL-002R": "evolved_pair_above_baseline_and_best_single_random_start",
+    "PL-003R": "K99_above_K1_and_baseline_with_positive_overall_trend",
+    "HD-003R": "sbohn_above_baseline_at_all_dimensions_and_gain_decreases_with_dimension",
+    "CMP-001R": "PCA48_above_reconstruction_AE48",
+    "CMP-002R": "mean_SRL_above_mean_PCA_for_each_k_and_SRL2_at_least_90_percent_of_full"
+  },
+  "numeric_table_match": "secondary_descriptive_only"
+}

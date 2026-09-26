@@ -57,3 +57,14 @@ Eksperymenty zaprojektowane po audycie, które nie są jednostkami źródłowego
 PDF-a, mają osobny rejestr `inventory/supplementary_experiments.csv`. Dzięki
 temu mogą potwierdzać mechanizmy publikacji bez zmiany kanonicznej liczby 115
 jednostek ani ich kolejności. Pierwszym takim wpisem jest ASD-001R.
+
+Uczenie permutacji, autonomiczna reprezentacja, skalowanie wysokowymiarowe
+i kompresja z rozdziału 5 znajdują się w
+`experiments/05_permutation_and_representation/`. Jednostki z kodem zachowują
+niezmienione listingi w `historical/`; jednostki `NARRATIVE_ONLY` przechowują
+dokładny fragment wyniku źródłowego, bez fikcyjnego kodu historycznego.
+
+Pięć jawnych rekonstrukcji rozdziału 5 znajduje się osobno w
+`experiments/05_permutation_and_representation_supplementary/`. Mają sufiks
+`R`, zamrożony protokół `STAGE_07R_V1` i pozostają poza chronologią PDF-a.
+Pełny wynik ma status częściowy: cztery z pięciu kryteriów potwierdzono.

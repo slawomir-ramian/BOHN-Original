@@ -1,0 +1,329 @@
+{
+  "stage": "07",
+  "run_utc": "2026-09-25T22:27:55+00:00",
+  "mode": "full",
+  "source_chronology": [
+    "PL-001",
+    "PL-002",
+    "PL-003",
+    "AR-001",
+    "AR-002",
+    "AR-003",
+    "AR-004",
+    "HD-001",
+    "HD-002",
+    "HD-003",
+    "CMP-001",
+    "CMP-002"
+  ],
+  "completed_units": [
+    "PL-001",
+    "PL-002",
+    "PL-003",
+    "AR-001",
+    "AR-002",
+    "AR-003",
+    "AR-004",
+    "HD-001",
+    "HD-002",
+    "HD-003",
+    "CMP-001",
+    "CMP-002"
+  ],
+  "experiments": {
+    "PL-001": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 54.292026,
+      "execution_mode": "HISTORICAL_SOURCE",
+      "executed_file": "experiments/05_permutation_and_representation/PL-001/historical/source_from_monograph.py",
+      "stdout_sha256": "7231a3328a25543f51f8c3ae45b97c35eebee60fd1a35e6afe981dea40d55733",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/PL-001_stdout.txt",
+      "stderr_file": "raw/PL-001_stderr.txt",
+      "comparison": {
+        "status": "CLOSE_NUMERIC_MATCH",
+        "scientific_conclusion_preserved": true,
+        "max_reported_numeric_delta": 0.0037000000000000366,
+        "actual_summary": {
+          "baseline": 0.8204,
+          "random_mean": 0.8398,
+          "best": 0.9444
+        },
+        "note": "Kontrola wniosku merytorycznego i wartości referencyjnej."
+      }
+    },
+    "PL-002": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "AUDITED_REPORTED_RESULT",
+      "executed_file": "experiments/05_permutation_and_representation/PL-002/historical/reported_results_from_monograph.tex",
+      "stdout_sha256": "004b029123009b0427dc57f74de2f75da61eb9189e3da0544273573029c8e07f",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/PL-002_stdout.txt",
+      "stderr_file": "raw/PL-002_stderr.txt",
+      "comparison": {
+        "status": "AUDITED_REPORTED_RESULT",
+        "scientific_conclusion_preserved": null,
+        "max_reported_numeric_delta": null,
+        "actual_summary": {},
+        "note": "Pełny kod nie został opublikowany; zachowano dokładny wynik źródłowy."
+      }
+    },
+    "PL-003": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "AUDITED_REPORTED_RESULT",
+      "executed_file": "experiments/05_permutation_and_representation/PL-003/historical/reported_results_from_monograph.tex",
+      "stdout_sha256": "de1ed95d4c3b192976a5be73e6368647511b2b231e8a31646a48149e85e7525a",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/PL-003_stdout.txt",
+      "stderr_file": "raw/PL-003_stderr.txt",
+      "comparison": {
+        "status": "AUDITED_REPORTED_RESULT",
+        "scientific_conclusion_preserved": null,
+        "max_reported_numeric_delta": null,
+        "actual_summary": {},
+        "note": "Pełny kod nie został opublikowany; zachowano dokładny wynik źródłowy."
+      }
+    },
+    "AR-001": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 121.201165,
+      "execution_mode": "HISTORICAL_SOURCE",
+      "executed_file": "experiments/05_permutation_and_representation/AR-001/historical/source_from_monograph.py",
+      "stdout_sha256": "d4239406b92635b2526be7d27029304c6e84287c3a20b1772fb71c90865e9a54",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/AR-001_stdout.txt",
+      "stderr_file": "raw/AR-001_stderr.txt",
+      "comparison": {
+        "status": "CLOSE_NUMERIC_MATCH",
+        "scientific_conclusion_preserved": true,
+        "max_reported_numeric_delta": 0.0037000000000000366,
+        "actual_summary": {
+          "baseline": 0.7537,
+          "random_best": 0.8611,
+          "best": 0.9574
+        },
+        "note": "Kontrola wniosku merytorycznego i wartości referencyjnej."
+      }
+    },
+    "AR-002": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 416.391581,
+      "execution_mode": "HISTORICAL_SOURCE",
+      "executed_file": "experiments/05_permutation_and_representation/AR-002/historical/source_from_monograph.py",
+      "stdout_sha256": "33bdc74a361ed740b8426deb7c44358056360e951abc348bc19d0a187b018140",
+      "stderr_sha256": "2030ee6611ed74d17efcea76f41ce042cc11fd5f0b29d1ff56c536ac51d7946e",
+      "stderr_nonempty": true,
+      "stdout_file": "raw/AR-002_stdout.txt",
+      "stderr_file": "raw/AR-002_stderr.txt",
+      "comparison": {
+        "status": "CONCLUSION_MATCH",
+        "scientific_conclusion_preserved": true,
+        "max_reported_numeric_delta": 0.0129999999999999,
+        "actual_summary": {
+          "baseline": 0.7537,
+          "random99": 0.9093,
+          "best": 0.9611
+        },
+        "note": "Kontrola wniosku merytorycznego i wartości referencyjnej."
+      }
+    },
+    "AR-003": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 140.169675,
+      "execution_mode": "HISTORICAL_SOURCE",
+      "executed_file": "experiments/05_permutation_and_representation/AR-003/historical/source_from_monograph.py",
+      "stdout_sha256": "f83daebe4424545eb5afd4f12859d3a6ef946d97003e0da1dba30d2746a44adb",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/AR-003_stdout.txt",
+      "stderr_file": "raw/AR-003_stderr.txt",
+      "comparison": {
+        "status": "CLOSE_NUMERIC_MATCH",
+        "scientific_conclusion_preserved": true,
+        "max_reported_numeric_delta": 0.0037000000000000366,
+        "actual_summary": {
+          "baseline": 0.7537,
+          "best": 0.9574
+        },
+        "note": "Kontrola wniosku merytorycznego i wartości referencyjnej."
+      }
+    },
+    "AR-004": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 1339.838106,
+      "execution_mode": "HISTORICAL_SOURCE",
+      "executed_file": "experiments/05_permutation_and_representation/AR-004/historical/source_from_monograph.py",
+      "stdout_sha256": "3b2d5b46021b38b070f8a7f984225e6fa30197ca18f63868dd3ae370698d12af",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/AR-004_stdout.txt",
+      "stderr_file": "raw/AR-004_stderr.txt",
+      "comparison": {
+        "status": "CLOSE_NUMERIC_MATCH",
+        "scientific_conclusion_preserved": true,
+        "max_reported_numeric_delta": 0.0022999999999999687,
+        "actual_summary": {
+          "mean_pairwise_permutation_similarity": 0.0312,
+          "mean_pairwise_cka": 0.7942
+        },
+        "note": "Kontrola wniosku merytorycznego i wartości referencyjnej."
+      }
+    },
+    "HD-001": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 1917.769703,
+      "execution_mode": "HISTORICAL_SOURCE",
+      "executed_file": "historical/listings_51_52_composed_in_memory",
+      "stdout_sha256": "ce322ef1dcb4eb8722a78ea408a6465f76cb6e984ab20df7e371a75214a22c29",
+      "stderr_sha256": "eedd254d7b4fbc52be58467f9c14b879e3cb46b6e8fc7f0a5ba0dd3326e12ceb",
+      "stderr_nonempty": true,
+      "stdout_file": "raw/HD-001_stdout.txt",
+      "stderr_file": "raw/HD-001_stderr.txt",
+      "comparison": {
+        "status": "CONCLUSION_MATCH",
+        "scientific_conclusion_preserved": true,
+        "max_reported_numeric_delta": null,
+        "actual_summary": {
+          "rows": [
+            [
+              0.7412,
+              0.9595,
+              0.2183,
+              10.0
+            ],
+            [
+              0.744,
+              0.8998,
+              0.1558,
+              10.0
+            ],
+            [
+              0.6463,
+              0.7775,
+              0.1312,
+              10.0
+            ],
+            [
+              0.5455,
+              0.656,
+              0.1105,
+              10.0
+            ]
+          ]
+        },
+        "note": "SBOHN przewyższa baseline; kontrola wins i trendu."
+      }
+    },
+    "HD-002": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "HISTORICAL_SOURCE_SHARED_RUN",
+      "executed_file": "historical/listings_51_52_composed_in_memory",
+      "stdout_sha256": "ce322ef1dcb4eb8722a78ea408a6465f76cb6e984ab20df7e371a75214a22c29",
+      "stderr_sha256": "eedd254d7b4fbc52be58467f9c14b879e3cb46b6e8fc7f0a5ba0dd3326e12ceb",
+      "stderr_nonempty": true,
+      "stdout_file": "raw/HD-002_stdout.txt",
+      "stderr_file": "raw/HD-002_stderr.txt",
+      "comparison": {
+        "status": "CONCLUSION_MATCH",
+        "scientific_conclusion_preserved": true,
+        "max_reported_numeric_delta": null,
+        "actual_summary": {
+          "rows": [
+            [
+              0.5455,
+              0.656,
+              0.1105,
+              10.0
+            ],
+            [
+              0.6101,
+              0.7293,
+              0.1191,
+              10.0
+            ],
+            [
+              0.6716,
+              0.8038,
+              0.1322,
+              10.0
+            ]
+          ]
+        },
+        "note": "SBOHN przewyższa baseline; kontrola wins i trendu."
+      }
+    },
+    "HD-003": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "AUDITED_REPORTED_RESULT",
+      "executed_file": "experiments/05_permutation_and_representation/HD-003/historical/reported_results_from_monograph.tex",
+      "stdout_sha256": "8dd0c31f47778d592f4308c929f787f735459bf6f4009bcf0858ae04b623431c",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/HD-003_stdout.txt",
+      "stderr_file": "raw/HD-003_stderr.txt",
+      "comparison": {
+        "status": "AUDITED_REPORTED_RESULT",
+        "scientific_conclusion_preserved": null,
+        "max_reported_numeric_delta": null,
+        "actual_summary": {},
+        "note": "Pełny kod nie został opublikowany; zachowano dokładny wynik źródłowy."
+      }
+    },
+    "CMP-001": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "AUDITED_REPORTED_RESULT",
+      "executed_file": "experiments/05_permutation_and_representation/CMP-001/historical/reported_results_from_monograph.tex",
+      "stdout_sha256": "1525df8befed54d6a8c7d6e2e395cf4f88c8b540bfb2c330b698eb6130054d6b",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/CMP-001_stdout.txt",
+      "stderr_file": "raw/CMP-001_stderr.txt",
+      "comparison": {
+        "status": "AUDITED_REPORTED_RESULT",
+        "scientific_conclusion_preserved": null,
+        "max_reported_numeric_delta": null,
+        "actual_summary": {},
+        "note": "Pełny kod nie został opublikowany; zachowano dokładny wynik źródłowy."
+      }
+    },
+    "CMP-002": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "AUDITED_REPORTED_RESULT",
+      "executed_file": "experiments/05_permutation_and_representation/CMP-002/historical/reported_results_from_monograph.tex",
+      "stdout_sha256": "ec4dd3792b2bb490b76f9ea0aa1eb88e2b3da67e9896d50a1cbfecb1327df696",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/CMP-002_stdout.txt",
+      "stderr_file": "raw/CMP-002_stderr.txt",
+      "comparison": {
+        "status": "AUDITED_REPORTED_RESULT",
+        "scientific_conclusion_preserved": null,
+        "max_reported_numeric_delta": null,
+        "actual_summary": {},
+        "note": "Pełny kod nie został opublikowany; zachowano dokładny wynik źródłowy."
+      }
+    }
+  }
+}

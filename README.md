@@ -66,10 +66,26 @@ mechanizmu publikacji. Nie jest to historyczne `EXACT_MATCH`; dokładności
 różnią się od tabeli o `0.0075`--`0.0400`. Szczegóły:
 `docs/STAGE_06_ASD_001R_FULL_ANALYSIS.md`.
 
+Etap 07 zakończony - odtworzono cały rozdział 5 (`PL-001`--`CMP-002`) na
+pozycjach 34--45 PDF-a. Siedem jednostek z pełnym kodem wykonano historycznie:
+cztery uzyskały `CLOSE_NUMERIC_MATCH`, a trzy `CONCLUSION_MATCH`. Pięć
+jednostek bez opublikowanego programu zachowano jako
+`AUDITED_REPORTED_RESULT`, bez przedstawiania rekonstrukcji jako kodu
+historycznego. Szczegóły: `docs/STAGE_07_LOCAL_ANALYSIS.md`.
+
+Etap 07R jest oddzielnym, zamrożonym eksperymentem uzupełniającym dla pięciu
+jednostek `NARRATIVE_ONLY`. Cztery rekonstrukcje uzyskały
+`STRUCTURAL_RECONSTRUCTION_CONFIRMED`. `HD-003R` zachował dodatnią, malejącą
+z wymiarem średnią przewagę SBOHN, lecz nie spełnił ostrzejszego kryterium
+wygranej w każdym seedzie przy `d=1023` i `d=4095`; status całego biegu to
+`PARTIAL_SUPPLEMENTARY_CONFIRMATION`. Szczegóły:
+`docs/STAGE_07R_FULL_ANALYSIS.md`.
+
 Kolejność źródłowa jest zapisana niezależnie od numeracji ID w
-`inventory/source_chronology.csv`. Etap 06 zajmuje pozycje 29--33, dokładnie
-tak jak w PDF-ie. Po Etapach 03--06 przygotowano 33 ze 115 jednostek;
-82 pozostają do odtworzenia.
+`inventory/source_chronology.csv`. Etap 06 zajmuje pozycje 29--33, a Etap 07
+pozycje 34--45, dokładnie tak jak w PDF-ie. Po Etapach 03--07 przygotowano
+45 ze 115 jednostek; 70 pozostaje do odtworzenia. Eksperymenty z sufiksem `R`
+nie zwiększają tej liczby, ponieważ należą do osobnego rejestru uzupełniającego.
 
 Audyt obejmuje 94 numerowane tabele, 44 podpisane listingi PDF, 74 środowiska
 `lstlisting`, 20 bloków `verbatim` oraz 24 wieloeksperymentalne zestawy kodu.
@@ -113,6 +129,19 @@ Pełna instrukcja: `INSTALL_STAGE_05.md`.
 ```
 
 Pełna instrukcja: `INSTALL_STAGE_06.md`.
+
+## Uruchomienie Etapu 07 i 07R
+
+```powershell
+.\SETUP_STAGE_07.ps1
+.\RUN_STAGE_07_SMOKE.ps1
+.\RUN_STAGE_07_FULL.ps1
+.\SETUP_STAGE_07R.ps1
+.\RUN_STAGE_07R_PILOT.ps1
+.\RUN_STAGE_07R_FULL.ps1
+```
+
+Instrukcje: `INSTALL_STAGE_07.md` oraz `INSTALL_STAGE_07R.md`.
 
 ## Źródło kanoniczne
 

@@ -1,0 +1,100 @@
+\subsection{Results}
+
+For a single run with parameters:
+\[
+\text{population size}=40,\quad
+\text{generations}=25,\quad
+\text{elite size}=8
+\]
+the following was obtained:
+
+\begin{center}
+\begin{tabular}{lr}
+\toprule
+Model / procedure & Accuracy \\
+\midrule
+Baseline $x$ & 0.8204 \\
+Random mean & 0.8398 \\
+Random best & 0.8944 \\
+Evolved best & 0.9481 \\
+True rotate180 & 0.9667 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Gains:
+
+\[
+\mathrm{Evolved}-\mathrm{Baseline}
+=
+0.9481-0.8204
+=
+0.1278.
+\]
+
+\[
+\mathrm{Evolved}-\mathrm{RandomMean}
+=
+0.9481-0.8398
+=
+0.1083.
+\]
+
+Gap to the true symmetry:
+\[
+\mathrm{TrueRotate180}-\mathrm{Evolved}
+=
+0.9667-0.9481
+=
+0.0185.
+\]
+
+Similarity of the best permutation to the true $\mathrm{rotate}_{180}$:
+\[
+\mathrm{sim}(P_{\mathrm{evolved}},P_{\mathrm{true}})
+=
+0.1094.
+\]
+
+\subsection{Training history}
+
+The best accuracy across successive generations grew as follows:
+
+\begin{center}
+\begin{tabular}{rrrr}
+\toprule
+Generation & Best accuracy & Best similarity & Mean accuracy \\
+\midrule
+0 & 0.8944 & 0.0313 & 0.8416 \\
+1 & 0.8944 & 0.0313 & 0.8527 \\
+2 & 0.9000 & 0.0156 & 0.8659 \\
+3 & 0.9056 & 0.0625 & 0.8826 \\
+4 & 0.9074 & 0.0313 & 0.8881 \\
+5 & 0.9093 & 0.0469 & 0.8880 \\
+6 & 0.9241 & 0.0469 & 0.8915 \\
+7 & 0.9241 & 0.0469 & 0.8910 \\
+8 & 0.9259 & 0.0469 & 0.8941 \\
+9 & 0.9296 & 0.0469 & 0.9034 \\
+10 & 0.9315 & 0.0625 & 0.9132 \\
+11 & 0.9352 & 0.0469 & 0.9091 \\
+12 & 0.9352 & 0.0469 & 0.9128 \\
+13 & 0.9352 & 0.0469 & 0.9125 \\
+14 & 0.9370 & 0.0781 & 0.9115 \\
+15 & 0.9389 & 0.1094 & 0.9113 \\
+16 & 0.9444 & 0.1094 & 0.9151 \\
+17 & 0.9463 & 0.0781 & 0.9176 \\
+18 & 0.9463 & 0.0781 & 0.9134 \\
+19 & 0.9463 & 0.0781 & 0.9139 \\
+20 & 0.9463 & 0.0781 & 0.9175 \\
+21 & 0.9463 & 0.0781 & 0.9108 \\
+22 & 0.9463 & 0.0781 & 0.9121 \\
+23 & 0.9463 & 0.0781 & 0.9156 \\
+24 & 0.9481 & 0.1094 & 0.9171 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+A clear increase is visible:
+\[
+0.8944\to 0.9481.
+\]

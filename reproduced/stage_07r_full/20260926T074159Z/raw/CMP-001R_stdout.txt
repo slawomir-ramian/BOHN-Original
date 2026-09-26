@@ -1,0 +1,4 @@
+CMP-001R PCA-48 accuracy=0.9630
+CMP-001R AE-48 accuracy=0.8111
+CMP-001R: STRUCTURAL_RECONSTRUCTION_CONFIRMED
+RESULT_JSON={"convergence_warning_count": 0, "experiment_id": "CMP-001R", "metrics": {"autoencoder_accuracy": 0.8111111111111111, "autoencoder_iterations": 18, "pca_accuracy": 0.9629629629629629, "pca_minus_autoencoder": 0.1518518518518518}, "mode": "full", "primary_criterion_pass": true, "protocol_id": "STAGE_07R_V1", "status": "STRUCTURAL_RECONSTRUCTION_CONFIRMED", "warnings": []}

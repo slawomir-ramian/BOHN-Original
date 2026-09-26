@@ -25,8 +25,22 @@ reproduced/stage_06_asd_001r_pilot/
 reproduced/stage_06_asd_001r_pilot_checkpoint/
 reproduced/stage_06_asd_001r_full_checkpoint/
 
+# Etap 07: pilot/smoke jest roboczy; w closeoucie śledzimy wskazany pełny bieg.
+reproduced/stage_07_runs/*/
+!reproduced/stage_07_runs/20260925T222755Z/
+!reproduced/stage_07_runs/20260925T222755Z/**
+reproduced/stage_07r_pilot/
+reproduced/stage_07r_full/*/
+!reproduced/stage_07r_full/20260926T074159Z/
+!reproduced/stage_07r_full/20260926T074159Z/**
+
+# Pilot Etapu 07R jest roboczy; do Git trafi dopiero zamknięty pełny wynik.
+reproduced/stage_07r_pilot/
+
 # System/edytor
 .DS_Store
 Thumbs.db
 .vscode/settings.json
+
+# Roboczy checkpoint ASD-001
 reproduced/stage_06_asd_checkpoint/

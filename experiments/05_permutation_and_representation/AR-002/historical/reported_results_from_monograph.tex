@@ -1,0 +1,46 @@
+\subsubsection{Results}
+
+Final results:
+
+\begin{center}
+\begin{tabular}{lr}
+\toprule
+Model & Accuracy \\
+\midrule
+Baseline $x$ & 0.7537 \\
+True pair & 0.9722 \\
+Random 99 & 0.9093 \\
+AR-v2 + $L_1$ & 0.9481 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Gains:
+\[
+\text{AR-v2} - \text{baseline}=0.1944,
+\]
+\[
+\text{AR-v2} - \text{random99}=0.0389,
+\]
+\[
+\text{true pair} - \text{AR-v2}=0.0241.
+\]
+
+$L_1$ selection results:
+
+\begin{center}
+\begin{tabular}{lr}
+\toprule
+Metric & Result \\
+\midrule
+Generated in Top10 & 0/10 \\
+Random in Top10 & 10/10 \\
+Generated in Top20 & 1/20 \\
+Random in Top20 & 19/20 \\
+Generated mean rank & 35.30 \\
+Random mean rank & 53.72 \\
+Generated median rank & 36.50 \\
+Random median rank & 60.00 \\
+\bottomrule
+\end{tabular}
+\end{center}

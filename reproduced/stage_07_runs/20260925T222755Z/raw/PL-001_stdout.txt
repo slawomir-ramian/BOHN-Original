@@ -1,0 +1,74 @@
+======================================
+SBOHN-PL: PERMUTATION LEARNING
+======================================
+
+Baseline x accuracy:       0.8204
+True rotate180 accuracy:   0.9667
+Random mean accuracy:      0.8398
+Random best accuracy:      0.8944
+
+Starting evolutionary search...
+
+gen=00 best_acc=0.8944 best_sim=0.0312 mean_acc=0.8416
+gen=01 best_acc=0.8944 best_sim=0.0312 mean_acc=0.8525
+gen=02 best_acc=0.9000 best_sim=0.0156 mean_acc=0.8660
+gen=03 best_acc=0.9074 best_sim=0.0469 mean_acc=0.8833
+gen=04 best_acc=0.9074 best_sim=0.0469 mean_acc=0.8881
+gen=05 best_acc=0.9074 best_sim=0.0469 mean_acc=0.8893
+gen=06 best_acc=0.9074 best_sim=0.0469 mean_acc=0.8911
+gen=07 best_acc=0.9093 best_sim=0.0469 mean_acc=0.8897
+gen=08 best_acc=0.9148 best_sim=0.0625 mean_acc=0.8879
+gen=09 best_acc=0.9148 best_sim=0.0625 mean_acc=0.8928
+gen=10 best_acc=0.9185 best_sim=0.0781 mean_acc=0.8929
+gen=11 best_acc=0.9185 best_sim=0.0781 mean_acc=0.8913
+gen=12 best_acc=0.9352 best_sim=0.0625 mean_acc=0.8934
+gen=13 best_acc=0.9352 best_sim=0.0625 mean_acc=0.9025
+gen=14 best_acc=0.9352 best_sim=0.0625 mean_acc=0.9049
+gen=15 best_acc=0.9370 best_sim=0.0625 mean_acc=0.9083
+gen=16 best_acc=0.9407 best_sim=0.0938 mean_acc=0.9147
+gen=17 best_acc=0.9407 best_sim=0.0938 mean_acc=0.9206
+gen=18 best_acc=0.9407 best_sim=0.0938 mean_acc=0.9091
+gen=19 best_acc=0.9407 best_sim=0.0938 mean_acc=0.9110
+gen=20 best_acc=0.9444 best_sim=0.0938 mean_acc=0.9150
+gen=21 best_acc=0.9444 best_sim=0.0938 mean_acc=0.9193
+gen=22 best_acc=0.9444 best_sim=0.0938 mean_acc=0.9118
+gen=23 best_acc=0.9444 best_sim=0.0938 mean_acc=0.9217
+gen=24 best_acc=0.9444 best_sim=0.0938 mean_acc=0.9171
+
+======================================
+FINAL RESULT
+======================================
+Best evolved accuracy:       0.9444
+Best evolved similarity:     0.0938
+
+Gain over baseline:          0.1241
+Gain over random mean:       0.1047
+Gap to true rotate180:       0.0222
+
+History:
+ generation  best_accuracy  best_similarity  mean_accuracy  mean_similarity
+          0       0.894444         0.031250       0.841574         0.016797
+          1       0.894444         0.031250       0.852546         0.011719
+          2       0.900000         0.015625       0.866019         0.022656
+          3       0.907407         0.046875       0.883287         0.029687
+          4       0.907407         0.046875       0.888102         0.027734
+          5       0.907407         0.046875       0.889259         0.031641
+          6       0.907407         0.046875       0.891111         0.039062
+          7       0.909259         0.046875       0.889722         0.042969
+          8       0.914815         0.062500       0.887917         0.039453
+          9       0.914815         0.062500       0.892824         0.046094
+         10       0.918519         0.078125       0.892870         0.048828
+         11       0.918519         0.078125       0.891343         0.050000
+         12       0.935185         0.062500       0.893426         0.055078
+         13       0.935185         0.062500       0.902546         0.052344
+         14       0.935185         0.062500       0.904907         0.054688
+         15       0.937037         0.062500       0.908333         0.054297
+         16       0.940741         0.093750       0.914722         0.055078
+         17       0.940741         0.093750       0.920602         0.066406
+         18       0.940741         0.093750       0.909120         0.062500
+         19       0.940741         0.093750       0.911019         0.066797
+         20       0.944444         0.093750       0.915046         0.067578
+         21       0.944444         0.093750       0.919259         0.071484
+         22       0.944444         0.093750       0.911759         0.069531
+         23       0.944444         0.093750       0.921667         0.076172
+         24       0.944444         0.093750       0.917130         0.074609

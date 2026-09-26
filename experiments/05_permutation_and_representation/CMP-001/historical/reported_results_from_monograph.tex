@@ -1,0 +1,32 @@
+\subsection{SBOHN-AE: PCA vs reconstruction autoencoder}
+
+\subsubsection{Experiment description}
+
+Two methods for reducing the dimension of the SBOHN representation to $k=48$ components were compared:
+\begin{itemize}
+\item \textbf{PCA-48}: projection onto the 48~directions of greatest variance,
+\item \textbf{AE-48}: reconstruction autoencoder with a 48-neuron bottleneck, trained to minimize reconstruction error.
+\end{itemize}
+
+\subsubsection{Results}
+
+\begin{center}
+\begin{tabular}{lc}
+\toprule
+Model & Accuracy \\
+\midrule
+PCA-48 & \textbf{0.9426} \\
+AE-48 & 0.7759 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsubsection{Analysis}
+
+The reconstruction autoencoder yields a significantly worse result than PCA. Explanation: the autoencoder optimizes \emph{reconstruction} of the input, not \emph{prediction}. The directions of greatest variance (PCA) turn out to be better correlated with task-relevant information than the directions of best reconstruction.
+
+\[
+\boxed{\text{Reconstruction-based compression does not preserve task-relevant information as well as PCA.}}
+\]
+
+This result motivates the transition to \emph{supervised} compression.

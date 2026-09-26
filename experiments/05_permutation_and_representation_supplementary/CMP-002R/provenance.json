@@ -1,0 +1,11 @@
+{
+  "experiment_id": "CMP-002R",
+  "parent_pdf_unit": "CMP-002",
+  "supplementary_sequence": 5,
+  "relationship_to_pdf": "OUTSIDE_115_PDF_CHRONOLOGY",
+  "kind": "parallel_supplementary_reconstruction",
+  "historical_source_claimed": false,
+  "protocol_id": "STAGE_07R_V1",
+  "protocol_status": "FROZEN_BEFORE_CONFIRMATION",
+  "reproduction_status": "NOT_RUN"
+}

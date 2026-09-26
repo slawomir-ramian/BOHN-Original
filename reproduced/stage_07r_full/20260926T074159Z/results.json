@@ -1,0 +1,598 @@
+{
+  "stage": "07R",
+  "mode": "full",
+  "run_utc": "2026-09-26T07:41:59+00:00",
+  "source_order": [
+    "PL-002R",
+    "PL-003R",
+    "HD-003R",
+    "CMP-001R",
+    "CMP-002R"
+  ],
+  "full_source_order": [
+    "PL-002R",
+    "PL-003R",
+    "HD-003R",
+    "CMP-001R",
+    "CMP-002R"
+  ],
+  "grade": "PARTIAL_SUPPLEMENTARY_CONFIRMATION",
+  "protocol_lock": {
+    "protocol_id": "STAGE_07R_V1",
+    "frozen_after_pilot": true,
+    "pilot_status": "5_OF_5_STRUCTURAL_PILOT_PASS",
+    "confirmation_status": "AWAITING_FULL_RUN",
+    "files": {
+      "src/bohn_original/stage07_supplementary.py": "3fba108a31b7cddbea0bb51dc526c59d47b098664e27d4e6f4b6000a752777e8",
+      "tools/run_stage_07r_unit.py": "cb218868a871a3558005ad53dadbe430af71ef6c281b2ce5fd1fbea09471475c",
+      "tools/run_stage_07r.py": "c43286587c90ac40804d594600d3c6366c9932c61fff8979e4904d4f9849ec29",
+      "experiments/05_permutation_and_representation_supplementary/STAGE_07R_PROTOCOL.json": "04a4b93ea718397fe2b86990d43de1127275aa545a18bacee8972396f3512a3f"
+    }
+  },
+  "environment": {
+    "python": "3.14.5 (tags/v3.14.5:5607950, May 10 2026, 10:43:50) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scikit_learn": "1.9.1",
+    "processor_count": 4
+  },
+  "experiments": {
+    "PL-002R": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 47.116986,
+      "result": {
+        "experiment_id": "PL-002R",
+        "metrics": {
+          "baseline": 0.7537037037037037,
+          "true_flip": 0.8833333333333333,
+          "true_rot180": 0.9166666666666666,
+          "true_pair": 0.9722222222222222,
+          "initial_random_best_pair": 0.8740740740740741,
+          "evolved_best_pair": 0.9462962962962963,
+          "gain_over_baseline": 0.19259259259259265,
+          "gain_over_initial": 0.07222222222222219
+        },
+        "history": [
+          {
+            "generation": 0,
+            "best": 0.8740740740740741,
+            "mean": 0.8146296296296296
+          },
+          {
+            "generation": 1,
+            "best": 0.8888888888888888,
+            "mean": 0.8378703703703703
+          },
+          {
+            "generation": 2,
+            "best": 0.8888888888888888,
+            "mean": 0.8505092592592594
+          },
+          {
+            "generation": 3,
+            "best": 0.8925925925925926,
+            "mean": 0.8628703703703703
+          },
+          {
+            "generation": 4,
+            "best": 0.9148148148148149,
+            "mean": 0.8627314814814815
+          },
+          {
+            "generation": 5,
+            "best": 0.9166666666666666,
+            "mean": 0.868287037037037
+          },
+          {
+            "generation": 6,
+            "best": 0.9185185185185185,
+            "mean": 0.8829166666666666
+          },
+          {
+            "generation": 7,
+            "best": 0.9203703703703704,
+            "mean": 0.8940277777777776
+          },
+          {
+            "generation": 8,
+            "best": 0.9259259259259259,
+            "mean": 0.8973148148148148
+          },
+          {
+            "generation": 9,
+            "best": 0.9259259259259259,
+            "mean": 0.8928703703703704
+          },
+          {
+            "generation": 10,
+            "best": 0.9259259259259259,
+            "mean": 0.8943055555555552
+          },
+          {
+            "generation": 11,
+            "best": 0.9259259259259259,
+            "mean": 0.9003703703703703
+          },
+          {
+            "generation": 12,
+            "best": 0.9259259259259259,
+            "mean": 0.8974537037037038
+          },
+          {
+            "generation": 13,
+            "best": 0.9259259259259259,
+            "mean": 0.893611111111111
+          },
+          {
+            "generation": 14,
+            "best": 0.9333333333333333,
+            "mean": 0.9
+          },
+          {
+            "generation": 15,
+            "best": 0.9388888888888889,
+            "mean": 0.900324074074074
+          },
+          {
+            "generation": 16,
+            "best": 0.9388888888888889,
+            "mean": 0.9025925925925927
+          },
+          {
+            "generation": 17,
+            "best": 0.9388888888888889,
+            "mean": 0.9075
+          },
+          {
+            "generation": 18,
+            "best": 0.9388888888888889,
+            "mean": 0.9049074074074074
+          },
+          {
+            "generation": 19,
+            "best": 0.9388888888888889,
+            "mean": 0.9084259259259259
+          },
+          {
+            "generation": 20,
+            "best": 0.9407407407407408,
+            "mean": 0.9143518518518519
+          },
+          {
+            "generation": 21,
+            "best": 0.9425925925925925,
+            "mean": 0.913287037037037
+          },
+          {
+            "generation": 22,
+            "best": 0.9425925925925925,
+            "mean": 0.9087037037037037
+          },
+          {
+            "generation": 23,
+            "best": 0.9444444444444444,
+            "mean": 0.913101851851852
+          },
+          {
+            "generation": 24,
+            "best": 0.9462962962962963,
+            "mean": 0.9141666666666666
+          }
+        ],
+        "primary_criterion_pass": true,
+        "status": "STRUCTURAL_RECONSTRUCTION_CONFIRMED",
+        "mode": "full",
+        "protocol_id": "STAGE_07R_V1",
+        "warnings": [],
+        "convergence_warning_count": 0
+      },
+      "stdout_file": "raw/PL-002R_stdout.txt",
+      "stderr_file": "raw/PL-002R_stderr.txt",
+      "result_file": "raw/PL-002R_result.json",
+      "stdout_sha256": "087d20710a6b31a7b92f65952d5bfc3f71da7e56c369d4fc4aa88c8d96fb189d",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false
+    },
+    "PL-003R": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 5.066191,
+      "result": {
+        "experiment_id": "PL-003R",
+        "metrics": {
+          "baseline": 0.7537037037037037,
+          "rows": [
+            {
+              "k": 1,
+              "accuracy": 0.7444444444444445,
+              "gain": -0.00925925925925919
+            },
+            {
+              "k": 2,
+              "accuracy": 0.7666666666666667,
+              "gain": 0.012962962962963065
+            },
+            {
+              "k": 5,
+              "accuracy": 0.8425925925925926,
+              "gain": 0.0888888888888889
+            },
+            {
+              "k": 10,
+              "accuracy": 0.8518518518518519,
+              "gain": 0.0981481481481482
+            },
+            {
+              "k": 20,
+              "accuracy": 0.8981481481481481,
+              "gain": 0.1444444444444445
+            },
+            {
+              "k": 50,
+              "accuracy": 0.8944444444444445,
+              "gain": 0.14074074074074083
+            },
+            {
+              "k": 99,
+              "accuracy": 0.8907407407407407,
+              "gain": 0.13703703703703707
+            }
+          ],
+          "log_k_trend": 0.034763641835567266
+        },
+        "primary_criterion_pass": true,
+        "status": "STRUCTURAL_RECONSTRUCTION_CONFIRMED",
+        "mode": "full",
+        "protocol_id": "STAGE_07R_V1",
+        "warnings": [],
+        "convergence_warning_count": 0
+      },
+      "stdout_file": "raw/PL-003R_stdout.txt",
+      "stderr_file": "raw/PL-003R_stderr.txt",
+      "result_file": "raw/PL-003R_result.json",
+      "stdout_sha256": "ea3f7651e3c9a45355af1b4ab25a71487e7af011d303db4c3bcb0e40eefef350",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false
+    },
+    "HD-003R": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 324.201485,
+      "result": {
+        "experiment_id": "HD-003R",
+        "metrics": {
+          "rows": [
+            {
+              "dimension": 63,
+              "baseline": 0.7245,
+              "sbohn": 0.844,
+              "gain": 0.11950000000000001,
+              "wins": 10,
+              "runs": 10
+            },
+            {
+              "dimension": 255,
+              "baseline": 0.6526666666666667,
+              "sbohn": 0.7208333333333332,
+              "gain": 0.06816666666666668,
+              "wins": 10,
+              "runs": 10
+            },
+            {
+              "dimension": 1023,
+              "baseline": 0.5425,
+              "sbohn": 0.5608333333333333,
+              "gain": 0.018333333333333347,
+              "wins": 7,
+              "runs": 10
+            },
+            {
+              "dimension": 4095,
+              "baseline": 0.5103333333333333,
+              "sbohn": 0.5138333333333334,
+              "gain": 0.003499999999999992,
+              "wins": 6,
+              "runs": 10
+            }
+          ]
+        },
+        "primary_criterion_pass": false,
+        "status": "STRUCTURAL_RECONSTRUCTION_NOT_CONFIRMED",
+        "mode": "full",
+        "protocol_id": "STAGE_07R_V1",
+        "warnings": [
+          {
+            "category": "ConvergenceWarning",
+            "message": "Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit."
+          },
+          {
+            "category": "ConvergenceWarning",
+            "message": "Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit."
+          },
+          {
+            "category": "ConvergenceWarning",
+            "message": "Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit."
+          },
+          {
+            "category": "ConvergenceWarning",
+            "message": "Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit."
+          },
+          {
+            "category": "ConvergenceWarning",
+            "message": "Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit."
+          },
+          {
+            "category": "ConvergenceWarning",
+            "message": "Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit."
+          },
+          {
+            "category": "ConvergenceWarning",
+            "message": "Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit."
+          },
+          {
+            "category": "ConvergenceWarning",
+            "message": "Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit."
+          },
+          {
+            "category": "ConvergenceWarning",
+            "message": "Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit."
+          },
+          {
+            "category": "ConvergenceWarning",
+            "message": "Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit."
+          }
+        ],
+        "convergence_warning_count": 10
+      },
+      "stdout_file": "raw/HD-003R_stdout.txt",
+      "stderr_file": "raw/HD-003R_stderr.txt",
+      "result_file": "raw/HD-003R_result.json",
+      "stdout_sha256": "02b447cdc02b719f5335bae7d3c6f594bbffd501f9c3b0beda947834328dd657",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false
+    },
+    "CMP-001R": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 4.110625,
+      "result": {
+        "experiment_id": "CMP-001R",
+        "metrics": {
+          "pca_accuracy": 0.9629629629629629,
+          "autoencoder_accuracy": 0.8111111111111111,
+          "pca_minus_autoencoder": 0.1518518518518518,
+          "autoencoder_iterations": 18
+        },
+        "primary_criterion_pass": true,
+        "status": "STRUCTURAL_RECONSTRUCTION_CONFIRMED",
+        "mode": "full",
+        "protocol_id": "STAGE_07R_V1",
+        "warnings": [],
+        "convergence_warning_count": 0
+      },
+      "stdout_file": "raw/CMP-001R_stdout.txt",
+      "stderr_file": "raw/CMP-001R_stderr.txt",
+      "result_file": "raw/CMP-001R_result.json",
+      "stdout_sha256": "a4688e86432ddd59e3f37ad5a1a10e94e91008c1f9b31a17aefb664908a4a08c",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false
+    },
+    "CMP-002R": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 22.090582,
+      "result": {
+        "experiment_id": "CMP-002R",
+        "metrics": {
+          "mean_baseline": 0.747962962962963,
+          "mean_full": 0.9718518518518519,
+          "mean_pca": {
+            "2": 0.8212962962962964,
+            "4": 0.8631481481481481,
+            "8": 0.8870370370370371,
+            "16": 0.9057407407407407
+          },
+          "mean_srl": {
+            "2": 0.9485185185185185,
+            "4": 0.9409259259259259,
+            "8": 0.9401851851851852,
+            "16": 0.9474074074074075
+          },
+          "srl_wins_over_pca": {
+            "2": 10,
+            "4": 10,
+            "8": 10,
+            "16": 10
+          },
+          "runs": 10,
+          "seed_rows": [
+            {
+              "seed": 0,
+              "baseline": 0.7351851851851852,
+              "full": 0.9611111111111111,
+              "pca": {
+                "2": 0.8222222222222222,
+                "4": 0.8444444444444444,
+                "8": 0.8759259259259259,
+                "16": 0.8796296296296297
+              },
+              "srl": {
+                "2": 0.9277777777777778,
+                "4": 0.9481481481481482,
+                "8": 0.9166666666666666,
+                "16": 0.937037037037037
+              }
+            },
+            {
+              "seed": 1,
+              "baseline": 0.7481481481481481,
+              "full": 0.9685185185185186,
+              "pca": {
+                "2": 0.8,
+                "4": 0.8592592592592593,
+                "8": 0.8777777777777778,
+                "16": 0.8870370370370371
+              },
+              "srl": {
+                "2": 0.9537037037037037,
+                "4": 0.9518518518518518,
+                "8": 0.9351851851851852,
+                "16": 0.9592592592592593
+              }
+            },
+            {
+              "seed": 2,
+              "baseline": 0.7555555555555555,
+              "full": 0.9703703703703703,
+              "pca": {
+                "2": 0.8277777777777777,
+                "4": 0.8611111111111112,
+                "8": 0.8851851851851852,
+                "16": 0.8962962962962963
+              },
+              "srl": {
+                "2": 0.9185185185185185,
+                "4": 0.937037037037037,
+                "8": 0.9407407407407408,
+                "16": 0.9055555555555556
+              }
+            },
+            {
+              "seed": 3,
+              "baseline": 0.7648148148148148,
+              "full": 0.9777777777777777,
+              "pca": {
+                "2": 0.8314814814814815,
+                "4": 0.8814814814814815,
+                "8": 0.8944444444444445,
+                "16": 0.9185185185185185
+              },
+              "srl": {
+                "2": 0.9574074074074074,
+                "4": 0.9444444444444444,
+                "8": 0.9296296296296296,
+                "16": 0.9518518518518518
+              }
+            },
+            {
+              "seed": 4,
+              "baseline": 0.7018518518518518,
+              "full": 0.9666666666666667,
+              "pca": {
+                "2": 0.8092592592592592,
+                "4": 0.8592592592592593,
+                "8": 0.8925925925925926,
+                "16": 0.9111111111111111
+              },
+              "srl": {
+                "2": 0.9574074074074074,
+                "4": 0.9259259259259259,
+                "8": 0.9444444444444444,
+                "16": 0.9481481481481482
+              }
+            },
+            {
+              "seed": 5,
+              "baseline": 0.7648148148148148,
+              "full": 0.975925925925926,
+              "pca": {
+                "2": 0.8351851851851851,
+                "4": 0.8722222222222222,
+                "8": 0.9018518518518519,
+                "16": 0.9148148148148149
+              },
+              "srl": {
+                "2": 0.9296296296296296,
+                "4": 0.9462962962962963,
+                "8": 0.937037037037037,
+                "16": 0.9648148148148148
+              }
+            },
+            {
+              "seed": 6,
+              "baseline": 0.7518518518518519,
+              "full": 0.9722222222222222,
+              "pca": {
+                "2": 0.8240740740740741,
+                "4": 0.8425925925925926,
+                "8": 0.8759259259259259,
+                "16": 0.8907407407407407
+              },
+              "srl": {
+                "2": 0.9592592592592593,
+                "4": 0.9462962962962963,
+                "8": 0.9222222222222223,
+                "16": 0.9518518518518518
+              }
+            },
+            {
+              "seed": 7,
+              "baseline": 0.7388888888888889,
+              "full": 0.975925925925926,
+              "pca": {
+                "2": 0.8185185185185185,
+                "4": 0.8703703703703703,
+                "8": 0.8944444444444445,
+                "16": 0.9351851851851852
+              },
+              "srl": {
+                "2": 0.9703703703703703,
+                "4": 0.9611111111111111,
+                "8": 0.9574074074074074,
+                "16": 0.9555555555555556
+              }
+            },
+            {
+              "seed": 8,
+              "baseline": 0.7611111111111111,
+              "full": 0.9722222222222222,
+              "pca": {
+                "2": 0.8185185185185185,
+                "4": 0.8592592592592593,
+                "8": 0.8796296296296297,
+                "16": 0.912962962962963
+              },
+              "srl": {
+                "2": 0.9462962962962963,
+                "4": 0.937037037037037,
+                "8": 0.9537037037037037,
+                "16": 0.9444444444444444
+              }
+            },
+            {
+              "seed": 9,
+              "baseline": 0.7574074074074074,
+              "full": 0.9777777777777777,
+              "pca": {
+                "2": 0.825925925925926,
+                "4": 0.8814814814814815,
+                "8": 0.8925925925925926,
+                "16": 0.9111111111111111
+              },
+              "srl": {
+                "2": 0.9648148148148148,
+                "4": 0.9111111111111111,
+                "8": 0.9648148148148148,
+                "16": 0.9555555555555556
+              }
+            }
+          ]
+        },
+        "primary_criterion_pass": true,
+        "status": "STRUCTURAL_RECONSTRUCTION_CONFIRMED",
+        "mode": "full",
+        "protocol_id": "STAGE_07R_V1",
+        "warnings": [],
+        "convergence_warning_count": 0
+      },
+      "stdout_file": "raw/CMP-002R_stdout.txt",
+      "stderr_file": "raw/CMP-002R_stderr.txt",
+      "result_file": "raw/CMP-002R_result.json",
+      "stdout_sha256": "44e7471228fc7a8ed66bf72ddb69f3904665a33f3daf6e08b659d898777a663f",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false
+    }
+  }
+}

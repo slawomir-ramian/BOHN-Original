@@ -1,0 +1,18 @@
+{
+  "experiment_id": "CMP-002",
+  "source_sequence_in_stage": 12,
+  "source_order_in_monograph": 45,
+  "canonical_source": "docs/source/BOHN_PL.pdf",
+  "extraction_source": "docs/source/BOHN_EN_SOURCE.tex",
+  "source_code_level": "NARRATIVE_ONLY",
+  "execution_mode": "AUDITED_REPORTED_RESULT",
+  "listing_indices": [],
+  "historical_source_files": [],
+  "historical_source_sha256": [],
+  "historical_source_line_ranges": [],
+  "reported_result_file": "reported_results_from_monograph.tex",
+  "reported_result_start_line": 3113,
+  "reported_result_end_line": 3162,
+  "reported_result_sha256": "66b46221b8d68e044d80612e1e63dcc53276506e701374b9d98656c7e09d0334",
+  "historical_code_modified": false
+}

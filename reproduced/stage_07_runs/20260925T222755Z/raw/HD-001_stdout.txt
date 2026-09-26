@@ -1,0 +1,10 @@
+Dimension scaling (n=2000, 10 seeds)
+d=   63  base=0.7412  sbohn=0.9595  gain=0.2183  wins=10/10
+d=  255  base=0.7440  sbohn=0.8998  gain=0.1558  wins=10/10
+d= 1023  base=0.6463  sbohn=0.7775  gain=0.1312  wins=10/10
+d= 4095  base=0.5455  sbohn=0.6560  gain=0.1105  wins=10/10
+
+Effect of n (d=4095, 10 seeds)
+n=  2000  base=0.5455  sbohn=0.6560  gain=0.1105  wins=10/10
+n=  5000  base=0.6101  sbohn=0.7293  gain=0.1191  wins=10/10
+n= 10000  base=0.6716  sbohn=0.8038  gain=0.1322  wins=10/10

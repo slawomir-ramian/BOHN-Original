@@ -1,0 +1,249 @@
+======================================
+SBOHN-AR EQUIVALENCE CLASS TEST
+======================================
+
+Baseline accuracy:     0.7537
+True flip accuracy:    0.8833
+True rot180 accuracy:  0.9167
+
+Running evolutionary searches...
+
+seed=00 gen=00 best_acc=0.8630 global_best=0.8630
+seed=00 gen=05 best_acc=0.9111 global_best=0.9111
+seed=00 gen=10 best_acc=0.9259 global_best=0.9259
+seed=00 gen=15 best_acc=0.9315 global_best=0.9315
+seed=00 gen=20 best_acc=0.9333 global_best=0.9333
+seed=00 gen=25 best_acc=0.9444 global_best=0.9444
+seed=00 gen=30 best_acc=0.9444 global_best=0.9444
+seed=00 gen=34 best_acc=0.9481 global_best=0.9481
+seed=01 gen=00 best_acc=0.8370 global_best=0.8370
+seed=01 gen=05 best_acc=0.8963 global_best=0.8963
+seed=01 gen=10 best_acc=0.9148 global_best=0.9148
+seed=01 gen=15 best_acc=0.9241 global_best=0.9241
+seed=01 gen=20 best_acc=0.9278 global_best=0.9278
+seed=01 gen=25 best_acc=0.9278 global_best=0.9278
+seed=01 gen=30 best_acc=0.9333 global_best=0.9333
+seed=01 gen=34 best_acc=0.9333 global_best=0.9333
+seed=02 gen=00 best_acc=0.8593 global_best=0.8593
+seed=02 gen=05 best_acc=0.9056 global_best=0.9056
+seed=02 gen=10 best_acc=0.9074 global_best=0.9074
+seed=02 gen=15 best_acc=0.9222 global_best=0.9222
+seed=02 gen=20 best_acc=0.9278 global_best=0.9278
+seed=02 gen=25 best_acc=0.9352 global_best=0.9352
+seed=02 gen=30 best_acc=0.9370 global_best=0.9370
+seed=02 gen=34 best_acc=0.9370 global_best=0.9370
+seed=03 gen=00 best_acc=0.8593 global_best=0.8593
+seed=03 gen=05 best_acc=0.9019 global_best=0.9019
+seed=03 gen=10 best_acc=0.9278 global_best=0.9278
+seed=03 gen=15 best_acc=0.9296 global_best=0.9296
+seed=03 gen=20 best_acc=0.9352 global_best=0.9352
+seed=03 gen=25 best_acc=0.9370 global_best=0.9370
+seed=03 gen=30 best_acc=0.9426 global_best=0.9426
+seed=03 gen=34 best_acc=0.9426 global_best=0.9426
+seed=04 gen=00 best_acc=0.8648 global_best=0.8648
+seed=04 gen=05 best_acc=0.8926 global_best=0.8926
+seed=04 gen=10 best_acc=0.9148 global_best=0.9148
+seed=04 gen=15 best_acc=0.9278 global_best=0.9278
+seed=04 gen=20 best_acc=0.9315 global_best=0.9315
+seed=04 gen=25 best_acc=0.9333 global_best=0.9333
+seed=04 gen=30 best_acc=0.9333 global_best=0.9333
+seed=04 gen=34 best_acc=0.9352 global_best=0.9352
+seed=05 gen=00 best_acc=0.8722 global_best=0.8722
+seed=05 gen=05 best_acc=0.9074 global_best=0.9074
+seed=05 gen=10 best_acc=0.9222 global_best=0.9222
+seed=05 gen=15 best_acc=0.9259 global_best=0.9259
+seed=05 gen=20 best_acc=0.9259 global_best=0.9259
+seed=05 gen=25 best_acc=0.9278 global_best=0.9278
+seed=05 gen=30 best_acc=0.9296 global_best=0.9296
+seed=05 gen=34 best_acc=0.9296 global_best=0.9296
+seed=06 gen=00 best_acc=0.8593 global_best=0.8593
+seed=06 gen=05 best_acc=0.9093 global_best=0.9093
+seed=06 gen=10 best_acc=0.9185 global_best=0.9185
+seed=06 gen=15 best_acc=0.9241 global_best=0.9241
+seed=06 gen=20 best_acc=0.9259 global_best=0.9259
+seed=06 gen=25 best_acc=0.9296 global_best=0.9296
+seed=06 gen=30 best_acc=0.9370 global_best=0.9370
+seed=06 gen=34 best_acc=0.9370 global_best=0.9370
+seed=07 gen=00 best_acc=0.8481 global_best=0.8481
+seed=07 gen=05 best_acc=0.9037 global_best=0.9037
+seed=07 gen=10 best_acc=0.9093 global_best=0.9093
+seed=07 gen=15 best_acc=0.9222 global_best=0.9222
+seed=07 gen=20 best_acc=0.9296 global_best=0.9296
+seed=07 gen=25 best_acc=0.9370 global_best=0.9370
+seed=07 gen=30 best_acc=0.9407 global_best=0.9407
+seed=07 gen=34 best_acc=0.9407 global_best=0.9407
+seed=08 gen=00 best_acc=0.8407 global_best=0.8407
+seed=08 gen=05 best_acc=0.9185 global_best=0.9185
+seed=08 gen=10 best_acc=0.9259 global_best=0.9259
+seed=08 gen=15 best_acc=0.9407 global_best=0.9407
+seed=08 gen=20 best_acc=0.9407 global_best=0.9407
+seed=08 gen=25 best_acc=0.9426 global_best=0.9426
+seed=08 gen=30 best_acc=0.9463 global_best=0.9463
+seed=08 gen=34 best_acc=0.9481 global_best=0.9481
+seed=09 gen=00 best_acc=0.8481 global_best=0.8481
+seed=09 gen=05 best_acc=0.8907 global_best=0.8907
+seed=09 gen=10 best_acc=0.9093 global_best=0.9093
+seed=09 gen=15 best_acc=0.9148 global_best=0.9148
+seed=09 gen=20 best_acc=0.9204 global_best=0.9204
+seed=09 gen=25 best_acc=0.9259 global_best=0.9259
+seed=09 gen=30 best_acc=0.9278 global_best=0.9278
+seed=09 gen=34 best_acc=0.9296 global_best=0.9296
+seed=10 gen=00 best_acc=0.8611 global_best=0.8611
+seed=10 gen=05 best_acc=0.9037 global_best=0.9037
+seed=10 gen=10 best_acc=0.9259 global_best=0.9259
+seed=10 gen=15 best_acc=0.9370 global_best=0.9370
+seed=10 gen=20 best_acc=0.9370 global_best=0.9370
+seed=10 gen=25 best_acc=0.9370 global_best=0.9370
+seed=10 gen=30 best_acc=0.9370 global_best=0.9370
+seed=10 gen=34 best_acc=0.9389 global_best=0.9389
+seed=11 gen=00 best_acc=0.8593 global_best=0.8593
+seed=11 gen=05 best_acc=0.9056 global_best=0.9056
+seed=11 gen=10 best_acc=0.9185 global_best=0.9185
+seed=11 gen=15 best_acc=0.9278 global_best=0.9278
+seed=11 gen=20 best_acc=0.9278 global_best=0.9278
+seed=11 gen=25 best_acc=0.9370 global_best=0.9370
+seed=11 gen=30 best_acc=0.9370 global_best=0.9370
+seed=11 gen=34 best_acc=0.9370 global_best=0.9370
+seed=12 gen=00 best_acc=0.8574 global_best=0.8574
+seed=12 gen=05 best_acc=0.8815 global_best=0.8815
+seed=12 gen=10 best_acc=0.9074 global_best=0.9074
+seed=12 gen=15 best_acc=0.9130 global_best=0.9130
+seed=12 gen=20 best_acc=0.9259 global_best=0.9259
+seed=12 gen=25 best_acc=0.9333 global_best=0.9333
+seed=12 gen=30 best_acc=0.9352 global_best=0.9352
+seed=12 gen=34 best_acc=0.9389 global_best=0.9389
+seed=13 gen=00 best_acc=0.8444 global_best=0.8444
+seed=13 gen=05 best_acc=0.8981 global_best=0.8981
+seed=13 gen=10 best_acc=0.9167 global_best=0.9167
+seed=13 gen=15 best_acc=0.9241 global_best=0.9241
+seed=13 gen=20 best_acc=0.9315 global_best=0.9315
+seed=13 gen=25 best_acc=0.9352 global_best=0.9352
+seed=13 gen=30 best_acc=0.9352 global_best=0.9352
+seed=13 gen=34 best_acc=0.9370 global_best=0.9370
+seed=14 gen=00 best_acc=0.8481 global_best=0.8481
+seed=14 gen=05 best_acc=0.9037 global_best=0.9037
+seed=14 gen=10 best_acc=0.9222 global_best=0.9222
+seed=14 gen=15 best_acc=0.9315 global_best=0.9315
+seed=14 gen=20 best_acc=0.9333 global_best=0.9333
+seed=14 gen=25 best_acc=0.9333 global_best=0.9333
+seed=14 gen=30 best_acc=0.9333 global_best=0.9333
+seed=14 gen=34 best_acc=0.9352 global_best=0.9352
+seed=15 gen=00 best_acc=0.8481 global_best=0.8481
+seed=15 gen=05 best_acc=0.9037 global_best=0.9037
+seed=15 gen=10 best_acc=0.9148 global_best=0.9148
+seed=15 gen=15 best_acc=0.9185 global_best=0.9185
+seed=15 gen=20 best_acc=0.9204 global_best=0.9204
+seed=15 gen=25 best_acc=0.9259 global_best=0.9259
+seed=15 gen=30 best_acc=0.9259 global_best=0.9259
+seed=15 gen=34 best_acc=0.9259 global_best=0.9259
+seed=16 gen=00 best_acc=0.8537 global_best=0.8537
+seed=16 gen=05 best_acc=0.8926 global_best=0.8926
+seed=16 gen=10 best_acc=0.9148 global_best=0.9148
+seed=16 gen=15 best_acc=0.9222 global_best=0.9222
+seed=16 gen=20 best_acc=0.9241 global_best=0.9241
+seed=16 gen=25 best_acc=0.9259 global_best=0.9259
+seed=16 gen=30 best_acc=0.9352 global_best=0.9352
+seed=16 gen=34 best_acc=0.9370 global_best=0.9370
+seed=17 gen=00 best_acc=0.8537 global_best=0.8537
+seed=17 gen=05 best_acc=0.9037 global_best=0.9037
+seed=17 gen=10 best_acc=0.9185 global_best=0.9185
+seed=17 gen=15 best_acc=0.9222 global_best=0.9222
+seed=17 gen=20 best_acc=0.9296 global_best=0.9296
+seed=17 gen=25 best_acc=0.9333 global_best=0.9333
+seed=17 gen=30 best_acc=0.9333 global_best=0.9333
+seed=17 gen=34 best_acc=0.9407 global_best=0.9407
+seed=18 gen=00 best_acc=0.8426 global_best=0.8426
+seed=18 gen=05 best_acc=0.9000 global_best=0.9000
+seed=18 gen=10 best_acc=0.9130 global_best=0.9130
+seed=18 gen=15 best_acc=0.9204 global_best=0.9204
+seed=18 gen=20 best_acc=0.9259 global_best=0.9259
+seed=18 gen=25 best_acc=0.9315 global_best=0.9315
+seed=18 gen=30 best_acc=0.9333 global_best=0.9333
+seed=18 gen=34 best_acc=0.9352 global_best=0.9352
+seed=19 gen=00 best_acc=0.8630 global_best=0.8630
+seed=19 gen=05 best_acc=0.8981 global_best=0.8981
+seed=19 gen=10 best_acc=0.9111 global_best=0.9111
+seed=19 gen=15 best_acc=0.9204 global_best=0.9204
+seed=19 gen=20 best_acc=0.9352 global_best=0.9352
+seed=19 gen=25 best_acc=0.9352 global_best=0.9352
+seed=19 gen=30 best_acc=0.9407 global_best=0.9407
+seed=19 gen=34 best_acc=0.9444 global_best=0.9444
+
+======================================
+BEST PER RUN
+======================================
+ run_seed  accuracy  sim_flip  sim_rot180  best_true_sim
+        0  0.948148  0.078125    0.046875       0.078125
+        1  0.933333  0.015625    0.046875       0.046875
+        2  0.937037  0.062500    0.062500       0.062500
+        3  0.942593  0.046875    0.078125       0.078125
+        4  0.935185  0.015625    0.062500       0.062500
+        5  0.929630  0.031250    0.031250       0.031250
+        6  0.937037  0.031250    0.093750       0.093750
+        7  0.940741  0.046875    0.046875       0.046875
+        8  0.948148  0.046875    0.109375       0.109375
+        9  0.929630  0.062500    0.062500       0.062500
+       10  0.938889  0.000000    0.062500       0.062500
+       11  0.937037  0.015625    0.078125       0.078125
+       12  0.938889  0.031250    0.078125       0.078125
+       13  0.937037  0.031250    0.078125       0.078125
+       14  0.935185  0.046875    0.062500       0.062500
+       15  0.925926  0.015625    0.062500       0.062500
+       16  0.937037  0.015625    0.046875       0.046875
+       17  0.940741  0.062500    0.062500       0.062500
+       18  0.935185  0.062500    0.046875       0.062500
+       19  0.944444  0.062500    0.093750       0.093750
+
+======================================
+BEST RUN SUMMARY
+======================================
+      run_seed  accuracy  sim_flip  sim_rot180  best_true_sim
+mean   9.50000  0.937593  0.039062    0.065625       0.067969
+std    5.91608  0.005703  0.021804    0.019370       0.018470
+min    0.00000  0.925926  0.000000    0.031250       0.031250
+max   19.00000  0.948148  0.078125    0.109375       0.109375
+
+======================================
+PAIRWISE EQUIVALENCE SUMMARY
+======================================
+      acc_abs_diff  perm_similarity  linear_cka  mean_sample_cosine  feature_mean_abs_corr
+mean      0.006452         0.031168    0.794249            0.610983               0.301860
+std       0.004852         0.022068    0.025471            0.029351               0.029804
+min       0.000000         0.000000    0.732547            0.531806               0.236338
+max       0.022222         0.093750    0.869796            0.709845               0.402945
+
+======================================
+FINAL INTERPRETATION NUMBERS
+======================================
+Runs:                         20
+Elapsed time:                 1333.89 sec
+Mean evolved accuracy:         0.9376
+Std evolved accuracy:          0.0057
+Mean best true similarity:     0.0680
+Mean pairwise perm similarity: 0.0312
+Mean pairwise CKA:             0.7942
+Mean pairwise cosine:          0.6110
+Mean pairwise abs corr:        0.3019
+
+Pairwise rows head:
+ i  j    acc_i    acc_j  acc_abs_diff  perm_similarity  linear_cka  mean_sample_cosine  feature_mean_abs_corr
+ 0  1 0.948148 0.933333      0.014815         0.015625    0.807831            0.610696               0.331380
+ 0  2 0.948148 0.937037      0.011111         0.031250    0.812320            0.626063               0.338548
+ 0  3 0.948148 0.942593      0.005556         0.031250    0.774727            0.611838               0.292488
+ 0  4 0.948148 0.935185      0.012963         0.031250    0.780763            0.598603               0.294967
+ 0  5 0.948148 0.929630      0.018519         0.000000    0.790539            0.602466               0.271743
+ 0  6 0.948148 0.937037      0.011111         0.000000    0.818497            0.641125               0.303761
+ 0  7 0.948148 0.940741      0.007407         0.015625    0.807436            0.667555               0.292342
+ 0  8 0.948148 0.948148      0.000000         0.000000    0.832180            0.635458               0.274530
+ 0  9 0.948148 0.929630      0.018519         0.046875    0.791378            0.638809               0.297946
+ 0 10 0.948148 0.938889      0.009259         0.046875    0.767959            0.654615               0.323076
+ 0 11 0.948148 0.937037      0.011111         0.046875    0.780564            0.613445               0.305417
+ 0 12 0.948148 0.938889      0.009259         0.046875    0.800362            0.620603               0.355924
+ 0 13 0.948148 0.937037      0.011111         0.031250    0.794559            0.591544               0.286386
+ 0 14 0.948148 0.935185      0.012963         0.031250    0.752901            0.587601               0.264931
+ 0 15 0.948148 0.925926      0.022222         0.031250    0.810945            0.629589               0.353531
+ 0 16 0.948148 0.937037      0.011111         0.046875    0.832656            0.643394               0.341157
+ 0 17 0.948148 0.940741      0.007407         0.031250    0.783991            0.633653               0.310742
+ 0 18 0.948148 0.935185      0.012963         0.062500    0.787632            0.628359               0.343559
+ 0 19 0.948148 0.944444      0.003704         0.015625    0.751703            0.595614               0.339337
+ 1  2 0.933333 0.937037      0.003704         0.031250    0.814124            0.648982               0.333877
