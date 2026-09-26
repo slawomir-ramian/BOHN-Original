@@ -1,0 +1,19 @@
+\begin{table}[h]
+\centering
+\caption{Patch SBOHN --- results on Fashion-MNIST (2000 training samples, 500 test samples).}
+\begin{tabular}{clcc}
+\hline
+\# & \textbf{Model} & \textbf{Accuracy} & \textbf{Parameters} \\
+\hline
+1 & MLP-128 (flat) & 84.2\% & 149\,002 \\
+2 & PatchMLP-64 (no perm) & 83.8\% & 137\,674 \\
+3 & PatchSBOHN global $\tau{=}0.5$ & 69.4\% & 137\,930 \\
+4 & PatchSBOHN global $\tau{=}0.3$ & 74.0\% & 137\,930 \\
+5 & PatchSBOHN InpDep 1H $\tau{=}0.3$ & 83.2\% & 158\,474 \\
+6 & PatchSBOHN InpDep 1H $\tau{=}0.1$ & 82.2\% & 158\,474 \\
+7 & PatchSBOHN InpDep 4H $\tau{=}0.3$ & 83.8\% & 601\,610 \\
+\textbf{8} & \textbf{PatchSBOHN InpDep 4H $\tau{=}0.1$} & \textbf{84.8\%} $\star$ & \textbf{601\,610} \\
+9 & PatchSBOHN InpDep 4H h128 $\tau{=}0.1$ & 84.0\% & 2\,258\,954 \\
+\hline
+\end{tabular}
+\end{table}

@@ -31,6 +31,14 @@ reproduced/stage_07_runs/*/
 !reproduced/stage_07_runs/20260925T222755Z/**
 reproduced/stage_07r_pilot/
 
+# Pobrane zbiory Etapu 09 są lokalnym cache i nie trafiają do Git.
+reproduced/stage_09_dataset_cache/
+
+# Etap 09: smoke jest roboczy; w closeoucie śledzimy wskazany pełny bieg.
+reproduced/stage_09_runs/*/
+!reproduced/stage_09_runs/20260926T194522Z/
+!reproduced/stage_09_runs/20260926T194522Z/**
+
 # Etap 08: smoke jest roboczy; w closeoucie śledzimy wskazany pełny bieg.
 reproduced/stage_08_runs/*/
 !reproduced/stage_08_runs/20260926T181227Z/
@@ -47,4 +55,5 @@ reproduced/stage_07r_pilot/
 Thumbs.db
 .vscode/settings.json
 
+# Robocze checkpointy ASD nie trafiaj� do Git.
 reproduced/stage_06_asd_checkpoint/

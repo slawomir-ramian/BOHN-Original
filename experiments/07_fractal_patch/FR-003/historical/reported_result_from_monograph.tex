@@ -1,0 +1,17 @@
+\begin{table}[h]
+\centering
+\caption{Fractal SBOHN on Fashion-MNIST (clothing --- more challenging).}
+\begin{tabular}{l r r r}
+\hline
+Model & Accuracy & Parameters & vs MLP-128 \\
+\hline
+Linear & 76.2\% & 10K & $-5.0$\,pp \\
+MLP-96 & 79.8\% & 109K & $-1.4$\,pp \\
+\textbf{MLP-128} & \textbf{81.2\%} & \textbf{149K} & baseline \\
+Frac-2L & 67.0\% & 40K & $-14.2$\,pp \\
+Frac-3L & 76.7\% & 82K & $-4.5$\,pp \\
+\textbf{Frac-4L} & \textbf{80.3\%} & \textbf{198K} & $\mathbf{-0.9}$\,\textbf{pp} \\
+Frac-4L h64 & 79.5\% & 271K & $-1.7$\,pp \\
+\hline
+\end{tabular}
+\end{table}

@@ -1,7 +1,7 @@
 # Indeks eksperymentów, testów i programów
 
 Rejestr obejmuje **115 jednostek** wykrytych w monografii.
-Po zakończonych etapach wykonano **56 jednostek**; **59** pozostaje `NOT_RUN`.
+Po zakończonych etapach wykonano **72 jednostek**; **43** pozostaje `NOT_RUN`.
 
 Kolumna `Kod` opisuje poziom materiału dostępnego w PDF. `NARRATIVE_ONLY` nie
 oznacza pominięcia - przeciwnie, wskazuje jednostkę wymagającą ostrożnej rekonstrukcji
@@ -92,22 +92,22 @@ z opisu i tabel, bez udawania, że pełny kod został opublikowany.
 
 | ID | Sekcja | Jednostka | Typ | Strony drukowane / PDF | Kod | Reprodukcja |
 |---|---|---|---|---|---|---|
-| `FR-001` | 7.1 | Fractal Input-Dependent SBOHN - test przełomowy i analiza per-level | experiment | 71-73 / 72-74 | `PARTIAL_IN_CHAPTER` | `NOT_RUN` |
-| `FR-004` | 7.1.4 | Fractal SBOHN - osobna analiza per-level modelu InpDep 5L | analysis_test | 72-73 / 73-74 | `PARTIAL_IN_CHAPTER` | `NOT_RUN` |
-| `FR-002` | 7.2 | Fractal SBOHN - MNIST | experiment | 75-81 / 76-82 | `FULL_IN_CHAPTER` | `NOT_RUN` |
-| `FR-003` | 7.2 | Fractal SBOHN - Fashion-MNIST | experiment | 75-81 / 76-82 | `FULL_IN_CHAPTER` | `NOT_RUN` |
-| `PT-001` | 7.3 | Patch SBOHN / Permutation Transformer - MNIST | experiment | 83-89 / 84-90 | `FULL_IN_CHAPTER` | `NOT_RUN` |
-| `PT-002` | 7.3 | Patch SBOHN / Permutation Transformer - Fashion-MNIST | experiment | 83-89 / 84-90 | `FULL_IN_CHAPTER` | `NOT_RUN` |
-| `PT-003` | 7.3.1 | Patch SBOHN - skalowanie względem rozdzielczości | scaling_test | 83-84 / 84-85 | `FULL_IN_CHAPTER` | `NOT_RUN` |
-| `PT-004` | 7.3.2-7.3.3 | Patch SBOHN - ablation input-dependency | ablation | 84 / 85 | `FULL_IN_CHAPTER` | `NOT_RUN` |
-| `PT-005` | 7.3.2-7.3.3 | Patch SBOHN - ablation liczby głów | ablation | 84 / 85 | `FULL_IN_CHAPTER` | `NOT_RUN` |
-| `HR-001` | 7.4 | HighRes Patch SBOHN - test 4K na MNIST | scaling_test | 90-91 / 91-92 | `NARRATIVE_ONLY` | `NOT_RUN` |
-| `HR-002` | 7.4 | HighRes Patch SBOHN - test 4K na Fashion-MNIST | scaling_test | 90-91 / 91-92 | `NARRATIVE_ONLY` | `NOT_RUN` |
-| `HR-003` | 7.5 | HighRes Fractal SBOHN v2 - permutacja patchy vs cech | experiment | 92-93 / 93-94 | `NARRATIVE_ONLY` | `NOT_RUN` |
-| `HR-004` | 7.4.3 | HighRes Patch SBOHN - pełne skalowanie rozdzielczości do 4K | scaling_test | 91-92 / 92-93 | `NARRATIVE_ONLY` | `NOT_RUN` |
-| `HR-005` | 7.5.2 | HighRes Fractal SBOHN v2 - wkład poszczególnych poprawek | ablation | 93 / 94 | `NARRATIVE_ONLY` | `NOT_RUN` |
-| `HR-006` | 7.5.2 | HighRes Fractal SBOHN v2 - MNIST | experiment | 93 / 94 | `NARRATIVE_ONLY` | `NOT_RUN` |
-| `HR-007` | 7.5.2 | HighRes Fractal SBOHN v2 - Fashion-MNIST | experiment | 94 / 95 | `NARRATIVE_ONLY` | `NOT_RUN` |
+| `FR-001` | 7.1 | Fractal Input-Dependent SBOHN - test przełomowy i analiza per-level | experiment | 71-73 / 72-74 | `CHAPTER_NARRATIVE_TARGET_CODE_ABSENT` | `AUDITED_REPORTED_RESULT` |
+| `FR-004` | 7.1.4 | Fractal SBOHN - osobna analiza per-level modelu InpDep 5L | analysis_test | 72-73 / 73-74 | `CHAPTER_NARRATIVE_TARGET_CODE_ABSENT` | `AUDITED_REPORTED_RESULT` |
+| `FR-002` | 7.2 | Fractal SBOHN - MNIST | experiment | 75-81 / 76-82 | `FULL_IN_CHAPTER` | `CLOSE_NUMERIC_MATCH` |
+| `FR-003` | 7.2 | Fractal SBOHN - Fashion-MNIST | experiment | 75-81 / 76-82 | `FULL_IN_CHAPTER` | `CLOSE_NUMERIC_MATCH` |
+| `PT-001` | 7.3 | Patch SBOHN / Permutation Transformer - MNIST | experiment | 83-89 / 84-90 | `FULL_IN_CHAPTER` | `CLOSE_NUMERIC_MATCH` |
+| `PT-002` | 7.3 | Patch SBOHN / Permutation Transformer - Fashion-MNIST | experiment | 83-89 / 84-90 | `FULL_IN_CHAPTER` | `CLOSE_NUMERIC_MATCH` |
+| `PT-003` | 7.3.1 | Patch SBOHN - skalowanie względem rozdzielczości | scaling_test | 83-84 / 84-85 | `SHARED_LISTING_TARGET_CODE_ABSENT` | `AUDITED_REPORTED_RESULT` |
+| `PT-004` | 7.3.2-7.3.3 | Patch SBOHN - ablation input-dependency | ablation | 84 / 85 | `FULL_IN_CHAPTER` | `CLOSE_NUMERIC_MATCH` |
+| `PT-005` | 7.3.2-7.3.3 | Patch SBOHN - ablation liczby głów | ablation | 84 / 85 | `FULL_IN_CHAPTER` | `CLOSE_NUMERIC_MATCH` |
+| `HR-001` | 7.4 | HighRes Patch SBOHN - test 4K na MNIST | scaling_test | 90-91 / 91-92 | `NARRATIVE_ONLY` | `AUDITED_REPORTED_RESULT` |
+| `HR-002` | 7.4 | HighRes Patch SBOHN - test 4K na Fashion-MNIST | scaling_test | 90-91 / 91-92 | `NARRATIVE_ONLY` | `AUDITED_REPORTED_RESULT` |
+| `HR-003` | 7.5 | HighRes Fractal SBOHN v2 - permutacja patchy vs cech | experiment | 92-93 / 93-94 | `NARRATIVE_ONLY` | `AUDITED_REPORTED_RESULT` |
+| `HR-004` | 7.4.3 | HighRes Patch SBOHN - pełne skalowanie rozdzielczości do 4K | scaling_test | 91-92 / 92-93 | `NARRATIVE_ONLY` | `AUDITED_REPORTED_RESULT` |
+| `HR-005` | 7.5.2 | HighRes Fractal SBOHN v2 - wkład poszczególnych poprawek | ablation | 93 / 94 | `NARRATIVE_ONLY` | `AUDITED_REPORTED_RESULT` |
+| `HR-006` | 7.5.2 | HighRes Fractal SBOHN v2 - MNIST | experiment | 93 / 94 | `NARRATIVE_ONLY` | `AUDITED_REPORTED_RESULT` |
+| `HR-007` | 7.5.2 | HighRes Fractal SBOHN v2 - Fashion-MNIST | experiment | 94 / 95 | `NARRATIVE_ONLY` | `AUDITED_REPORTED_RESULT` |
 
 ## Rozdział 8: Meta-SBOHN
 

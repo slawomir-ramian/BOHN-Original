@@ -1,0 +1,17 @@
+\begin{table}[h]
+\centering
+\caption{Fractal SBOHN on MNIST (digits).}
+\begin{tabular}{l r r r}
+\hline
+Model & Accuracy & Parameters & vs MLP-128 \\
+\hline
+Linear & 87.0\% & 10K & $-3.8$\,pp \\
+MLP-96 & 90.5\% & 109K & $-0.3$\,pp \\
+\textbf{MLP-128} & \textbf{90.8\%} & \textbf{149K} & baseline \\
+Frac-2L & 76.7\% & 40K & $-14.1$\,pp \\
+Frac-3L & 88.2\% & 82K & $-2.6$\,pp \\
+Frac-4L & 89.5\% & 198K & $-1.3$\,pp \\
+\textbf{Frac-4L h64} & \textbf{90.0\%} & \textbf{271K} & $\mathbf{-0.8}$\,\textbf{pp} \\
+\hline
+\end{tabular}
+\end{table}

@@ -1,0 +1,16 @@
+\begin{table}[h]
+\centering
+\caption{HighRes Patch SBOHN --- results on MNIST (2000/500 samples).}
+\begin{tabular}{lccr}
+\hline
+\textbf{Model} & \textbf{Accuracy} & \textbf{Parameters} & \textbf{vs MLP} \\
+\hline
+\textbf{HR\_4H\_4L} (4 heads, 4 levels) & \textbf{93.4\%} $\star$ & 1\,910\,074 & $+2.0$\,pp \\
+HR\_2H\_$\tau$0.5 (2 heads)              & 92.6\%                  & 528\,954   & $+1.2$\,pp \\
+HR\_4H\_$\tau$0.1 (4 heads)              & 92.4\%                  & 1\,416\,762 & $+1.0$\,pp \\
+HR\_4H\_d32 (embed=32)                     & 91.8\%                  & 4\,466\,506 & $+0.4$\,pp \\
+MLP-128 (baseline)                          & 91.4\%                  & 101\,770   & --- \\
+\textbf{UserOriginal} (flip, 1-scalar)      & \textbf{42.2\%}         & 2\,619     & $-49.2$\,pp \\
+\hline
+\end{tabular}
+\end{table}

@@ -1,0 +1,15 @@
+AUDITED_REPORTED_RESULT
+\begin{table}[h]
+\centering
+\caption{Scaling Patch SBOHN to different image resolutions.}
+\begin{tabular}{lcccc}
+\hline
+\textbf{Resolution} & \textbf{Patch} & \textbf{Patches} & \textbf{Matrix $P$} & \textbf{Status} \\
+\hline
+$28 \times 28$ (MNIST)   & $7 \times 7$   & 16  & $16 \times 16$   & Tested \\
+$32 \times 32$ (CIFAR)   & $8 \times 8$   & 16  & $16 \times 16$   & Ready \\
+$224 \times 224$ (HD)     & $16 \times 16$ & 196 & $196 \times 196$ & Ready \\
+$2160 \times 3840$ (4K)   & $120 \times 120$ & 576 & $576 \times 576$ & Ready (GPU) \\
+\hline
+\end{tabular}
+\end{table}

@@ -1,0 +1,14 @@
+\begin{table}[h]
+\centering
+\caption{Evolution of fractal models on MNIST --- from 30\% to 93\%.}
+\begin{tabular}{lcc}
+\hline
+\textbf{Variant} & \textbf{MNIST} & \textbf{Fashion} \\
+\hline
+Original (1 feature + flip)             & 30.4\% & 57.2\% \\
+Original (16 features + flip)             & 86.1\% & 80.5\% \\
+v2 (16 features + Sinkhorn + MH)          & \textbf{93.0\%} & \textbf{82.8\%} \\
+MLP Baseline                          & 90.9\% & 84.5\% \\
+\hline
+\end{tabular}
+\end{table}

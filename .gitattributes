@@ -24,3 +24,5 @@ experiments/05_permutation_and_representation/*/historical/source_from_monograph
 experiments/05_permutation_and_representation/*/historical/source_fragment_*_from_monograph.py whitespace=-trailing-space
 experiments/06_learnable_sinkhorn/*/historical/source_from_monograph.py whitespace=-trailing-space
 experiments/06_learnable_sinkhorn/*/historical/shared_listing_context_from_monograph.py whitespace=-trailing-space
+experiments/07_fractal_patch/*/historical/source_from_monograph.py whitespace=-trailing-space
+experiments/07_fractal_patch/*/historical/shared_listing_context_from_monograph.py whitespace=-trailing-space

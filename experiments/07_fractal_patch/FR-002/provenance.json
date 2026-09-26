@@ -1,0 +1,30 @@
+{
+  "experiment_id": "FR-002",
+  "source_sequence_in_stage": 3,
+  "source_order_in_monograph": 59,
+  "canonical_source": "docs/source/BOHN_PL.pdf",
+  "extraction_source": "docs/source/BOHN_EN_SOURCE.tex",
+  "source_code_level": "FULL_IN_CHAPTER",
+  "execution_mode": "HISTORICAL_SOURCE",
+  "verbatim_indices": [
+    13
+  ],
+  "listing_target_code_present": true,
+  "historical_source_files": [
+    "source_from_monograph.py"
+  ],
+  "historical_source_sha256": [
+    "d183057e19fd97eed1681616a560c5bb2a108737f466ccd007e2cfc3847d9ee8"
+  ],
+  "historical_source_line_ranges": [
+    [
+      3994,
+      4264
+    ]
+  ],
+  "reported_result_file": "reported_result_from_monograph.tex",
+  "reported_result_start_line": 3943,
+  "reported_result_end_line": 3959,
+  "reported_result_sha256": "5fd56f5cc19fd4ae028feb437f1849c59088e7bca91549268a53916137fa9b17",
+  "historical_code_modified": false
+}

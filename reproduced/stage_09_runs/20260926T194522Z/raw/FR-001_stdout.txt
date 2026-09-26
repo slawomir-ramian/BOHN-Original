@@ -1,0 +1,21 @@
+AUDITED_REPORTED_RESULT
+\begin{table}[h]
+\centering
+\caption{Fractal SBOHN results. Models outperforming MLP are shown in bold.}
+\label{tab:fractal_results}
+\begin{tabular}{lrrl}
+\hline
+\textbf{Model} & \textbf{Best Acc} & \textbf{Params} & \textbf{vs MLP} \\
+\hline
+Shared Fractal 3L, $\tau$=0.5    & 56.2\% & 14\,530 & $-37.8$pp \\
+InpDep Fractal 3L, $\tau$=0.5    & 76.2\% & 28\,298 & $-17.8$pp \\
+InpDep Fractal 5L, $\tau$=0.5    & 85.1\% & 47\,066 & $-8.9$pp \\
+InpDep Fractal 5L, $\tau$=0.3    & 89.5\% & 47\,066 & $-4.5$pp \\
+InpDep Fractal 5L, $\tau$=0.2    & 90.4\% & 47\,066 & $-3.6$pp \\
+MLP baseline                     & 94.0\% & 13\,762 & --- \\
+Wide InpDep 3L, $\tau$=0.1       & 94.0\% & 66\,982 & $\pm 0.0$pp \\
+\textbf{InpDep Fractal 5L, $\boldsymbol{\tau}$=0.1} & \textbf{94.7\%} & \textbf{47\,066} & $\boldsymbol{+0.7}$\textbf{pp} \\
+\textbf{InpDep Fractal 7L, $\boldsymbol{\tau}$=0.1} & \textbf{95.1\%} & \textbf{65\,834} & $\boldsymbol{+1.1}$\textbf{pp} \\
+\hline
+\end{tabular}
+\end{table}

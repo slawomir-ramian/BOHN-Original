@@ -1,0 +1,13 @@
+\begin{table}[h]
+\centering
+\caption{HighRes Fractal SBOHN v2 --- results on MNIST (10\,000/2\,000 samples).}
+\begin{tabular}{lccr}
+\hline
+\textbf{Model} & \textbf{Accuracy} & \textbf{Time} & \textbf{Parameters} \\
+\hline
+Original (flip + 16 features)           & 86.1\%          & 3.4\,s  & 66\,170 \\
+\textbf{v2 PatchSinkhorn + MH}      & \textbf{93.0\%} & 14.0\,s & 369\,642 \\
+MLP Baseline                        & 90.9\%          & 3.1\,s  & 235\,146 \\
+\hline
+\end{tabular}
+\end{table}

@@ -1,0 +1,19 @@
+{
+  "experiment_id": "HR-003",
+  "source_sequence_in_stage": 12,
+  "source_order_in_monograph": 68,
+  "canonical_source": "docs/source/BOHN_PL.pdf",
+  "extraction_source": "docs/source/BOHN_EN_SOURCE.tex",
+  "source_code_level": "NARRATIVE_ONLY",
+  "execution_mode": "AUDITED_REPORTED_RESULT",
+  "verbatim_indices": [],
+  "listing_target_code_present": false,
+  "historical_source_files": [],
+  "historical_source_sha256": [],
+  "historical_source_line_ranges": [],
+  "reported_result_file": "reported_result_from_monograph.tex",
+  "reported_result_start_line": 4981,
+  "reported_result_end_line": 4989,
+  "reported_result_sha256": "93c8374b3bbd14f1004506c16d728438323065072972dfbceed7a96eaee15b60",
+  "historical_code_modified": false
+}

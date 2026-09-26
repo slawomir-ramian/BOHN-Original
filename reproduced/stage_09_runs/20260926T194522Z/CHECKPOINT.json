@@ -1,0 +1,387 @@
+{
+  "stage": "09",
+  "run_utc": "2026-09-26T19:45:22+00:00",
+  "mode": "full",
+  "source_chronology": [
+    "FR-001",
+    "FR-004",
+    "FR-002",
+    "FR-003",
+    "PT-001",
+    "PT-002",
+    "PT-003",
+    "PT-004",
+    "PT-005",
+    "HR-001",
+    "HR-002",
+    "HR-003",
+    "HR-004",
+    "HR-005",
+    "HR-006",
+    "HR-007"
+  ],
+  "completed_units": [
+    "FR-001",
+    "FR-004",
+    "FR-002",
+    "FR-003",
+    "PT-001",
+    "PT-002",
+    "PT-003",
+    "PT-004",
+    "PT-005",
+    "HR-001",
+    "HR-002",
+    "HR-003",
+    "HR-004",
+    "HR-005",
+    "HR-006",
+    "HR-007"
+  ],
+  "experiments": {
+    "FR-001": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "AUDITED_REPORTED_RESULT",
+      "executed_file": "experiments/07_fractal_patch/FR-001/historical/reported_result_from_monograph.tex",
+      "stdout_sha256": "5224b040c236127334686b6d81fbfaeb7e2c0357399401d17432ca379cffa448",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/FR-001_stdout.txt",
+      "stderr_file": "raw/FR-001_stderr.txt",
+      "comparison": {
+        "status": "AUDITED_REPORTED_RESULT",
+        "scientific_conclusion_preserved": null,
+        "max_reported_numeric_delta": null,
+        "actual_summary": {},
+        "note": "Zachowano dokładny wynik źródłowy bez konstruowania brakującego kodu historycznego."
+      }
+    },
+    "FR-004": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "AUDITED_REPORTED_RESULT",
+      "executed_file": "experiments/07_fractal_patch/FR-004/historical/reported_result_from_monograph.tex",
+      "stdout_sha256": "06b8b7dfadf8609c0246b9fa117e8a83753299e08546f4d667641413ea4aa98f",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/FR-004_stdout.txt",
+      "stderr_file": "raw/FR-004_stderr.txt",
+      "comparison": {
+        "status": "AUDITED_REPORTED_RESULT",
+        "scientific_conclusion_preserved": null,
+        "max_reported_numeric_delta": null,
+        "actual_summary": {},
+        "note": "Zachowano dokładny wynik źródłowy bez konstruowania brakującego kodu historycznego."
+      }
+    },
+    "FR-002": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 73.137217,
+      "execution_mode": "HISTORICAL_SOURCE",
+      "executed_file": "experiments/07_fractal_patch/FR-002/historical/source_from_monograph.py",
+      "stdout_sha256": "e009cdb06e634f9f5dc44ebec5b8e114f657ee9eab9755092307e0ffd3172d43",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/FR-002_stdout.txt",
+      "stderr_file": "raw/FR-002_stderr.txt",
+      "comparison": {
+        "status": "CLOSE_NUMERIC_MATCH",
+        "scientific_conclusion_preserved": true,
+        "max_reported_numeric_delta": 0.0,
+        "actual_summary": {
+          "m_F2L": 0.7675,
+          "m_F3L": 0.8825,
+          "m_F4L": 0.895,
+          "m_F4L_h64": 0.9,
+          "m_MLP128": 0.9075
+        },
+        "note": "Kontrola transferu na MNIST, korzyści głębokości i małej luki względem MLP-128."
+      },
+      "historical_result_file": "raw/FR-002_historical_result.json",
+      "historical_result_sha256": "193be5f834836e1c8f8d48dbf112f53e9438ba0ae11bba270ff36007978b3afd"
+    },
+    "FR-003": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "HISTORICAL_SOURCE_SHARED_RUN",
+      "executed_file": "experiments/07_fractal_patch/FR-002/historical/source_from_monograph.py",
+      "stdout_sha256": "7ae56996405c0a3249cdfbcf7b6f4a0da0d41a53806cc4222e1a074dc459e5ad",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/FR-003_stdout.txt",
+      "stderr_file": "raw/FR-003_stderr.txt",
+      "comparison": {
+        "status": "CLOSE_NUMERIC_MATCH",
+        "scientific_conclusion_preserved": true,
+        "max_reported_numeric_delta": 0.0,
+        "actual_summary": {
+          "f_F2L": 0.67,
+          "f_F3L": 0.7675,
+          "f_F4L": 0.8025,
+          "f_MLP96": 0.7975,
+          "f_MLP128": 0.8125
+        },
+        "note": "Kontrola transferu na Fashion-MNIST i przewagi Frac-4L nad MLP-96."
+      },
+      "historical_result_file": "raw/FR-003_historical_result.json",
+      "historical_result_sha256": "193be5f834836e1c8f8d48dbf112f53e9438ba0ae11bba270ff36007978b3afd"
+    },
+    "PT-001": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 284.252791,
+      "execution_mode": "HISTORICAL_SOURCE",
+      "executed_file": "experiments/07_fractal_patch/PT-001/historical/source_from_monograph.py",
+      "stdout_sha256": "ca85779fc371c0f610c3ba7810430b51d586a8462e9a9df1a253e69680e51519",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/PT-001_stdout.txt",
+      "stderr_file": "raw/PT-001_stderr.txt",
+      "comparison": {
+        "status": "CLOSE_NUMERIC_MATCH",
+        "scientific_conclusion_preserved": true,
+        "max_reported_numeric_delta": 1.7166137733504172e-08,
+        "actual_summary": {
+          "mlp": 0.9160000085830688,
+          "inpdep_4h_tau01": 0.9179999828338623
+        },
+        "note": "Kontrola opublikowanej przewagi Patch SBOHN InpDep 4H tau=0.1 nad MLP."
+      },
+      "historical_result_file": "raw/PT-001_historical_result.json",
+      "historical_result_sha256": "839e533a26a1da97a2af4b30b8abc25dd74b22565368e7f3e393ee0e43425ac5"
+    },
+    "PT-002": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "HISTORICAL_SOURCE_SHARED_RUN",
+      "executed_file": "experiments/07_fractal_patch/PT-001/historical/source_from_monograph.py",
+      "stdout_sha256": "2c95943b27939066080e29b9aa90d68cf843b1f4055ced1543ab77fbf3c09945",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/PT-002_stdout.txt",
+      "stderr_file": "raw/PT-002_stderr.txt",
+      "comparison": {
+        "status": "CLOSE_NUMERIC_MATCH",
+        "scientific_conclusion_preserved": true,
+        "max_reported_numeric_delta": 1.0013580298284808e-08,
+        "actual_summary": {
+          "mlp": 0.8420000076293945,
+          "inpdep_4h_tau01": 0.8479999899864197
+        },
+        "note": "Kontrola opublikowanej przewagi Patch SBOHN InpDep 4H tau=0.1 nad MLP."
+      },
+      "historical_result_file": "raw/PT-002_historical_result.json",
+      "historical_result_sha256": "839e533a26a1da97a2af4b30b8abc25dd74b22565368e7f3e393ee0e43425ac5"
+    },
+    "PT-003": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "AUDITED_REPORTED_RESULT",
+      "executed_file": "experiments/07_fractal_patch/PT-003/historical/reported_result_from_monograph.tex",
+      "stdout_sha256": "a0842fd340f6f27314cc1403536bae4bf736754bc484b4193719b1eaa278f490",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/PT-003_stdout.txt",
+      "stderr_file": "raw/PT-003_stderr.txt",
+      "comparison": {
+        "status": "AUDITED_REPORTED_RESULT",
+        "scientific_conclusion_preserved": null,
+        "max_reported_numeric_delta": null,
+        "actual_summary": {},
+        "note": "Zachowano dokładny wynik źródłowy bez konstruowania brakującego kodu historycznego."
+      }
+    },
+    "PT-004": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "HISTORICAL_SOURCE_SHARED_RUN",
+      "executed_file": "experiments/07_fractal_patch/PT-001/historical/source_from_monograph.py",
+      "stdout_sha256": "2c95943b27939066080e29b9aa90d68cf843b1f4055ced1543ab77fbf3c09945",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/PT-004_stdout.txt",
+      "stderr_file": "raw/PT-004_stderr.txt",
+      "comparison": {
+        "status": "CLOSE_NUMERIC_MATCH",
+        "scientific_conclusion_preserved": true,
+        "max_reported_numeric_delta": 2.2411346445316838e-08,
+        "actual_summary": {
+          "m_global_tau03": 0.8640000224113464,
+          "m_inpdep_1h_tau03": 0.9160000085830688,
+          "f_global_tau03": 0.7400000095367432,
+          "f_inpdep_1h_tau03": 0.8320000171661377
+        },
+        "note": "Kontrola korzyści input-dependency na obu zbiorach."
+      },
+      "historical_result_file": "raw/PT-004_historical_result.json",
+      "historical_result_sha256": "839e533a26a1da97a2af4b30b8abc25dd74b22565368e7f3e393ee0e43425ac5"
+    },
+    "PT-005": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "HISTORICAL_SOURCE_SHARED_RUN",
+      "executed_file": "experiments/07_fractal_patch/PT-001/historical/source_from_monograph.py",
+      "stdout_sha256": "2c95943b27939066080e29b9aa90d68cf843b1f4055ced1543ab77fbf3c09945",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/PT-005_stdout.txt",
+      "stderr_file": "raw/PT-005_stderr.txt",
+      "comparison": {
+        "status": "CLOSE_NUMERIC_MATCH",
+        "scientific_conclusion_preserved": true,
+        "max_reported_numeric_delta": 2.6702880906448456e-08,
+        "actual_summary": {
+          "m_1h_tau01": 0.9079999923706055,
+          "m_4h_tau01": 0.9179999828338623,
+          "f_1h_tau01": 0.8220000267028809,
+          "f_4h_tau01": 0.8479999899864197
+        },
+        "note": "Kontrola korzyści czterech głów względem jednej głowy."
+      },
+      "historical_result_file": "raw/PT-005_historical_result.json",
+      "historical_result_sha256": "839e533a26a1da97a2af4b30b8abc25dd74b22565368e7f3e393ee0e43425ac5"
+    },
+    "HR-001": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "AUDITED_REPORTED_RESULT",
+      "executed_file": "experiments/07_fractal_patch/HR-001/historical/reported_result_from_monograph.tex",
+      "stdout_sha256": "9a74d26414b9c524f6411123c665601a6fb646037092b9589f37c5407e4d7dbc",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/HR-001_stdout.txt",
+      "stderr_file": "raw/HR-001_stderr.txt",
+      "comparison": {
+        "status": "AUDITED_REPORTED_RESULT",
+        "scientific_conclusion_preserved": null,
+        "max_reported_numeric_delta": null,
+        "actual_summary": {},
+        "note": "Zachowano dokładny wynik źródłowy bez konstruowania brakującego kodu historycznego."
+      }
+    },
+    "HR-002": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "AUDITED_REPORTED_RESULT",
+      "executed_file": "experiments/07_fractal_patch/HR-002/historical/reported_result_from_monograph.tex",
+      "stdout_sha256": "2ceadaebdeb82c37637420576a177faffcae283be72facbe0e07ada8020358fc",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/HR-002_stdout.txt",
+      "stderr_file": "raw/HR-002_stderr.txt",
+      "comparison": {
+        "status": "AUDITED_REPORTED_RESULT",
+        "scientific_conclusion_preserved": null,
+        "max_reported_numeric_delta": null,
+        "actual_summary": {},
+        "note": "Zachowano dokładny wynik źródłowy bez konstruowania brakującego kodu historycznego."
+      }
+    },
+    "HR-003": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "AUDITED_REPORTED_RESULT",
+      "executed_file": "experiments/07_fractal_patch/HR-003/historical/reported_result_from_monograph.tex",
+      "stdout_sha256": "a5fe10265aff323f339174678413e58fc8af851fa4fd3e3aa7112001e09942b2",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/HR-003_stdout.txt",
+      "stderr_file": "raw/HR-003_stderr.txt",
+      "comparison": {
+        "status": "AUDITED_REPORTED_RESULT",
+        "scientific_conclusion_preserved": null,
+        "max_reported_numeric_delta": null,
+        "actual_summary": {},
+        "note": "Zachowano dokładny wynik źródłowy bez konstruowania brakującego kodu historycznego."
+      }
+    },
+    "HR-004": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "AUDITED_REPORTED_RESULT",
+      "executed_file": "experiments/07_fractal_patch/HR-004/historical/reported_result_from_monograph.tex",
+      "stdout_sha256": "9908d6158585a2284a2a4e915438e34f565c01ce5c8d6423b0b5a71638906210",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/HR-004_stdout.txt",
+      "stderr_file": "raw/HR-004_stderr.txt",
+      "comparison": {
+        "status": "AUDITED_REPORTED_RESULT",
+        "scientific_conclusion_preserved": null,
+        "max_reported_numeric_delta": null,
+        "actual_summary": {},
+        "note": "Zachowano dokładny wynik źródłowy bez konstruowania brakującego kodu historycznego."
+      }
+    },
+    "HR-005": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "AUDITED_REPORTED_RESULT",
+      "executed_file": "experiments/07_fractal_patch/HR-005/historical/reported_result_from_monograph.tex",
+      "stdout_sha256": "69d841374b480d0ee721c1535f393ec3044755f195d1e1820022da80ebdba584",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/HR-005_stdout.txt",
+      "stderr_file": "raw/HR-005_stderr.txt",
+      "comparison": {
+        "status": "AUDITED_REPORTED_RESULT",
+        "scientific_conclusion_preserved": null,
+        "max_reported_numeric_delta": null,
+        "actual_summary": {},
+        "note": "Zachowano dokładny wynik źródłowy bez konstruowania brakującego kodu historycznego."
+      }
+    },
+    "HR-006": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "AUDITED_REPORTED_RESULT",
+      "executed_file": "experiments/07_fractal_patch/HR-006/historical/reported_result_from_monograph.tex",
+      "stdout_sha256": "bfd73d56b5289bea2c16c3d8ea23b0a318c56a75ee450507728e2f9698c426fc",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/HR-006_stdout.txt",
+      "stderr_file": "raw/HR-006_stderr.txt",
+      "comparison": {
+        "status": "AUDITED_REPORTED_RESULT",
+        "scientific_conclusion_preserved": null,
+        "max_reported_numeric_delta": null,
+        "actual_summary": {},
+        "note": "Zachowano dokładny wynik źródłowy bez konstruowania brakującego kodu historycznego."
+      }
+    },
+    "HR-007": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "AUDITED_REPORTED_RESULT",
+      "executed_file": "experiments/07_fractal_patch/HR-007/historical/reported_result_from_monograph.tex",
+      "stdout_sha256": "bd190a90e5368687c35cc68f2717febd823a8dd8858d708c488700488c5022e7",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/HR-007_stdout.txt",
+      "stderr_file": "raw/HR-007_stderr.txt",
+      "comparison": {
+        "status": "AUDITED_REPORTED_RESULT",
+        "scientific_conclusion_preserved": null,
+        "max_reported_numeric_delta": null,
+        "actual_summary": {},
+        "note": "Zachowano dokładny wynik źródłowy bez konstruowania brakującego kodu historycznego."
+      }
+    }
+  }
+}

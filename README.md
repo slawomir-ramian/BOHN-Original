@@ -89,10 +89,19 @@ zaawansowanych eksperymentów `LS-002`--`LS-006`. Te pięć pozycji zachowano
 uczciwie jako `AUDITED_REPORTED_RESULT`, bez udawania lokalnej reprodukcji.
 Szczegóły: `docs/STAGE_08_LOCAL_ANALYSIS.md`.
 
+Etap 09 zakończony - wykonano pozycje 57--72 rozdziału 7: Fractal SBOHN,
+Patch SBOHN i wyniki wysokiej rozdzielczości. Wszystkie sześć jednostek z
+kompletnym kodem (`FR-002`, `FR-003`, `PT-001`, `PT-002`, `PT-004`,
+`PT-005`) uzyskało `CLOSE_NUMERIC_MATCH`. Wartości Fractal SBOHN były
+identyczne z publikacją, a największa różnica w wynikach Patch SBOHN wyniosła
+`2.67e-08`. Pozostałe dziesięć pozycji zachowano jako
+`AUDITED_REPORTED_RESULT`, ponieważ PDF nie publikuje ich kompletnego kodu
+docelowego. Szczegóły: `docs/STAGE_09_LOCAL_ANALYSIS.md`.
+
 Kolejność źródłowa jest zapisana niezależnie od numeracji ID w
 `inventory/source_chronology.csv`. Etap 06 zajmuje pozycje 29--33, Etap 07
-pozycje 34--45, a Etap 08 pozycje 46--56, dokładnie tak jak w PDF-ie.
-Po Etapach 03--08 przygotowano 56 ze 115 jednostek; 59 pozostaje do
+pozycje 34--45, Etap 08 pozycje 46--56, a Etap 09 pozycje 57--72, dokładnie
+tak jak w PDF-ie. Po Etapach 03--09 przygotowano 72 ze 115 jednostek; 43 pozostają do
 odtworzenia. Eksperymenty z sufiksem `R`
 nie zwiększają tej liczby, ponieważ należą do osobnego rejestru uzupełniającego.
 
@@ -161,6 +170,18 @@ Instrukcje: `INSTALL_STAGE_07.md` oraz `INSTALL_STAGE_07R.md`.
 ```
 
 Pełna instrukcja: `INSTALL_STAGE_08.md`.
+
+## Uruchomienie Etapu 09
+
+```powershell
+.\SETUP_STAGE_09.ps1
+.\RUN_STAGE_09_SMOKE.ps1
+.\RUN_STAGE_09_FULL.ps1
+```
+
+Etap 09 obejmuje 16 pozycji rozdziału 7 w kolejności PDF-a. Sześć jednostek
+ma kompletny kod wykonywalny w dwóch wspólnych programach, a dziesięć pozostaje
+jawnym audytem opublikowanych wyników. Pełna instrukcja: `INSTALL_STAGE_09.md`.
 
 ## Źródło kanoniczne
 

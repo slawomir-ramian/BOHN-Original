@@ -1,0 +1,9 @@
+AUDITED_REPORTED_RESULT
+\subsection{Key decision: permuting patches vs.\ features}
+
+\textbf{We permute PATCHES, not features!} Physical meaning:
+\begin{itemize}
+\item Sinkhorn $16{\times}16$ (patches) $= 256$\,params/head $\to$ \textbf{369K total} --- fits in memory,
+\item Sinkhorn $256{\times}256$ (features) $= 65$K\,params/head $\to$ \textbf{77M total} --- OOM on CPU,
+\item The question ``how does the image respond to shuffling patches?'' is a~natural SBOHN question.
+\end{itemize}

@@ -1,0 +1,38 @@
+
+============================================================
+  Dataset: MNIST
+============================================================
+  Downloading train-images-idx3-ubyte.gz...
+  Downloading train-labels-idx1-ubyte.gz...
+  Downloading t10k-images-idx3-ubyte.gz...
+  Downloading t10k-labels-idx1-ubyte.gz...
+  Train: torch.Size([2000, 32, 32]), Test: torch.Size([500, 32, 32])
+  MLP-128 (flat)                 | acc=91.6% | params=149,002 | 1.8s
+  PatchMLP-64 (no perm)          | acc=91.2% | params=137,674 | 2.3s
+  PatchSBOHN global $	au$=0.5    | acc=79.8% | params=137,930 | 8.3s
+  PatchSBOHN global $	au$=0.3    | acc=86.4% | params=137,930 | 8.0s
+  PatchSBOHN InpDep 1H $	au$=0.3 | acc=91.6% | params=158,474 | 8.7s
+  PatchSBOHN InpDep 1H $	au$=0.1 | acc=90.8% | params=158,474 | 8.7s
+  PatchSBOHN InpDep 4H $	au$=0.3 | acc=91.6% | params=601,610 | 23.5s
+  PatchSBOHN InpDep 4H $	au$=0.1 | acc=91.8% | params=601,610 | 24.5s
+  PatchSBOHN InpDep 4H h128 $	au$=0.1 | acc=91.4% | params=2,258,954 | 40.2s
+
+============================================================
+  Dataset: FMNIST
+============================================================
+  Downloading train-images-idx3-ubyte.gz...
+  Downloading train-labels-idx1-ubyte.gz...
+  Downloading t10k-images-idx3-ubyte.gz...
+  Downloading t10k-labels-idx1-ubyte.gz...
+  Train: torch.Size([2000, 32, 32]), Test: torch.Size([500, 32, 32])
+  MLP-128 (flat)                 | acc=84.2% | params=149,002 | 2.0s
+  PatchMLP-64 (no perm)          | acc=83.8% | params=137,674 | 2.8s
+  PatchSBOHN global $	au$=0.5    | acc=69.4% | params=137,930 | 11.4s
+  PatchSBOHN global $	au$=0.3    | acc=74.0% | params=137,930 | 12.0s
+  PatchSBOHN InpDep 1H $	au$=0.3 | acc=83.2% | params=158,474 | 10.0s
+  PatchSBOHN InpDep 1H $	au$=0.1 | acc=82.2% | params=158,474 | 8.9s
+  PatchSBOHN InpDep 4H $	au$=0.3 | acc=83.6% | params=601,610 | 24.0s
+  PatchSBOHN InpDep 4H $	au$=0.1 | acc=84.8% | params=601,610 | 23.9s
+  PatchSBOHN InpDep 4H h128 $	au$=0.1 | acc=84.0% | params=2,258,954 | 37.2s
+
+[OK] All done! Results saved.

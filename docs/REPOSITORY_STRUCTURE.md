@@ -19,7 +19,7 @@ BOHN-Original/
 │   ├── 04_symmetry_discovery/
 │   ├── 05_permutation_and_representation/
 │   ├── 06_learnable_sinkhorn/
-│   ├── 07_fractal_and_patch/
+│   ├── 07_fractal_patch/
 │   ├── 08_meta_sbohn/
 │   ├── 09_adaptation_and_continual/
 │   ├── 10_sota_and_scaling/
@@ -74,3 +74,9 @@ Learnable SBOHN i Log-Domain Sinkhorn z rozdziału 6 znajdują się w
 kontekst `LS-001`--`LS-006`, ale tylko `LS-001` ma w nim kod docelowego
 eksperymentu. Listingi 54 i 55 są wykonywane jednokrotnie, a wyniki są
 klasyfikowane osobno dla `LD-001`--`LD-005`.
+
+Fractal SBOHN, Patch SBOHN i jednostki HighRes z rozdziału 7 znajdują się w
+`experiments/07_fractal_patch/`. Dwa kompletne programy historyczne są
+uruchamiane po jednym razie, a sześć zależnych jednostek otrzymuje osobne
+porównania. Pozycje bez kompletnego kodu docelowego przechowują dokładne
+wyniki publikacji i pozostają jawnie oznaczone jako audytowe.
