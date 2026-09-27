@@ -1,0 +1,128 @@
+{
+  "stage": "11",
+  "run_utc": "2026-09-27T16:11:44+00:00",
+  "mode": "full",
+  "source_chronology": [
+    "AD-001",
+    "AD-002",
+    "AD-003",
+    "CL-001",
+    "CL-002"
+  ],
+  "experiments": {
+    "AD-001": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 279.29645,
+      "execution_mode": "RECONSTRUCTION_FROM_PUBLISHED_FRAGMENT",
+      "source_boundary": "SOURCE_FRAGMENT_ONLY",
+      "historical_code_modified": false,
+      "reconstruction_is_historical_source": false,
+      "stdout_file": "raw/AD-001_stdout.txt",
+      "stderr_file": "raw/AD-001_stderr.txt",
+      "stdout_sha256": "355f126cb7822187a43b8cdc0fae569147a29e8657713ad2bd4b67af05313096",
+      "stderr_sha256": "de61b342c1619e1d4c054d8b7e90fc94baab07f6067b0a59097bcbb9c80899ba",
+      "stderr_nonempty": true,
+      "comparison": {
+        "status": "NUMERIC_DIFFERENCE",
+        "scientific_conclusion_preserved": false,
+        "max_reported_numeric_delta_pp": 29.799999999999997,
+        "note": "Test komplementarności routingu i głowicy oraz zachowania perm-only blisko poziomu losowego."
+      },
+      "reconstruction_result_file": "raw/AD-001_reconstruction_result.json",
+      "reconstruction_result_sha256": "b280b942e6daf129c6514fd8fbbb6bacc73979893bbd2ef80738c232b412d172"
+    },
+    "AD-002": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 221.200312,
+      "execution_mode": "RECONSTRUCTION_FROM_PUBLISHED_FRAGMENT",
+      "source_boundary": "SOURCE_FRAGMENT_ONLY",
+      "historical_code_modified": false,
+      "reconstruction_is_historical_source": false,
+      "stdout_file": "raw/AD-002_stdout.txt",
+      "stderr_file": "raw/AD-002_stderr.txt",
+      "stdout_sha256": "137e247b5d2ddc8cf8dcae9738a3074f7ef4bccf4fc0d85f4ddb94ca2669a0bf",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "comparison": {
+        "status": "CONCLUSION_MATCH",
+        "scientific_conclusion_preserved": true,
+        "max_reported_numeric_delta_pp": 38.31,
+        "note": "Test wzrostu jakości transferu wraz z liczbą przykładów."
+      },
+      "reconstruction_result_file": "raw/AD-002_reconstruction_result.json",
+      "reconstruction_result_sha256": "6487ce95aa51c28ffe776086cff7e0fec67f858bee4938ad962fe57de4957de9"
+    },
+    "AD-003": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "RECONSTRUCTION_FROM_PUBLISHED_FRAGMENT_SHARED",
+      "source_boundary": "SOURCE_FRAGMENT_ONLY",
+      "historical_code_modified": false,
+      "reconstruction_is_historical_source": false,
+      "stdout_file": "raw/AD-003_stdout.txt",
+      "stderr_file": "raw/AD-003_stderr.txt",
+      "stdout_sha256": "137e247b5d2ddc8cf8dcae9738a3074f7ef4bccf4fc0d85f4ddb94ca2669a0bf",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "comparison": {
+        "status": "CONCLUSION_MATCH",
+        "scientific_conclusion_preserved": true,
+        "max_reported_numeric_delta_pp": 23.700000000000003,
+        "note": "Test modularności: head-only zachowuje co najmniej 85% jakości full-tune przy 500 próbkach."
+      },
+      "reconstruction_result_file": "raw/AD-003_reconstruction_result.json",
+      "reconstruction_result_sha256": "6487ce95aa51c28ffe776086cff7e0fec67f858bee4938ad962fe57de4957de9"
+    },
+    "CL-001": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "RECONSTRUCTION_FROM_PUBLISHED_FRAGMENT_SHARED",
+      "source_boundary": "SOURCE_FRAGMENT_ONLY",
+      "historical_code_modified": false,
+      "reconstruction_is_historical_source": false,
+      "stdout_file": "raw/CL-001_stdout.txt",
+      "stderr_file": "raw/CL-001_stderr.txt",
+      "stdout_sha256": "355f126cb7822187a43b8cdc0fae569147a29e8657713ad2bd4b67af05313096",
+      "stderr_sha256": "de61b342c1619e1d4c054d8b7e90fc94baab07f6067b0a59097bcbb9c80899ba",
+      "stderr_nonempty": true,
+      "comparison": {
+        "status": "CLOSE_NUMERIC_MATCH",
+        "scientific_conclusion_preserved": true,
+        "max_reported_numeric_delta_pp": 3.3000000000000114,
+        "note": "Test dokładnego przywrócenia modułu zadaniowego oraz dodatniego zapominania sekwencyjnego MLP."
+      },
+      "reconstruction_result_file": "raw/CL-001_reconstruction_result.json",
+      "reconstruction_result_sha256": "b280b942e6daf129c6514fd8fbbb6bacc73979893bbd2ef80738c232b412d172"
+    },
+    "CL-002": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "RECONSTRUCTION_FROM_PUBLISHED_FRAGMENT_SHARED",
+      "source_boundary": "SOURCE_FRAGMENT_ONLY",
+      "historical_code_modified": false,
+      "reconstruction_is_historical_source": false,
+      "stdout_file": "raw/CL-002_stdout.txt",
+      "stderr_file": "raw/CL-002_stderr.txt",
+      "stdout_sha256": "137e247b5d2ddc8cf8dcae9738a3074f7ef4bccf4fc0d85f4ddb94ca2669a0bf",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "comparison": {
+        "status": "CONCLUSION_MATCH",
+        "scientific_conclusion_preserved": true,
+        "max_reported_numeric_delta_pp": 16.339999999999996,
+        "note": "Test exact restore macierzy permutacji w większym modelu i kontroli zapominania MLP."
+      },
+      "reconstruction_result_file": "raw/CL-002_reconstruction_result.json",
+      "reconstruction_result_sha256": "6487ce95aa51c28ffe776086cff7e0fec67f858bee4938ad962fe57de4957de9"
+    }
+  },
+  "environment": {
+    "python": "3.14.5",
+    "platform": "Windows-10-10.0.19045-SP0"
+  }
+}

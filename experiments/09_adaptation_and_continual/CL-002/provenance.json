@@ -1,0 +1,32 @@
+{
+  "experiment_id": "CL-002",
+  "source_sequence_in_stage": 5,
+  "source_order_in_monograph": 87,
+  "canonical_source": "docs/source/BOHN_PL.pdf",
+  "extraction_source": "docs/source/BOHN_EN_SOURCE.tex",
+  "source_code_level": "SOURCE_FRAGMENT_ONLY",
+  "execution_mode": "RECONSTRUCTION_FROM_PUBLISHED_FRAGMENT",
+  "listing_indices": [
+    59
+  ],
+  "listing_target_code_present": false,
+  "historical_source_files": [
+    "source_fragment_from_monograph.py"
+  ],
+  "historical_source_sha256": [
+    "bfa5c0cd6d989d782a54c943347e3b681ec4a51dc01ae7bc352f385faf7645ea"
+  ],
+  "historical_source_line_ranges": [
+    [
+      14870,
+      15028
+    ]
+  ],
+  "reported_result_file": "reported_result_from_monograph.tex",
+  "reported_result_start_line": 5650,
+  "reported_result_end_line": 5664,
+  "reported_result_sha256": "9210719c81a702b478f5cad97748f261ddd16122ca63bdcd1fde82e924e78f63",
+  "historical_code_modified": false,
+  "reconstruction_is_historical_source": false,
+  "reconstruction_protocol": "STAGE_11_RECONSTRUCTION_V1"
+}

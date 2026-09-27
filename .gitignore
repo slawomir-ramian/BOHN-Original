@@ -38,6 +38,13 @@ reproduced/stage_09_dataset_cache/
 # Checkpoint 180 komórek Etapu 10 umożliwia bezpieczne wznawianie długiego biegu.
 reproduced/stage_10_checkpoint/
 
+# Etap 11: cache zbiorów i checkpointy dwóch wspólnych rekonstrukcji.
+reproduced/stage_11_dataset_cache/
+reproduced/stage_11_checkpoint/
+reproduced/stage_11_runs/*/
+!reproduced/stage_11_runs/20260927T161144Z/
+!reproduced/stage_11_runs/20260927T161144Z/**
+
 # Etap 10: smoke jest roboczy; w closeoucie śledzimy wskazany pełny bieg.
 reproduced/stage_10_runs/*/
 !reproduced/stage_10_runs/20260926T211342Z/

@@ -28,3 +28,4 @@ experiments/07_fractal_patch/*/historical/source_from_monograph.py whitespace=-t
 experiments/07_fractal_patch/*/historical/shared_listing_context_from_monograph.py whitespace=-trailing-space
 experiments/08_meta_sbohn/*/historical/source_from_monograph.py whitespace=-trailing-space
 experiments/08_meta_sbohn/*/historical/source_fragment_from_monograph.py whitespace=-trailing-space
+experiments/09_adaptation_and_continual/*/historical/source_fragment_from_monograph.py whitespace=-trailing-space

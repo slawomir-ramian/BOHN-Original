@@ -35,7 +35,7 @@
 | Poziom | Liczba |
 |---|---:|
 | `CHAPTER_NARRATIVE_TARGET_CODE_ABSENT` | 2 |
-| `FULL` | 44 |
+| `FULL` | 39 |
 | `FULL_IN_CHAPTER` | 6 |
 | `FULL_SHARED_LISTING` | 8 |
 | `FULL_SUITE` | 11 |
@@ -43,7 +43,7 @@
 | `NARRATIVE_ONLY` | 16 |
 | `PARTIAL` | 4 |
 | `SHARED_LISTING_TARGET_CODE_ABSENT` | 6 |
-| `SOURCE_FRAGMENT_ONLY` | 4 |
+| `SOURCE_FRAGMENT_ONLY` | 9 |
 
 ## Wynik audytu krzyżowego
 

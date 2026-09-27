@@ -85,3 +85,9 @@ Meta-SBOHN z rozdziału 8 znajduje się w `experiments/08_meta_sbohn/`.
 Jednostki `MS-009` i `MS-010` dzielą pełny historyczny program 20-seedowy.
 Jednostki curriculum zachowują niezmieniony fragment inicjalizacji populacji,
 ale nie są przedstawiane jako wykonywalne bez brakującej reszty protokołu.
+
+Adaptacja zadaniowa i continual learning z rozdziału 9 znajdują się w
+`experiments/09_adaptation_and_continual/`. Niezmienione fragmenty listingów
+58 i 59 są w `historical/`, a uzupełnione fazy eksperymentalne są jawnie
+oddzielone w `reconstruction/`. Dwa wspólne przebiegi z checkpointami obsługują
+pięć jednostek w kolejności PDF-a.

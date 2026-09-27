@@ -1,0 +1,73 @@
+{
+  "protocol": "STAGE_11_RECONSTRUCTION_V1",
+  "shared_listing": 59,
+  "reconstruction_choices": {
+    "seed": 42,
+    "adaptation_epochs": 5,
+    "adaptation_lr": 0.001,
+    "note": "Fazy 2 i 3 są w listingu wyłącznie komentarzami; użyto tej samej liczby epok co w fazie bazowej."
+  },
+  "parameter_counts": {
+    "sbohn": 170522,
+    "perm_only": 1024,
+    "head_only": 165258,
+    "mlp": 109386,
+    "cnn": 206922
+  },
+  "base": {
+    "sbohn_mnist": 89.86,
+    "mlp_mnist": 90.91,
+    "cnn_mnist": 93.55
+  },
+  "fewshot": {
+    "10": {
+      "sbohn_perm_only": 8.79,
+      "sbohn_head_only": 8.71,
+      "sbohn_full_tune": 10.74,
+      "mlp_fine_tune": 7.33,
+      "cnn_fine_tune": 26.38,
+      "mlp_scratch": 31.09
+    },
+    "50": {
+      "sbohn_perm_only": 8.87,
+      "sbohn_head_only": 9.45,
+      "sbohn_full_tune": 10.7,
+      "mlp_fine_tune": 7.22,
+      "cnn_fine_tune": 26.54,
+      "mlp_scratch": 40.4
+    },
+    "100": {
+      "sbohn_perm_only": 8.62,
+      "sbohn_head_only": 10.59,
+      "sbohn_full_tune": 13.93,
+      "mlp_fine_tune": 17.43,
+      "cnn_fine_tune": 38.57,
+      "mlp_scratch": 35.37
+    },
+    "500": {
+      "sbohn_perm_only": 8.65,
+      "sbohn_head_only": 48.33,
+      "sbohn_full_tune": 50.7,
+      "mlp_fine_tune": 55.77,
+      "cnn_fine_tune": 63.84,
+      "mlp_scratch": 65.43
+    }
+  },
+  "continual": {
+    "sbohn_mnist_before": 89.86,
+    "sbohn_fashion_perm_only": 23.87,
+    "sbohn_mnist_after_restore": 89.86,
+    "sbohn_mnist_degradation": 0.0,
+    "mlp_mnist_before": 90.91,
+    "mlp_fashion": 80.76,
+    "mlp_mnist_after_fashion": 49.51,
+    "mlp_mnist_degradation": 41.4
+  },
+  "runtime": {
+    "duration_seconds": 216.630896,
+    "python": "3.14.5",
+    "torch": "2.14.0+cpu",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "threads": 4
+  }
+}

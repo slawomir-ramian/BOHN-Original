@@ -106,11 +106,24 @@ a kluczowe częstości basinów `0.15` oraz `0.05` odtworzyły się dokładnie.
 Pozostałe osiem pozycji zachowano jako `AUDITED_REPORTED_RESULT` zgodnie z
 granicą opublikowanego kodu. Szczegóły: `docs/STAGE_10_LOCAL_ANALYSIS.md`.
 
+Etap 11 zakończony - wykonano pozycje 83--87 rozdziału 9: `AD-001`,
+`AD-002`, `AD-003`, `CL-001` i `CL-002`. Listingi 58 i 59 publikują
+architektury i fazę bazową, ale właściwe pętle adaptacji oraz continual learning
+zastępują komentarzami, dlatego wszystkie wyniki dotyczą jawnej rekonstrukcji
+`STAGE_11_RECONSTRUCTION_V1`. `CL-001` uzyskał `CLOSE_NUMERIC_MATCH`, a
+`AD-002`, `AD-003` i `CL-002` uzyskały `CONCLUSION_MATCH`. `AD-001` zachowano
+uczciwie jako `NUMERIC_DIFFERENCE`: maksymalna różnica wyniosła 29,8 pp i
+rekonstrukcja nie potwierdziła silnej przewagi Perm+Head w reżimie few-shot.
+Jednocześnie oba testy continual learning odtworzyły dokładne przywrócenie
+wyniku SBOHN bez degradacji. Szczegóły:
+`docs/STAGE_11_ADAPTATION_CONTINUAL.md` oraz
+`docs/STAGE_11_LOCAL_ANALYSIS.md`.
+
 Kolejność źródłowa jest zapisana niezależnie od numeracji ID w
 `inventory/source_chronology.csv`. Etap 06 zajmuje pozycje 29--33, Etap 07
 pozycje 34--45, Etap 08 pozycje 46--56, Etap 09 pozycje 57--72, a Etap 10
-pozycje 73--82, dokładnie tak jak w PDF-ie. Po Etapach 03--10 przygotowano
-82 ze 115 jednostek; 33 pozostają do
+pozycje 73--82, a Etap 11 pozycje 83--87, dokładnie tak jak w PDF-ie.
+Po zakończonych Etapach 03--11 wykonano 87 ze 115 jednostek; 28 pozostaje do
 odtworzenia. Eksperymenty z sufiksem `R`
 nie zwiększają tej liczby, ponieważ należą do osobnego rejestru uzupełniającego.
 
@@ -201,6 +214,16 @@ jawnym audytem opublikowanych wyników. Pełna instrukcja: `INSTALL_STAGE_09.md`
 ```
 
 Pełna instrukcja: `INSTALL_STAGE_10.md`.
+
+## Uruchomienie Etapu 11
+
+```powershell
+.\SETUP_STAGE_11.ps1
+.\RUN_STAGE_11_SMOKE.ps1
+.\RUN_STAGE_11_FULL.ps1
+```
+
+Pełna instrukcja: `INSTALL_STAGE_11.md`.
 
 ## Źródło kanoniczne
 

@@ -1,0 +1,33 @@
+\begin{table}[htbp]
+\centering
+\caption{Comparison of adaptation methods MNIST $\to$ Fashion-MNIST. ``PERM+HEAD'' denotes simultaneous training of the permutation matrix and the classifier head.}
+\label{tab:perm_head_fewshot}
+\begin{tabular}{r|c|c|c|c|c|c}
+\hline
+\textbf{Shots} & \textbf{PERM+HEAD} & \textbf{HEAD only} & \textbf{PERM only} & \textbf{Full tune} & \textbf{MLP head} & \textbf{MLP full} \\
+\hline
+10   & 15{,}30\% & 11{,}00\% & 11{,}10\% & 29{,}00\% & 10{,}90\% & 35{,}10\% \\
+50   & 20{,}00\% & 13{,}30\% & 11{,}10\% & 36{,}00\% &  5{,}80\% & 50{,}30\% \\
+100  & 25{,}90\% & 13{,}30\% & 11{,}10\% & 46{,}70\% & 19{,}90\% & 53{,}60\% \\
+500  & 51{,}40\% & 48{,}00\% &  8{,}40\% & 67{,}20\% & 38{,}00\% & 76{,}30\% \\
+2000 & 57{,}90\% & 59{,}40\% &  9{,}50\% & 72{,}20\% & 60{,}10\% & 82{,}20\% \\
+5000 & 64{,}70\% & 60{,}50\% &  9{,}20\% & 73{,}40\% & 64{,}20\% & 83{,}20\% \\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Parameter efficiency of adaptation methods (results at 5000 samples).}
+\label{tab:param_efficiency}
+\begin{tabular}{l|c|c|c}
+\hline
+\textbf{Method} & \textbf{Parameters} & \textbf{Accuracy} & \textbf{Acc/param} \\
+\hline
+PERM+HEAD  & \textbf{714}   & 64{,}70\% & 0{,}091\%/param \\
+HEAD only  & 650   & 60{,}50\% & 0{,}093\%/param \\
+PERM only  & 64    & 9{,}20\%  & 0{,}144\%/param \\
+Full tune  & 46\,106 & 73{,}40\% & 0{,}002\%/param \\
+\hline
+\end{tabular}
+\end{table}

@@ -1,0 +1,15 @@
+\begin{table}[htbp]
+\centering
+\caption{Continual learning: task switching (perm-only experiment, larger model).}
+\label{tab:continual_fewshot}
+\begin{tabular}{l|c|c}
+\hline
+\textbf{Metric} & \textbf{SBOHN (perm switch)} & \textbf{MLP (fine-tuned)} \\
+\hline
+MNIST before            & 89{,}52\% & 89{,}99\% \\
+Fashion-MNIST (new)     & 29{,}07\% & 72{,}19\% \\
+MNIST after restoration & \textbf{89{,}52\%} & 65{,}85\% \\
+\textbf{Degradation}    & \textbf{0{,}00\%} & \textbf{$-$24{,}14\%} \\
+\hline
+\end{tabular}
+\end{table}

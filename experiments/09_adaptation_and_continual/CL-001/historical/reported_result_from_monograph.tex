@@ -1,0 +1,18 @@
+\begin{table}[htbp]
+\centering
+\caption{Continual learning: task switching MNIST $\leftrightarrow$ Fashion-MNIST (Perm+Head experiment).}
+\label{tab:continual_perm_head}
+\begin{tabular}{l|c|c}
+\hline
+\textbf{Stage} & \textbf{SBOHN (perm+head)} & \textbf{MLP (sequential)} \\
+\hline
+MNIST (trained)              & 69{,}60\% & 92{,}10\% \\
+Fashion-MNIST (adaptation)   & 58{,}50\% & 83{,}20\% \\
+MNIST (after Fashion-MNIST)  & \textbf{69{,}60\%} \checkmark & \textbf{21{,}20\%} $\times$ \\
+Fashion-MNIST (return)       & \textbf{58{,}50\%} \checkmark & --- \\
+\hline
+\textbf{MNIST degradation}   & \textbf{0{,}00\%} & \textbf{$-$70{,}90\%} \\
+\textbf{Task-switch size}    & \textbf{2\,856 B} & N/A \\
+\hline
+\end{tabular}
+\end{table}

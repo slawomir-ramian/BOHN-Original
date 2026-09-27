@@ -1,7 +1,7 @@
 # Indeks eksperymentów, testów i programów
 
 Rejestr obejmuje **115 jednostek** wykrytych w monografii.
-Po zakończonych etapach wykonano **82 jednostek**; **33** pozostaje `NOT_RUN`.
+Po zakończonych etapach wykonano **87 jednostek**; **28** pozostaje `NOT_RUN`.
 
 Kolumna `Kod` opisuje poziom materiału dostępnego w PDF. `NARRATIVE_ONLY` nie
 oznacza pominięcia - przeciwnie, wskazuje jednostkę wymagającą ostrożnej rekonstrukcji
@@ -128,11 +128,11 @@ z opisu i tabel, bez udawania, że pełny kod został opublikowany.
 
 | ID | Sekcja | Jednostka | Typ | Strony drukowane / PDF | Kod | Reprodukcja |
 |---|---|---|---|---|---|---|
-| `AD-001` | 9.1 | Perm+Head - porównanie sześciu metod adaptacji | experiment_suite | 100-102 / 101-103 | `FULL` | `NOT_RUN` |
-| `AD-002` | 9.2.1-9.2.2 | Few-shot transfer MNIST -> Fashion-MNIST | transfer_test | 102-103 / 103-104 | `FULL` | `NOT_RUN` |
-| `AD-003` | 9.2.4 | Head-only vs full-tune - test modularności enkodera | ablation | 103 / 104 | `FULL` | `NOT_RUN` |
-| `CL-001` | 9.3 | Continual learning - przełączanie zadań i forgetting | continual_test | 103-104 / 104-105 | `FULL` | `NOT_RUN` |
-| `CL-002` | 9.3.1 | Continual learning - wariant perm-only z większym modelem | continual_test | 104 / 105 | `FULL` | `NOT_RUN` |
+| `AD-001` | 9.1 | Perm+Head - porównanie sześciu metod adaptacji | experiment_suite | 100-102 / 101-103 | `SOURCE_FRAGMENT_ONLY` | `NUMERIC_DIFFERENCE` |
+| `AD-002` | 9.2.1-9.2.2 | Few-shot transfer MNIST -> Fashion-MNIST | transfer_test | 102-103 / 103-104 | `SOURCE_FRAGMENT_ONLY` | `CONCLUSION_MATCH` |
+| `AD-003` | 9.2.4 | Head-only vs full-tune - test modularności enkodera | ablation | 103 / 104 | `SOURCE_FRAGMENT_ONLY` | `CONCLUSION_MATCH` |
+| `CL-001` | 9.3 | Continual learning - przełączanie zadań i forgetting | continual_test | 103-104 / 104-105 | `SOURCE_FRAGMENT_ONLY` | `CLOSE_NUMERIC_MATCH` |
+| `CL-002` | 9.3.1 | Continual learning - wariant perm-only z większym modelem | continual_test | 104 / 105 | `SOURCE_FRAGMENT_ONLY` | `CONCLUSION_MATCH` |
 
 ## Rozdział 10: Porównanie SOTA i skalowanie
 

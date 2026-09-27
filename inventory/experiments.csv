@@ -81,11 +81,11 @@ MS-007,8,8.1.7,SBOHN-Curriculum v3 - transfer elit,experiment,98,99,Appendix ch8
 MS-008,8,8.1.7,SBOHN-Curriculum v4 - analiza basinów,analysis_test,98,99,Appendix ch8 / Listing 57,SOURCE_FRAGMENT_ONLY,YES,AUDITED_REPORTED_RESULT
 MS-009,8,8.1.8,Meta-SBOHN v5 - Geometry Regularization,ablation,98,99,Appendix ch8 / Listing 56,FULL_SHARED_LISTING,YES,CLOSE_NUMERIC_MATCH
 MS-010,8,8.1.9,Meta-SBOHN v6 - Geometry Annealing,ablation,98-99,99-100,Appendix ch8 / Listing 56,FULL_SHARED_LISTING,YES,CLOSE_NUMERIC_MATCH
-AD-001,9,9.1,Perm+Head - porównanie sześciu metod adaptacji,experiment_suite,100-102,101-103,A.7.1,FULL,YES,NOT_RUN
-AD-002,9,9.2.1-9.2.2,Few-shot transfer MNIST -> Fashion-MNIST,transfer_test,102-103,103-104,A.7.2,FULL,YES,NOT_RUN
-AD-003,9,9.2.4,Head-only vs full-tune - test modularności enkodera,ablation,103,104,A.7.2,FULL,YES,NOT_RUN
-CL-001,9,9.3,Continual learning - przełączanie zadań i forgetting,continual_test,103-104,104-105,A.7.2,FULL,YES,NOT_RUN
-CL-002,9,9.3.1,Continual learning - wariant perm-only z większym modelem,continual_test,104,105,A.7.2,FULL,YES,NOT_RUN
+AD-001,9,9.1,Perm+Head - porównanie sześciu metod adaptacji,experiment_suite,100-102,101-103,A.7.1,SOURCE_FRAGMENT_ONLY,YES,NUMERIC_DIFFERENCE
+AD-002,9,9.2.1-9.2.2,Few-shot transfer MNIST -> Fashion-MNIST,transfer_test,102-103,103-104,A.7.2,SOURCE_FRAGMENT_ONLY,YES,CONCLUSION_MATCH
+AD-003,9,9.2.4,Head-only vs full-tune - test modularności enkodera,ablation,103,104,A.7.2,SOURCE_FRAGMENT_ONLY,YES,CONCLUSION_MATCH
+CL-001,9,9.3,Continual learning - przełączanie zadań i forgetting,continual_test,103-104,104-105,A.7.2,SOURCE_FRAGMENT_ONLY,YES,CLOSE_NUMERIC_MATCH
+CL-002,9,9.3.1,Continual learning - wariant perm-only z większym modelem,continual_test,104,105,A.7.2,SOURCE_FRAGMENT_ONLY,YES,CONCLUSION_MATCH
 SOTA-001,10,10.1-10.2,Porównanie accuracy modeli na Fashion-MNIST,benchmark,106-107,107-108,A.8.1,FULL,YES,NOT_RUN
 SOTA-002,10,10.3,Benchmark skalowania inferencji z rozdzielczością do 4K,scaling_benchmark,107-109,108-110,A.8.2 / Listing code,FULL,YES,NOT_RUN
 SYS-001,11,11.1,Meta-learned Permutation Generator,experiment,111-112,112-113,A.9.1,FULL_SUITE,YES,NOT_RUN

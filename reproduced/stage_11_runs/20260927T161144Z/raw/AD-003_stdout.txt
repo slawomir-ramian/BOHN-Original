@@ -1,0 +1,5 @@
+FEWSHOT checkpoint shots=10/500
+FEWSHOT checkpoint shots=50/500
+FEWSHOT checkpoint shots=100/500
+FEWSHOT checkpoint shots=500/500
+RECONSTRUCTION PASS: fewshot

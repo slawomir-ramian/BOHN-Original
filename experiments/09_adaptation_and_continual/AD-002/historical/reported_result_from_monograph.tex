@@ -1,0 +1,32 @@
+\begin{table}[htbp]
+\centering
+\caption{Baseline accuracy of models on MNIST (3000 samples, 5 epochs).}
+\label{tab:fewshot_base}
+\begin{tabular}{l|c|c}
+\hline
+\textbf{Model} & \textbf{MNIST Accuracy} & \textbf{Parameters} \\
+\hline
+SBOHN v2 & 89{,}52\% & 170\,522 \\
+MLP      & 89{,}99\% & 109\,386 \\
+CNN      & 93{,}91\% & 206\,922 \\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Few-shot transfer MNIST $\to$ Fashion-MNIST. Approximate numbers of adaptation parameters (in~thousands) are given in parentheses.}
+\label{tab:fewshot_transfer}
+\begin{tabular}{r|c|c|c|c|c|c}
+\hline
+\textbf{Shots} & \textbf{SBOHN} & \textbf{SBOHN} & \textbf{SBOHN} & \textbf{MLP} & \textbf{CNN} & \textbf{MLP} \\
+       & \textbf{perm-only} & \textbf{head-only} & \textbf{full-tune} & \textbf{fine-tune} & \textbf{fine-tune} & \textbf{scratch} \\
+       & \textbf{(1K)} & \textbf{(165K)} & \textbf{(170K)} & \textbf{(109K)} & \textbf{(207K)} & \textbf{(109K)} \\
+\hline
+10  & 14{,}75\% & 21{,}03\% & 20{,}85\% & 18{,}81\% & 36{,}42\% & 41{,}06\% \\
+50  & 19{,}40\% & 32{,}34\% & 42{,}45\% & 41{,}13\% & 55{,}95\% & 59{,}97\% \\
+100 & 24{,}29\% & 47{,}57\% & 52{,}24\% & 53{,}10\% & 57{,}53\% & 62{,}25\% \\
+500 & 25{,}19\% & 70{,}12\% & 74{,}40\% & 74{,}15\% & 76{,}50\% & 76{,}46\% \\
+\hline
+\end{tabular}
+\end{table}

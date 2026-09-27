@@ -1,0 +1,89 @@
+{
+  "protocol": "STAGE_11_RECONSTRUCTION_V1",
+  "shared_listing": 58,
+  "reconstruction_choices": {
+    "seed": 42,
+    "adaptation_epochs": 8,
+    "adaptation_lr": 0.003,
+    "test_samples": 1000,
+    "note": "Fazy 2 i 3 nie występują w listingu; jawnie użyto parametrów fazy bazowej."
+  },
+  "parameter_counts": {
+    "model": 46106,
+    "perm_head": 714,
+    "head_only": 650,
+    "perm_only": 64
+  },
+  "base": {
+    "sbohn_mnist": 72.9,
+    "mlp_mnist": 92.9
+  },
+  "fewshot": {
+    "10": {
+      "perm_head": 12.9,
+      "head_only": 12.6,
+      "perm_only": 9.9,
+      "full_tune": 25.7,
+      "mlp_head": 4.8,
+      "mlp_full": 31.4
+    },
+    "50": {
+      "perm_head": 16.9,
+      "head_only": 16.8,
+      "perm_only": 9.0,
+      "full_tune": 35.6,
+      "mlp_head": 4.9,
+      "mlp_full": 37.0
+    },
+    "100": {
+      "perm_head": 17.6,
+      "head_only": 17.5,
+      "perm_only": 9.1,
+      "full_tune": 41.4,
+      "mlp_head": 5.3,
+      "mlp_full": 42.0
+    },
+    "500": {
+      "perm_head": 21.6,
+      "head_only": 22.3,
+      "perm_only": 7.8,
+      "full_tune": 59.3,
+      "mlp_head": 15.3,
+      "mlp_full": 70.7
+    },
+    "2000": {
+      "perm_head": 56.4,
+      "head_only": 58.6,
+      "perm_only": 10.7,
+      "full_tune": 69.0,
+      "mlp_head": 55.0,
+      "mlp_full": 80.8
+    },
+    "5000": {
+      "perm_head": 61.5,
+      "head_only": 62.2,
+      "perm_only": 11.0,
+      "full_tune": 73.0,
+      "mlp_head": 64.2,
+      "mlp_full": 84.2
+    }
+  },
+  "continual": {
+    "sbohn_mnist_before": 72.9,
+    "sbohn_fashion": 61.5,
+    "sbohn_mnist_after_restore": 72.9,
+    "sbohn_fashion_after_restore": 61.5,
+    "sbohn_mnist_degradation": 0.0,
+    "mlp_mnist_before": 92.9,
+    "mlp_fashion": 84.2,
+    "mlp_mnist_after_fashion": 23.0,
+    "mlp_mnist_degradation": 69.9
+  },
+  "runtime": {
+    "duration_seconds": 268.239631,
+    "python": "3.14.5",
+    "torch": "2.14.0+cpu",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "threads": 4
+  }
+}
