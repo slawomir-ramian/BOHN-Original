@@ -1,0 +1,14 @@
+AUDITED_REPORTED_RESULT
+\begin{table}[h]
+\centering
+\caption{Curriculum v1: single \(\theta\) transfer.}
+\begin{tabular}{l r r r}
+\hline
+Task & Cold & Curriculum & Difference \\
+\hline
+Easy & 0.8796 & 0.8852 & +0.0056 \\
+Medium & 0.8444 & 0.8407 & -0.0037 \\
+Hard & 0.8667 & 0.8648 & -0.0019 \\
+\hline
+\end{tabular}
+\end{table}

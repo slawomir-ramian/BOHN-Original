@@ -1,0 +1,19 @@
+AUDITED_REPORTED_RESULT
+\begin{table}[h]
+\centering
+\caption{Meta-SBOHN v2 + SRL.}
+\begin{tabular}{l r r r}
+\hline
+Model & Representation & Latent dim & Accuracy \\
+\hline
+Baseline & \(x\) & 64 & 0.7537 \\
+Meta-v2 geometry LR & \(A_{geo}\) & 64 & 0.9315 \\
+Direct perm LR & \(A_{direct}\) & 64 & 0.9407 \\
+Meta-v2 SRL & \(A_{geo}\) & 2 & 0.9111 \\
+Meta-v2 SRL & \(A_{geo}\) & 4 & 0.9074 \\
+Meta-v2 SRL & \(A_{geo}\) & 8 & 0.8981 \\
+Meta-v2 SRL & \(A_{geo}\) & 16 & 0.9259 \\
+Meta-v2 SRL & \(A_{geo}\) & 32 & 0.9315 \\
+\hline
+\end{tabular}
+\end{table}

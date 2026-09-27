@@ -98,10 +98,19 @@ identyczne z publikacją, a największa różnica w wynikach Patch SBOHN wynios�
 `AUDITED_REPORTED_RESULT`, ponieważ PDF nie publikuje ich kompletnego kodu
 docelowego. Szczegóły: `docs/STAGE_09_LOCAL_ANALYSIS.md`.
 
+Etap 10 zakończony - wykonano pozycje 73--82 rozdziału 8 (`MS-001`--`MS-010`)
+w niezmienionej kolejności PDF-a. Wspólny program `MS-009`/`MS-010` ukończył
+180/180 komórek i oba eksperymenty uzyskały `CLOSE_NUMERIC_MATCH`.
+Największe różnice względem tabel wyniosły odpowiednio `0.00319` i `0.01014`,
+a kluczowe częstości basinów `0.15` oraz `0.05` odtworzyły się dokładnie.
+Pozostałe osiem pozycji zachowano jako `AUDITED_REPORTED_RESULT` zgodnie z
+granicą opublikowanego kodu. Szczegóły: `docs/STAGE_10_LOCAL_ANALYSIS.md`.
+
 Kolejność źródłowa jest zapisana niezależnie od numeracji ID w
 `inventory/source_chronology.csv`. Etap 06 zajmuje pozycje 29--33, Etap 07
-pozycje 34--45, Etap 08 pozycje 46--56, a Etap 09 pozycje 57--72, dokładnie
-tak jak w PDF-ie. Po Etapach 03--09 przygotowano 72 ze 115 jednostek; 43 pozostają do
+pozycje 34--45, Etap 08 pozycje 46--56, Etap 09 pozycje 57--72, a Etap 10
+pozycje 73--82, dokładnie tak jak w PDF-ie. Po Etapach 03--10 przygotowano
+82 ze 115 jednostek; 33 pozostają do
 odtworzenia. Eksperymenty z sufiksem `R`
 nie zwiększają tej liczby, ponieważ należą do osobnego rejestru uzupełniającego.
 
@@ -182,6 +191,16 @@ Pełna instrukcja: `INSTALL_STAGE_08.md`.
 Etap 09 obejmuje 16 pozycji rozdziału 7 w kolejności PDF-a. Sześć jednostek
 ma kompletny kod wykonywalny w dwóch wspólnych programach, a dziesięć pozostaje
 jawnym audytem opublikowanych wyników. Pełna instrukcja: `INSTALL_STAGE_09.md`.
+
+## Uruchomienie Etapu 10
+
+```powershell
+.\SETUP_STAGE_10.ps1
+.\RUN_STAGE_10_SMOKE.ps1
+.\RUN_STAGE_10_FULL.ps1
+```
+
+Pełna instrukcja: `INSTALL_STAGE_10.md`.
 
 ## Źródło kanoniczne
 

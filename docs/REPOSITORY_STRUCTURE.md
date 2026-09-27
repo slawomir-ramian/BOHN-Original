@@ -80,3 +80,8 @@ Fractal SBOHN, Patch SBOHN i jednostki HighRes z rozdziału 7 znajdują się w
 uruchamiane po jednym razie, a sześć zależnych jednostek otrzymuje osobne
 porównania. Pozycje bez kompletnego kodu docelowego przechowują dokładne
 wyniki publikacji i pozostają jawnie oznaczone jako audytowe.
+
+Meta-SBOHN z rozdziału 8 znajduje się w `experiments/08_meta_sbohn/`.
+Jednostki `MS-009` i `MS-010` dzielą pełny historyczny program 20-seedowy.
+Jednostki curriculum zachowują niezmieniony fragment inicjalizacji populacji,
+ale nie są przedstawiane jako wykonywalne bez brakującej reszty protokołu.

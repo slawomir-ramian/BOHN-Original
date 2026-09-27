@@ -1,0 +1,19 @@
+AUDITED_REPORTED_RESULT
+\begin{table}[h]
+\centering
+\caption{Meta-SBOHN Score Generator v1.}
+\begin{tabular}{l r}
+\hline
+Method & Accuracy \\
+\hline
+Baseline \(x\) & 0.7537 \\
+True flip & 0.8833 \\
+True rot180 & 0.9167 \\
+True pair & 0.9722 \\
+Random mean & 0.7827 \\
+Random best & 0.8611 \\
+Meta-SBOHN score generator & 0.8944 \\
+Direct permutation evolution & 0.9407 \\
+\hline
+\end{tabular}
+\end{table}

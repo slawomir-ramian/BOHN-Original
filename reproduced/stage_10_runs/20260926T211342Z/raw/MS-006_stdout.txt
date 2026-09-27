@@ -1,0 +1,14 @@
+AUDITED_REPORTED_RESULT
+\begin{table}[h]
+\centering
+\caption{Curriculum v2: mixed population transfer, single seed.}
+\begin{tabular}{l r r r}
+\hline
+Task & Cold & Mixed curriculum & Difference \\
+\hline
+Easy & 0.9111 & 0.9389 & +0.0278 \\
+Medium & 0.8537 & 0.8889 & +0.0352 \\
+Hard & 0.8593 & 0.8796 & +0.0204 \\
+\hline
+\end{tabular}
+\end{table}

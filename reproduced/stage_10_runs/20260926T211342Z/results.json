@@ -1,0 +1,505 @@
+{
+  "stage": "10",
+  "run_utc": "2026-09-26T21:13:42+00:00",
+  "mode": "full",
+  "source_chronology": [
+    "MS-001",
+    "MS-002",
+    "MS-003",
+    "MS-004",
+    "MS-005",
+    "MS-006",
+    "MS-007",
+    "MS-008",
+    "MS-009",
+    "MS-010"
+  ],
+  "full_source_chronology": [
+    "MS-001",
+    "MS-002",
+    "MS-003",
+    "MS-004",
+    "MS-005",
+    "MS-006",
+    "MS-007",
+    "MS-008",
+    "MS-009",
+    "MS-010"
+  ],
+  "environment": {
+    "python": "3.14.5 (tags/v3.14.5:5607950, May 10 2026, 10:43:50) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "numpy": "2.5.3",
+    "scikit_learn": "1.9.1",
+    "pandas": "3.0.6",
+    "processor_count": 4
+  },
+  "source_boundary": {
+    "executable_units": 2,
+    "shared_programs": 1,
+    "source_fragment_only": [
+      "MS-005",
+      "MS-006",
+      "MS-007",
+      "MS-008"
+    ],
+    "narrative_only": [
+      "MS-001",
+      "MS-002",
+      "MS-003",
+      "MS-004"
+    ]
+  },
+  "experiments": {
+    "MS-001": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "AUDITED_REPORTED_RESULT",
+      "source_boundary": "NARRATIVE_ONLY",
+      "executed_file": "experiments/08_meta_sbohn/MS-001/historical/reported_result_from_monograph.tex",
+      "stdout_sha256": "79366408bc31d8962651c675d709ca3844c297ae5738cc52b3f4af5b4782eddb",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/MS-001_stdout.txt",
+      "stderr_file": "raw/MS-001_stderr.txt",
+      "comparison": {
+        "status": "AUDITED_REPORTED_RESULT",
+        "scientific_conclusion_preserved": null,
+        "max_reported_numeric_delta": null,
+        "actual_summary": {},
+        "note": "Zachowano dokładny wynik źródłowy bez przedstawiania brakującego programu jako kodu historycznego."
+      }
+    },
+    "MS-002": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "AUDITED_REPORTED_RESULT",
+      "source_boundary": "NARRATIVE_ONLY",
+      "executed_file": "experiments/08_meta_sbohn/MS-002/historical/reported_result_from_monograph.tex",
+      "stdout_sha256": "cf9f0b9a6aff20186479b72c0b9d87aa1bfaed9f7049d975de58819fea1f9aa3",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/MS-002_stdout.txt",
+      "stderr_file": "raw/MS-002_stderr.txt",
+      "comparison": {
+        "status": "AUDITED_REPORTED_RESULT",
+        "scientific_conclusion_preserved": null,
+        "max_reported_numeric_delta": null,
+        "actual_summary": {},
+        "note": "Zachowano dokładny wynik źródłowy bez przedstawiania brakującego programu jako kodu historycznego."
+      }
+    },
+    "MS-003": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "AUDITED_REPORTED_RESULT",
+      "source_boundary": "NARRATIVE_ONLY",
+      "executed_file": "experiments/08_meta_sbohn/MS-003/historical/reported_result_from_monograph.tex",
+      "stdout_sha256": "af351d791a524d8b500488a3200ae043156a5c22058d2a084bf0f1e2176ff530",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/MS-003_stdout.txt",
+      "stderr_file": "raw/MS-003_stderr.txt",
+      "comparison": {
+        "status": "AUDITED_REPORTED_RESULT",
+        "scientific_conclusion_preserved": null,
+        "max_reported_numeric_delta": null,
+        "actual_summary": {},
+        "note": "Zachowano dokładny wynik źródłowy bez przedstawiania brakującego programu jako kodu historycznego."
+      }
+    },
+    "MS-004": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "AUDITED_REPORTED_RESULT",
+      "source_boundary": "NARRATIVE_ONLY",
+      "executed_file": "experiments/08_meta_sbohn/MS-004/historical/reported_result_from_monograph.tex",
+      "stdout_sha256": "8ce64854471c3ec9500e55bdcce5c1fdf5ea3b5413739d430c64179bf2ba7120",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/MS-004_stdout.txt",
+      "stderr_file": "raw/MS-004_stderr.txt",
+      "comparison": {
+        "status": "AUDITED_REPORTED_RESULT",
+        "scientific_conclusion_preserved": null,
+        "max_reported_numeric_delta": null,
+        "actual_summary": {},
+        "note": "Zachowano dokładny wynik źródłowy bez przedstawiania brakującego programu jako kodu historycznego."
+      }
+    },
+    "MS-005": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "AUDITED_REPORTED_RESULT",
+      "source_boundary": "SOURCE_FRAGMENT_ONLY",
+      "executed_file": "experiments/08_meta_sbohn/MS-005/historical/reported_result_from_monograph.tex",
+      "stdout_sha256": "88d2fd042a442611f43c1e222c2c5099d6434116b382b66a1690ae3d84a30ec5",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/MS-005_stdout.txt",
+      "stderr_file": "raw/MS-005_stderr.txt",
+      "comparison": {
+        "status": "AUDITED_REPORTED_RESULT",
+        "scientific_conclusion_preserved": null,
+        "max_reported_numeric_delta": null,
+        "actual_summary": {},
+        "note": "Zachowano dokładny wynik źródłowy bez przedstawiania brakującego programu jako kodu historycznego."
+      }
+    },
+    "MS-006": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "AUDITED_REPORTED_RESULT",
+      "source_boundary": "SOURCE_FRAGMENT_ONLY",
+      "executed_file": "experiments/08_meta_sbohn/MS-006/historical/reported_result_from_monograph.tex",
+      "stdout_sha256": "ae04a910a44adeceaae40d922d090e858ac3044ecc674113ca69871e35e94417",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/MS-006_stdout.txt",
+      "stderr_file": "raw/MS-006_stderr.txt",
+      "comparison": {
+        "status": "AUDITED_REPORTED_RESULT",
+        "scientific_conclusion_preserved": null,
+        "max_reported_numeric_delta": null,
+        "actual_summary": {},
+        "note": "Zachowano dokładny wynik źródłowy bez przedstawiania brakującego programu jako kodu historycznego."
+      }
+    },
+    "MS-007": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "AUDITED_REPORTED_RESULT",
+      "source_boundary": "SOURCE_FRAGMENT_ONLY",
+      "executed_file": "experiments/08_meta_sbohn/MS-007/historical/reported_result_from_monograph.tex",
+      "stdout_sha256": "660a9937f3db027ad7463786324f0fe94f79500e30bbdf3cea2547a35a900b38",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/MS-007_stdout.txt",
+      "stderr_file": "raw/MS-007_stderr.txt",
+      "comparison": {
+        "status": "AUDITED_REPORTED_RESULT",
+        "scientific_conclusion_preserved": null,
+        "max_reported_numeric_delta": null,
+        "actual_summary": {},
+        "note": "Zachowano dokładny wynik źródłowy bez przedstawiania brakującego programu jako kodu historycznego."
+      }
+    },
+    "MS-008": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "AUDITED_REPORTED_RESULT",
+      "source_boundary": "SOURCE_FRAGMENT_ONLY",
+      "executed_file": "experiments/08_meta_sbohn/MS-008/historical/reported_result_from_monograph.tex",
+      "stdout_sha256": "660a9937f3db027ad7463786324f0fe94f79500e30bbdf3cea2547a35a900b38",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/MS-008_stdout.txt",
+      "stderr_file": "raw/MS-008_stderr.txt",
+      "comparison": {
+        "status": "AUDITED_REPORTED_RESULT",
+        "scientific_conclusion_preserved": null,
+        "max_reported_numeric_delta": null,
+        "actual_summary": {},
+        "note": "Zachowano dokładny wynik źródłowy bez przedstawiania brakującego programu jako kodu historycznego."
+      }
+    },
+    "MS-009": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 3533.39038,
+      "execution_mode": "HISTORICAL_SOURCE_ORCHESTRATED",
+      "executed_file": "experiments/08_meta_sbohn/MS-009/historical/source_from_monograph.py",
+      "stdout_sha256": "0c73f614bad875a0b01c6ae38ba897d364ceca94a421d85407b03e2bf3b3ea3a",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/MS-009_stdout.txt",
+      "stderr_file": "raw/MS-009_stderr.txt",
+      "comparison": {
+        "status": "CLOSE_NUMERIC_MATCH",
+        "scientific_conclusion_preserved": true,
+        "max_reported_numeric_delta": 0.0031888888888889078,
+        "actual_summary": {
+          "accuracy_only": {
+            "easy": {
+              "baseline_acc": 0.7677777777777778,
+              "true_acc": 0.9613888888888888,
+              "final_acc": 0.9112962962962963,
+              "gain_over_baseline": 0.14351851851851852,
+              "gap_to_true": 0.0500925925925926,
+              "best_task_sim": 0.109375,
+              "geometry_score": 0.6526446201506793,
+              "auc": 0.8893555555555557,
+              "acc_ge_092": 0.35,
+              "sim_ge_025": 0.05,
+              "acc092_and_sim025": 0.05
+            },
+            "medium": {
+              "baseline_acc": 0.7771296296296296,
+              "true_acc": 0.9676851851851852,
+              "final_acc": 0.8907407407407406,
+              "gain_over_baseline": 0.11361111111111111,
+              "gap_to_true": 0.07694444444444445,
+              "best_task_sim": 0.071875,
+              "geometry_score": 0.6237252987787298,
+              "auc": 0.8779222222222222,
+              "acc_ge_092": 0.1,
+              "sim_ge_025": 0.0,
+              "acc092_and_sim025": 0.0
+            },
+            "hard": {
+              "baseline_acc": 0.8099074074074075,
+              "true_acc": 0.9612962962962962,
+              "final_acc": 0.8875925925925927,
+              "gain_over_baseline": 0.07768518518518519,
+              "gap_to_true": 0.07370370370370369,
+              "best_task_sim": 0.0578125,
+              "geometry_score": 0.6329345036418942,
+              "auc": 0.8800074074074073,
+              "acc_ge_092": 0.05,
+              "sim_ge_025": 0.0,
+              "acc092_and_sim025": 0.0
+            }
+          },
+          "fixed_geometry": {
+            "easy": {
+              "baseline_acc": 0.7677777777777778,
+              "true_acc": 0.9613888888888888,
+              "final_acc": 0.9088888888888889,
+              "gain_over_baseline": 0.1411111111111111,
+              "gap_to_true": 0.05250000000000001,
+              "best_task_sim": 0.09140625,
+              "geometry_score": 0.6569510735486832,
+              "auc": 0.8916185185185185,
+              "acc_ge_092": 0.45,
+              "sim_ge_025": 0.05,
+              "acc092_and_sim025": 0.05
+            },
+            "medium": {
+              "baseline_acc": 0.7771296296296296,
+              "true_acc": 0.9676851851851852,
+              "final_acc": 0.8899074074074074,
+              "gain_over_baseline": 0.11277777777777778,
+              "gap_to_true": 0.07777777777777777,
+              "best_task_sim": 0.07265625,
+              "geometry_score": 0.6386602484762627,
+              "auc": 0.8777814814814814,
+              "acc_ge_092": 0.15,
+              "sim_ge_025": 0.0,
+              "acc092_and_sim025": 0.0
+            },
+            "hard": {
+              "baseline_acc": 0.8099074074074075,
+              "true_acc": 0.9612962962962962,
+              "final_acc": 0.8941666666666667,
+              "gain_over_baseline": 0.08425925925925926,
+              "gap_to_true": 0.06712962962962962,
+              "best_task_sim": 0.07265625,
+              "geometry_score": 0.6486559222183694,
+              "auc": 0.885337037037037,
+              "acc_ge_092": 0.1,
+              "sim_ge_025": 0.0,
+              "acc092_and_sim025": 0.0
+            }
+          },
+          "annealed_geometry": {
+            "easy": {
+              "baseline_acc": 0.7677777777777778,
+              "true_acc": 0.9613888888888888,
+              "final_acc": 0.9219444444444445,
+              "gain_over_baseline": 0.15416666666666667,
+              "gap_to_true": 0.03944444444444445,
+              "best_task_sim": 0.13203125,
+              "geometry_score": 0.6639480877281132,
+              "auc": 0.9017481481481482,
+              "acc_ge_092": 0.6,
+              "sim_ge_025": 0.15,
+              "acc092_and_sim025": 0.15
+            },
+            "medium": {
+              "baseline_acc": 0.7771296296296296,
+              "true_acc": 0.9676851851851852,
+              "final_acc": 0.8910185185185184,
+              "gain_over_baseline": 0.11388888888888889,
+              "gap_to_true": 0.07666666666666669,
+              "best_task_sim": 0.11796875,
+              "geometry_score": 0.6553765991109506,
+              "auc": 0.8778703703703703,
+              "acc_ge_092": 0.25,
+              "sim_ge_025": 0.15,
+              "acc092_and_sim025": 0.15
+            },
+            "hard": {
+              "baseline_acc": 0.8099074074074075,
+              "true_acc": 0.9612962962962962,
+              "final_acc": 0.8925925925925926,
+              "gain_over_baseline": 0.08268518518518517,
+              "gap_to_true": 0.06870370370370371,
+              "best_task_sim": 0.09375,
+              "geometry_score": 0.6624571069945286,
+              "auc": 0.8832703703703704,
+              "acc_ge_092": 0.1,
+              "sim_ge_025": 0.1,
+              "acc092_and_sim025": 0.05
+            }
+          }
+        },
+        "note": "Kontrola stałej regularyzacji geometrii: korzyść na trudnym zadaniu i brak materialnej straty na średnim."
+      },
+      "historical_result_file": "raw/MS-009_historical_result.json",
+      "historical_result_sha256": "32c9b0a26c0277fce2cf78dce55ac35ba688b6860ca3681844a58a9ac8e0bd7d"
+    },
+    "MS-010": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "HISTORICAL_SOURCE_SHARED_RUN",
+      "executed_file": "experiments/08_meta_sbohn/MS-010/historical/source_from_monograph.py",
+      "stdout_sha256": "de9b5d9d4a3457d6a1d28a79957d98c6bc907e266ccf8696a7d920fcbae7972d",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_nonempty": false,
+      "stdout_file": "raw/MS-010_stdout.txt",
+      "stderr_file": "raw/MS-010_stderr.txt",
+      "comparison": {
+        "status": "CLOSE_NUMERIC_MATCH",
+        "scientific_conclusion_preserved": true,
+        "max_reported_numeric_delta": 0.010143749999999993,
+        "actual_summary": {
+          "accuracy_only": {
+            "easy": {
+              "baseline_acc": 0.7677777777777778,
+              "true_acc": 0.9613888888888888,
+              "final_acc": 0.9112962962962963,
+              "gain_over_baseline": 0.14351851851851852,
+              "gap_to_true": 0.0500925925925926,
+              "best_task_sim": 0.109375,
+              "geometry_score": 0.6526446201506793,
+              "auc": 0.8893555555555557,
+              "acc_ge_092": 0.35,
+              "sim_ge_025": 0.05,
+              "acc092_and_sim025": 0.05
+            },
+            "medium": {
+              "baseline_acc": 0.7771296296296296,
+              "true_acc": 0.9676851851851852,
+              "final_acc": 0.8907407407407406,
+              "gain_over_baseline": 0.11361111111111111,
+              "gap_to_true": 0.07694444444444445,
+              "best_task_sim": 0.071875,
+              "geometry_score": 0.6237252987787298,
+              "auc": 0.8779222222222222,
+              "acc_ge_092": 0.1,
+              "sim_ge_025": 0.0,
+              "acc092_and_sim025": 0.0
+            },
+            "hard": {
+              "baseline_acc": 0.8099074074074075,
+              "true_acc": 0.9612962962962962,
+              "final_acc": 0.8875925925925927,
+              "gain_over_baseline": 0.07768518518518519,
+              "gap_to_true": 0.07370370370370369,
+              "best_task_sim": 0.0578125,
+              "geometry_score": 0.6329345036418942,
+              "auc": 0.8800074074074073,
+              "acc_ge_092": 0.05,
+              "sim_ge_025": 0.0,
+              "acc092_and_sim025": 0.0
+            }
+          },
+          "fixed_geometry": {
+            "easy": {
+              "baseline_acc": 0.7677777777777778,
+              "true_acc": 0.9613888888888888,
+              "final_acc": 0.9088888888888889,
+              "gain_over_baseline": 0.1411111111111111,
+              "gap_to_true": 0.05250000000000001,
+              "best_task_sim": 0.09140625,
+              "geometry_score": 0.6569510735486832,
+              "auc": 0.8916185185185185,
+              "acc_ge_092": 0.45,
+              "sim_ge_025": 0.05,
+              "acc092_and_sim025": 0.05
+            },
+            "medium": {
+              "baseline_acc": 0.7771296296296296,
+              "true_acc": 0.9676851851851852,
+              "final_acc": 0.8899074074074074,
+              "gain_over_baseline": 0.11277777777777778,
+              "gap_to_true": 0.07777777777777777,
+              "best_task_sim": 0.07265625,
+              "geometry_score": 0.6386602484762627,
+              "auc": 0.8777814814814814,
+              "acc_ge_092": 0.15,
+              "sim_ge_025": 0.0,
+              "acc092_and_sim025": 0.0
+            },
+            "hard": {
+              "baseline_acc": 0.8099074074074075,
+              "true_acc": 0.9612962962962962,
+              "final_acc": 0.8941666666666667,
+              "gain_over_baseline": 0.08425925925925926,
+              "gap_to_true": 0.06712962962962962,
+              "best_task_sim": 0.07265625,
+              "geometry_score": 0.6486559222183694,
+              "auc": 0.885337037037037,
+              "acc_ge_092": 0.1,
+              "sim_ge_025": 0.0,
+              "acc092_and_sim025": 0.0
+            }
+          },
+          "annealed_geometry": {
+            "easy": {
+              "baseline_acc": 0.7677777777777778,
+              "true_acc": 0.9613888888888888,
+              "final_acc": 0.9219444444444445,
+              "gain_over_baseline": 0.15416666666666667,
+              "gap_to_true": 0.03944444444444445,
+              "best_task_sim": 0.13203125,
+              "geometry_score": 0.6639480877281132,
+              "auc": 0.9017481481481482,
+              "acc_ge_092": 0.6,
+              "sim_ge_025": 0.15,
+              "acc092_and_sim025": 0.15
+            },
+            "medium": {
+              "baseline_acc": 0.7771296296296296,
+              "true_acc": 0.9676851851851852,
+              "final_acc": 0.8910185185185184,
+              "gain_over_baseline": 0.11388888888888889,
+              "gap_to_true": 0.07666666666666669,
+              "best_task_sim": 0.11796875,
+              "geometry_score": 0.6553765991109506,
+              "auc": 0.8778703703703703,
+              "acc_ge_092": 0.25,
+              "sim_ge_025": 0.15,
+              "acc092_and_sim025": 0.15
+            },
+            "hard": {
+              "baseline_acc": 0.8099074074074075,
+              "true_acc": 0.9612962962962962,
+              "final_acc": 0.8925925925925926,
+              "gain_over_baseline": 0.08268518518518517,
+              "gap_to_true": 0.06870370370370371,
+              "best_task_sim": 0.09375,
+              "geometry_score": 0.6624571069945286,
+              "auc": 0.8832703703703704,
+              "acc_ge_092": 0.1,
+              "sim_ge_025": 0.1,
+              "acc092_and_sim025": 0.05
+            }
+          }
+        },
+        "note": "Kontrola annealingu: wzrost podobieństwa na trzech zadaniach oraz częstsze wejście do geometrycznych basinów."
+      },
+      "historical_result_file": "raw/MS-010_historical_result.json",
+      "historical_result_sha256": "32c9b0a26c0277fce2cf78dce55ac35ba688b6860ca3681844a58a9ac8e0bd7d"
+    }
+  }
+}

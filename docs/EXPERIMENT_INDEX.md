@@ -1,7 +1,7 @@
 # Indeks eksperymentów, testów i programów
 
 Rejestr obejmuje **115 jednostek** wykrytych w monografii.
-Po zakończonych etapach wykonano **72 jednostek**; **43** pozostaje `NOT_RUN`.
+Po zakończonych etapach wykonano **82 jednostek**; **33** pozostaje `NOT_RUN`.
 
 Kolumna `Kod` opisuje poziom materiału dostępnego w PDF. `NARRATIVE_ONLY` nie
 oznacza pominięcia - przeciwnie, wskazuje jednostkę wymagającą ostrożnej rekonstrukcji
@@ -113,16 +113,16 @@ z opisu i tabel, bez udawania, że pełny kod został opublikowany.
 
 | ID | Sekcja | Jednostka | Typ | Strony drukowane / PDF | Kod | Reprodukcja |
 |---|---|---|---|---|---|---|
-| `MS-001` | 8.1.1 | Meta-SBOHN Score Generator v1 | experiment | 95-96 / 96-97 | `NARRATIVE_ONLY` | `NOT_RUN` |
-| `MS-002` | 8.1.2 | Meta-SBOHN v2 - Geometry-Aware Generator | experiment | 96 / 97 | `NARRATIVE_ONLY` | `NOT_RUN` |
-| `MS-003` | 8.1.3 | Meta-SBOHN v2 + SRL | experiment | 96 / 97 | `NARRATIVE_ONLY` | `NOT_RUN` |
-| `MS-004` | 8.1.4 | Meta-Meta-SBOHN v1 | experiment | 96-97 / 97-98 | `NARRATIVE_ONLY` | `NOT_RUN` |
-| `MS-005` | 8.1.5 | SBOHN-Curriculum v1 - prosty warm-start | experiment | 97 / 98 | `PARTIAL` | `NOT_RUN` |
-| `MS-006` | 8.1.6 | SBOHN-Curriculum v2 - Mixed Population Transfer | experiment | 97-98 / 98-99 | `PARTIAL` | `NOT_RUN` |
-| `MS-007` | 8.1.7 | SBOHN-Curriculum v3 - transfer elit | experiment | 98 / 99 | `PARTIAL` | `NOT_RUN` |
-| `MS-008` | 8.1.7 | SBOHN-Curriculum v4 - analiza basinów | analysis_test | 98 / 99 | `PARTIAL` | `NOT_RUN` |
-| `MS-009` | 8.1.8 | Meta-SBOHN v5 - Geometry Regularization | ablation | 98 / 99 | `FULL_SUITE` | `NOT_RUN` |
-| `MS-010` | 8.1.9 | Meta-SBOHN v6 - Geometry Annealing | ablation | 98-99 / 99-100 | `FULL_SUITE` | `NOT_RUN` |
+| `MS-001` | 8.1.1 | Meta-SBOHN Score Generator v1 | experiment | 95-96 / 96-97 | `NARRATIVE_ONLY` | `AUDITED_REPORTED_RESULT` |
+| `MS-002` | 8.1.2 | Meta-SBOHN v2 - Geometry-Aware Generator | experiment | 96 / 97 | `NARRATIVE_ONLY` | `AUDITED_REPORTED_RESULT` |
+| `MS-003` | 8.1.3 | Meta-SBOHN v2 + SRL | experiment | 96 / 97 | `NARRATIVE_ONLY` | `AUDITED_REPORTED_RESULT` |
+| `MS-004` | 8.1.4 | Meta-Meta-SBOHN v1 | experiment | 96-97 / 97-98 | `NARRATIVE_ONLY` | `AUDITED_REPORTED_RESULT` |
+| `MS-005` | 8.1.5 | SBOHN-Curriculum v1 - prosty warm-start | experiment | 97 / 98 | `SOURCE_FRAGMENT_ONLY` | `AUDITED_REPORTED_RESULT` |
+| `MS-006` | 8.1.6 | SBOHN-Curriculum v2 - Mixed Population Transfer | experiment | 97-98 / 98-99 | `SOURCE_FRAGMENT_ONLY` | `AUDITED_REPORTED_RESULT` |
+| `MS-007` | 8.1.7 | SBOHN-Curriculum v3 - transfer elit | experiment | 98 / 99 | `SOURCE_FRAGMENT_ONLY` | `AUDITED_REPORTED_RESULT` |
+| `MS-008` | 8.1.7 | SBOHN-Curriculum v4 - analiza basinów | analysis_test | 98 / 99 | `SOURCE_FRAGMENT_ONLY` | `AUDITED_REPORTED_RESULT` |
+| `MS-009` | 8.1.8 | Meta-SBOHN v5 - Geometry Regularization | ablation | 98 / 99 | `FULL_SHARED_LISTING` | `CLOSE_NUMERIC_MATCH` |
+| `MS-010` | 8.1.9 | Meta-SBOHN v6 - Geometry Annealing | ablation | 98-99 / 99-100 | `FULL_SHARED_LISTING` | `CLOSE_NUMERIC_MATCH` |
 
 ## Rozdział 9: Adaptacja zadaniowa i continual learning
 
