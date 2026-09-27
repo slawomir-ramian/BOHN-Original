@@ -119,11 +119,21 @@ wyniku SBOHN bez degradacji. Szczegóły:
 `docs/STAGE_11_ADAPTATION_CONTINUAL.md` oraz
 `docs/STAGE_11_LOCAL_ANALYSIS.md`.
 
+Etap 12 zakończony - wykonano pozycje 88--89 rozdziału 10: `SOTA-001` i
+`SOTA-002`. Pełne listingi 60 i 61 zachowano bez zmian, a warstwa zgodności
+przekierowała wyłącznie historyczne ścieżki `/tmp` w kopii roboczej. Oba
+kontrakty architektur uzyskały `EXACT_MATCH`, a oba eksperymenty
+`CONCLUSION_MATCH`. W `SOTA-001` zachowano ranking MLP > ViT > SBOHN > CNN;
+SBOHN osiągnął 66,2%, czyli o 12,0 pp więcej niż wartość historyczna. W
+`SOTA-002` zachowano wniosek, że SBOHN i ViT skalują się łagodniej niż CNN.
+Szczegóły: `docs/STAGE_12_LOCAL_ANALYSIS.md`.
+
 Kolejność źródłowa jest zapisana niezależnie od numeracji ID w
 `inventory/source_chronology.csv`. Etap 06 zajmuje pozycje 29--33, Etap 07
-pozycje 34--45, Etap 08 pozycje 46--56, Etap 09 pozycje 57--72, a Etap 10
-pozycje 73--82, a Etap 11 pozycje 83--87, dokładnie tak jak w PDF-ie.
-Po zakończonych Etapach 03--11 wykonano 87 ze 115 jednostek; 28 pozostaje do
+pozycje 34--45, Etap 08 pozycje 46--56, Etap 09 pozycje 57--72, Etap 10
+pozycje 73--82, Etap 11 pozycje 83--87, a Etap 12 pozycje 88--89, dokładnie
+tak jak w PDF-ie. Po zakończonych Etapach 03--12 wykonano 89 ze 115 jednostek;
+26 pozostaje do
 odtworzenia. Eksperymenty z sufiksem `R`
 nie zwiększają tej liczby, ponieważ należą do osobnego rejestru uzupełniającego.
 
@@ -224,6 +234,16 @@ Pełna instrukcja: `INSTALL_STAGE_10.md`.
 ```
 
 Pełna instrukcja: `INSTALL_STAGE_11.md`.
+
+## Uruchomienie Etapu 12
+
+```powershell
+.\SETUP_STAGE_12.ps1
+.\RUN_STAGE_12_SMOKE.ps1
+.\RUN_STAGE_12_FULL.ps1
+```
+
+Pełna instrukcja: `INSTALL_STAGE_12.md`.
 
 ## Źródło kanoniczne
 

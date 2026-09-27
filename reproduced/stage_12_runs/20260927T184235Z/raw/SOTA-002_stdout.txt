@@ -1,0 +1,4 @@
+Fractal_SBOHN_v2: scaling_exp=-0.010, estimated_4K=3ms
+CNN: scaling_exp=0.697, estimated_4K=365ms
+ViT-Tiny: scaling_exp=0.043, estimated_4K=6ms
+Part 2 done

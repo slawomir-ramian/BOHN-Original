@@ -1,0 +1,35 @@
+{
+  "experiment_id": "SOTA-001",
+  "source_sequence_in_stage": 1,
+  "source_order_in_monograph": 88,
+  "canonical_source": "docs/source/BOHN_PL.pdf",
+  "extraction_source": "docs/source/BOHN_EN_SOURCE.tex",
+  "source_code_level": "FULL_SOURCE",
+  "execution_mode": "HISTORICAL_SOURCE_WITH_PATH_COMPATIBILITY",
+  "listing_indices": [
+    60
+  ],
+  "historical_source_files": [
+    "source_from_monograph.py"
+  ],
+  "historical_source_sha256": [
+    "ddc6005c6b4b1b19225dc2c0f47a0eb92f94d0f9e7468b817f4586e499a37942"
+  ],
+  "historical_source_line_ranges": [
+    [
+      15042,
+      15134
+    ]
+  ],
+  "reported_result_file": "reported_result_from_monograph.tex",
+  "reported_result_start_line": 5794,
+  "reported_result_end_line": 5811,
+  "reported_result_sha256": "6adb0efeb58087ca645642cd09f79dabcd0db5133a62d0d19cbd60f2f97f2a3c",
+  "historical_code_modified": false,
+  "compatibility_changes": [
+    "redirect_absolute_tmp_paths_in_runtime_copy_only"
+  ],
+  "hardware_dependent_metrics": [
+    "train_s"
+  ]
+}

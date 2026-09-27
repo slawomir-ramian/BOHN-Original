@@ -1,0 +1,26 @@
+{
+  "Fractal_SBOHN_v2": {
+    "acc": 66.2,
+    "params": 54298,
+    "mem_mb": 0.22,
+    "train_s": 5.8
+  },
+  "CNN": {
+    "acc": 38.0,
+    "params": 23946,
+    "mem_mb": 0.1,
+    "train_s": 4.8
+  },
+  "ViT-Tiny": {
+    "acc": 69.0,
+    "params": 71946,
+    "mem_mb": 0.29,
+    "train_s": 4.6
+  },
+  "MLP": {
+    "acc": 71.8,
+    "params": 235146,
+    "mem_mb": 0.94,
+    "train_s": 1.2
+  }
+}

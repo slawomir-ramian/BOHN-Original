@@ -1,0 +1,77 @@
+\begin{table}[htbp]
+\centering
+\caption{Inference time [ms] at increasing resolution (CPU, single image).}
+\label{tab:sota_inference}
+\begin{tabular}{|l|r|r|r|}
+\hline
+\textbf{Resolution} & \textbf{Fractal SBOHN~v2} & \textbf{CNN} & \textbf{ViT-Tiny} \\
+\hline
+$28\times28$ & 1,08 & 0,25 & 1,06 \\
+\hline
+$56\times56$ & 1,03 & 0,60 & 1,06 \\
+\hline
+$112\times112$ & 1,10 & 1,05 & 1,05 \\
+\hline
+$224\times224$ & 1,18 & 8,67 & 1,11 \\
+\hline
+$448\times448$ & 1,50 & 10,17 & 1,32 \\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Scaling exponents and estimated inference time at 4K resolution.}
+\label{tab:sota_scaling}
+\begin{tabular}{|l|r|l|r|}
+\hline
+\textbf{Model} & \textbf{Exponent $\alpha$} & \textbf{Scaling type} & \textbf{Est. 4K time [ms]} \\
+\hline
+Fractal SBOHN~v2 & 0,059 & $\approx O(1)$ sub-linear & $\sim$2 \\
+\hline
+ViT-Tiny & 0,040 & $\approx O(1)$ sub-linear & $\sim$2 \\
+\hline
+CNN & 0,668 & $O(n^{0{,}67})$ sub-linear & $\sim$122 \\
+\hline
+MLP & --- & $O(n^2)$ --- does not scale & OOM \\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Number of model parameters at increasing resolution.}
+\label{tab:sota_params}
+\begin{tabular}{|l|r|r|r|}
+\hline
+\textbf{Resolution} & \textbf{Fractal SBOHN~v2} & \textbf{CNN} & \textbf{ViT-Tiny} \\
+\hline
+$28\times28$ & 54\,298 & 23\,946 & 71\,946 \\
+\hline
+$56\times56$ & 63\,706 & 23\,946 & 81\,354 \\
+\hline
+$112\times112$ & 101\,338 & 23\,946 & 118\,986 \\
+\hline
+$224\times224$ & 251\,866 & 23\,946 & 269\,514 \\
+\hline
+$448\times448$ & 853\,978 & 23\,946 & 871\,626 \\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Model parameter memory [MB] at selected resolutions.}
+\label{tab:sota_mem}
+\begin{tabular}{|l|r|r|r|}
+\hline
+\textbf{Resolution} & \textbf{Fractal SBOHN~v2} & \textbf{CNN} & \textbf{ViT-Tiny} \\
+\hline
+$28\times28$ & 0,22 & 0,10 & 0,29 \\
+\hline
+$112\times112$ & 0,41 & 0,10 & 0,48 \\
+\hline
+$448\times448$ & 3,42 & 0,10 & 3,49 \\
+\hline
+\end{tabular}
+\end{table}

@@ -91,3 +91,9 @@ Adaptacja zadaniowa i continual learning z rozdziału 9 znajdują się w
 58 i 59 są w `historical/`, a uzupełnione fazy eksperymentalne są jawnie
 oddzielone w `reconstruction/`. Dwa wspólne przebiegi z checkpointami obsługują
 pięć jednostek w kolejności PDF-a.
+
+Porównanie SOTA i benchmark skalowania z rozdziału 10 znajdują się w
+`experiments/10_sota_and_scaling/`. Pełne listingi 60 i 61 są przechowywane
+w `historical/`. Wykonanie odbywa się przez tymczasową kopię zgodności, która
+zmienia jedynie absolutne ścieżki `/tmp`; pliki historyczne pozostają
+niezmienione i są kontrolowane sumami SHA-256.

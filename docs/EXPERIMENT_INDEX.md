@@ -1,7 +1,7 @@
 # Indeks eksperymentów, testów i programów
 
 Rejestr obejmuje **115 jednostek** wykrytych w monografii.
-Po zakończonych etapach wykonano **87 jednostek**; **28** pozostaje `NOT_RUN`.
+Po zakończonych etapach wykonano **89 jednostek**; **26** pozostaje `NOT_RUN`.
 
 Kolumna `Kod` opisuje poziom materiału dostępnego w PDF. `NARRATIVE_ONLY` nie
 oznacza pominięcia - przeciwnie, wskazuje jednostkę wymagającą ostrożnej rekonstrukcji
@@ -138,8 +138,8 @@ z opisu i tabel, bez udawania, że pełny kod został opublikowany.
 
 | ID | Sekcja | Jednostka | Typ | Strony drukowane / PDF | Kod | Reprodukcja |
 |---|---|---|---|---|---|---|
-| `SOTA-001` | 10.1-10.2 | Porównanie accuracy modeli na Fashion-MNIST | benchmark | 106-107 / 107-108 | `FULL` | `NOT_RUN` |
-| `SOTA-002` | 10.3 | Benchmark skalowania inferencji z rozdzielczością do 4K | scaling_benchmark | 107-109 / 108-110 | `FULL` | `NOT_RUN` |
+| `SOTA-001` | 10.1-10.2 | Porównanie accuracy modeli na Fashion-MNIST | benchmark | 106-107 / 107-108 | `FULL` | `CONCLUSION_MATCH` |
+| `SOTA-002` | 10.3 | Benchmark skalowania inferencji z rozdzielczością do 4K | scaling_benchmark | 107-109 / 108-110 | `FULL` | `CONCLUSION_MATCH` |
 
 ## Rozdział 11: Kierunki badawcze i system zintegrowany
 

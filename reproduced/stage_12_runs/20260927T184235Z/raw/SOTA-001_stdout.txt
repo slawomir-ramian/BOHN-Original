@@ -1,0 +1,5 @@
+Fractal_SBOHN_v2       | Acc: 66.2% | Params: 54,298 | Mem:0.22MB | Train:5.8s
+CNN                    | Acc: 38.0% | Params: 23,946 | Mem:0.10MB | Train:4.8s
+ViT-Tiny               | Acc: 69.0% | Params: 71,946 | Mem:0.29MB | Train:4.6s
+MLP                    | Acc: 71.8% | Params:235,146 | Mem:0.94MB | Train:1.2s
+Part 1 done
