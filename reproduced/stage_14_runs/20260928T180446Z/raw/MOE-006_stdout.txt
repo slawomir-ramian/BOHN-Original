@@ -1,0 +1,49 @@
+============================================================
+BOHN: LAYERNORM VS BATCHNORM + CONFIDENCE ROUTING
+============================================================
+
+--- Part A: BN vs LN Base ---
+
+  Testing BN base:
+
+  Testing LN base:
+
+--- Part B: Confidence Routing ---
+  Training E0 on MNIST...
+  Epoch 1/8 -- Acc: 16.1%
+  Epoch 4/8 -- Acc: 89.5%
+  Epoch 7/8 -- Acc: 96.0%
+  Epoch 8/8 -- Acc: 97.2%
+  Epoch 1/5 -- Acc: 97.8%
+  Epoch 4/5 -- Acc: 99.0%
+  Epoch 5/5 -- Acc: 99.5%
+  Training E1 on Fashion...
+  Epoch 1/10 -- Acc: 49.6%
+  Epoch 4/10 -- Acc: 77.2%
+  Epoch 7/10 -- Acc: 81.4%
+  Epoch 10/10 -- Acc: 85.5%
+  Training E2 on KMNIST...
+  Epoch 1/10 -- Acc: 22.6%
+  Epoch 4/10 -- Acc: 77.5%
+  Epoch 7/10 -- Acc: 89.8%
+  Epoch 10/10 -- Acc: 95.3%
+
+  Oracle (hard assignment):
+    MNIST: 96.4%
+    Fashion: 82.6%
+    KMNIST: 79.6%
+
+  max_logit routing:
+    MNIST: 91.8% | Routing: [E0:93.0%, E1:1.0%, E2:6.0%]
+    Fashion: 59.6% | Routing: [E0:35.4%, E1:61.6%, E2:3.0%]
+    KMNIST: 62.8% | Routing: [E0:27.0%, E1:7.2%, E2:65.8%]
+
+  confidence routing:
+    MNIST: 90.2% | Routing: [E0:91.2%, E1:2.8%, E2:6.0%]
+    Fashion: 61.8% | Routing: [E0:33.6%, E1:63.8%, E2:2.6%]
+    KMNIST: 58.8% | Routing: [E0:27.0%, E1:12.6%, E2:60.4%]
+
+  margin routing:
+    MNIST: 87.2% | Routing: [E0:87.2%, E1:4.4%, E2:8.4%]
+    Fashion: 60.0% | Routing: [E0:32.8%, E1:58.8%, E2:8.4%]
+    KMNIST: 55.4% | Routing: [E0:27.6%, E1:15.8%, E2:56.6%]

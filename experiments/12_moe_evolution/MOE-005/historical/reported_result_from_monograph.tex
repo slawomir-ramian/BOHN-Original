@@ -1,0 +1,40 @@
+\begin{table}[h]
+\centering
+\caption{Effect of normalization on forgetting --- after training Fashion on pre-trained MNIST.}
+\begin{tabular}{c c c}
+\hline
+\textbf{Normalization} & \textbf{MNIST after Fashion} & \textbf{Forgetting} \\
+\hline
+BatchNorm & 69.9\% & 18.7\% \\
+LayerNorm & 97.4\% & 0.0\% \\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[h]
+\centering
+\caption{Gate routing accuracy as a function of the base.}
+\begin{tabular}{l c}
+\hline
+\textbf{Gate variant} & \textbf{Routing accuracy} \\
+\hline
+BN base gate & 83.9\% \\
+LN base gate & 15.4\% \\
+Independent gate & 14.7\% (collapse) \\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[h]
+\centering
+\caption{Fundamental trade-off: BatchNorm vs LayerNorm in continual learning.}
+\begin{tabular}{l c c c}
+\hline
+& \textbf{BN base} & \textbf{LN base} \\
+\hline
+Forgetting & 18.7\% & 0.0\% \\
+Gate routing & 100\% & $\sim$15\% \\
+Oracle accuracy & 87.8\% & 86.4\% \\
+\hline
+\end{tabular}
+\end{table}

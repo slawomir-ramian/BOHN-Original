@@ -32,3 +32,6 @@ experiments/09_adaptation_and_continual/*/historical/source_fragment_from_monogr
 experiments/10_sota_and_scaling/*/historical/source_from_monograph.py whitespace=-trailing-space
 experiments/11_integrated_system/*/historical/source_from_monograph.py whitespace=-trailing-space
 experiments/11_integrated_system/*/historical/source_fragment_from_monograph.py whitespace=-trailing-space
+experiments/12_moe_evolution/*/historical/source_from_monograph.py whitespace=-trailing-space
+experiments/12_moe_evolution/*/historical/source_fragment_from_monograph.py whitespace=-trailing-space
+experiments/12_moe_evolution/*/historical/shared_listing_context_from_monograph.py whitespace=-trailing-space

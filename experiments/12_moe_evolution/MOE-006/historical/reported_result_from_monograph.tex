@@ -1,0 +1,13 @@
+\begin{table}[h]
+\centering
+\caption{Confidence routing --- parameter-free methods on LN base.}
+\begin{tabular}{l c c c c c}
+\hline
+\textbf{Method} & \textbf{MNIST} & \textbf{Fashion} & \textbf{KMNIST} & \textbf{Avg} & \textbf{Forgetting} \\
+\hline
+Max Logit & 94.8\% & 62.2\% & 71.5\% & 76.2\% & 10.3\% \\
+Confidence (entropy) & 92.9\% & 58.6\% & 68.3\% & 73.3\% & 13.0\% \\
+Margin (top1$-$top2) & 91.6\% & 57.4\% & 66.1\% & 71.7\% & 14.3\% \\
+\hline
+\end{tabular}
+\end{table}

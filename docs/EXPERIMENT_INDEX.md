@@ -1,7 +1,7 @@
 # Indeks eksperymentów, testów i programów
 
 Rejestr obejmuje **115 jednostek** wykrytych w monografii.
-Po zakończonych etapach wykonano **99 jednostek**; **16** pozostaje `NOT_RUN`.
+Po zakończonych etapach wykonano **108 jednostek**; **7** pozostaje `NOT_RUN`.
 
 Kolumna `Kod` opisuje poziom materiału dostępnego w PDF. `NARRATIVE_ONLY` nie
 oznacza pominięcia - przeciwnie, wskazuje jednostkę wymagającą ostrożnej rekonstrukcji
@@ -160,15 +160,15 @@ z opisu i tabel, bez udawania, że pełny kod został opublikowany.
 
 | ID | Sekcja | Jednostka | Typ | Strony drukowane / PDF | Kod | Reprodukcja |
 |---|---|---|---|---|---|---|
-| `MOE-001` | 12.1 | Partial Unfreeze + MoE - eliminacja zapominania | experiment | 119-121 / 120-122 | `FULL` | `NOT_RUN` |
-| `MOE-009` | 12.1.3 | Partial Unfreeze + MoE - osobny test trzech domen | experiment | 120-121 / 121-122 | `FULL` | `NOT_RUN` |
-| `MOE-002` | 12.2.2 | Sparse MoE + Gate Specialization Loss - expert collapse | experiment_negative | 121-122 / 122-123 | `FULL` | `NOT_RUN` |
-| `MOE-003` | 12.2.3 | Sparse MoE - sweep lambda_spec | ablation_negative | 121-122 / 122-123 | `FULL` | `NOT_RUN` |
-| `MOE-004` | 12.3 | Hard Assignment + Gate Distillation | experiment | 122-123 / 123-124 | `FULL` | `NOT_RUN` |
-| `MOE-005` | 12.4.1-12.4.3 | LayerNorm vs BatchNorm - routing experiments | ablation | 123-124 / 124-125 | `FULL` | `NOT_RUN` |
-| `MOE-006` | 12.4.4 | Confidence routing | experiment | 124 / 125 | `FULL` | `NOT_RUN` |
-| `MOE-007` | 12.4.5 | Shared Expert - wynik negatywny | experiment_negative | 124 / 125 | `FULL` | `NOT_RUN` |
-| `MOE-008` | 12.5 | Hybrid BN/LN - kulminacja | experiment | 125-127 / 126-128 | `FULL` | `NOT_RUN` |
+| `MOE-001` | 12.1 | Partial Unfreeze + MoE - eliminacja zapominania | experiment | 119-121 / 120-122 | `SOURCE_FRAGMENT_ONLY` | `AUDITED_REPORTED_RESULT` |
+| `MOE-009` | 12.1.3 | Partial Unfreeze + MoE - osobny test trzech domen | experiment | 120-121 / 121-122 | `SOURCE_FRAGMENT_ONLY` | `AUDITED_REPORTED_RESULT` |
+| `MOE-002` | 12.2.2 | Sparse MoE + Gate Specialization Loss - expert collapse | experiment_negative | 121-122 / 122-123 | `SOURCE_FRAGMENT_ONLY` | `AUDITED_REPORTED_RESULT` |
+| `MOE-003` | 12.2.3 | Sparse MoE - sweep lambda_spec | ablation_negative | 121-122 / 122-123 | `SOURCE_FRAGMENT_ONLY` | `AUDITED_REPORTED_RESULT` |
+| `MOE-004` | 12.3 | Hard Assignment + Gate Distillation | experiment | 122-123 / 123-124 | `FULL` | `NUMERIC_DIFFERENCE` |
+| `MOE-005` | 12.4.1-12.4.3 | LayerNorm vs BatchNorm - routing experiments | ablation | 123-124 / 124-125 | `SHARED_LISTING_TARGET_CODE_ABSENT` | `AUDITED_REPORTED_RESULT` |
+| `MOE-006` | 12.4.4 | Confidence routing | experiment | 124 / 125 | `FULL_SHARED_LISTING` | `CONCLUSION_MATCH` |
+| `MOE-007` | 12.4.5 | Shared Expert - wynik negatywny | experiment_negative | 124 / 125 | `SHARED_LISTING_TARGET_CODE_ABSENT` | `AUDITED_REPORTED_RESULT` |
+| `MOE-008` | 12.5 | Hybrid BN/LN - kulminacja | experiment | 125-127 / 126-128 | `FULL` | `NUMERIC_DIFFERENCE` |
 
 ## Rozdział 13: RMIG-FBOHN
 

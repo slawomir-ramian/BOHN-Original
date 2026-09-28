@@ -1,0 +1,38 @@
+{
+  "domains": {
+    "MNIST": {
+      "gated": 51.8,
+      "oracle": 97.0,
+      "gate": [
+        37.8,
+        0.0,
+        62.2,
+        0.0
+      ]
+    },
+    "Fashion": {
+      "gated": 54.6,
+      "oracle": 84.2,
+      "gate": [
+        0.0,
+        55.2,
+        44.8,
+        0.0
+      ]
+    },
+    "KMNIST": {
+      "gated": 84.0,
+      "oracle": 84.0,
+      "gate": [
+        0.0,
+        0.6,
+        99.4,
+        0.0
+      ]
+    }
+  },
+  "avg_gated": 63.5,
+  "avg_oracle": 88.4,
+  "forgetting": 0.0,
+  "gate_overhead": 24.9
+}

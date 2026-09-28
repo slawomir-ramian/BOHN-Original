@@ -1,0 +1,43 @@
+============================================================
+BOHN: HARD ASSIGNMENT + GATE DISTILLATION
+============================================================
+
+--- Stage 1a: Pre-train base + E0 on MNIST ---
+  [E0] Epoch 1/8 -- Loss: 0.7878, Acc: 77.2%
+  [E0] Epoch 4/8 -- Loss: 0.0348, Acc: 98.9%
+  [E0] Epoch 7/8 -- Loss: 0.0047, Acc: 99.9%
+  [E0] Epoch 8/8 -- Loss: 0.0035, Acc: 99.9%
+  [E0] Epoch 1/5 -- Loss: 0.0046, Acc: 99.9%
+  [E0] Epoch 4/5 -- Loss: 0.0003, Acc: 100.0%
+  [E0] Epoch 5/5 -- Loss: 0.0096, Acc: 99.8%
+
+--- Stage 1b: Train E1 on Fashion ---
+  [E1] Epoch 1/10 -- Loss: 0.9090, Acc: 69.5%
+  [E1] Epoch 4/10 -- Loss: 0.2568, Acc: 90.8%
+  [E1] Epoch 7/10 -- Loss: 0.1193, Acc: 95.6%
+  [E1] Epoch 10/10 -- Loss: 0.1022, Acc: 96.5%
+
+--- Stage 2: Gate Distillation ---
+  [Gate] Epoch 1/15 -- routing_acc=70.2%
+  [Gate] Epoch 4/15 -- routing_acc=99.9%
+  [Gate] Epoch 7/15 -- routing_acc=100.0%
+  [Gate] Epoch 10/15 -- routing_acc=100.0%
+  [Gate] Epoch 13/15 -- routing_acc=100.0%
+  [Gate] Epoch 15/15 -- routing_acc=100.0%
+
+--- Stage 3: KMNIST -> E2 ---
+  [E2] Epoch 1/10 -- Loss: 1.0559, Acc: 66.3%
+  [E2] Epoch 4/10 -- Loss: 0.0822, Acc: 98.0%
+  [E2] Epoch 7/10 -- Loss: 0.0085, Acc: 99.8%
+  [E2] Epoch 10/10 -- Loss: 0.0015, Acc: 100.0%
+  [Gate] Epoch 1/15 -- routing_acc=67.2%
+  [Gate] Epoch 4/15 -- routing_acc=91.5%
+  [Gate] Epoch 7/15 -- routing_acc=98.2%
+  [Gate] Epoch 10/15 -- routing_acc=99.6%
+  [Gate] Epoch 13/15 -- routing_acc=99.8%
+  [Gate] Epoch 15/15 -- routing_acc=100.0%
+
+--- Final Evaluation ---
+  MNIST: 65.0% | Gate: ['E0:57.8%', 'E1:0.0%', 'E2:42.2%', 'E3:0.0%']
+  Fashion: 73.0% | Gate: ['E0:0.0%', 'E1:71.2%', 'E2:28.8%', 'E3:0.0%']
+  KMNIST: 81.8% | Gate: ['E0:0.6%', 'E1:0.6%', 'E2:98.8%', 'E3:0.0%']

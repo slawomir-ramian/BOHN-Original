@@ -105,3 +105,11 @@ treningu. Pozycje `CPU` współdzielą pełny listing 64 i jeden checkpoint bieg
 Wynik pełnego biegu oraz uczciwa klasyfikacja dwóch rozbieżności znajdują się w
 `reproduced/stage_13_runs/20260928T051822Z/` i
 `docs/STAGE_13_LOCAL_ANALYSIS.md`.
+
+Ewolucja MoE z rozdziału 12 znajduje się w
+`experiments/12_moe_evolution/`. Trzy pełne programy historyczne wykonują
+Hard Assignment, Confidence Routing i Hybrid BN/LN. Pozostałe sześć pozycji
+przechowuje dokładny kontekst źródłowy i tabele, lecz pozostaje audytem z
+powodu braku opublikowanej pętli docelowej. Pełny bieg znajduje się w
+`reproduced/stage_14_runs/20260928T180446Z/`, a interpretacja rozbieżności w
+`docs/STAGE_14_LOCAL_ANALYSIS.md`.

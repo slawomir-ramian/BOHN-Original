@@ -1,0 +1,68 @@
+============================================================
+BOHN v6: HYBRID BN/LN -- BEST ARCHITECTURE
+============================================================
+
+--- Stage 1a: Pre-train base + E0 on MNIST ---
+  [E0] Epoch 1/8 -- Loss: 1.2224, Acc: 61.2%
+  [E0] Epoch 3/8 -- Loss: 0.1264, Acc: 95.9%
+  [E0] Epoch 5/8 -- Loss: 0.0345, Acc: 99.0%
+  [E0] Epoch 7/8 -- Loss: 0.0190, Acc: 99.4%
+  [E0] Epoch 8/8 -- Loss: 0.0172, Acc: 99.5%
+  Base frozen (BN in eval mode)
+
+--- Stage 1b: Fine-tune E0 ---
+  [E0] Epoch 1/5 -- Loss: 0.0114, Acc: 99.8%
+  [E0] Epoch 3/5 -- Loss: 0.0014, Acc: 100.0%
+  [E0] Epoch 5/5 -- Loss: 0.0007, Acc: 100.0%
+  MNIST E0: 97.0%
+
+--- Stage 1c: Train E1 on Fashion ---
+  [E1] Epoch 1/10 -- Loss: 1.2148, Acc: 57.0%
+  [E1] Epoch 3/10 -- Loss: 0.5153, Acc: 81.2%
+  [E1] Epoch 5/10 -- Loss: 0.3771, Acc: 86.6%
+  [E1] Epoch 7/10 -- Loss: 0.2637, Acc: 91.3%
+  [E1] Epoch 9/10 -- Loss: 0.2092, Acc: 92.2%
+  [E1] Epoch 10/10 -- Loss: 0.1442, Acc: 94.0%
+  Fashion E1: 84.2%, MNIST retention: 97.0%
+  Forgetting: 0.0%
+
+--- Stage 2: Gate Distillation (2 domains) ---
+  [Gate] Epoch 1/15 -- routing_acc=72.6%
+  [Gate] Epoch 4/15 -- routing_acc=100.0%
+  [Gate] Epoch 7/15 -- routing_acc=100.0%
+  [Gate] Epoch 10/15 -- routing_acc=100.0%
+  [Gate] Epoch 13/15 -- routing_acc=100.0%
+  [Gate] Epoch 15/15 -- routing_acc=100.0%
+
+--- Stage 3: KMNIST -> E2 ---
+  [E2] Epoch 1/10 -- Loss: 1.6109, Acc: 45.4%
+  [E2] Epoch 3/10 -- Loss: 0.3038, Acc: 90.3%
+  [E2] Epoch 5/10 -- Loss: 0.1195, Acc: 97.1%
+  [E2] Epoch 7/10 -- Loss: 0.0361, Acc: 99.2%
+  [E2] Epoch 9/10 -- Loss: 0.0093, Acc: 99.8%
+  [E2] Epoch 10/10 -- Loss: 0.0031, Acc: 100.0%
+  KMNIST E2: 84.0%
+
+--- Gate retraining (3 domains) ---
+  [Gate] Epoch 1/15 -- routing_acc=69.4%
+  [Gate] Epoch 4/15 -- routing_acc=92.8%
+  [Gate] Epoch 7/15 -- routing_acc=99.0%
+  [Gate] Epoch 10/15 -- routing_acc=99.7%
+  [Gate] Epoch 13/15 -- routing_acc=100.0%
+  [Gate] Epoch 15/15 -- routing_acc=99.9%
+
+============================================================
+FINAL RESULTS: HYBRID BN/LN
+============================================================
+  MNIST: Gated=51.8%, Oracle=97.0%, Gate=[E0:37.8%, E1:0.0%, E2:62.2%, E3:0.0%]
+  Fashion: Gated=54.6%, Oracle=84.2%, Gate=[E0:0.0%, E1:55.2%, E2:44.8%, E3:0.0%]
+  KMNIST: Gated=84.0%, Oracle=84.0%, Gate=[E0:0.0%, E1:0.6%, E2:99.4%, E3:0.0%]
+
+  Avg Gated: 63.5%
+  Avg Oracle: 88.4%
+  Forgetting: 45.2%
+  Gate Overhead: 24.9%
+
+  BEST BOHN RESULT!
+
+Results saved to hybrid_bn_ln_results.json

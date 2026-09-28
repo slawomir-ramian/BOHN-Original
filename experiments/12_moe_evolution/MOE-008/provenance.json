@@ -1,0 +1,42 @@
+{
+  "experiment_id": "MOE-008",
+  "source_sequence_in_stage": 9,
+  "source_order_in_monograph": 108,
+  "canonical_source": "docs/source/BOHN_PL.pdf",
+  "extraction_source": "docs/source/BOHN_EN_SOURCE.tex",
+  "source_code_level": "FULL",
+  "execution_mode": "HISTORICAL_SHARED_SOURCE_WITH_COMPATIBILITY",
+  "listing_indices": [
+    69
+  ],
+  "reported_table_indices": [
+    92,
+    93,
+    94
+  ],
+  "listing_target_code_present": true,
+  "historical_source_files": [
+    "source_from_monograph.py"
+  ],
+  "historical_source_sha256": [
+    "c2008d55994e73dcc92a4ef484fa3d45ff257ceb8593749905ac86e461733338"
+  ],
+  "historical_source_semantic_sha256": [
+    "754e06802d9877cecbe3674b6ec66c43c3085e731c538c9c1518cbd9cafc4525"
+  ],
+  "historical_source_line_ranges": [
+    [
+      17054,
+      17408
+    ]
+  ],
+  "reported_result_file": "reported_result_from_monograph.tex",
+  "reported_result_start_line": 7033,
+  "reported_result_end_line": 7087,
+  "reported_result_sha256": "91d522dbd8d45282ebcf5c974ea396e8b835ea3bbc2d359eafc0f9367ee8fc8e",
+  "historical_code_modified": false,
+  "runtime_program": "hybrid",
+  "runtime_compatibility": [
+    "redirect_absolute_tmp_data_in_runtime_copy_only"
+  ]
+}

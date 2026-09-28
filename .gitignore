@@ -63,6 +63,15 @@ reproduced/stage_13_runs/*/
 !reproduced/stage_13_runs/20260928T051822Z/**
 !reproduced/stage_13_runs/LATEST_RUN.txt
 
+# Etap 14: cache datasetow, kopie zgodnosci, checkpointy i biegi przed closeoutem.
+reproduced/stage_14_dataset_cache/
+reproduced/stage_14_runtime/
+reproduced/stage_14_checkpoint/
+reproduced/stage_14_runs/*/
+!reproduced/stage_14_runs/20260928T180446Z/
+!reproduced/stage_14_runs/20260928T180446Z/**
+!reproduced/stage_14_runs/LATEST_RUN.txt
+
 # Etap 10: smoke jest roboczy; w closeoucie śledzimy wskazany pełny bieg.
 reproduced/stage_10_runs/*/
 !reproduced/stage_10_runs/20260926T211342Z/

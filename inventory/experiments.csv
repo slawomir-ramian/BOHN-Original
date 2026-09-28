@@ -98,15 +98,15 @@ CPU-002,11,11.5.2,Bateria CPU 2 - MoE Multi-Domain Routing,experiment,116-117,11
 CPU-003,11,11.5.3,Bateria CPU 3 - Cross-Domain Meta-Generator,experiment,116-117,117-118,A.9.3,FULL_SHARED_LISTING,YES,NUMERIC_DIFFERENCE
 CPU-004,11,11.5.4,Bateria CPU 4 - Partial Unfreeze: accuracy vs forgetting,experiment,117,118,A.9.3,FULL_SHARED_LISTING,YES,CONCLUSION_MATCH
 CPU-005,11,11.5.5,Bateria CPU 5 - Few-Shot Scaling z frozen encoder,scaling_test,117-118,118-119,A.9.3,FULL_SHARED_LISTING,YES,CONCLUSION_MATCH
-MOE-001,12,12.1,Partial Unfreeze + MoE - eliminacja zapominania,experiment,119-121,120-122,A.10.1,FULL,YES,NOT_RUN
-MOE-009,12,12.1.3,Partial Unfreeze + MoE - osobny test trzech domen,experiment,120-121,121-122,A.10.1,FULL,YES,NOT_RUN
-MOE-002,12,12.2.2,Sparse MoE + Gate Specialization Loss - expert collapse,experiment_negative,121-122,122-123,A.10.2,FULL,YES,NOT_RUN
-MOE-003,12,12.2.3,Sparse MoE - sweep lambda_spec,ablation_negative,121-122,122-123,A.10.2,FULL,YES,NOT_RUN
-MOE-004,12,12.3,Hard Assignment + Gate Distillation,experiment,122-123,123-124,A.10.3,FULL,YES,NOT_RUN
-MOE-005,12,12.4.1-12.4.3,LayerNorm vs BatchNorm - routing experiments,ablation,123-124,124-125,A.10.4,FULL,YES,NOT_RUN
-MOE-006,12,12.4.4,Confidence routing,experiment,124,125,A.10.4,FULL,YES,NOT_RUN
-MOE-007,12,12.4.5,Shared Expert - wynik negatywny,experiment_negative,124,125,A.10.4,FULL,YES,NOT_RUN
-MOE-008,12,12.5,Hybrid BN/LN - kulminacja,experiment,125-127,126-128,A.10.5,FULL,YES,NOT_RUN
+MOE-001,12,12.1,Partial Unfreeze + MoE - eliminacja zapominania,experiment,119-121,120-122,A.10.1,SOURCE_FRAGMENT_ONLY,YES,AUDITED_REPORTED_RESULT
+MOE-009,12,12.1.3,Partial Unfreeze + MoE - osobny test trzech domen,experiment,120-121,121-122,A.10.1,SOURCE_FRAGMENT_ONLY,YES,AUDITED_REPORTED_RESULT
+MOE-002,12,12.2.2,Sparse MoE + Gate Specialization Loss - expert collapse,experiment_negative,121-122,122-123,A.10.2,SOURCE_FRAGMENT_ONLY,YES,AUDITED_REPORTED_RESULT
+MOE-003,12,12.2.3,Sparse MoE - sweep lambda_spec,ablation_negative,121-122,122-123,A.10.2,SOURCE_FRAGMENT_ONLY,YES,AUDITED_REPORTED_RESULT
+MOE-004,12,12.3,Hard Assignment + Gate Distillation,experiment,122-123,123-124,A.10.3,FULL,YES,NUMERIC_DIFFERENCE
+MOE-005,12,12.4.1-12.4.3,LayerNorm vs BatchNorm - routing experiments,ablation,123-124,124-125,A.10.4,SHARED_LISTING_TARGET_CODE_ABSENT,YES,AUDITED_REPORTED_RESULT
+MOE-006,12,12.4.4,Confidence routing,experiment,124,125,A.10.4,FULL_SHARED_LISTING,YES,CONCLUSION_MATCH
+MOE-007,12,12.4.5,Shared Expert - wynik negatywny,experiment_negative,124,125,A.10.4,SHARED_LISTING_TARGET_CODE_ABSENT,YES,AUDITED_REPORTED_RESULT
+MOE-008,12,12.5,Hybrid BN/LN - kulminacja,experiment,125-127,126-128,A.10.5,FULL,YES,NUMERIC_DIFFERENCE
 RF-001,13,13.4,RMIG-FBOHN v1,experiment,129,130,B / Listing B.1,FULL_SUITE,YES,NOT_RUN
 RF-002,13,13.5,RMIG-FBOHN - test out-of-representation,robustness_test,129-130,130-131,B / Listing B.1,FULL_SUITE,YES,NOT_RUN
 MF-001,14,14.2,Meta-FBOHN v1 - negatywny wynik skalowania cech,experiment_negative,131,132,B / Listing B.1,FULL_SUITE,YES,NOT_RUN

@@ -1,0 +1,28 @@
+\begin{table}[h]
+\centering
+\caption{Sparse MoE + Specialization Loss --- comparison of variants.}
+\begin{tabular}{l c c c c}
+\hline
+\textbf{Method} & \textbf{MNIST} & \textbf{Fashion} & \textbf{Forgetting} & \textbf{Gate Entropy} \\
+\hline
+Dense Gate (baseline) & 94.6\% & 79.2\% & 67.8\% & N/A \\
+Sparse Top-2 (no spec) & 93.8\% & 80.2\% & 74.4\% & 0.341 \\
+Sparse + Spec + Balance & 75.4\% & 9.0\% & 6.2\% & 0.000 \\
++ KMNIST (3 domains) & 75.0\% & 10.4\% & 0.4\% & 0.000 \\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[h]
+\centering
+\caption{Wrong vs correct approach to specialization.}
+\begin{tabular}{c c}
+\hline
+\textbf{Wrong (current)} & \textbf{Correct (proposed)} \\
+\hline
+``Be confident per-input'' & ``Be confident AND differentiate per-domain'' \\
+$\min H(\text{gate}|x)$ globally & $\max \text{MI}(\text{expert};\text{domain})$ \\
+$\to$ collapse to 1~expert & $\to$ each domain $\to$ its own expert \\
+\hline
+\end{tabular}
+\end{table}

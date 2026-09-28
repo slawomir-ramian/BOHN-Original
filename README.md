@@ -137,12 +137,19 @@ ukrywania niepotwierdzonych tez. Brakujący w źródle import `gc` dodano wyłą
 w kopii zgodności; historyczny listing pozostał niezmieniony. Szczegóły:
 `docs/STAGE_13_LOCAL_ANALYSIS.md`.
 
+Etap 14 zakończony dla pozycji 100--108 rozdziału 12. Sześć pozycji pozostaje
+jawnym audytem z powodu braku opublikowanych pętli docelowych. Trzy pełne
+programy wykonano bez modyfikacji źródeł historycznych. `MOE-006` zachował
+ranking metod routingu (`CONCLUSION_MATCH`), natomiast `MOE-004` i `MOE-008`
+mają `NUMERIC_DIFFERENCE`: lokalny gate nie odtworzył raportowanej niemal
+idealnej specjalizacji. Szczegóły: `docs/STAGE_14_LOCAL_ANALYSIS.md`.
+
 Kolejność źródłowa jest zapisana niezależnie od numeracji ID w
 `inventory/source_chronology.csv`. Etap 06 zajmuje pozycje 29--33, Etap 07
 pozycje 34--45, Etap 08 pozycje 46--56, Etap 09 pozycje 57--72, Etap 10
 pozycje 73--82, Etap 11 pozycje 83--87, Etap 12 pozycje 88--89, a Etap 13
-pozycje 90--99, dokładnie tak jak w PDF-ie. Po zakończonych Etapach 03--13
-wykonano 99 ze 115 jednostek; 16 pozostaje do
+pozycje 90--99, a Etap 14 pozycje 100--108, dokładnie tak jak w PDF-ie.
+Po zakończonych Etapach 03--14 wykonano 108 ze 115 jednostek; 7 pozostaje do
 odtworzenia. Eksperymenty z sufiksem `R`
 nie zwiększają tej liczby, ponieważ należą do osobnego rejestru uzupełniającego.
 

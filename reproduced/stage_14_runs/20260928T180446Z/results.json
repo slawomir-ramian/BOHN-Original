@@ -1,0 +1,172 @@
+{
+  "stage": "14",
+  "mode": "full",
+  "created_utc": "20260928T180446Z",
+  "source_chronology": [
+    "MOE-001",
+    "MOE-009",
+    "MOE-002",
+    "MOE-003",
+    "MOE-004",
+    "MOE-005",
+    "MOE-006",
+    "MOE-007",
+    "MOE-008"
+  ],
+  "historical_code_modified": false,
+  "environment": {
+    "python": "3.14.5 (tags/v3.14.5:5607950, May 10 2026, 10:43:50) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.19045-SP0"
+  },
+  "experiments": {
+    "MOE-001": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "AUDIT_REPORTED_RESULT_SOURCE_BOUNDARY",
+      "source_boundary": "SOURCE_FRAGMENT_ONLY",
+      "historical_code_modified": false,
+      "comparison": {
+        "status": "AUDITED_REPORTED_RESULT",
+        "scientific_conclusion_preserved": null,
+        "max_reported_numeric_delta_pp": null,
+        "note": "Brak opublikowanej pętli generującej tę tabelę."
+      }
+    },
+    "MOE-009": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "AUDIT_REPORTED_RESULT_SOURCE_BOUNDARY",
+      "source_boundary": "SOURCE_FRAGMENT_ONLY",
+      "historical_code_modified": false,
+      "comparison": {
+        "status": "AUDITED_REPORTED_RESULT",
+        "scientific_conclusion_preserved": null,
+        "max_reported_numeric_delta_pp": null,
+        "note": "Brak opublikowanej pętli generującej tę tabelę."
+      }
+    },
+    "MOE-002": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "AUDIT_REPORTED_RESULT_SOURCE_BOUNDARY",
+      "source_boundary": "SOURCE_FRAGMENT_ONLY",
+      "historical_code_modified": false,
+      "comparison": {
+        "status": "AUDITED_REPORTED_RESULT",
+        "scientific_conclusion_preserved": null,
+        "max_reported_numeric_delta_pp": null,
+        "note": "Brak opublikowanej pętli generującej tę tabelę."
+      }
+    },
+    "MOE-003": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "AUDIT_REPORTED_RESULT_SOURCE_BOUNDARY",
+      "source_boundary": "SOURCE_FRAGMENT_ONLY",
+      "historical_code_modified": false,
+      "comparison": {
+        "status": "AUDITED_REPORTED_RESULT",
+        "scientific_conclusion_preserved": null,
+        "max_reported_numeric_delta_pp": null,
+        "note": "Brak opublikowanej pętli generującej tę tabelę."
+      }
+    },
+    "MOE-004": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 319.373916,
+      "execution_mode": "HISTORICAL_SHARED_SOURCE_WITH_COMPATIBILITY",
+      "source_boundary": "FULL",
+      "historical_code_modified": false,
+      "runtime_compatibility": [
+        "redirect_tmp_data"
+      ],
+      "checkpoint_reused": false,
+      "stdout_file": "raw/MOE-004_stdout.txt",
+      "stderr_file": "raw/MOE-004_stderr.txt",
+      "comparison": {
+        "status": "NUMERIC_DIFFERENCE",
+        "scientific_conclusion_preserved": false,
+        "max_reported_numeric_delta_pp": 42.0,
+        "note": "Pełna specjalizacja domenowa i jakość gated."
+      }
+    },
+    "MOE-005": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "AUDIT_REPORTED_RESULT_SOURCE_BOUNDARY",
+      "source_boundary": "SHARED_LISTING_TARGET_CODE_ABSENT",
+      "historical_code_modified": false,
+      "comparison": {
+        "status": "AUDITED_REPORTED_RESULT",
+        "scientific_conclusion_preserved": null,
+        "max_reported_numeric_delta_pp": null,
+        "note": "Brak opublikowanej pętli generującej tę tabelę."
+      }
+    },
+    "MOE-006": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 142.224643,
+      "execution_mode": "HISTORICAL_SHARED_SOURCE_WITH_COMPATIBILITY",
+      "source_boundary": "FULL_SHARED_LISTING",
+      "historical_code_modified": false,
+      "runtime_compatibility": [
+        "redirect_tmp_data"
+      ],
+      "checkpoint_reused": false,
+      "stdout_file": "raw/MOE-006_stdout.txt",
+      "stderr_file": "raw/MOE-006_stderr.txt",
+      "comparison": {
+        "status": "CONCLUSION_MATCH",
+        "scientific_conclusion_preserved": true,
+        "max_reported_numeric_delta_pp": 10.699999999999996,
+        "note": "Ranking max-logit > confidence > margin.",
+        "local_method_averages": {
+          "max_logit": 71.39999999999999,
+          "confidence": 70.26666666666667,
+          "margin": 67.53333333333333
+        }
+      }
+    },
+    "MOE-007": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "AUDIT_REPORTED_RESULT_SOURCE_BOUNDARY",
+      "source_boundary": "SHARED_LISTING_TARGET_CODE_ABSENT",
+      "historical_code_modified": false,
+      "comparison": {
+        "status": "AUDITED_REPORTED_RESULT",
+        "scientific_conclusion_preserved": null,
+        "max_reported_numeric_delta_pp": null,
+        "note": "Brak opublikowanej pętli generującej tę tabelę."
+      }
+    },
+    "MOE-008": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 320.399961,
+      "execution_mode": "HISTORICAL_SHARED_SOURCE_WITH_COMPATIBILITY",
+      "source_boundary": "FULL",
+      "historical_code_modified": false,
+      "runtime_compatibility": [
+        "redirect_tmp_data"
+      ],
+      "checkpoint_reused": false,
+      "stdout_file": "raw/MOE-008_stdout.txt",
+      "stderr_file": "raw/MOE-008_stderr.txt",
+      "comparison": {
+        "status": "NUMERIC_DIFFERENCE",
+        "scientific_conclusion_preserved": false,
+        "max_reported_numeric_delta_pp": 62.2,
+        "note": "Hybrid BN/LN: poprawny routing, wysoka średnia i małe zapominanie."
+      }
+    }
+  }
+}
