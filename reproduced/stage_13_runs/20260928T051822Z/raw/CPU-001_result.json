@@ -1,0 +1,12 @@
+{
+  "Shallow": {
+    "MNIST": 92.3,
+    "Fashion": 82.3,
+    "CIFAR10": 32.7
+  },
+  "Deep": {
+    "MNIST": 93.2,
+    "Fashion": 80.7,
+    "CIFAR10": 33.4
+  }
+}

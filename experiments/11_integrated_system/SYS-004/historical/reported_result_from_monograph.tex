@@ -1,0 +1,30 @@
+\begin{table}[h!]
+\centering
+\caption{Partial Unfreeze --- accuracy as a function of unfreezing strategy.}
+\begin{tabular}{l c c c}
+\hline
+\textbf{Strategy} & \textbf{500-shot} & \textbf{3000-shot} & \textbf{Trainable parameters} \\
+\hline
+Frozen (perm+head only) & 23.5\% & 37.1\% & 1,546 \\
++ unfreeze last layer & 31.0\% & 40.7\% & 18,058 \\
++ unfreeze last 2 layers & \textbf{35.9\%} & \textbf{46.7\%} & 34,570 \\
+\hline
+\end{tabular}
+\label{tab:partial_unfreeze}
+\end{table}
+
+\begin{table}[h!]
+\centering
+\caption{Improvement relative to the frozen variant.}
+\begin{tabular}{l c c}
+\hline
+\textbf{Metric} & \textbf{Last layer} & \textbf{Last 2 layers} \\
+\hline
+$\Delta$ accuracy (500-shot) & +7.5\% & +12.4\% \\
+$\Delta$ accuracy (3000-shot) & +3.6\% & +9.6\% \\
+Parameter overhead & $12\times$ & $22\times$ \\
+Efficiency (acc/param) & 0.42 & 0.28 \\
+\hline
+\end{tabular}
+\label{tab:partial_unfreeze_delta}
+\end{table}

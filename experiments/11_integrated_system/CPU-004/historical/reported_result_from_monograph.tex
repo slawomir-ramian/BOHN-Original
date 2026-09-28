@@ -1,0 +1,33 @@
+\begin{table}[h!]
+\centering
+\caption{Exp 4 --- Fashion accuracy (new task) as a function of unfreezing strategy.}
+\begin{tabular}{l c c c}
+\hline
+\textbf{Strategy} & \textbf{50-shot} & \textbf{200-shot} & \textbf{1000-shot} \\
+\hline
+Frozen (perm+head only) & 31.2\% & 35.6\% & 51.3\% \\
++ Last 1 layer & 37.4\% & 49.1\% & 69.5\% \\
++ Last 2 layers & 47.8\% & 60.7\% & \textbf{75.4\%} \\
++ Last 3 layers & \textbf{48.4\%} & \textbf{66.9\%} & 76.1\% \\
+Unfreeze all & 47.6\% & 64.8\% & 73.4\% \\
+\hline
+\end{tabular}
+\label{tab:cpu_exp4_fashion}
+\end{table}
+
+\begin{table}[h!]
+\centering
+\caption{Exp 4 --- MNIST retention (old task) --- a measure of forgetting.}
+\begin{tabular}{l c c c}
+\hline
+\textbf{Strategy} & \textbf{50-shot} & \textbf{200-shot} & \textbf{1000-shot} \\
+\hline
+Frozen (perm+head only) & \textbf{65.5\%} & \textbf{74.6\%} & \textbf{74.4\%} \\
++ Last 1 layer & 54.5\% & 41.4\% & 39.7\% \\
++ Last 2 layers & 31.8\% & 43.2\% & 23.3\% \\
++ Last 3 layers & 36.5\% & 22.5\% & 21.9\% \\
+Unfreeze all & 38.3\% & 27.6\% & 26.9\% \\
+\hline
+\end{tabular}
+\label{tab:cpu_exp4_mnist}
+\end{table}

@@ -1,0 +1,28 @@
+\begin{table}[h!]
+\centering
+\caption{Comparison of deep and shallow encoders --- baseline accuracy.}
+\begin{tabular}{l c c}
+\hline
+\textbf{Metric} & \textbf{Deep (3-layer)} & \textbf{Shallow (1-layer)} \\
+\hline
+MNIST base accuracy & 34.9\% & 41.0\% \\
+Parameters & 66,720 & 33,696 \\
+\hline
+\end{tabular}
+\label{tab:deep_vs_shallow}
+\end{table}
+
+\begin{table}[h!]
+\centering
+\caption{Few-shot Fashion with deep encoder (perm+head).}
+\begin{tabular}{c c}
+\hline
+\textbf{Few-shot Fashion} & \textbf{Deep perm+head} \\
+\hline
+100-shot & 13.4\% \\
+500-shot & 22.8\% \\
+3000-shot & 35.8\% \\
+\hline
+\end{tabular}
+\label{tab:deep_fewshot}
+\end{table}

@@ -1,0 +1,14 @@
+\begin{table}[h!]
+\centering
+\caption{Exp 1 --- Shallow vs Deep Encoder.}
+\begin{tabular}{l c c c}
+\hline
+\textbf{Encoder} & \textbf{MNIST} & \textbf{Fashion} & \textbf{CIFAR-10} \\
+\hline
+Shallow (2 layers, 405K params) & 92.6\% & 79.1\% & 31.9\% \\
+Deep (4 layers + BN, 982K params) & \textbf{93.6\%} & \textbf{82.4\%} & \textbf{34.0\%} \\
+$\Delta$ & +1.0\% & +3.3\% & +2.1\% \\
+\hline
+\end{tabular}
+\label{tab:cpu_exp1}
+\end{table}

@@ -1,0 +1,35 @@
+{
+  "experiment_id": "CPU-003",
+  "source_sequence_in_stage": 8,
+  "source_order_in_monograph": 97,
+  "canonical_source": "docs/source/BOHN_PL.pdf",
+  "extraction_source": "docs/source/BOHN_EN_SOURCE.tex",
+  "source_code_level": "FULL_SHARED_LISTING",
+  "execution_mode": "HISTORICAL_SHARED_SOURCE_WITH_COMPATIBILITY",
+  "listing_indices": [
+    64
+  ],
+  "listing_target_code_present": true,
+  "historical_source_files": [
+    "source_from_monograph.py"
+  ],
+  "historical_source_sha256": [
+    "18a059f09e0fd4b97f761077880459c0df2feabe9d0fbfca6996e3ac5ab7e288"
+  ],
+  "historical_source_line_ranges": [
+    [
+      15541,
+      15988
+    ]
+  ],
+  "reported_result_file": "reported_result_from_monograph.tex",
+  "reported_result_start_line": 6438,
+  "reported_result_end_line": 6452,
+  "reported_result_sha256": "2cf481c4c173a804c2a224a93f09904a68538009fdb2b398874be05af9db5b2d",
+  "historical_code_modified": false,
+  "compatibility_changes": [
+    "redirect_absolute_tmp_paths_in_runtime_copy_only",
+    "inject_missing_gc_import_in_runtime_copy_only"
+  ],
+  "source_defect": "uses_gc_collect_without_importing_gc"
+}

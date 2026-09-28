@@ -1,0 +1,22 @@
+{
+  "MNIST": {
+    "meta": 1.0,
+    "random": 0.4,
+    "delta": 0.6
+  },
+  "Fashion": {
+    "meta": 61.1,
+    "random": 23.7,
+    "delta": 37.4
+  },
+  "KMNIST": {
+    "meta": 8.3,
+    "random": 10.6,
+    "delta": -2.3
+  },
+  "CIFAR10": {
+    "meta": 8.2,
+    "random": 9.4,
+    "delta": -1.2
+  }
+}

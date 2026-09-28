@@ -30,3 +30,5 @@ experiments/08_meta_sbohn/*/historical/source_from_monograph.py whitespace=-trai
 experiments/08_meta_sbohn/*/historical/source_fragment_from_monograph.py whitespace=-trailing-space
 experiments/09_adaptation_and_continual/*/historical/source_fragment_from_monograph.py whitespace=-trailing-space
 experiments/10_sota_and_scaling/*/historical/source_from_monograph.py whitespace=-trailing-space
+experiments/11_integrated_system/*/historical/source_from_monograph.py whitespace=-trailing-space
+experiments/11_integrated_system/*/historical/source_fragment_from_monograph.py whitespace=-trailing-space

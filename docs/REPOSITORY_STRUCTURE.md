@@ -97,3 +97,11 @@ Porównanie SOTA i benchmark skalowania z rozdziału 10 znajdują się w
 w `historical/`. Wykonanie odbywa się przez tymczasową kopię zgodności, która
 zmienia jedynie absolutne ścieżki `/tmp`; pliki historyczne pozostają
 niezmienione i są kontrolowane sumami SHA-256.
+
+Cztery kierunki badawcze, system zintegrowany i bateria CPU z rozdziału 11
+znajdują się w `experiments/11_integrated_system/`. Pozycje `SYS` zachowują
+fragmenty definicji architektur bez udawania, że publikują brakujące pętle
+treningu. Pozycje `CPU` współdzielą pełny listing 64 i jeden checkpoint biegu.
+Wynik pełnego biegu oraz uczciwa klasyfikacja dwóch rozbieżności znajdują się w
+`reproduced/stage_13_runs/20260928T051822Z/` i
+`docs/STAGE_13_LOCAL_ANALYSIS.md`.

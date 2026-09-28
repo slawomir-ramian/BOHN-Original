@@ -1,0 +1,72 @@
+============================================================
+EXPERIMENT 1: Shallow vs Deep Encoder
+============================================================
+  Shallow on MNIST: 92.3%
+  Shallow on Fashion: 82.3%
+  Shallow on CIFAR10: 32.7%
+  Deep on MNIST: 93.2%
+  Deep on Fashion: 80.7%
+  Deep on CIFAR10: 33.4%
+
+============================================================
+EXPERIMENT 2: MoE Multi-Domain Routing
+============================================================
+  MNIST: 92.1%
+    Expert 0: 0.0%
+    Expert 1: 100.0%
+    Expert 2: 0.0%
+    Expert 3: 0.0%
+  Fashion: 81.0%
+    Expert 0: 0.0%
+    Expert 1: 100.0%
+    Expert 2: 0.0%
+    Expert 3: 0.0%
+  Mixed: 86.5%
+
+============================================================
+EXPERIMENT 3: Cross-Domain Meta-Generator
+============================================================
+  MNIST: Meta-Gen=1.0%, Random=0.4%, Delta=+0.6%
+  Fashion: Meta-Gen=61.1%, Random=23.7%, Delta=+37.4%
+  KMNIST: Meta-Gen=8.3%, Random=10.6%, Delta=-2.3%
+  CIFAR10: Meta-Gen=8.2%, Random=9.4%, Delta=-1.2%
+
+============================================================
+EXPERIMENT 4: Partial Unfreeze
+============================================================
+
+  --- 50-shot ---
+    Frozen: Fashion=33.0%, MNIST=93.2%
+    +Last1: Fashion=34.7%, MNIST=89.5%
+    +Last2: Fashion=50.6%, MNIST=87.2%
+    +Last3: Fashion=52.3%, MNIST=43.8%
+    All: Fashion=57.4%, MNIST=54.5%
+
+  --- 200-shot ---
+    Frozen: Fashion=36.1%, MNIST=92.4%
+    +Last1: Fashion=44.5%, MNIST=79.2%
+    +Last2: Fashion=65.2%, MNIST=57.9%
+    +Last3: Fashion=64.6%, MNIST=65.2%
+    All: Fashion=70.8%, MNIST=48.0%
+
+  --- 1000-shot ---
+    Frozen: Fashion=40.1%, MNIST=93.6%
+    +Last1: Fashion=53.0%, MNIST=81.9%
+    +Last2: Fashion=66.6%, MNIST=48.8%
+    +Last3: Fashion=70.7%, MNIST=37.9%
+    All: Fashion=77.4%, MNIST=44.1%
+
+============================================================
+EXPERIMENT 5: Few-Shot Scaling
+============================================================
+     10-shot: 18.1%
+     25-shot: 31.7%
+     50-shot: 30.1%
+    100-shot: 31.4%
+    250-shot: 35.5%
+    500-shot: 35.1%
+   1000-shot: 35.8%
+   2500-shot: 37.7%
+   5000-shot: 35.8%
+
+All experiments complete!

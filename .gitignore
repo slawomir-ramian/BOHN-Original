@@ -54,6 +54,15 @@ reproduced/stage_12_runs/*/
 !reproduced/stage_12_runs/20260927T184235Z/**
 !reproduced/stage_12_runs/LATEST_RUN.txt
 
+# Etap 13: cache czterech datasetow, kopia zgodnosci i checkpoint wspolnej baterii CPU.
+reproduced/stage_13_dataset_cache/
+reproduced/stage_13_runtime/
+reproduced/stage_13_checkpoint/
+reproduced/stage_13_runs/*/
+!reproduced/stage_13_runs/20260928T051822Z/
+!reproduced/stage_13_runs/20260928T051822Z/**
+!reproduced/stage_13_runs/LATEST_RUN.txt
+
 # Etap 10: smoke jest roboczy; w closeoucie śledzimy wskazany pełny bieg.
 reproduced/stage_10_runs/*/
 !reproduced/stage_10_runs/20260926T211342Z/

@@ -1,0 +1,31 @@
+\begin{table}[h!]
+\centering
+\caption{Exp 2 --- MoE Multi-Domain.}
+\begin{tabular}{l c}
+\hline
+\textbf{Metric} & \textbf{Result} \\
+\hline
+MNIST accuracy & 93.2\% \\
+Fashion accuracy & 79.9\% \\
+Mixed (auto-routed) & 86.5\% \\
+Specialization & NO \\
+\hline
+\end{tabular}
+\label{tab:cpu_exp2}
+\end{table}
+
+\begin{table}[h!]
+\centering
+\caption{Exp 2 --- Routing per domain (4~experts).}
+\begin{tabular}{c c c}
+\hline
+\textbf{Expert} & \textbf{MNIST} & \textbf{Fashion} \\
+\hline
+E0 & 38.1\% & 44.8\% \\
+E1 & 16.6\% & 18.3\% \\
+E2 & 15.2\% & 14.1\% \\
+E3 & 30.1\% & 22.8\% \\
+\hline
+\end{tabular}
+\label{tab:cpu_exp2_routing}
+\end{table}

@@ -1,0 +1,68 @@
+{
+  "50": {
+    "Frozen": {
+      "fashion": 33.0,
+      "mnist": 93.2
+    },
+    "+Last1": {
+      "fashion": 34.7,
+      "mnist": 89.5
+    },
+    "+Last2": {
+      "fashion": 50.6,
+      "mnist": 87.2
+    },
+    "+Last3": {
+      "fashion": 52.3,
+      "mnist": 43.8
+    },
+    "All": {
+      "fashion": 57.4,
+      "mnist": 54.5
+    }
+  },
+  "200": {
+    "Frozen": {
+      "fashion": 36.1,
+      "mnist": 92.4
+    },
+    "+Last1": {
+      "fashion": 44.5,
+      "mnist": 79.2
+    },
+    "+Last2": {
+      "fashion": 65.2,
+      "mnist": 57.9
+    },
+    "+Last3": {
+      "fashion": 64.6,
+      "mnist": 65.2
+    },
+    "All": {
+      "fashion": 70.8,
+      "mnist": 48.0
+    }
+  },
+  "1000": {
+    "Frozen": {
+      "fashion": 40.1,
+      "mnist": 93.6
+    },
+    "+Last1": {
+      "fashion": 53.0,
+      "mnist": 81.9
+    },
+    "+Last2": {
+      "fashion": 66.6,
+      "mnist": 48.8
+    },
+    "+Last3": {
+      "fashion": 70.7,
+      "mnist": 37.9
+    },
+    "All": {
+      "fashion": 77.4,
+      "mnist": 44.1
+    }
+  }
+}

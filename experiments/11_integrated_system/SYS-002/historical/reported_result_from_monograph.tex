@@ -1,0 +1,30 @@
+\begin{table}[h!]
+\centering
+\caption{Multi-task MoE Routing --- accuracy and specialization.}
+\begin{tabular}{l c}
+\hline
+\textbf{Metric} & \textbf{Value} \\
+\hline
+MNIST accuracy & 64.4\% \\
+Fashion accuracy & 50.0\% \\
+Combined (20 classes) & 57.2\% \\
+Route specialization & 0.59 \\
+\hline
+\end{tabular}
+\label{tab:moe_routing_results}
+\end{table}
+
+\begin{table}[h!]
+\centering
+\caption{Percentage share of individual experts in handling data from two domains.}
+\begin{tabular}{c c c}
+\hline
+\textbf{Expert} & \textbf{MNIST} & \textbf{Fashion} \\
+\hline
+Expert 1 & 24\% & \textbf{63\%} \\
+Expert 2 & 15\% & 36\% \\
+Expert 3 & \textbf{60\%} & 2\% \\
+\hline
+\end{tabular}
+\label{tab:moe_routing_distribution}
+\end{table}

@@ -1,7 +1,7 @@
 # Indeks eksperymentów, testów i programów
 
 Rejestr obejmuje **115 jednostek** wykrytych w monografii.
-Po zakończonych etapach wykonano **89 jednostek**; **26** pozostaje `NOT_RUN`.
+Po zakończonych etapach wykonano **99 jednostek**; **16** pozostaje `NOT_RUN`.
 
 Kolumna `Kod` opisuje poziom materiału dostępnego w PDF. `NARRATIVE_ONLY` nie
 oznacza pominięcia - przeciwnie, wskazuje jednostkę wymagającą ostrożnej rekonstrukcji
@@ -145,16 +145,16 @@ z opisu i tabel, bez udawania, że pełny kod został opublikowany.
 
 | ID | Sekcja | Jednostka | Typ | Strony drukowane / PDF | Kod | Reprodukcja |
 |---|---|---|---|---|---|---|
-| `SYS-001` | 11.1 | Meta-learned Permutation Generator | experiment | 111-112 / 112-113 | `FULL_SUITE` | `NOT_RUN` |
-| `SYS-002` | 11.2 | Multi-task MoE Routing | experiment | 112-113 / 113-114 | `FULL_SUITE` | `NOT_RUN` |
-| `SYS-003` | 11.3.1 | Deep Encoder - skalowanie głębokości | scaling_test | 113 / 114 | `FULL_SUITE` | `NOT_RUN` |
-| `SYS-004` | 11.3.2 | Partial Unfreeze - odmrażanie wybranych warstw | ablation | 113-114 / 114-115 | `FULL_SUITE` | `NOT_RUN` |
-| `SYS-005` | 11.4 | System zintegrowany MoE + Meta-Generator + Frozen Encoder | experiment | 114-116 / 115-117 | `FULL` | `NOT_RUN` |
-| `CPU-001` | 11.5.1 | Bateria CPU 1 - Shallow vs Deep Encoder | experiment | 116 / 117 | `FULL` | `NOT_RUN` |
-| `CPU-002` | 11.5.2 | Bateria CPU 2 - MoE Multi-Domain Routing | experiment | 116-117 / 117-118 | `FULL` | `NOT_RUN` |
-| `CPU-003` | 11.5.3 | Bateria CPU 3 - Cross-Domain Meta-Generator | experiment | 116-117 / 117-118 | `FULL` | `NOT_RUN` |
-| `CPU-004` | 11.5.4 | Bateria CPU 4 - Partial Unfreeze: accuracy vs forgetting | experiment | 117 / 118 | `FULL` | `NOT_RUN` |
-| `CPU-005` | 11.5.5 | Bateria CPU 5 - Few-Shot Scaling z frozen encoder | scaling_test | 117-118 / 118-119 | `FULL` | `NOT_RUN` |
+| `SYS-001` | 11.1 | Meta-learned Permutation Generator | experiment | 111-112 / 112-113 | `SOURCE_FRAGMENT_ONLY` | `AUDITED_REPORTED_RESULT` |
+| `SYS-002` | 11.2 | Multi-task MoE Routing | experiment | 112-113 / 113-114 | `SOURCE_FRAGMENT_ONLY` | `AUDITED_REPORTED_RESULT` |
+| `SYS-003` | 11.3.1 | Deep Encoder - skalowanie głębokości | scaling_test | 113 / 114 | `SOURCE_FRAGMENT_ONLY` | `AUDITED_REPORTED_RESULT` |
+| `SYS-004` | 11.3.2 | Partial Unfreeze - odmrażanie wybranych warstw | ablation | 113-114 / 114-115 | `SOURCE_FRAGMENT_ONLY` | `AUDITED_REPORTED_RESULT` |
+| `SYS-005` | 11.4 | System zintegrowany MoE + Meta-Generator + Frozen Encoder | experiment | 114-116 / 115-117 | `SOURCE_FRAGMENT_ONLY` | `AUDITED_REPORTED_RESULT` |
+| `CPU-001` | 11.5.1 | Bateria CPU 1 - Shallow vs Deep Encoder | experiment | 116 / 117 | `FULL_SHARED_LISTING` | `NUMERIC_DIFFERENCE` |
+| `CPU-002` | 11.5.2 | Bateria CPU 2 - MoE Multi-Domain Routing | experiment | 116-117 / 117-118 | `FULL_SHARED_LISTING` | `CONCLUSION_MATCH` |
+| `CPU-003` | 11.5.3 | Bateria CPU 3 - Cross-Domain Meta-Generator | experiment | 116-117 / 117-118 | `FULL_SHARED_LISTING` | `NUMERIC_DIFFERENCE` |
+| `CPU-004` | 11.5.4 | Bateria CPU 4 - Partial Unfreeze: accuracy vs forgetting | experiment | 117 / 118 | `FULL_SHARED_LISTING` | `CONCLUSION_MATCH` |
+| `CPU-005` | 11.5.5 | Bateria CPU 5 - Few-Shot Scaling z frozen encoder | scaling_test | 117-118 / 118-119 | `FULL_SHARED_LISTING` | `CONCLUSION_MATCH` |
 
 ## Rozdział 12: Ewolucja MoE
 

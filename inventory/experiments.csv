@@ -88,16 +88,16 @@ CL-001,9,9.3,Continual learning - przełączanie zadań i forgetting,continual_t
 CL-002,9,9.3.1,Continual learning - wariant perm-only z większym modelem,continual_test,104,105,A.7.2,SOURCE_FRAGMENT_ONLY,YES,CONCLUSION_MATCH
 SOTA-001,10,10.1-10.2,Porównanie accuracy modeli na Fashion-MNIST,benchmark,106-107,107-108,A.8.1,FULL,YES,CONCLUSION_MATCH
 SOTA-002,10,10.3,Benchmark skalowania inferencji z rozdzielczością do 4K,scaling_benchmark,107-109,108-110,A.8.2 / Listing code,FULL,YES,CONCLUSION_MATCH
-SYS-001,11,11.1,Meta-learned Permutation Generator,experiment,111-112,112-113,A.9.1,FULL_SUITE,YES,NOT_RUN
-SYS-002,11,11.2,Multi-task MoE Routing,experiment,112-113,113-114,A.9.1,FULL_SUITE,YES,NOT_RUN
-SYS-003,11,11.3.1,Deep Encoder - skalowanie głębokości,scaling_test,113,114,A.9.2-A.9.3,FULL_SUITE,YES,NOT_RUN
-SYS-004,11,11.3.2,Partial Unfreeze - odmrażanie wybranych warstw,ablation,113-114,114-115,A.9.2-A.9.3,FULL_SUITE,YES,NOT_RUN
-SYS-005,11,11.4,System zintegrowany MoE + Meta-Generator + Frozen Encoder,experiment,114-116,115-117,A.9.2,FULL,YES,NOT_RUN
-CPU-001,11,11.5.1,Bateria CPU 1 - Shallow vs Deep Encoder,experiment,116,117,A.9.3,FULL,YES,NOT_RUN
-CPU-002,11,11.5.2,Bateria CPU 2 - MoE Multi-Domain Routing,experiment,116-117,117-118,A.9.3,FULL,YES,NOT_RUN
-CPU-003,11,11.5.3,Bateria CPU 3 - Cross-Domain Meta-Generator,experiment,116-117,117-118,A.9.3,FULL,YES,NOT_RUN
-CPU-004,11,11.5.4,Bateria CPU 4 - Partial Unfreeze: accuracy vs forgetting,experiment,117,118,A.9.3,FULL,YES,NOT_RUN
-CPU-005,11,11.5.5,Bateria CPU 5 - Few-Shot Scaling z frozen encoder,scaling_test,117-118,118-119,A.9.3,FULL,YES,NOT_RUN
+SYS-001,11,11.1,Meta-learned Permutation Generator,experiment,111-112,112-113,A.9.1,SOURCE_FRAGMENT_ONLY,YES,AUDITED_REPORTED_RESULT
+SYS-002,11,11.2,Multi-task MoE Routing,experiment,112-113,113-114,A.9.1,SOURCE_FRAGMENT_ONLY,YES,AUDITED_REPORTED_RESULT
+SYS-003,11,11.3.1,Deep Encoder - skalowanie głębokości,scaling_test,113,114,A.9.2-A.9.3,SOURCE_FRAGMENT_ONLY,YES,AUDITED_REPORTED_RESULT
+SYS-004,11,11.3.2,Partial Unfreeze - odmrażanie wybranych warstw,ablation,113-114,114-115,A.9.2-A.9.3,SOURCE_FRAGMENT_ONLY,YES,AUDITED_REPORTED_RESULT
+SYS-005,11,11.4,System zintegrowany MoE + Meta-Generator + Frozen Encoder,experiment,114-116,115-117,A.9.2,SOURCE_FRAGMENT_ONLY,YES,AUDITED_REPORTED_RESULT
+CPU-001,11,11.5.1,Bateria CPU 1 - Shallow vs Deep Encoder,experiment,116,117,A.9.3,FULL_SHARED_LISTING,YES,NUMERIC_DIFFERENCE
+CPU-002,11,11.5.2,Bateria CPU 2 - MoE Multi-Domain Routing,experiment,116-117,117-118,A.9.3,FULL_SHARED_LISTING,YES,CONCLUSION_MATCH
+CPU-003,11,11.5.3,Bateria CPU 3 - Cross-Domain Meta-Generator,experiment,116-117,117-118,A.9.3,FULL_SHARED_LISTING,YES,NUMERIC_DIFFERENCE
+CPU-004,11,11.5.4,Bateria CPU 4 - Partial Unfreeze: accuracy vs forgetting,experiment,117,118,A.9.3,FULL_SHARED_LISTING,YES,CONCLUSION_MATCH
+CPU-005,11,11.5.5,Bateria CPU 5 - Few-Shot Scaling z frozen encoder,scaling_test,117-118,118-119,A.9.3,FULL_SHARED_LISTING,YES,CONCLUSION_MATCH
 MOE-001,12,12.1,Partial Unfreeze + MoE - eliminacja zapominania,experiment,119-121,120-122,A.10.1,FULL,YES,NOT_RUN
 MOE-009,12,12.1.3,Partial Unfreeze + MoE - osobny test trzech domen,experiment,120-121,121-122,A.10.1,FULL,YES,NOT_RUN
 MOE-002,12,12.2.2,Sparse MoE + Gate Specialization Loss - expert collapse,experiment_negative,121-122,122-123,A.10.2,FULL,YES,NOT_RUN

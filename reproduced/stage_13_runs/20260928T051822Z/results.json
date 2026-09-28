@@ -1,0 +1,204 @@
+{
+  "stage": "13",
+  "mode": "full",
+  "created_utc": "20260928T051822Z",
+  "source_chronology": [
+    "SYS-001",
+    "SYS-002",
+    "SYS-003",
+    "SYS-004",
+    "SYS-005",
+    "CPU-001",
+    "CPU-002",
+    "CPU-003",
+    "CPU-004",
+    "CPU-005"
+  ],
+  "historical_code_modified": false,
+  "environment": {
+    "python": "3.14.5 (tags/v3.14.5:5607950, May 10 2026, 10:43:50) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.19045-SP0"
+  },
+  "experiments": {
+    "SYS-001": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "AUDIT_REPORTED_RESULT_SOURCE_FRAGMENT",
+      "source_boundary": "SOURCE_FRAGMENT_ONLY",
+      "historical_code_modified": false,
+      "comparison": {
+        "status": "AUDITED_REPORTED_RESULT",
+        "scientific_conclusion_preserved": null,
+        "max_reported_numeric_delta_pp": null,
+        "note": "Opublikowano klasy, ale nie pętlę generującą tabelę."
+      }
+    },
+    "SYS-002": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "AUDIT_REPORTED_RESULT_SOURCE_FRAGMENT",
+      "source_boundary": "SOURCE_FRAGMENT_ONLY",
+      "historical_code_modified": false,
+      "comparison": {
+        "status": "AUDITED_REPORTED_RESULT",
+        "scientific_conclusion_preserved": null,
+        "max_reported_numeric_delta_pp": null,
+        "note": "Opublikowano klasy, ale nie pętlę generującą tabelę."
+      }
+    },
+    "SYS-003": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "AUDIT_REPORTED_RESULT_SOURCE_FRAGMENT",
+      "source_boundary": "SOURCE_FRAGMENT_ONLY",
+      "historical_code_modified": false,
+      "comparison": {
+        "status": "AUDITED_REPORTED_RESULT",
+        "scientific_conclusion_preserved": null,
+        "max_reported_numeric_delta_pp": null,
+        "note": "Opublikowano klasy, ale nie pętlę generującą tabelę."
+      }
+    },
+    "SYS-004": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "AUDIT_REPORTED_RESULT_SOURCE_FRAGMENT",
+      "source_boundary": "SOURCE_FRAGMENT_ONLY",
+      "historical_code_modified": false,
+      "comparison": {
+        "status": "AUDITED_REPORTED_RESULT",
+        "scientific_conclusion_preserved": null,
+        "max_reported_numeric_delta_pp": null,
+        "note": "Opublikowano klasy, ale nie pętlę generującą tabelę."
+      }
+    },
+    "SYS-005": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "AUDIT_REPORTED_RESULT_SOURCE_FRAGMENT",
+      "source_boundary": "SOURCE_FRAGMENT_ONLY",
+      "historical_code_modified": false,
+      "comparison": {
+        "status": "AUDITED_REPORTED_RESULT",
+        "scientific_conclusion_preserved": null,
+        "max_reported_numeric_delta_pp": null,
+        "note": "Opublikowano klasy, ale nie pętlę generującą tabelę."
+      }
+    },
+    "CPU-001": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 454.353821,
+      "execution_mode": "HISTORICAL_SHARED_SOURCE_WITH_COMPATIBILITY",
+      "source_boundary": "FULL_SHARED_LISTING",
+      "historical_code_modified": false,
+      "source_defect_preserved": "uses_gc_collect_without_importing_gc",
+      "runtime_compatibility": [
+        "redirect_tmp_data",
+        "inject_import_gc"
+      ],
+      "checkpoint_reused": false,
+      "stdout_file": "raw/CPU-001_stdout.txt",
+      "stderr_file": "raw/CPU-001_stderr.txt",
+      "comparison": {
+        "status": "NUMERIC_DIFFERENCE",
+        "scientific_conclusion_preserved": false,
+        "max_reported_numeric_delta_pp": 3.200000000000003,
+        "note": "Wspólny historyczny listing 64; import gc dodany tylko w kopii zgodności."
+      }
+    },
+    "CPU-002": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "HISTORICAL_SHARED_SOURCE_WITH_COMPATIBILITY",
+      "source_boundary": "FULL_SHARED_LISTING",
+      "historical_code_modified": false,
+      "source_defect_preserved": "uses_gc_collect_without_importing_gc",
+      "runtime_compatibility": [
+        "redirect_tmp_data",
+        "inject_import_gc"
+      ],
+      "checkpoint_reused": false,
+      "stdout_file": "raw/CPU-002_stdout.txt",
+      "stderr_file": "raw/CPU-002_stderr.txt",
+      "comparison": {
+        "status": "CONCLUSION_MATCH",
+        "scientific_conclusion_preserved": true,
+        "max_reported_numeric_delta_pp": 83.4,
+        "note": "Wspólny historyczny listing 64; import gc dodany tylko w kopii zgodności."
+      }
+    },
+    "CPU-003": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "HISTORICAL_SHARED_SOURCE_WITH_COMPATIBILITY",
+      "source_boundary": "FULL_SHARED_LISTING",
+      "historical_code_modified": false,
+      "source_defect_preserved": "uses_gc_collect_without_importing_gc",
+      "runtime_compatibility": [
+        "redirect_tmp_data",
+        "inject_import_gc"
+      ],
+      "checkpoint_reused": false,
+      "stdout_file": "raw/CPU-003_stdout.txt",
+      "stderr_file": "raw/CPU-003_stderr.txt",
+      "comparison": {
+        "status": "NUMERIC_DIFFERENCE",
+        "scientific_conclusion_preserved": false,
+        "max_reported_numeric_delta_pp": 92.8,
+        "note": "Wspólny historyczny listing 64; import gc dodany tylko w kopii zgodności."
+      }
+    },
+    "CPU-004": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "HISTORICAL_SHARED_SOURCE_WITH_COMPATIBILITY",
+      "source_boundary": "FULL_SHARED_LISTING",
+      "historical_code_modified": false,
+      "source_defect_preserved": "uses_gc_collect_without_importing_gc",
+      "runtime_compatibility": [
+        "redirect_tmp_data",
+        "inject_import_gc"
+      ],
+      "checkpoint_reused": false,
+      "stdout_file": "raw/CPU-004_stdout.txt",
+      "stderr_file": "raw/CPU-004_stderr.txt",
+      "comparison": {
+        "status": "CONCLUSION_MATCH",
+        "scientific_conclusion_preserved": true,
+        "max_reported_numeric_delta_pp": 55.400000000000006,
+        "note": "Wspólny historyczny listing 64; import gc dodany tylko w kopii zgodności."
+      }
+    },
+    "CPU-005": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 0.0,
+      "execution_mode": "HISTORICAL_SHARED_SOURCE_WITH_COMPATIBILITY",
+      "source_boundary": "FULL_SHARED_LISTING",
+      "historical_code_modified": false,
+      "source_defect_preserved": "uses_gc_collect_without_importing_gc",
+      "runtime_compatibility": [
+        "redirect_tmp_data",
+        "inject_import_gc"
+      ],
+      "checkpoint_reused": false,
+      "stdout_file": "raw/CPU-005_stdout.txt",
+      "stderr_file": "raw/CPU-005_stderr.txt",
+      "comparison": {
+        "status": "CONCLUSION_MATCH",
+        "scientific_conclusion_preserved": true,
+        "max_reported_numeric_delta_pp": 17.200000000000003,
+        "note": "Wspólny historyczny listing 64; import gc dodany tylko w kopii zgodności."
+      }
+    }
+  }
+}

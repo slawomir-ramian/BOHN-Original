@@ -1,0 +1,65 @@
+\begin{table}[h!]
+\centering
+\caption{Integrated system --- accuracy per method (50-shot FashionMNIST).}
+\begin{tabular}{l c c}
+\hline
+\textbf{Method} & \textbf{Accuracy} & \textbf{Trained parameters} \\
+\hline
+Meta-Gen perm + head & 49.0\% & 650 (head only) \\
+Random init + perm+head & 51.5\% & 4,746 \\
+Full train perm+head & 51.9\% & 4,746 \\
+Baseline (random) & 10.0\% & 0 \\
+\hline
+\end{tabular}
+\label{tab:integrated_fashion}
+\end{table}
+
+\begin{table}[h!]
+\centering
+\caption{MoE Router --- routing accuracy.}
+\begin{tabular}{l c}
+\hline
+\textbf{Routing} & \textbf{Accuracy} \\
+\hline
+MNIST $\to$ Expert 0 & 93.0\% \\
+Fashion $\to$ Expert 1 & 96.7\% \\
+\hline
+\end{tabular}
+\label{tab:integrated_router}
+\end{table}
+
+\begin{table}[h!]
+\centering
+\caption{End-to-end test and zero forgetting.}
+\begin{tabular}{l c}
+\hline
+\textbf{Test} & \textbf{Accuracy} \\
+\hline
+MNIST (Expert 0) & 90.1\% \\
+Fashion (Expert 1) & 49.0\% \\
+MoE Mixed (auto-routed) & 68.6\% \\
+\hline
+MNIST before Fashion & 90.1\% \\
+MNIST after Fashion & 90.1\% \\
+\textbf{Degradation} & \textbf{0.0\%} \\
+\hline
+\end{tabular}
+\label{tab:integrated_endtoend}
+\end{table}
+
+\begin{table}[h!]
+\centering
+\caption{Component sizes of the integrated system.}
+\begin{tabular}{l c c}
+\hline
+\textbf{Component} & \textbf{Parameters} & \textbf{Size} \\
+\hline
+Encoder (frozen) & 108,736 & 424 KB \\
+Each Expert & 4,746 & 18.5 KB \\
+Router & 2,212 & 8.6 KB \\
+Meta-Generator & 553,216 & 2,160 KB \\
+\textbf{Cost of a new task} & \textbf{4,746} & \textbf{18.5 KB} \\
+\hline
+\end{tabular}
+\label{tab:integrated_sizes}
+\end{table}
