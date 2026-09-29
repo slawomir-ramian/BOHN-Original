@@ -1,0 +1,24 @@
+\section{Experiment RMIG-FBOHN v1}
+\label{sec:rmig_fbohn_v1}
+
+The first benchmark used a label constructed from orbital energies and Laplacian energies. Mean results:
+\begin{center}
+\begin{tabular}{lrr}
+\toprule
+Model & Accuracy & Interpretation\\
+\midrule
+RAW & 0.491 & no access to orbital structure\\
+BOHN & 0.803 & orbital energy is informative\\
+FBOHN & 0.989 & RMIG Laplacian geometry almost completely explains the label\\
+FBOHN-SRL-12 & 0.871 & PCA compresses some but not all information\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{Conclusion}
+
+The first test confirmed that FBOHN is not merely an enlargement of BOHN. Adding Laplacian channels $S_O$, $L_O$ contributes new geometric information. The jump
+\[
+0.491\to 0.803\to 0.989
+\]
+is, however, partially expected because the label was constructed from FBOHN features. Therefore a methodologically harder test was performed.

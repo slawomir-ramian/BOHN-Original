@@ -1,0 +1,34 @@
+\section{Test A: out-of-representation}
+\label{sec:test_a_oor}
+
+\subsection{Goal}
+To avoid the objection that FBOHN reads its own label, a label independent of BOHN/FBOHN features was constructed:
+\[
+y=\mathbf{1}\!\left[
+\sin(x_3x_8)+\cos(x_5x_{11})+0.75x_1x_7x_{14}+0.5x_2x_{13}
+-0.35x_4x_9+0.25x_0x_6-0.20x_{10}x_{17}+\eta>\tau
+\right].
+\]
+
+\subsection{Results}
+\begin{center}
+\begin{tabular}{rrrr}
+\toprule
+Noise & RAW & BOHN & FBOHN\\
+\midrule
+0.0 & 0.550 & 0.605 & 0.622\\
+0.1 & 0.545 & 0.600 & 0.626\\
+0.3 & 0.543 & 0.589 & 0.615\\
+0.5 & 0.539 & 0.584 & 0.609\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{Analysis}
+The FBOHN effect does not disappear after removing the direct dependence of the label on FBOHN features. The advantage is smaller than in v1 but stable: approximately $7$--$8$ percentage points over RAW and approximately $2$--$3$ points over BOHN.
+
+\subsection{Conclusion}
+\[
+\boxed{\text{FBOHN provides a real geometric advantage also outside its own label class.}}
+\]
+This is a methodologically more important result than RMIG-FBOHN v1, because it demonstrates the utility of RMIG geometry as an inductive bias.

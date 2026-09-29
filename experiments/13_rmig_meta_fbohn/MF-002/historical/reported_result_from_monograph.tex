@@ -1,0 +1,32 @@
+\section{Meta-FBOHN v1/v2: Negative Result of Feature Scaling}
+\label{sec:meta_fbohn_v1v2}
+
+\subsection{Hypothesis}
+The first versions of Meta-FBOHN attempted to improve FBOHN by learning weights:
+\[
+x_i' = w_i x_i.
+\]
+Variant v1 used five block weights $(E,M,A,S,L)$, and variant v2 used 30~feature weights.
+
+\subsection{Result}
+For all seeds and noise levels, practically identical values were obtained:
+\[
+\text{Meta-FBOHN-v1}=\text{Meta-FBOHN-v2}=\text{FBOHN}.
+\]
+
+\subsection{Explanation}
+After computing features, the classifier applied
+\[
+\texttt{StandardScaler}+\texttt{LogisticRegression}.
+\]
+For positive diagonal scaling $D=\mathrm{diag}(w_i)$, standardization removes the scaling effect:
+\[
+\frac{w_ix_i-w_i\mu_i}{w_i\sigma_i}=\frac{x_i-\mu_i}{\sigma_i}.
+\]
+
+\subsection{Conclusion}
+This is not a failure of Meta-FBOHN, but an important negative result:
+\[
+\boxed{\text{Mere weighting of FBOHN features does not create new information.}}
+\]
+Meta-FBOHN must create new features, not merely rescale existing ones.

@@ -1,0 +1,1416 @@
+{
+  "program": "testA",
+  "protocol": {
+    "samples": 6000,
+    "seeds": 10,
+    "noises": [
+      0.0,
+      0.1,
+      0.3,
+      0.5
+    ],
+    "population": 80,
+    "generations": 30,
+    "elite": 8,
+    "mix_features": 12,
+    "n_symbolic": 16,
+    "discovery_runs": 0,
+    "library_size": 0
+  },
+  "rows": [
+    {
+      "seed": 0,
+      "noise": 0.0,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5494444444444444,
+      "extra": ""
+    },
+    {
+      "seed": 0,
+      "noise": 0.0,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.6038888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 0,
+      "noise": 0.0,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6277777777777778,
+      "extra": ""
+    },
+    {
+      "seed": 0,
+      "noise": 0.0,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6338888888888888,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.0,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.545,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.0,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.6127777777777778,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.0,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.635,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.0,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6338888888888888,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.0,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.525,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.0,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.6011111111111112,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.0,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6194444444444445,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.0,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6205555555555555,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.0,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5533333333333333,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.0,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.6072222222222222,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.0,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6244444444444445,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.0,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6361111111111111,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.0,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5533333333333333,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.0,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.6266666666666667,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.0,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6244444444444445,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.0,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6438888888888888,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.0,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5738888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.0,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.6038888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.0,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6161111111111112,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.0,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.635,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.0,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5561111111111111,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.0,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.595,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.0,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6161111111111112,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.0,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6344444444444445,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.0,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5494444444444444,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.0,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5938888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.0,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6238888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.0,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6344444444444445,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.0,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5494444444444444,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.0,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.6022222222222222,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.0,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6138888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.0,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6383333333333333,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.0,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5411111111111111,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.0,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5994444444444444,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.0,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6233333333333333,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.0,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.64,
+      "extra": ""
+    },
+    {
+      "seed": 0,
+      "noise": 0.1,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5427777777777778,
+      "extra": ""
+    },
+    {
+      "seed": 0,
+      "noise": 0.1,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5938888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 0,
+      "noise": 0.1,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6155555555555555,
+      "extra": ""
+    },
+    {
+      "seed": 0,
+      "noise": 0.1,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6372222222222222,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.1,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5438888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.1,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5855555555555556,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.1,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6066666666666667,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.1,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6027777777777777,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.1,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5333333333333333,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.1,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5883333333333334,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.1,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6261111111111111,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.1,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6288888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.1,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5555555555555556,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.1,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.6177777777777778,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.1,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6477777777777778,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.1,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6455555555555555,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.1,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.545,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.1,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.61,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.1,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6272222222222222,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.1,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6383333333333333,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.1,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5633333333333334,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.1,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.6144444444444445,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.1,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6355555555555555,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.1,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6316666666666667,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.1,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5422222222222223,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.1,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5922222222222222,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.1,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6272222222222222,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.1,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6216666666666667,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.1,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5544444444444444,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.1,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.6055555555555555,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.1,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6322222222222222,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.1,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6355555555555555,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.1,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5305555555555556,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.1,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5944444444444444,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.1,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6127777777777778,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.1,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6211111111111111,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.1,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5388888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.1,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.6,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.1,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.63,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.1,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6405555555555555,
+      "extra": ""
+    },
+    {
+      "seed": 0,
+      "noise": 0.3,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5361111111111111,
+      "extra": ""
+    },
+    {
+      "seed": 0,
+      "noise": 0.3,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5938888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 0,
+      "noise": 0.3,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6083333333333333,
+      "extra": ""
+    },
+    {
+      "seed": 0,
+      "noise": 0.3,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6205555555555555,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.3,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5516666666666666,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.3,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5855555555555556,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.3,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6061111111111112,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.3,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6172222222222222,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.3,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5394444444444444,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.3,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5905555555555555,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.3,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6188888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.3,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6327777777777778,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.3,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5588888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.3,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5961111111111111,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.3,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6327777777777778,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.3,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6394444444444445,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.3,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5361111111111111,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.3,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5983333333333334,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.3,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6322222222222222,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.3,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6238888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.3,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5488888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.3,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5883333333333334,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.3,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6011111111111112,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.3,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6066666666666667,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.3,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5322222222222223,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.3,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5816666666666667,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.3,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.5955555555555555,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.3,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6011111111111112,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.3,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5405555555555556,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.3,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5827777777777777,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.3,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.61,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.3,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6138888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.3,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5438888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.3,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5961111111111111,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.3,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.63,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.3,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6405555555555555,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.3,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5388888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.3,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5744444444444444,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.3,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6155555555555555,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.3,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6216666666666667,
+      "extra": ""
+    },
+    {
+      "seed": 0,
+      "noise": 0.5,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5244444444444445,
+      "extra": ""
+    },
+    {
+      "seed": 0,
+      "noise": 0.5,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.56,
+      "extra": ""
+    },
+    {
+      "seed": 0,
+      "noise": 0.5,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.585,
+      "extra": ""
+    },
+    {
+      "seed": 0,
+      "noise": 0.5,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.605,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.5,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5338888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.5,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5733333333333334,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.5,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.5938888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.5,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.5955555555555555,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.5,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5505555555555556,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.5,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5794444444444444,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.5,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6044444444444445,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.5,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.62,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.5,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5444444444444444,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.5,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5861111111111111,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.5,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6244444444444445,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.5,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.625,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.5,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5227777777777778,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.5,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.6055555555555555,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.5,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.63,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.5,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6161111111111112,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.5,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5527777777777778,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.5,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.6011111111111112,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.5,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6105555555555555,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.5,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6216666666666667,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.5,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5233333333333333,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.5,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5633333333333334,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.5,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.5988888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.5,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.5855555555555556,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.5,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5488888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.5,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.6038888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.5,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.62,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.5,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6283333333333333,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.5,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5455555555555556,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.5,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5922222222222222,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.5,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6188888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.5,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6211111111111111,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.5,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5383333333333333,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.5,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5711111111111111,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.5,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6061111111111112,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.5,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6077777777777778,
+      "extra": ""
+    }
+  ],
+  "summary": [
+    {
+      "noise": 0.0,
+      "representation": "BOHN",
+      "acc_mean": 0.6046111111111111,
+      "acc_std": 0.009504348871031451,
+      "feature_dim": 18.0
+    },
+    {
+      "noise": 0.0,
+      "representation": "FBOHN",
+      "acc_mean": 0.6224444444444445,
+      "acc_std": 0.006319130707176097,
+      "feature_dim": 30.0
+    },
+    {
+      "noise": 0.0,
+      "representation": "FBOHN-poly-control",
+      "acc_mean": 0.6350555555555555,
+      "acc_std": 0.006037434660843179,
+      "feature_dim": 84.0
+    },
+    {
+      "noise": 0.0,
+      "representation": "RAW",
+      "acc_mean": 0.5496111111111112,
+      "acc_std": 0.012286726530448168,
+      "feature_dim": 18.0
+    },
+    {
+      "noise": 0.1,
+      "representation": "BOHN",
+      "acc_mean": 0.6002222222222222,
+      "acc_std": 0.011197809897567372,
+      "feature_dim": 18.0
+    },
+    {
+      "noise": 0.1,
+      "representation": "FBOHN",
+      "acc_mean": 0.6261111111111111,
+      "acc_std": 0.011929721043263978,
+      "feature_dim": 30.0
+    },
+    {
+      "noise": 0.1,
+      "representation": "FBOHN-poly-control",
+      "acc_mean": 0.6303333333333334,
+      "acc_std": 0.01246449002806806,
+      "feature_dim": 84.0
+    },
+    {
+      "noise": 0.1,
+      "representation": "RAW",
+      "acc_mean": 0.545,
+      "acc_std": 0.010180133427322052,
+      "feature_dim": 18.0
+    },
+    {
+      "noise": 0.3,
+      "representation": "BOHN",
+      "acc_mean": 0.5887777777777778,
+      "acc_std": 0.007679270370005106,
+      "feature_dim": 18.0
+    },
+    {
+      "noise": 0.3,
+      "representation": "FBOHN",
+      "acc_mean": 0.6150555555555556,
+      "acc_std": 0.013218253372598923,
+      "feature_dim": 30.0
+    },
+    {
+      "noise": 0.3,
+      "representation": "FBOHN-poly-control",
+      "acc_mean": 0.6217777777777778,
+      "acc_std": 0.013038930838881104,
+      "feature_dim": 84.0
+    },
+    {
+      "noise": 0.3,
+      "representation": "RAW",
+      "acc_mean": 0.5426666666666666,
+      "acc_std": 0.008222722707490478,
+      "feature_dim": 18.0
+    },
+    {
+      "noise": 0.5,
+      "representation": "BOHN",
+      "acc_mean": 0.5836111111111111,
+      "acc_std": 0.016757468699109834,
+      "feature_dim": 18.0
+    },
+    {
+      "noise": 0.5,
+      "representation": "FBOHN",
+      "acc_mean": 0.6092222222222222,
+      "acc_std": 0.014282568730705466,
+      "feature_dim": 30.0
+    },
+    {
+      "noise": 0.5,
+      "representation": "FBOHN-poly-control",
+      "acc_mean": 0.6126111111111111,
+      "acc_std": 0.013848212039118431,
+      "feature_dim": 84.0
+    },
+    {
+      "noise": 0.5,
+      "representation": "RAW",
+      "acc_mean": 0.5385,
+      "acc_std": 0.011729840716621498,
+      "feature_dim": 18.0
+    }
+  ]
+}

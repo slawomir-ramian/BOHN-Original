@@ -1,0 +1,145 @@
+{
+  "stage": "15",
+  "mode": "full",
+  "created_utc": "20260928T185044Z",
+  "source_chronology": [
+    "RF-001",
+    "RF-002",
+    "MF-001",
+    "MF-002",
+    "MF-003",
+    "MF-004",
+    "MF-005"
+  ],
+  "historical_code_modified": false,
+  "environment": {
+    "python": "3.14.5 (tags/v3.14.5:5607950, May 10 2026, 10:43:50) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.19045-SP0"
+  },
+  "experiments": {
+    "RF-001": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 13.168428,
+      "execution_mode": "HISTORICAL_FULL_SUITE_WITH_CELL_CHECKPOINTS",
+      "source_boundary": "FULL_SUITE",
+      "historical_code_modified": false,
+      "checkpoint_reused": false,
+      "comparison": {
+        "status": "CLOSE_NUMERIC_MATCH",
+        "scientific_conclusion_preserved": true,
+        "max_reported_numeric_delta": 0.0004444444444444695,
+        "max_reported_numeric_delta_pp": 0.04444444444444695,
+        "note": "FBOHN zachowuje pełną strukturę i wygrywa z BOHN, RAW oraz SRL-12."
+      }
+    },
+    "RF-002": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 18.116804,
+      "execution_mode": "HISTORICAL_FULL_SUITE_WITH_CELL_CHECKPOINTS",
+      "source_boundary": "FULL_SUITE",
+      "historical_code_modified": false,
+      "checkpoint_reused": false,
+      "comparison": {
+        "status": "CLOSE_NUMERIC_MATCH",
+        "scientific_conclusion_preserved": true,
+        "max_reported_numeric_delta": 0.000500000000000056,
+        "max_reported_numeric_delta_pp": 0.050000000000005596,
+        "note": "FBOHN zachowuje przewagę poza przestrzenią reprezentacji."
+      }
+    },
+    "MF-001": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 5065.576116,
+      "execution_mode": "HISTORICAL_FULL_SUITE_WITH_CELL_CHECKPOINTS",
+      "source_boundary": "FULL_SUITE",
+      "historical_code_modified": false,
+      "checkpoint_reused": false,
+      "comparison": {
+        "status": "CLOSE_NUMERIC_MATCH",
+        "scientific_conclusion_preserved": true,
+        "max_reported_numeric_delta": 0.0,
+        "max_reported_numeric_delta_pp": 0.0,
+        "note": "Dodatnie skalowanie jest kasowane przez StandardScaler; wynik negatywny odtworzony.",
+        "comparison_to_fbohn": "Meta-FBOHN-v1-global"
+      }
+    },
+    "MF-002": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 5065.576116,
+      "execution_mode": "HISTORICAL_FULL_SUITE_WITH_CELL_CHECKPOINTS",
+      "source_boundary": "FULL_SUITE",
+      "historical_code_modified": false,
+      "checkpoint_reused": false,
+      "comparison": {
+        "status": "CLOSE_NUMERIC_MATCH",
+        "scientific_conclusion_preserved": true,
+        "max_reported_numeric_delta": 0.0,
+        "max_reported_numeric_delta_pp": 0.0,
+        "note": "Dodatnie skalowanie jest kasowane przez StandardScaler; wynik negatywny odtworzony.",
+        "comparison_to_fbohn": "Meta-FBOHN-v2-orbitwise"
+      }
+    },
+    "MF-003": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 3554.991829,
+      "execution_mode": "HISTORICAL_FULL_SUITE_WITH_CELL_CHECKPOINTS",
+      "source_boundary": "FULL_SUITE",
+      "historical_code_modified": false,
+      "checkpoint_reused": false,
+      "comparison": {
+        "status": "CONCLUSION_MATCH",
+        "scientific_conclusion_preserved": true,
+        "max_reported_numeric_delta": null,
+        "max_reported_numeric_delta_pp": null,
+        "note": "Learned Orbit Mixing daje dodatnią średnią zmianę względem FBOHN.",
+        "mean_improvement_pp": 0.17777777777777948
+      }
+    },
+    "MF-004": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 4757.140028,
+      "execution_mode": "HISTORICAL_FULL_SUITE_WITH_CELL_CHECKPOINTS",
+      "source_boundary": "FULL_SUITE",
+      "historical_code_modified": false,
+      "checkpoint_reused": false,
+      "comparison": {
+        "status": "CONCLUSION_MATCH",
+        "scientific_conclusion_preserved": true,
+        "max_reported_numeric_delta": null,
+        "max_reported_numeric_delta_pp": null,
+        "note": "Symboliczny kompozytor dodaje 16 relacji i poprawia średni wynik.",
+        "mean_improvement_pp": 2.7736111111111073
+      }
+    },
+    "MF-005": {
+      "execution_status": "PASS",
+      "return_code": 0,
+      "duration_seconds": 60689.041138,
+      "execution_mode": "HISTORICAL_FULL_SUITE_WITH_CELL_CHECKPOINTS",
+      "source_boundary": "FULL_SUITE",
+      "historical_code_modified": false,
+      "checkpoint_reused": false,
+      "comparison": {
+        "status": "NUMERIC_DIFFERENCE",
+        "scientific_conclusion_preserved": false,
+        "max_reported_numeric_delta": 0.0013111111111110407,
+        "max_reported_numeric_delta_pp": 0.13111111111110407,
+        "note": "Biblioteka v5 wygrywa z FBOHN w 40/40 komórek; mnożenie dominuje.",
+        "aunc": {
+          "Meta-FBOHN-v5-library": 0.6541111111111111,
+          "Meta-FBOHN-v4-single": 0.6459444444444444,
+          "FBOHN": 0.6182083333333334,
+          "FBOHN-poly-control": 0.6249444444444444
+        },
+        "wins_over_fbohn": 39,
+        "top_operator": "mul"
+      }
+    }
+  }
+}

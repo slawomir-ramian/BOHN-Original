@@ -25,8 +25,7 @@ BOHN-Original/
 │   ├── 10_sota_and_scaling/
 │   ├── 11_integrated_system/
 │   ├── 12_moe_evolution/
-│   ├── 13_rmig_fbohn/
-│   └── 14_meta_fbohn/
+│   └── 13_rmig_meta_fbohn/
 ├── tests/
 ├── tools/
 └── pyproject.toml
@@ -113,3 +112,10 @@ przechowuje dokładny kontekst źródłowy i tabele, lecz pozostaje audytem z
 powodu braku opublikowanej pętli docelowej. Pełny bieg znajduje się w
 `reproduced/stage_14_runs/20260928T180446Z/`, a interpretacja rozbieżności w
 `docs/STAGE_14_LOCAL_ANALYSIS.md`.
+
+RMIG-FBOHN i Meta-FBOHN z rozdziałów 13–14 znajdują się wspólnie w
+`experiments/13_rmig_meta_fbohn/`, zgodnie z tym, że wszystkie siedem pozycji
+dzieli kompletny listing 71. Checkpointy pełnego protokołu są oddzielone od
+niezmienionych źródeł historycznych. Pełny bieg znajduje się w
+`reproduced/stage_15_runs/20260928T185044Z/`, a szczegółowa interpretacja w
+`docs/STAGE_15_LOCAL_ANALYSIS.md`. Tym etapem zakończono wszystkie 115 pozycji.

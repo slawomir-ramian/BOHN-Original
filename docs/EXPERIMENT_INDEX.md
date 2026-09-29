@@ -1,7 +1,7 @@
 # Indeks eksperymentów, testów i programów
 
 Rejestr obejmuje **115 jednostek** wykrytych w monografii.
-Po zakończonych etapach wykonano **108 jednostek**; **7** pozostaje `NOT_RUN`.
+Po zakończonych etapach wykonano **115 jednostek**; **0** pozostaje `NOT_RUN`.
 
 Kolumna `Kod` opisuje poziom materiału dostępnego w PDF. `NARRATIVE_ONLY` nie
 oznacza pominięcia - przeciwnie, wskazuje jednostkę wymagającą ostrożnej rekonstrukcji
@@ -174,16 +174,16 @@ z opisu i tabel, bez udawania, że pełny kod został opublikowany.
 
 | ID | Sekcja | Jednostka | Typ | Strony drukowane / PDF | Kod | Reprodukcja |
 |---|---|---|---|---|---|---|
-| `RF-001` | 13.4 | RMIG-FBOHN v1 | experiment | 129 / 130 | `FULL_SUITE` | `NOT_RUN` |
-| `RF-002` | 13.5 | RMIG-FBOHN - test out-of-representation | robustness_test | 129-130 / 130-131 | `FULL_SUITE` | `NOT_RUN` |
+| `RF-001` | 13.4 | RMIG-FBOHN v1 | experiment | 129 / 130 | `FULL_SUITE` | `CLOSE_NUMERIC_MATCH` |
+| `RF-002` | 13.5 | RMIG-FBOHN - test out-of-representation | robustness_test | 129-130 / 130-131 | `FULL_SUITE` | `CLOSE_NUMERIC_MATCH` |
 
 ## Rozdział 14: Meta-FBOHN
 
 | ID | Sekcja | Jednostka | Typ | Strony drukowane / PDF | Kod | Reprodukcja |
 |---|---|---|---|---|---|---|
-| `MF-001` | 14.2 | Meta-FBOHN v1 - negatywny wynik skalowania cech | experiment_negative | 131 / 132 | `FULL_SUITE` | `NOT_RUN` |
-| `MF-002` | 14.2 | Meta-FBOHN v2 - negatywny wynik skalowania cech | experiment_negative | 131-132 / 132-133 | `FULL_SUITE` | `NOT_RUN` |
-| `MF-003` | 14.3 | Meta-FBOHN v3 - Learned Orbit Mixing | experiment | 132 / 133 | `FULL_SUITE` | `NOT_RUN` |
-| `MF-004` | 14.4 | Meta-FBOHN v4 - Symbolic Orbit Composer | experiment | 132-133 / 133-134 | `FULL_SUITE` | `NOT_RUN` |
-| `MF-005` | 14.5 | Meta-FBOHN v5 - Symbolic Library Discovery | experiment | 133-134 / 134-135 | `FULL_SUITE` | `NOT_RUN` |
+| `MF-001` | 14.2 | Meta-FBOHN v1 - negatywny wynik skalowania cech | experiment_negative | 131 / 132 | `FULL_SUITE` | `CLOSE_NUMERIC_MATCH` |
+| `MF-002` | 14.2 | Meta-FBOHN v2 - negatywny wynik skalowania cech | experiment_negative | 131-132 / 132-133 | `FULL_SUITE` | `CLOSE_NUMERIC_MATCH` |
+| `MF-003` | 14.3 | Meta-FBOHN v3 - Learned Orbit Mixing | experiment | 132 / 133 | `FULL_SUITE` | `CONCLUSION_MATCH` |
+| `MF-004` | 14.4 | Meta-FBOHN v4 - Symbolic Orbit Composer | experiment | 132-133 / 133-134 | `FULL_SUITE` | `CONCLUSION_MATCH` |
+| `MF-005` | 14.5 | Meta-FBOHN v5 - Symbolic Library Discovery | experiment | 133-134 / 134-135 | `FULL_SUITE` | `NUMERIC_DIFFERENCE` |
 

@@ -144,13 +144,21 @@ ranking metod routingu (`CONCLUSION_MATCH`), natomiast `MOE-004` i `MOE-008`
 mają `NUMERIC_DIFFERENCE`: lokalny gate nie odtworzył raportowanej niemal
 idealnej specjalizacji. Szczegóły: `docs/STAGE_14_LOCAL_ANALYSIS.md`.
 
+Etap 15 zakończony dla końcowych pozycji 109--115. `RF-001`, `RF-002`,
+`MF-001` i `MF-002` uzyskały `CLOSE_NUMERIC_MATCH`; `MF-003` i `MF-004`
+uzyskały `CONCLUSION_MATCH`. `MF-005` bardzo dokładnie odtworzył średnie AUNC,
+dominację mnożenia i przewagę nad poly-control w 40/40 komórek, lecz ścisła
+deklaracja przewagi nad FBOHN odtworzyła się w 39/40 komórek. Dlatego zachowano
+uczciwy status `NUMERIC_DIFFERENCE`, mimo potwierdzenia głównego mechanizmu.
+Szczegóły: `docs/STAGE_15_LOCAL_ANALYSIS.md`.
+
 Kolejność źródłowa jest zapisana niezależnie od numeracji ID w
 `inventory/source_chronology.csv`. Etap 06 zajmuje pozycje 29--33, Etap 07
 pozycje 34--45, Etap 08 pozycje 46--56, Etap 09 pozycje 57--72, Etap 10
 pozycje 73--82, Etap 11 pozycje 83--87, Etap 12 pozycje 88--89, a Etap 13
-pozycje 90--99, a Etap 14 pozycje 100--108, dokładnie tak jak w PDF-ie.
-Po zakończonych Etapach 03--14 wykonano 108 ze 115 jednostek; 7 pozostaje do
-odtworzenia. Eksperymenty z sufiksem `R`
+pozycje 90--99, Etap 14 pozycje 100--108, a Etap 15 pozycje 109--115,
+dokładnie tak jak w PDF-ie. Po zakończonych Etapach 03--15 wykonano
+**115 ze 115** jednostek; żadna nie pozostaje `NOT_RUN`. Eksperymenty z sufiksem `R`
 nie zwiększają tej liczby, ponieważ należą do osobnego rejestru uzupełniającego.
 
 Audyt obejmuje 94 numerowane tabele, 44 podpisane listingi PDF, 74 środowiska
@@ -272,6 +280,18 @@ Pełna instrukcja: `INSTALL_STAGE_12.md`.
 Pełna instrukcja: `INSTALL_STAGE_13.md`.
 
 ## Źródło kanoniczne
+
+## Uruchomienie Etapu 15
+
+```powershell
+.\SETUP_STAGE_15.ps1
+.\RUN_STAGE_15_SMOKE.ps1
+.\RUN_STAGE_15_FULL.ps1
+```
+
+Etap 15 obejmuje końcowe pozycje 109–115: RMIG-FBOHN i Meta-FBOHN. Wszystkie
+siedem jednostek zachowuje pełny wspólny listing 71. Pełne wykonanie stosuje
+checkpointy komórek i może trwać wiele godzin. Instrukcja: `INSTALL_STAGE_15.md`.
 
 Źródło główne: `docs/source/BOHN_PL.pdf`.
 

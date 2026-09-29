@@ -1,0 +1,32 @@
+\section{Meta-FBOHN v3: Learned Orbit Mixing}
+\label{sec:meta_fbohn_v3}
+
+\subsection{Idea}
+Variant v3 replaced feature scaling with nonlinear orbit mixing:
+\[
+Z_j=\gamma_j\tanh\!\left(\frac{1}{\sqrt{30}}\sum_i W_{ji}F_i+b_j\right),
+\]
+and the classifier received the representation
+\[
+\Phi_{v3}(x)=[\text{FBOHN}(x),Z_1(x),\ldots,Z_k(x)].
+\]
+
+\subsection{Results}
+Meta-FBOHN v3 yielded the first small but systematic improvement over FBOHN. Typical values from logs:
+\begin{center}
+\begin{tabular}{lrr}
+\toprule
+Model & Number of features & Typical accuracy range\\
+\midrule
+FBOHN & 30 & 0.61--0.63\\
+Meta-FBOHN v3 & 42 & 0.63--0.64\\
+FBOHN-poly-control & 84 & 0.63--0.64\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{Analysis}
+The result was interesting because 12~learned mixes provided a similar improvement to a much larger manual polynomial control. However, v3 features were harder to interpret because they were dense linear combinations passed through a $\tanh$ function.
+
+\subsection{Conclusion}
+Meta-FBOHN should not only mix features but discover interpretable symbolic operators.

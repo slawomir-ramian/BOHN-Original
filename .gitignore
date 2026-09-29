@@ -72,6 +72,13 @@ reproduced/stage_14_runs/*/
 !reproduced/stage_14_runs/20260928T180446Z/**
 !reproduced/stage_14_runs/LATEST_RUN.txt
 
+# Etap 15: checkpointy i biegi są robocze do wskazania pełnego closeoutu.
+reproduced/stage_15_checkpoint/
+reproduced/stage_15_runs/*/
+!reproduced/stage_15_runs/20260928T185044Z/
+!reproduced/stage_15_runs/20260928T185044Z/**
+!reproduced/stage_15_runs/LATEST_RUN.txt
+
 # Etap 10: smoke jest roboczy; w closeoucie śledzimy wskazany pełny bieg.
 reproduced/stage_10_runs/*/
 !reproduced/stage_10_runs/20260926T211342Z/

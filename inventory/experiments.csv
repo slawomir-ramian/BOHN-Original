@@ -107,10 +107,10 @@ MOE-005,12,12.4.1-12.4.3,LayerNorm vs BatchNorm - routing experiments,ablation,1
 MOE-006,12,12.4.4,Confidence routing,experiment,124,125,A.10.4,FULL_SHARED_LISTING,YES,CONCLUSION_MATCH
 MOE-007,12,12.4.5,Shared Expert - wynik negatywny,experiment_negative,124,125,A.10.4,SHARED_LISTING_TARGET_CODE_ABSENT,YES,AUDITED_REPORTED_RESULT
 MOE-008,12,12.5,Hybrid BN/LN - kulminacja,experiment,125-127,126-128,A.10.5,FULL,YES,NUMERIC_DIFFERENCE
-RF-001,13,13.4,RMIG-FBOHN v1,experiment,129,130,B / Listing B.1,FULL_SUITE,YES,NOT_RUN
-RF-002,13,13.5,RMIG-FBOHN - test out-of-representation,robustness_test,129-130,130-131,B / Listing B.1,FULL_SUITE,YES,NOT_RUN
-MF-001,14,14.2,Meta-FBOHN v1 - negatywny wynik skalowania cech,experiment_negative,131,132,B / Listing B.1,FULL_SUITE,YES,NOT_RUN
-MF-002,14,14.2,Meta-FBOHN v2 - negatywny wynik skalowania cech,experiment_negative,131-132,132-133,B / Listing B.1,FULL_SUITE,YES,NOT_RUN
-MF-003,14,14.3,Meta-FBOHN v3 - Learned Orbit Mixing,experiment,132,133,B / Listing B.1,FULL_SUITE,YES,NOT_RUN
-MF-004,14,14.4,Meta-FBOHN v4 - Symbolic Orbit Composer,experiment,132-133,133-134,B / Listing B.1,FULL_SUITE,YES,NOT_RUN
-MF-005,14,14.5,Meta-FBOHN v5 - Symbolic Library Discovery,experiment,133-134,134-135,B / Listing B.1,FULL_SUITE,YES,NOT_RUN
+RF-001,13,13.4,RMIG-FBOHN v1,experiment,129,130,B / Listing B.1,FULL_SUITE,YES,CLOSE_NUMERIC_MATCH
+RF-002,13,13.5,RMIG-FBOHN - test out-of-representation,robustness_test,129-130,130-131,B / Listing B.1,FULL_SUITE,YES,CLOSE_NUMERIC_MATCH
+MF-001,14,14.2,Meta-FBOHN v1 - negatywny wynik skalowania cech,experiment_negative,131,132,B / Listing B.1,FULL_SUITE,YES,CLOSE_NUMERIC_MATCH
+MF-002,14,14.2,Meta-FBOHN v2 - negatywny wynik skalowania cech,experiment_negative,131-132,132-133,B / Listing B.1,FULL_SUITE,YES,CLOSE_NUMERIC_MATCH
+MF-003,14,14.3,Meta-FBOHN v3 - Learned Orbit Mixing,experiment,132,133,B / Listing B.1,FULL_SUITE,YES,CONCLUSION_MATCH
+MF-004,14,14.4,Meta-FBOHN v4 - Symbolic Orbit Composer,experiment,132-133,133-134,B / Listing B.1,FULL_SUITE,YES,CONCLUSION_MATCH
+MF-005,14,14.5,Meta-FBOHN v5 - Symbolic Library Discovery,experiment,133-134,134-135,B / Listing B.1,FULL_SUITE,YES,NUMERIC_DIFFERENCE

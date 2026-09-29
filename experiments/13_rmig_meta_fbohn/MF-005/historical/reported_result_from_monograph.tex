@@ -1,0 +1,78 @@
+\section{Meta-FBOHN v5: Symbolic Library Discovery}
+\label{sec:meta_fbohn_v5}
+
+\subsection{Goal}
+Variant v4 discovered the best set of operators for a single run. Variant v5 tested whether a stable symbol library could be built from multiple runs.
+
+Procedure:
+\begin{enumerate}
+\item run v4 multiple times for the same task,
+\item collect the best symbols,
+\item count occurrence frequencies,
+\item select a library of the most stable symbols,
+\item use it as a fixed feature extractor.
+\end{enumerate}
+
+\subsection{Main Results}
+\begin{center}
+\begin{tabular}{lr}
+\toprule
+Model & AUNC\\
+\midrule
+RAW & 0.5439\\
+BOHN & 0.5943\\
+FBOHN & 0.6182\\
+FBOHN-poly-control & 0.6249\\
+Meta-FBOHN v4 single & 0.6449\\
+Meta-FBOHN v5 library & 0.6528\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{Key Gains}
+\[
+\text{v5}-\text{FBOHN}\approx +3.46\%,
+\]
+\[
+\text{v5}-\text{v4}\approx +0.79\%.
+\]
+The v5 library beat FBOHN in $10/10$ seeds for every noise level and also beat manual poly-control in $10/10$ seeds.
+
+\subsection{Most Frequently Discovered Symbols}
+\begin{center}
+\begin{tabular}{l}
+\toprule
+Symbol\\
+\midrule
+$(M_4L_0)$\\
+$(M_0M_4)$\\
+$(L_1L_2)$\\
+$(M_1M_2)$\\
+$(L_0L_4)$\\
+$(M_1L_2)$\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{Operator Statistics}
+\begin{center}
+\begin{tabular}{lr}
+\toprule
+Operator & Total occurrences\\
+\midrule
+mul & 847\\
+absdiff & 263\\
+sqrt\_prod & 173\\
+others & less dominant\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{Interpretation}
+The dominance of the \texttt{mul} operator indicates that products between orbital means and Laplacian components are particularly useful. In RMIG language, this can be interpreted as couplings between the signal level on an orbit and the local relational geometry.
+
+\subsection{Conclusion}
+\[
+\boxed{\text{Meta-FBOHN v5 discovers a stable library of symbolic FBOHN operators.}}
+\]
+This is a stronger result than v4, because it not only increases accuracy but demonstrates the reproducibility of discovered symbols.

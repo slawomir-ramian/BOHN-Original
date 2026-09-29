@@ -1,0 +1,2112 @@
+{
+  "program": "v2",
+  "protocol": {
+    "samples": 6000,
+    "seeds": 10,
+    "noises": [
+      0.0,
+      0.1,
+      0.3,
+      0.5
+    ],
+    "population": 80,
+    "generations": 30,
+    "elite": 8,
+    "mix_features": 12,
+    "n_symbolic": 16,
+    "discovery_runs": 0,
+    "library_size": 0
+  },
+  "rows": [
+    {
+      "seed": 0,
+      "noise": 0.0,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5494444444444444,
+      "extra": ""
+    },
+    {
+      "seed": 0,
+      "noise": 0.0,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.6038888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 0,
+      "noise": 0.0,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6277777777777778,
+      "extra": ""
+    },
+    {
+      "seed": 0,
+      "noise": 0.0,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6338888888888888,
+      "extra": ""
+    },
+    {
+      "seed": 0,
+      "noise": 0.0,
+      "representation": "Meta-FBOHN-v1-global",
+      "feature_dim": 30,
+      "accuracy": 0.6277777777777778,
+      "extra": "[0.5512, 0.3593, 0.7579, 0.4164, 0.7754]"
+    },
+    {
+      "seed": 0,
+      "noise": 0.0,
+      "representation": "Meta-FBOHN-v2-orbitwise",
+      "feature_dim": 30,
+      "accuracy": 0.6277777777777778,
+      "extra": "[0.6778, 1.258, 1.3756, 0.1908, 0.7866, 0.5074, 0.3158, 1.3151, 0.3374, 0.3455, 0.9317, 0.3263, 1.6955, 0.3743, 0.2101, 0.1907, 2.6724, 1.5106, 0.2362, 0.496, 1.7994, 0.324, 0.2043, 0.5126, 1.4311, 1.6667, 0.7574, 2.3593, 1.7515, 0.575]"
+    },
+    {
+      "seed": 1,
+      "noise": 0.0,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.545,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.0,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.6127777777777778,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.0,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.635,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.0,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6338888888888888,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.0,
+      "representation": "Meta-FBOHN-v1-global",
+      "feature_dim": 30,
+      "accuracy": 0.635,
+      "extra": "[0.2346, 1.2686, 0.4458, 0.8062, 0.3283]"
+    },
+    {
+      "seed": 1,
+      "noise": 0.0,
+      "representation": "Meta-FBOHN-v2-orbitwise",
+      "feature_dim": 30,
+      "accuracy": 0.635,
+      "extra": "[0.6547, 0.3901, 0.3366, 0.5003, 1.1577, 0.9937, 0.783, 0.8556, 1.3961, 0.5919, 0.7613, 0.327, 2.0496, 0.516, 0.1602, 0.3271, 0.3817, 0.9099, 1.0071, 0.2928, 0.2287, 0.8694, 0.4479, 0.4639, 0.5808, 0.0427, 0.5622, 1.9171, 2.1934, 0.4375]"
+    },
+    {
+      "seed": 2,
+      "noise": 0.0,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.525,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.0,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.6011111111111112,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.0,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6194444444444445,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.0,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6205555555555555,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.0,
+      "representation": "Meta-FBOHN-v1-global",
+      "feature_dim": 30,
+      "accuracy": 0.6194444444444445,
+      "extra": "[1.7788, 0.9913, 0.6639, 0.1015, 1.3047]"
+    },
+    {
+      "seed": 2,
+      "noise": 0.0,
+      "representation": "Meta-FBOHN-v2-orbitwise",
+      "feature_dim": 30,
+      "accuracy": 0.6194444444444445,
+      "extra": "[0.5482, 0.6609, 0.4083, 0.2206, 0.9933, 0.6324, 0.7209, 0.4499, 1.621, 1.3514, 1.9446, 1.2841, 0.7487, 0.5573, 0.0608, 1.2346, 1.8116, 0.7507, 0.4314, 1.2634, 0.3945, 1.3946, 0.184, 1.0324, 0.5282, 0.868, 0.4146, 0.9084, 1.8284, 1.2478]"
+    },
+    {
+      "seed": 3,
+      "noise": 0.0,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5533333333333333,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.0,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.6072222222222222,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.0,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6244444444444445,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.0,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6361111111111111,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.0,
+      "representation": "Meta-FBOHN-v1-global",
+      "feature_dim": 30,
+      "accuracy": 0.6244444444444445,
+      "extra": "[0.3553, 0.8051, 0.3433, 1.2288, 1.4607]"
+    },
+    {
+      "seed": 3,
+      "noise": 0.0,
+      "representation": "Meta-FBOHN-v2-orbitwise",
+      "feature_dim": 30,
+      "accuracy": 0.6244444444444445,
+      "extra": "[1.692, 0.2523, 0.1807, 0.3334, 0.6083, 0.9399, 0.4913, 2.2865, 0.3589, 0.4725, 0.4455, 1.0946, 0.8401, 0.1512, 1.3715, 0.4128, 0.5487, 2.5272, 0.8307, 0.4107, 0.0611, 0.2834, 1.5204, 0.8743, 0.2771, 0.7779, 0.6516, 0.4595, 0.7512, 0.6111]"
+    },
+    {
+      "seed": 4,
+      "noise": 0.0,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5533333333333333,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.0,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.6266666666666667,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.0,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6244444444444445,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.0,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6438888888888888,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.0,
+      "representation": "Meta-FBOHN-v1-global",
+      "feature_dim": 30,
+      "accuracy": 0.6244444444444445,
+      "extra": "[1.333, 0.1314, 0.3947, 1.2588, 0.6992]"
+    },
+    {
+      "seed": 4,
+      "noise": 0.0,
+      "representation": "Meta-FBOHN-v2-orbitwise",
+      "feature_dim": 30,
+      "accuracy": 0.6244444444444445,
+      "extra": "[1.2267, 1.891, 0.1746, 0.3254, 0.3364, 2.2031, 0.3657, 1.0495, 0.988, 0.4008, 0.9755, 0.2383, 1.4033, 1.821, 1.4762, 0.6903, 0.7048, 0.8988, 1.7094, 0.2873, 0.8757, 1.2115, 0.5832, 1.3081, 1.9612, 0.8846, 0.2038, 0.4957, 0.5242, 0.7131]"
+    },
+    {
+      "seed": 5,
+      "noise": 0.0,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5738888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.0,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.6038888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.0,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6161111111111112,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.0,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.635,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.0,
+      "representation": "Meta-FBOHN-v1-global",
+      "feature_dim": 30,
+      "accuracy": 0.6161111111111112,
+      "extra": "[0.4207, 0.7095, 1.2879, 0.1716, 0.6418]"
+    },
+    {
+      "seed": 5,
+      "noise": 0.0,
+      "representation": "Meta-FBOHN-v2-orbitwise",
+      "feature_dim": 30,
+      "accuracy": 0.6161111111111112,
+      "extra": "[2.3077, 1.1499, 0.4534, 1.7072, 0.1657, 1.2499, 1.0623, 1.5609, 0.6938, 0.5147, 0.7173, 0.4959, 1.1896, 1.396, 0.3664, 0.294, 1.6942, 1.2998, 1.1355, 1.0031, 0.2844, 0.2329, 1.5922, 0.4933, 0.7622, 0.8847, 0.512, 0.8775, 0.8043, 0.2331]"
+    },
+    {
+      "seed": 6,
+      "noise": 0.0,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5561111111111111,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.0,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.595,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.0,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6161111111111112,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.0,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6344444444444445,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.0,
+      "representation": "Meta-FBOHN-v1-global",
+      "feature_dim": 30,
+      "accuracy": 0.6161111111111112,
+      "extra": "[0.6931, 1.2464, 0.23, 1.7371, 0.5836]"
+    },
+    {
+      "seed": 6,
+      "noise": 0.0,
+      "representation": "Meta-FBOHN-v2-orbitwise",
+      "feature_dim": 30,
+      "accuracy": 0.6161111111111112,
+      "extra": "[1.0276, 1.0478, 0.6888, 0.5895, 1.6996, 1.6902, 0.5565, 0.2255, 0.2394, 2.0502, 0.4944, 0.5413, 0.1625, 0.8711, 0.5698, 1.7376, 2.3723, 1.1902, 1.1698, 0.4755, 0.7751, 0.4153, 0.3503, 2.0714, 1.1418, 0.635, 0.5903, 0.8481, 1.2673, 0.0932]"
+    },
+    {
+      "seed": 7,
+      "noise": 0.0,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5494444444444444,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.0,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5938888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.0,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6238888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.0,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6344444444444445,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.0,
+      "representation": "Meta-FBOHN-v1-global",
+      "feature_dim": 30,
+      "accuracy": 0.6238888888888889,
+      "extra": "[0.4616, 0.9626, 0.7533, 0.1271, 0.8922]"
+    },
+    {
+      "seed": 7,
+      "noise": 0.0,
+      "representation": "Meta-FBOHN-v2-orbitwise",
+      "feature_dim": 30,
+      "accuracy": 0.6238888888888889,
+      "extra": "[0.7347, 1.0599, 0.7464, 0.8766, 0.9549, 1.9611, 0.3785, 0.8329, 0.9778, 0.1807, 0.8117, 0.3874, 1.5752, 0.8169, 0.726, 0.8291, 2.4983, 0.2624, 1.1219, 0.9953, 1.0152, 1.2615, 1.7229, 1.8455, 0.2304, 0.8068, 0.705, 2.0357, 1.0414, 0.564]"
+    },
+    {
+      "seed": 8,
+      "noise": 0.0,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5494444444444444,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.0,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.6022222222222222,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.0,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6138888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.0,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6383333333333333,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.0,
+      "representation": "Meta-FBOHN-v1-global",
+      "feature_dim": 30,
+      "accuracy": 0.6138888888888889,
+      "extra": "[0.364, 1.9477, 0.361, 0.5839, 0.7691]"
+    },
+    {
+      "seed": 8,
+      "noise": 0.0,
+      "representation": "Meta-FBOHN-v2-orbitwise",
+      "feature_dim": 30,
+      "accuracy": 0.6138888888888889,
+      "extra": "[0.7442, 0.5886, 0.4637, 1.4452, 0.514, 0.3739, 0.1004, 0.9103, 0.467, 0.5401, 2.5291, 1.0644, 1.6061, 0.7561, 1.5386, 0.1654, 0.4145, 1.1331, 0.4706, 0.172, 0.4561, 0.1577, 1.1058, 0.1597, 1.3424, 0.8824, 0.3409, 0.8963, 1.0672, 0.3572]"
+    },
+    {
+      "seed": 9,
+      "noise": 0.0,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5411111111111111,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.0,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5994444444444444,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.0,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6233333333333333,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.0,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.64,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.0,
+      "representation": "Meta-FBOHN-v1-global",
+      "feature_dim": 30,
+      "accuracy": 0.6233333333333333,
+      "extra": "[0.4266, 1.262, 0.7102, 0.3979, 1.9148]"
+    },
+    {
+      "seed": 9,
+      "noise": 0.0,
+      "representation": "Meta-FBOHN-v2-orbitwise",
+      "feature_dim": 30,
+      "accuracy": 0.6233333333333333,
+      "extra": "[0.5288, 3.0225, 0.7686, 1.0258, 0.5209, 0.3645, 0.66, 0.724, 0.3978, 0.2605, 1.3039, 0.3652, 1.591, 0.0526, 1.1247, 1.2131, 0.6271, 1.863, 0.7302, 0.6859, 0.4513, 0.8347, 0.1837, 1.693, 0.654, 1.0034, 1.9489, 0.4922, 0.1325, 0.6967]"
+    },
+    {
+      "seed": 0,
+      "noise": 0.1,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5427777777777778,
+      "extra": ""
+    },
+    {
+      "seed": 0,
+      "noise": 0.1,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5938888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 0,
+      "noise": 0.1,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6155555555555555,
+      "extra": ""
+    },
+    {
+      "seed": 0,
+      "noise": 0.1,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6372222222222222,
+      "extra": ""
+    },
+    {
+      "seed": 0,
+      "noise": 0.1,
+      "representation": "Meta-FBOHN-v1-global",
+      "feature_dim": 30,
+      "accuracy": 0.6155555555555555,
+      "extra": "[0.2577, 0.6798, 0.293, 0.892, 1.0424]"
+    },
+    {
+      "seed": 0,
+      "noise": 0.1,
+      "representation": "Meta-FBOHN-v2-orbitwise",
+      "feature_dim": 30,
+      "accuracy": 0.6155555555555555,
+      "extra": "[1.0234, 1.4706, 0.601, 0.7654, 0.2443, 0.1889, 0.1054, 1.0622, 0.503, 1.078, 0.9755, 1.5275, 0.4325, 0.359, 1.6004, 0.5341, 0.1904, 1.1509, 1.7707, 0.8916, 1.1759, 1.2727, 0.9269, 0.6657, 0.6863, 0.5011, 1.5542, 0.4691, 0.6158, 0.8617]"
+    },
+    {
+      "seed": 1,
+      "noise": 0.1,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5438888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.1,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5855555555555556,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.1,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6066666666666667,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.1,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6027777777777777,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.1,
+      "representation": "Meta-FBOHN-v1-global",
+      "feature_dim": 30,
+      "accuracy": 0.6066666666666667,
+      "extra": "[0.5133, 0.2189, 1.4741, 0.8604, 1.4138]"
+    },
+    {
+      "seed": 1,
+      "noise": 0.1,
+      "representation": "Meta-FBOHN-v2-orbitwise",
+      "feature_dim": 30,
+      "accuracy": 0.6066666666666667,
+      "extra": "[1.0813, 1.7864, 2.3348, 1.2181, 1.2825, 0.453, 2.1004, 0.9214, 0.9613, 0.2169, 1.8502, 0.5239, 1.2147, 1.3517, 1.6507, 0.9288, 0.0986, 0.8763, 0.5301, 1.797, 0.1425, 0.1505, 0.145, 1.8554, 1.5225, 0.5698, 0.864, 1.1533, 0.2208, 1.9965]"
+    },
+    {
+      "seed": 2,
+      "noise": 0.1,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5333333333333333,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.1,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5883333333333334,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.1,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6261111111111111,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.1,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6288888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.1,
+      "representation": "Meta-FBOHN-v1-global",
+      "feature_dim": 30,
+      "accuracy": 0.6261111111111111,
+      "extra": "[0.8197, 0.315, 0.5776, 0.9682, 0.7437]"
+    },
+    {
+      "seed": 2,
+      "noise": 0.1,
+      "representation": "Meta-FBOHN-v2-orbitwise",
+      "feature_dim": 30,
+      "accuracy": 0.6261111111111111,
+      "extra": "[0.2023, 2.7951, 1.0083, 0.4257, 0.2092, 2.2965, 1.0237, 0.9015, 3.2583, 0.1893, 0.739, 1.0888, 2.1278, 0.9641, 0.3519, 0.4723, 1.6288, 1.4703, 1.7036, 1.0168, 2.2288, 0.2135, 0.9959, 1.2414, 0.0487, 1.3237, 0.2395, 1.2356, 0.2437, 0.3661]"
+    },
+    {
+      "seed": 3,
+      "noise": 0.1,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5555555555555556,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.1,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.6177777777777778,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.1,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6477777777777778,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.1,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6455555555555555,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.1,
+      "representation": "Meta-FBOHN-v1-global",
+      "feature_dim": 30,
+      "accuracy": 0.6477777777777778,
+      "extra": "[1.953, 0.8548, 1.3587, 0.566, 0.4316]"
+    },
+    {
+      "seed": 3,
+      "noise": 0.1,
+      "representation": "Meta-FBOHN-v2-orbitwise",
+      "feature_dim": 30,
+      "accuracy": 0.6477777777777778,
+      "extra": "[0.3885, 0.6632, 0.8661, 0.8002, 0.9918, 0.1592, 2.8494, 0.7577, 0.1319, 0.6039, 0.7034, 0.2725, 0.3561, 0.0914, 1.3795, 1.5851, 0.1313, 0.418, 1.4264, 0.432, 0.7138, 0.9694, 0.3883, 0.5861, 0.1569, 1.0771, 0.9536, 0.9581, 0.3974, 1.1651]"
+    },
+    {
+      "seed": 4,
+      "noise": 0.1,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.545,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.1,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.61,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.1,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6272222222222222,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.1,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6383333333333333,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.1,
+      "representation": "Meta-FBOHN-v1-global",
+      "feature_dim": 30,
+      "accuracy": 0.6272222222222222,
+      "extra": "[0.8753, 0.5319, 0.6022, 0.8973, 0.2919]"
+    },
+    {
+      "seed": 4,
+      "noise": 0.1,
+      "representation": "Meta-FBOHN-v2-orbitwise",
+      "feature_dim": 30,
+      "accuracy": 0.6272222222222222,
+      "extra": "[1.4866, 0.5854, 0.1733, 0.4104, 0.4159, 0.5037, 1.3729, 1.0981, 1.8052, 0.3751, 1.0967, 0.3541, 0.3395, 0.0964, 0.4103, 0.888, 0.5656, 0.7152, 0.1859, 1.2862, 0.5305, 0.2884, 1.8286, 1.4393, 0.6078, 0.2794, 0.28, 0.9365, 0.4657, 1.3122]"
+    },
+    {
+      "seed": 5,
+      "noise": 0.1,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5633333333333334,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.1,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.6144444444444445,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.1,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6355555555555555,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.1,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6316666666666667,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.1,
+      "representation": "Meta-FBOHN-v1-global",
+      "feature_dim": 30,
+      "accuracy": 0.6355555555555555,
+      "extra": "[0.8032, 2.1626, 1.4991, 1.307, 1.0387]"
+    },
+    {
+      "seed": 5,
+      "noise": 0.1,
+      "representation": "Meta-FBOHN-v2-orbitwise",
+      "feature_dim": 30,
+      "accuracy": 0.6355555555555555,
+      "extra": "[0.7587, 0.4559, 0.3397, 0.6329, 0.8628, 0.3356, 1.7339, 1.0623, 0.7076, 1.3191, 2.1832, 0.3775, 0.6391, 1.2565, 0.7807, 0.6099, 0.0489, 0.4559, 0.6853, 1.144, 0.5503, 1.0402, 1.6449, 0.9371, 0.4934, 0.8005, 2.2605, 0.8132, 0.0757, 0.2981]"
+    },
+    {
+      "seed": 6,
+      "noise": 0.1,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5422222222222223,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.1,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5922222222222222,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.1,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6272222222222222,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.1,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6216666666666667,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.1,
+      "representation": "Meta-FBOHN-v1-global",
+      "feature_dim": 30,
+      "accuracy": 0.6272222222222222,
+      "extra": "[0.2888, 0.4223, 0.2319, 0.7564, 1.7369]"
+    },
+    {
+      "seed": 6,
+      "noise": 0.1,
+      "representation": "Meta-FBOHN-v2-orbitwise",
+      "feature_dim": 30,
+      "accuracy": 0.6272222222222222,
+      "extra": "[1.0065, 0.7428, 0.5539, 0.5127, 1.3633, 0.8028, 0.4328, 0.9641, 0.7778, 1.5645, 0.1665, 0.4855, 0.7578, 1.837, 1.0502, 0.99, 0.3214, 0.3438, 0.3603, 0.622, 0.5455, 0.4393, 1.1645, 0.8013, 0.2193, 0.3203, 1.0788, 0.3604, 0.5048, 0.26]"
+    },
+    {
+      "seed": 7,
+      "noise": 0.1,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5544444444444444,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.1,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.6055555555555555,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.1,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6322222222222222,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.1,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6355555555555555,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.1,
+      "representation": "Meta-FBOHN-v1-global",
+      "feature_dim": 30,
+      "accuracy": 0.6322222222222222,
+      "extra": "[1.4326, 0.3475, 1.072, 0.7384, 0.8108]"
+    },
+    {
+      "seed": 7,
+      "noise": 0.1,
+      "representation": "Meta-FBOHN-v2-orbitwise",
+      "feature_dim": 30,
+      "accuracy": 0.6322222222222222,
+      "extra": "[1.2372, 0.5963, 0.3271, 1.9316, 0.2144, 0.3457, 0.9057, 0.2816, 0.6861, 0.2789, 0.6952, 0.5171, 0.2097, 1.3548, 0.3196, 1.3358, 0.5655, 1.0443, 1.1338, 0.2019, 0.1772, 0.7345, 0.1578, 2.2639, 2.3218, 0.9752, 1.2522, 1.6849, 1.2036, 0.892]"
+    },
+    {
+      "seed": 8,
+      "noise": 0.1,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5305555555555556,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.1,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5944444444444444,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.1,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6127777777777778,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.1,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6211111111111111,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.1,
+      "representation": "Meta-FBOHN-v1-global",
+      "feature_dim": 30,
+      "accuracy": 0.6127777777777778,
+      "extra": "[0.2273, 0.4228, 1.2288, 3.1474, 0.2558]"
+    },
+    {
+      "seed": 8,
+      "noise": 0.1,
+      "representation": "Meta-FBOHN-v2-orbitwise",
+      "feature_dim": 30,
+      "accuracy": 0.6127777777777778,
+      "extra": "[1.6151, 1.1983, 1.2111, 0.8683, 1.1879, 1.051, 0.4028, 0.9783, 1.1467, 1.0173, 0.5297, 0.6928, 1.2548, 0.7914, 0.9386, 0.657, 1.1798, 0.2784, 1.8219, 0.8013, 1.9074, 0.4175, 0.115, 0.4227, 0.625, 0.3335, 1.1348, 0.8383, 1.3145, 1.2683]"
+    },
+    {
+      "seed": 9,
+      "noise": 0.1,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5388888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.1,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.6,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.1,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.63,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.1,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6405555555555555,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.1,
+      "representation": "Meta-FBOHN-v1-global",
+      "feature_dim": 30,
+      "accuracy": 0.63,
+      "extra": "[0.5511, 0.4855, 0.8689, 0.6047, 1.9846]"
+    },
+    {
+      "seed": 9,
+      "noise": 0.1,
+      "representation": "Meta-FBOHN-v2-orbitwise",
+      "feature_dim": 30,
+      "accuracy": 0.63,
+      "extra": "[1.0472, 1.3758, 0.7089, 1.314, 0.2714, 0.311, 0.5501, 0.276, 0.3441, 0.5725, 0.7263, 1.4813, 2.2729, 1.6147, 0.8404, 0.5451, 1.0111, 0.1366, 0.6149, 0.7211, 0.5838, 1.1912, 0.4697, 0.985, 0.652, 2.1998, 1.0508, 2.203, 0.0629, 0.6805]"
+    },
+    {
+      "seed": 0,
+      "noise": 0.3,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5361111111111111,
+      "extra": ""
+    },
+    {
+      "seed": 0,
+      "noise": 0.3,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5938888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 0,
+      "noise": 0.3,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6083333333333333,
+      "extra": ""
+    },
+    {
+      "seed": 0,
+      "noise": 0.3,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6205555555555555,
+      "extra": ""
+    },
+    {
+      "seed": 0,
+      "noise": 0.3,
+      "representation": "Meta-FBOHN-v1-global",
+      "feature_dim": 30,
+      "accuracy": 0.6083333333333333,
+      "extra": "[0.4308, 0.521, 1.7955, 0.6991, 0.8824]"
+    },
+    {
+      "seed": 0,
+      "noise": 0.3,
+      "representation": "Meta-FBOHN-v2-orbitwise",
+      "feature_dim": 30,
+      "accuracy": 0.6083333333333333,
+      "extra": "[0.7302, 0.4723, 0.0883, 1.0659, 0.0284, 1.5362, 0.4328, 0.564, 0.6385, 0.533, 0.5635, 0.2051, 1.3534, 0.8968, 1.1799, 0.5896, 0.941, 0.8299, 1.0609, 1.5961, 0.08, 0.5185, 0.2682, 0.421, 1.8575, 1.4809, 0.2866, 0.5723, 0.6762, 1.0453]"
+    },
+    {
+      "seed": 1,
+      "noise": 0.3,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5516666666666666,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.3,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5855555555555556,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.3,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6061111111111112,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.3,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6172222222222222,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.3,
+      "representation": "Meta-FBOHN-v1-global",
+      "feature_dim": 30,
+      "accuracy": 0.6061111111111112,
+      "extra": "[0.3332, 0.6939, 0.8344, 0.1452, 0.5514]"
+    },
+    {
+      "seed": 1,
+      "noise": 0.3,
+      "representation": "Meta-FBOHN-v2-orbitwise",
+      "feature_dim": 30,
+      "accuracy": 0.6061111111111112,
+      "extra": "[0.7671, 0.1383, 0.2575, 0.144, 0.9264, 1.5165, 1.4678, 0.969, 0.4888, 1.1693, 0.3192, 1.489, 0.6802, 1.2179, 0.3234, 0.8025, 0.374, 0.7167, 0.277, 1.2188, 0.5658, 0.6017, 0.6595, 0.454, 2.4418, 0.1351, 0.9923, 1.5606, 1.4744, 0.3138]"
+    },
+    {
+      "seed": 2,
+      "noise": 0.3,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5394444444444444,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.3,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5905555555555555,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.3,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6188888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.3,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6327777777777778,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.3,
+      "representation": "Meta-FBOHN-v1-global",
+      "feature_dim": 30,
+      "accuracy": 0.6188888888888889,
+      "extra": "[1.4357, 0.2396, 0.4307, 0.2608, 2.3306]"
+    },
+    {
+      "seed": 2,
+      "noise": 0.3,
+      "representation": "Meta-FBOHN-v2-orbitwise",
+      "feature_dim": 30,
+      "accuracy": 0.6188888888888889,
+      "extra": "[0.7015, 1.5903, 1.1083, 0.8278, 0.2879, 0.4394, 1.2385, 0.4893, 0.2764, 1.0383, 0.744, 1.0021, 0.7616, 0.3188, 0.6803, 1.0534, 0.7803, 0.7315, 1.4423, 0.6847, 0.9767, 1.3162, 0.1897, 1.3826, 1.2831, 0.2604, 1.1231, 0.3893, 0.6818, 0.2112]"
+    },
+    {
+      "seed": 3,
+      "noise": 0.3,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5588888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.3,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5961111111111111,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.3,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6327777777777778,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.3,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6394444444444445,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.3,
+      "representation": "Meta-FBOHN-v1-global",
+      "feature_dim": 30,
+      "accuracy": 0.6327777777777778,
+      "extra": "[0.2237, 0.3748, 1.4019, 0.6675, 1.2218]"
+    },
+    {
+      "seed": 3,
+      "noise": 0.3,
+      "representation": "Meta-FBOHN-v2-orbitwise",
+      "feature_dim": 30,
+      "accuracy": 0.6327777777777778,
+      "extra": "[0.2027, 0.9021, 0.7832, 0.3143, 0.5075, 0.7369, 0.927, 0.4502, 2.9225, 0.5969, 0.7708, 1.4865, 0.7975, 0.2236, 1.1209, 0.5537, 0.9141, 0.6261, 1.0673, 0.8402, 1.7168, 1.1453, 0.7313, 0.6161, 2.596, 1.2441, 0.5303, 0.2363, 1.489, 0.3601]"
+    },
+    {
+      "seed": 4,
+      "noise": 0.3,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5361111111111111,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.3,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5983333333333334,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.3,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6322222222222222,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.3,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6238888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.3,
+      "representation": "Meta-FBOHN-v1-global",
+      "feature_dim": 30,
+      "accuracy": 0.6322222222222222,
+      "extra": "[0.7252, 1.6344, 0.2653, 1.2206, 0.4099]"
+    },
+    {
+      "seed": 4,
+      "noise": 0.3,
+      "representation": "Meta-FBOHN-v2-orbitwise",
+      "feature_dim": 30,
+      "accuracy": 0.6322222222222222,
+      "extra": "[0.2813, 0.9051, 1.5586, 0.7737, 0.2465, 0.6951, 0.4884, 1.2217, 0.5398, 0.5052, 0.4658, 0.2949, 0.7269, 0.8436, 0.257, 1.5369, 1.5391, 0.9583, 0.8227, 1.124, 0.8433, 0.1217, 0.3658, 0.2635, 0.4505, 0.9482, 0.8683, 1.3784, 0.791, 0.5862]"
+    },
+    {
+      "seed": 5,
+      "noise": 0.3,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5488888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.3,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5883333333333334,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.3,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6011111111111112,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.3,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6066666666666667,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.3,
+      "representation": "Meta-FBOHN-v1-global",
+      "feature_dim": 30,
+      "accuracy": 0.6011111111111112,
+      "extra": "[0.6587, 0.324, 0.7033, 0.4858, 0.6883]"
+    },
+    {
+      "seed": 5,
+      "noise": 0.3,
+      "representation": "Meta-FBOHN-v2-orbitwise",
+      "feature_dim": 30,
+      "accuracy": 0.6011111111111112,
+      "extra": "[0.6223, 0.355, 1.5851, 0.6411, 0.9518, 1.1097, 1.3473, 1.5813, 1.6013, 0.742, 0.2787, 0.3843, 0.6356, 0.207, 0.7763, 0.0534, 0.2806, 1.7688, 0.6734, 0.1148, 0.1556, 1.0591, 0.7108, 1.2173, 0.8538, 2.2176, 0.1465, 1.0924, 0.1384, 0.4948]"
+    },
+    {
+      "seed": 6,
+      "noise": 0.3,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5322222222222223,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.3,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5816666666666667,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.3,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.5955555555555555,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.3,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6011111111111112,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.3,
+      "representation": "Meta-FBOHN-v1-global",
+      "feature_dim": 30,
+      "accuracy": 0.5955555555555555,
+      "extra": "[1.0663, 0.2696, 1.4726, 0.8668, 0.3284]"
+    },
+    {
+      "seed": 6,
+      "noise": 0.3,
+      "representation": "Meta-FBOHN-v2-orbitwise",
+      "feature_dim": 30,
+      "accuracy": 0.5955555555555555,
+      "extra": "[0.7266, 0.6132, 0.297, 0.4047, 0.2387, 0.1323, 0.3744, 1.3917, 1.1373, 0.6517, 0.4196, 0.5948, 0.6257, 0.6144, 0.5597, 0.8374, 0.8548, 1.3138, 0.3602, 1.2501, 1.9989, 0.9522, 0.4798, 0.08, 0.3581, 0.7132, 1.0141, 1.9327, 0.3869, 1.4699]"
+    },
+    {
+      "seed": 7,
+      "noise": 0.3,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5405555555555556,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.3,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5827777777777777,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.3,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.61,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.3,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6138888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.3,
+      "representation": "Meta-FBOHN-v1-global",
+      "feature_dim": 30,
+      "accuracy": 0.61,
+      "extra": "[0.3502, 0.2621, 0.3093, 1.0658, 0.5456]"
+    },
+    {
+      "seed": 7,
+      "noise": 0.3,
+      "representation": "Meta-FBOHN-v2-orbitwise",
+      "feature_dim": 30,
+      "accuracy": 0.61,
+      "extra": "[1.9457, 1.4854, 0.3055, 0.6249, 2.0043, 0.7457, 0.9091, 0.7193, 0.2699, 0.4435, 0.5377, 2.0501, 1.2613, 0.5949, 0.9098, 0.6858, 0.8139, 1.3011, 0.4485, 1.8551, 2.1793, 1.0623, 0.9262, 0.5141, 0.5513, 0.4309, 1.1756, 0.3516, 1.3695, 1.0493]"
+    },
+    {
+      "seed": 8,
+      "noise": 0.3,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5438888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.3,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5961111111111111,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.3,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.63,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.3,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6405555555555555,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.3,
+      "representation": "Meta-FBOHN-v1-global",
+      "feature_dim": 30,
+      "accuracy": 0.63,
+      "extra": "[0.3454, 0.5704, 1.5195, 0.9386, 0.8253]"
+    },
+    {
+      "seed": 8,
+      "noise": 0.3,
+      "representation": "Meta-FBOHN-v2-orbitwise",
+      "feature_dim": 30,
+      "accuracy": 0.63,
+      "extra": "[0.711, 0.7742, 0.8339, 1.0881, 0.1709, 0.2112, 0.2128, 0.5035, 0.8655, 0.8743, 0.1784, 0.4216, 0.7979, 0.3801, 0.1963, 0.777, 1.1892, 0.7013, 0.6311, 0.41, 0.8806, 0.7978, 0.3787, 0.4782, 0.4485, 0.8438, 0.1386, 1.3315, 0.8201, 0.483]"
+    },
+    {
+      "seed": 9,
+      "noise": 0.3,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5388888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.3,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5744444444444444,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.3,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6155555555555555,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.3,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6216666666666667,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.3,
+      "representation": "Meta-FBOHN-v1-global",
+      "feature_dim": 30,
+      "accuracy": 0.6155555555555555,
+      "extra": "[0.4954, 0.2613, 0.181, 0.5152, 0.8836]"
+    },
+    {
+      "seed": 9,
+      "noise": 0.3,
+      "representation": "Meta-FBOHN-v2-orbitwise",
+      "feature_dim": 30,
+      "accuracy": 0.6155555555555555,
+      "extra": "[0.1441, 1.2068, 1.7815, 0.9708, 0.3644, 0.6099, 0.9181, 0.7998, 1.1502, 1.095, 1.6538, 1.3214, 0.5758, 1.4109, 0.5614, 3.2812, 1.8761, 0.5645, 0.0379, 1.8488, 0.2574, 0.6039, 0.6124, 0.1973, 0.9459, 0.4345, 0.4619, 0.3687, 1.081, 0.6226]"
+    },
+    {
+      "seed": 0,
+      "noise": 0.5,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5244444444444445,
+      "extra": ""
+    },
+    {
+      "seed": 0,
+      "noise": 0.5,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.56,
+      "extra": ""
+    },
+    {
+      "seed": 0,
+      "noise": 0.5,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.585,
+      "extra": ""
+    },
+    {
+      "seed": 0,
+      "noise": 0.5,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.605,
+      "extra": ""
+    },
+    {
+      "seed": 0,
+      "noise": 0.5,
+      "representation": "Meta-FBOHN-v1-global",
+      "feature_dim": 30,
+      "accuracy": 0.585,
+      "extra": "[1.4442, 1.0033, 1.0063, 1.3852, 0.1783]"
+    },
+    {
+      "seed": 0,
+      "noise": 0.5,
+      "representation": "Meta-FBOHN-v2-orbitwise",
+      "feature_dim": 30,
+      "accuracy": 0.585,
+      "extra": "[1.1699, 0.8128, 0.4898, 0.8107, 0.9289, 0.4188, 0.9521, 0.1605, 1.4958, 1.4962, 0.8809, 0.2529, 1.0229, 0.7211, 0.2486, 0.2244, 0.4059, 1.0857, 0.1271, 1.1983, 1.2781, 0.888, 1.4263, 0.5799, 0.3124, 0.7363, 0.568, 0.249, 0.5737, 0.3324]"
+    },
+    {
+      "seed": 1,
+      "noise": 0.5,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5338888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.5,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5733333333333334,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.5,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.5938888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.5,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.5955555555555555,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.5,
+      "representation": "Meta-FBOHN-v1-global",
+      "feature_dim": 30,
+      "accuracy": 0.5938888888888889,
+      "extra": "[1.047, 0.4379, 0.7582, 1.2953, 0.8328]"
+    },
+    {
+      "seed": 1,
+      "noise": 0.5,
+      "representation": "Meta-FBOHN-v2-orbitwise",
+      "feature_dim": 30,
+      "accuracy": 0.5938888888888889,
+      "extra": "[0.6034, 0.2315, 0.4076, 0.4105, 0.5453, 0.0615, 1.1413, 0.5558, 0.1831, 1.9932, 0.8783, 2.3078, 0.5232, 1.1427, 0.9901, 0.6694, 0.2668, 0.4948, 1.1472, 0.2353, 0.7927, 0.6238, 1.6429, 0.4896, 0.6451, 0.8739, 1.9147, 0.5479, 0.787, 1.1902]"
+    },
+    {
+      "seed": 2,
+      "noise": 0.5,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5505555555555556,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.5,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5794444444444444,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.5,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6044444444444445,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.5,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.62,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.5,
+      "representation": "Meta-FBOHN-v1-global",
+      "feature_dim": 30,
+      "accuracy": 0.6044444444444445,
+      "extra": "[1.2236, 0.526, 0.7276, 1.2648, 0.5003]"
+    },
+    {
+      "seed": 2,
+      "noise": 0.5,
+      "representation": "Meta-FBOHN-v2-orbitwise",
+      "feature_dim": 30,
+      "accuracy": 0.6044444444444445,
+      "extra": "[0.3347, 0.3431, 0.4527, 1.3636, 0.166, 0.7007, 0.126, 0.855, 0.6942, 0.917, 0.8408, 0.3685, 0.7668, 0.8327, 2.184, 0.5543, 0.4097, 1.6119, 0.6669, 0.2739, 0.4004, 1.3242, 0.6162, 0.661, 0.8606, 0.6572, 2.6353, 0.3144, 0.5865, 0.7589]"
+    },
+    {
+      "seed": 3,
+      "noise": 0.5,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5444444444444444,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.5,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5861111111111111,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.5,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6244444444444445,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.5,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.625,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.5,
+      "representation": "Meta-FBOHN-v1-global",
+      "feature_dim": 30,
+      "accuracy": 0.6244444444444445,
+      "extra": "[0.2154, 0.393, 0.4226, 0.7163, 0.7056]"
+    },
+    {
+      "seed": 3,
+      "noise": 0.5,
+      "representation": "Meta-FBOHN-v2-orbitwise",
+      "feature_dim": 30,
+      "accuracy": 0.6244444444444445,
+      "extra": "[0.4778, 0.1347, 0.3315, 1.291, 1.3079, 0.3721, 0.8635, 0.2841, 0.5452, 0.8577, 1.6498, 0.921, 0.6122, 0.9744, 0.8245, 0.9935, 0.6244, 0.3169, 1.2628, 0.4538, 1.1988, 0.6564, 2.0827, 1.2476, 0.5971, 1.6447, 0.8928, 1.7228, 0.7924, 0.4144]"
+    },
+    {
+      "seed": 4,
+      "noise": 0.5,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5227777777777778,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.5,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.6055555555555555,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.5,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.63,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.5,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6161111111111112,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.5,
+      "representation": "Meta-FBOHN-v1-global",
+      "feature_dim": 30,
+      "accuracy": 0.63,
+      "extra": "[0.1625, 1.6389, 0.9149, 0.3732, 0.5248]"
+    },
+    {
+      "seed": 4,
+      "noise": 0.5,
+      "representation": "Meta-FBOHN-v2-orbitwise",
+      "feature_dim": 30,
+      "accuracy": 0.63,
+      "extra": "[0.2285, 0.2299, 0.1463, 0.6279, 1.1585, 0.7678, 0.5532, 0.6278, 0.3938, 0.6644, 0.6809, 1.2686, 1.0159, 1.5923, 0.6871, 0.466, 0.5004, 1.5781, 0.4238, 0.3718, 0.6461, 0.5621, 0.8172, 0.3313, 0.365, 0.9967, 0.4104, 1.0437, 0.4877, 0.7794]"
+    },
+    {
+      "seed": 5,
+      "noise": 0.5,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5527777777777778,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.5,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.6011111111111112,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.5,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6105555555555555,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.5,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6216666666666667,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.5,
+      "representation": "Meta-FBOHN-v1-global",
+      "feature_dim": 30,
+      "accuracy": 0.6105555555555555,
+      "extra": "[0.8528, 0.1597, 0.1509, 1.419, 0.9584]"
+    },
+    {
+      "seed": 5,
+      "noise": 0.5,
+      "representation": "Meta-FBOHN-v2-orbitwise",
+      "feature_dim": 30,
+      "accuracy": 0.6105555555555555,
+      "extra": "[1.9058, 0.3235, 0.9722, 0.5618, 0.5129, 1.6729, 0.5368, 0.7077, 0.9628, 0.3603, 0.4814, 0.6037, 0.5658, 0.812, 1.2309, 1.1323, 0.163, 1.5305, 0.4035, 1.7236, 0.2813, 1.7666, 1.0222, 0.4616, 1.1369, 0.6875, 0.3664, 1.1171, 1.5987, 0.4121]"
+    },
+    {
+      "seed": 6,
+      "noise": 0.5,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5233333333333333,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.5,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5633333333333334,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.5,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.5988888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.5,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.5855555555555556,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.5,
+      "representation": "Meta-FBOHN-v1-global",
+      "feature_dim": 30,
+      "accuracy": 0.5988888888888889,
+      "extra": "[0.6097, 0.2472, 0.5837, 0.8668, 0.6174]"
+    },
+    {
+      "seed": 6,
+      "noise": 0.5,
+      "representation": "Meta-FBOHN-v2-orbitwise",
+      "feature_dim": 30,
+      "accuracy": 0.5988888888888889,
+      "extra": "[0.8079, 1.7748, 1.3099, 2.614, 1.6332, 0.1899, 1.3527, 0.5931, 1.1926, 0.5179, 0.7264, 0.5299, 0.6521, 1.3299, 0.3012, 0.3623, 1.9275, 0.1712, 1.792, 0.412, 1.9727, 1.5022, 0.282, 0.9415, 0.8934, 0.7569, 0.2767, 0.45, 0.3833, 1.5245]"
+    },
+    {
+      "seed": 7,
+      "noise": 0.5,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5488888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.5,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.6038888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.5,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.62,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.5,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6283333333333333,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.5,
+      "representation": "Meta-FBOHN-v1-global",
+      "feature_dim": 30,
+      "accuracy": 0.62,
+      "extra": "[0.4227, 1.6595, 0.6136, 0.2863, 0.4522]"
+    },
+    {
+      "seed": 7,
+      "noise": 0.5,
+      "representation": "Meta-FBOHN-v2-orbitwise",
+      "feature_dim": 30,
+      "accuracy": 0.62,
+      "extra": "[0.6278, 0.5957, 1.2088, 1.6307, 0.4929, 0.3922, 1.357, 1.3317, 0.9168, 0.6445, 0.9639, 0.2954, 1.778, 0.3188, 0.2652, 0.6473, 0.9608, 0.1777, 1.2474, 0.5796, 0.4316, 0.3136, 2.3765, 0.3554, 0.6133, 0.7135, 0.9579, 1.3495, 0.7784, 1.2765]"
+    },
+    {
+      "seed": 8,
+      "noise": 0.5,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5455555555555556,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.5,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5922222222222222,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.5,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6188888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.5,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6211111111111111,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.5,
+      "representation": "Meta-FBOHN-v1-global",
+      "feature_dim": 30,
+      "accuracy": 0.6188888888888889,
+      "extra": "[0.8226, 0.1481, 1.9516, 1.0515, 0.6627]"
+    },
+    {
+      "seed": 8,
+      "noise": 0.5,
+      "representation": "Meta-FBOHN-v2-orbitwise",
+      "feature_dim": 30,
+      "accuracy": 0.6188888888888889,
+      "extra": "[2.3862, 0.4198, 0.8803, 0.3003, 0.9872, 1.0213, 1.2655, 0.0974, 1.9781, 0.3115, 1.4602, 2.1428, 0.753, 0.5859, 0.7385, 0.8572, 1.8575, 0.2475, 1.2562, 0.5942, 0.1376, 0.6422, 1.011, 0.6206, 0.7046, 1.2017, 1.1026, 0.5151, 0.3852, 0.2735]"
+    },
+    {
+      "seed": 9,
+      "noise": 0.5,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5383333333333333,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.5,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5711111111111111,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.5,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6061111111111112,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.5,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6077777777777778,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.5,
+      "representation": "Meta-FBOHN-v1-global",
+      "feature_dim": 30,
+      "accuracy": 0.6061111111111112,
+      "extra": "[0.9039, 1.1409, 0.7651, 0.2538, 0.7583]"
+    },
+    {
+      "seed": 9,
+      "noise": 0.5,
+      "representation": "Meta-FBOHN-v2-orbitwise",
+      "feature_dim": 30,
+      "accuracy": 0.6061111111111112,
+      "extra": "[0.6594, 1.5343, 0.2255, 0.2241, 0.4265, 1.1057, 0.9079, 0.277, 1.4297, 1.226, 1.7939, 0.3715, 0.3248, 0.5163, 0.3817, 0.1065, 0.5767, 0.2438, 0.2492, 1.1278, 1.2343, 2.0057, 0.5245, 1.5154, 0.0465, 0.7791, 0.8011, 0.5131, 1.1693, 0.2046]"
+    }
+  ],
+  "summary": [
+    {
+      "noise": 0.0,
+      "representation": "BOHN",
+      "acc_mean": 0.6046111111111111,
+      "acc_std": 0.009504348871031451,
+      "feature_dim": 18.0
+    },
+    {
+      "noise": 0.0,
+      "representation": "FBOHN",
+      "acc_mean": 0.6224444444444445,
+      "acc_std": 0.006319130707176097,
+      "feature_dim": 30.0
+    },
+    {
+      "noise": 0.0,
+      "representation": "FBOHN-poly-control",
+      "acc_mean": 0.6350555555555555,
+      "acc_std": 0.006037434660843179,
+      "feature_dim": 84.0
+    },
+    {
+      "noise": 0.0,
+      "representation": "Meta-FBOHN-v1-global",
+      "acc_mean": 0.6224444444444445,
+      "acc_std": 0.006319130707176097,
+      "feature_dim": 30.0
+    },
+    {
+      "noise": 0.0,
+      "representation": "Meta-FBOHN-v2-orbitwise",
+      "acc_mean": 0.6224444444444445,
+      "acc_std": 0.006319130707176097,
+      "feature_dim": 30.0
+    },
+    {
+      "noise": 0.0,
+      "representation": "RAW",
+      "acc_mean": 0.5496111111111112,
+      "acc_std": 0.012286726530448168,
+      "feature_dim": 18.0
+    },
+    {
+      "noise": 0.1,
+      "representation": "BOHN",
+      "acc_mean": 0.6002222222222222,
+      "acc_std": 0.011197809897567372,
+      "feature_dim": 18.0
+    },
+    {
+      "noise": 0.1,
+      "representation": "FBOHN",
+      "acc_mean": 0.6261111111111111,
+      "acc_std": 0.011929721043263978,
+      "feature_dim": 30.0
+    },
+    {
+      "noise": 0.1,
+      "representation": "FBOHN-poly-control",
+      "acc_mean": 0.6303333333333334,
+      "acc_std": 0.01246449002806806,
+      "feature_dim": 84.0
+    },
+    {
+      "noise": 0.1,
+      "representation": "Meta-FBOHN-v1-global",
+      "acc_mean": 0.6261111111111111,
+      "acc_std": 0.011929721043263978,
+      "feature_dim": 30.0
+    },
+    {
+      "noise": 0.1,
+      "representation": "Meta-FBOHN-v2-orbitwise",
+      "acc_mean": 0.6261111111111111,
+      "acc_std": 0.011929721043263978,
+      "feature_dim": 30.0
+    },
+    {
+      "noise": 0.1,
+      "representation": "RAW",
+      "acc_mean": 0.545,
+      "acc_std": 0.010180133427322052,
+      "feature_dim": 18.0
+    },
+    {
+      "noise": 0.3,
+      "representation": "BOHN",
+      "acc_mean": 0.5887777777777778,
+      "acc_std": 0.007679270370005106,
+      "feature_dim": 18.0
+    },
+    {
+      "noise": 0.3,
+      "representation": "FBOHN",
+      "acc_mean": 0.6150555555555556,
+      "acc_std": 0.013218253372598923,
+      "feature_dim": 30.0
+    },
+    {
+      "noise": 0.3,
+      "representation": "FBOHN-poly-control",
+      "acc_mean": 0.6217777777777778,
+      "acc_std": 0.013038930838881104,
+      "feature_dim": 84.0
+    },
+    {
+      "noise": 0.3,
+      "representation": "Meta-FBOHN-v1-global",
+      "acc_mean": 0.6150555555555556,
+      "acc_std": 0.013218253372598923,
+      "feature_dim": 30.0
+    },
+    {
+      "noise": 0.3,
+      "representation": "Meta-FBOHN-v2-orbitwise",
+      "acc_mean": 0.6150555555555556,
+      "acc_std": 0.013218253372598923,
+      "feature_dim": 30.0
+    },
+    {
+      "noise": 0.3,
+      "representation": "RAW",
+      "acc_mean": 0.5426666666666666,
+      "acc_std": 0.008222722707490478,
+      "feature_dim": 18.0
+    },
+    {
+      "noise": 0.5,
+      "representation": "BOHN",
+      "acc_mean": 0.5836111111111111,
+      "acc_std": 0.016757468699109834,
+      "feature_dim": 18.0
+    },
+    {
+      "noise": 0.5,
+      "representation": "FBOHN",
+      "acc_mean": 0.6092222222222222,
+      "acc_std": 0.014282568730705466,
+      "feature_dim": 30.0
+    },
+    {
+      "noise": 0.5,
+      "representation": "FBOHN-poly-control",
+      "acc_mean": 0.6126111111111111,
+      "acc_std": 0.013848212039118431,
+      "feature_dim": 84.0
+    },
+    {
+      "noise": 0.5,
+      "representation": "Meta-FBOHN-v1-global",
+      "acc_mean": 0.6092222222222222,
+      "acc_std": 0.014282568730705466,
+      "feature_dim": 30.0
+    },
+    {
+      "noise": 0.5,
+      "representation": "Meta-FBOHN-v2-orbitwise",
+      "acc_mean": 0.6092222222222222,
+      "acc_std": 0.014282568730705466,
+      "feature_dim": 30.0
+    },
+    {
+      "noise": 0.5,
+      "representation": "RAW",
+      "acc_mean": 0.5385,
+      "acc_std": 0.011729840716621498,
+      "feature_dim": 18.0
+    }
+  ]
+}

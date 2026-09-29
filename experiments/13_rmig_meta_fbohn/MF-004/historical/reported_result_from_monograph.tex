@@ -1,0 +1,46 @@
+\section{Meta-FBOHN v4: Symbolic Orbit Composer}
+\label{sec:meta_fbohn_v4}
+
+\subsection{Idea}
+Variant v4 introduced evolutionary composition of symbolic operators between FBOHN features:
+\[
+z_k=\operatorname{op}(F_i,F_j),
+\]
+where
+\[
+\operatorname{op}\in\{+,-,\times,/,\sqrt{|ab|},|a-b|,\tanh(a-b),\tanh(a+b)\}.
+\]
+
+\subsection{Results}
+\begin{center}
+\begin{tabular}{lrr}
+\toprule
+Model & Number of features & Typical accuracy\\
+\midrule
+RAW & 18 & 0.53--0.55\\
+BOHN & 18 & 0.58--0.61\\
+FBOHN & 30 & 0.60--0.63\\
+FBOHN-poly-control & 84 & 0.60--0.64\\
+Meta-FBOHN v4 & 46 & 0.63--0.67\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{Operator Analysis}
+The best genomes frequently contained operators:
+\[
+\times,\quad |a-b|,\quad \sqrt{|ab|},\quad \tanh(a-b),\quad /.
+\]
+Simple sums were less dominant. This suggests that the essential information lies not in individual FBOHN features but in the relations between them.
+
+Examples of discovered symbols:
+\[
+(M_4L_0),\quad (M_1M_2),\quad \sqrt{|E_1A_3|},\quad |L_1-L_2|,
+\quad \tanh(S_4+L_2).
+\]
+
+\subsection{Conclusion}
+\[
+\boxed{\text{Meta-FBOHN v4 for the first time discovers new, interpretable relational operators.}}
+\]
+This is a qualitatively different stage from learning weights or dense matrices.

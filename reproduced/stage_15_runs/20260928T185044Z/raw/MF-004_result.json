@@ -1,0 +1,1764 @@
+{
+  "program": "v4",
+  "protocol": {
+    "samples": 6000,
+    "seeds": 10,
+    "noises": [
+      0.0,
+      0.1,
+      0.3,
+      0.5
+    ],
+    "population": 80,
+    "generations": 30,
+    "elite": 8,
+    "mix_features": 12,
+    "n_symbolic": 16,
+    "discovery_runs": 0,
+    "library_size": 0
+  },
+  "rows": [
+    {
+      "seed": 0,
+      "noise": 0.0,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5494444444444444,
+      "extra": ""
+    },
+    {
+      "seed": 0,
+      "noise": 0.0,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.6038888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 0,
+      "noise": 0.0,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6277777777777778,
+      "extra": ""
+    },
+    {
+      "seed": 0,
+      "noise": 0.0,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6338888888888888,
+      "extra": ""
+    },
+    {
+      "seed": 0,
+      "noise": 0.0,
+      "representation": "Meta-FBOHN-v4-single",
+      "feature_dim": 46,
+      "accuracy": 0.6655555555555556,
+      "extra": "['sqrt(|L_0*L_5|)', 'tanh(L_2+S_5)', '(E_2+M_3)', 'sqrt(|A_0*M_3|)', '(A_0/|L_5|)', '|L_0-L_1|', '(E_5-L_4)', '|S_2-S_3|', '(S_2+M_1)', '(L_1+E_1)', 'sqrt(|A_3*S_4|)', 'tanh(M_3-M_3)', '|A_4-L_5|', '(M_0*M_4)', '(M_2*L_1)', '(L_3-M_2)']"
+    },
+    {
+      "seed": 1,
+      "noise": 0.0,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.545,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.0,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.6127777777777778,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.0,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.635,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.0,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6338888888888888,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.0,
+      "representation": "Meta-FBOHN-v4-single",
+      "feature_dim": 46,
+      "accuracy": 0.6422222222222222,
+      "extra": "['(S_1+E_4)', '(M_1*M_0)', 'sqrt(|M_0*A_1|)', '|L_4-L_0|', '|S_1-L_0|', '(L_3*M_0)', '|A_2-A_1|', '|S_2-S_5|', '(L_1*L_2)', '(L_3+S_0)', '(A_5-E_0)', '|A_4-L_2|', 'sqrt(|A_2*E_2|)', '(S_1/|S_5|)', 'sqrt(|A_4*M_0|)', '(S_5/|S_2|)']"
+    },
+    {
+      "seed": 2,
+      "noise": 0.0,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.525,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.0,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.6011111111111112,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.0,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6194444444444445,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.0,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6205555555555555,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.0,
+      "representation": "Meta-FBOHN-v4-single",
+      "feature_dim": 46,
+      "accuracy": 0.65,
+      "extra": "['(M_2+S_5)', '(E_5*L_4)', '(M_4/|E_1|)', 'sqrt(|M_5*M_4|)', '(L_0*M_4)', 'tanh(L_4-M_3)', '(L_2+E_2)', '(M_1*M_3)', '(M_1/|S_5|)', '|E_4-S_4|', '(E_0+E_0)', '(A_1*E_3)', 'tanh(A_4+S_4)', 'tanh(L_0-M_1)', 'sqrt(|L_3*A_0|)', 'tanh(S_1-A_5)']"
+    },
+    {
+      "seed": 3,
+      "noise": 0.0,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5533333333333333,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.0,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.6072222222222222,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.0,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6244444444444445,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.0,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6361111111111111,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.0,
+      "representation": "Meta-FBOHN-v4-single",
+      "feature_dim": 46,
+      "accuracy": 0.6544444444444445,
+      "extra": "['(M_4*M_0)', '(S_2*S_2)', '(E_0+A_4)', '(S_1-A_4)', '(L_5-A_1)', '(L_4+S_4)', 'tanh(A_3+M_4)', 'tanh(M_1-E_1)', 'sqrt(|M_2*L_3|)', '(S_2-S_4)', 'sqrt(|M_2*E_2|)', 'tanh(S_3+E_0)', '(A_0-L_5)', '|A_5-E_0|', '(M_1*S_0)', '(M_5/|M_2|)']"
+    },
+    {
+      "seed": 4,
+      "noise": 0.0,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5533333333333333,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.0,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.6266666666666667,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.0,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6244444444444445,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.0,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6438888888888888,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.0,
+      "representation": "Meta-FBOHN-v4-single",
+      "feature_dim": 46,
+      "accuracy": 0.6466666666666666,
+      "extra": "['(M_1/|E_5|)', '(S_5+A_0)', 'sqrt(|E_0*L_3|)', 'tanh(A_5-S_3)', '(A_5/|M_3|)', '(M_5*E_3)', '(L_5*E_5)', '(E_0*S_4)', 'tanh(M_1+A_2)', '(A_4/|S_2|)', '(M_4*M_0)', '|S_3-S_0|', '(A_3*E_5)', '|A_1-M_0|', 'tanh(A_3-A_0)', '(M_3/|M_4|)']"
+    },
+    {
+      "seed": 5,
+      "noise": 0.0,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5738888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.0,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.6038888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.0,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6161111111111112,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.0,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.635,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.0,
+      "representation": "Meta-FBOHN-v4-single",
+      "feature_dim": 46,
+      "accuracy": 0.6372222222222222,
+      "extra": "['(E_1*E_2)', '(E_3*A_5)', 'tanh(S_3-A_4)', '(M_5-A_0)', 'sqrt(|L_4*S_4|)', '|M_4-A_4|', 'tanh(E_5-E_0)', '(L_2*M_4)', '(L_4/|M_2|)', '|E_4-S_3|', 'sqrt(|S_1*L_1|)', 'sqrt(|E_2*M_0|)', '(E_5+L_2)', 'sqrt(|L_2*S_3|)', '(L_3*S_4)', '(L_4/|E_3|)']"
+    },
+    {
+      "seed": 6,
+      "noise": 0.0,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5561111111111111,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.0,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.595,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.0,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6161111111111112,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.0,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6344444444444445,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.0,
+      "representation": "Meta-FBOHN-v4-single",
+      "feature_dim": 46,
+      "accuracy": 0.6411111111111111,
+      "extra": "['|L_4-A_3|', '(L_1-S_2)', 'sqrt(|E_4*S_1|)', '(L_2/|M_1|)', '|M_3-L_5|', '|L_1-M_3|', 'tanh(M_5-M_0)', 'tanh(M_5+L_5)', '(M_2*M_1)', 'tanh(L_1-L_2)', '(A_1*M_2)', 'tanh(A_0-M_0)', '(M_0+L_1)', 'tanh(E_5-M_1)', '(E_4/|S_5|)', '(S_0*A_2)']"
+    },
+    {
+      "seed": 7,
+      "noise": 0.0,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5494444444444444,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.0,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5938888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.0,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6238888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.0,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6344444444444445,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.0,
+      "representation": "Meta-FBOHN-v4-single",
+      "feature_dim": 46,
+      "accuracy": 0.6572222222222223,
+      "extra": "['(M_4/|M_0|)', '|M_4-M_0|', '|M_3-L_5|', '(A_2/|A_1|)', '(L_4*E_4)', '(E_5+L_3)', '(L_2*L_1)', '(M_2+L_1)', 'tanh(S_3+L_3)', '(L_2-S_2)', 'tanh(S_2-M_5)', '(A_3/|E_2|)', 'sqrt(|L_0*E_4|)', 'tanh(E_3-A_2)', '|M_3-L_3|', '(L_1/|E_5|)']"
+    },
+    {
+      "seed": 8,
+      "noise": 0.0,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5494444444444444,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.0,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.6022222222222222,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.0,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6138888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.0,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6383333333333333,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.0,
+      "representation": "Meta-FBOHN-v4-single",
+      "feature_dim": 46,
+      "accuracy": 0.6383333333333333,
+      "extra": "['(A_4+E_5)', '(S_4/|M_4|)', 'tanh(E_5-S_1)', '(S_2+L_1)', '(L_1*L_5)', 'tanh(S_1-L_0)', 'tanh(S_4+S_4)', 'tanh(A_5-M_5)', 'sqrt(|S_4*S_4|)', '(M_2*E_4)', '(L_2*S_4)', '(E_0+S_2)', '(L_2*L_1)', '(A_0/|M_0|)', 'tanh(L_2+A_5)', '(L_4-E_1)']"
+    },
+    {
+      "seed": 9,
+      "noise": 0.0,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5411111111111111,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.0,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5994444444444444,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.0,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6233333333333333,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.0,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.64,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.0,
+      "representation": "Meta-FBOHN-v4-single",
+      "feature_dim": 46,
+      "accuracy": 0.6655555555555556,
+      "extra": "['|M_1-A_4|', '(M_2*A_1)', '(A_1-E_1)', 'sqrt(|S_2*L_1|)', '(E_1+S_1)', 'tanh(S_0+S_5)', 'sqrt(|A_4*S_3|)', '(A_1+S_1)', '(A_2*E_3)', '(S_3/|A_0|)', 'tanh(L_1-L_1)', '(S_3+S_4)', '|S_4-L_3|', '(M_0*L_4)', '(M_1*M_2)', 'sqrt(|A_4*L_3|)']"
+    },
+    {
+      "seed": 0,
+      "noise": 0.1,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5427777777777778,
+      "extra": ""
+    },
+    {
+      "seed": 0,
+      "noise": 0.1,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5938888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 0,
+      "noise": 0.1,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6155555555555555,
+      "extra": ""
+    },
+    {
+      "seed": 0,
+      "noise": 0.1,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6372222222222222,
+      "extra": ""
+    },
+    {
+      "seed": 0,
+      "noise": 0.1,
+      "representation": "Meta-FBOHN-v4-single",
+      "feature_dim": 46,
+      "accuracy": 0.6666666666666666,
+      "extra": "['(E_1/|L_0|)', '(M_2*L_4)', '(L_0*M_4)', 'tanh(E_1+A_3)', 'tanh(S_0+M_1)', '(L_5-E_4)', 'tanh(L_5-L_2)', 'tanh(A_2+M_3)', '(S_4-S_5)', 'sqrt(|A_0*M_3|)', '(L_0*E_2)', '(S_5/|M_5|)', '(L_2*L_1)', '(M_5*M_4)', '(M_2*M_1)', 'tanh(M_2+A_0)']"
+    },
+    {
+      "seed": 1,
+      "noise": 0.1,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5438888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.1,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5855555555555556,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.1,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6066666666666667,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.1,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6027777777777777,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.1,
+      "representation": "Meta-FBOHN-v4-single",
+      "feature_dim": 46,
+      "accuracy": 0.6427777777777778,
+      "extra": "['(M_2*M_0)', 'tanh(S_1+M_3)', 'tanh(L_2-S_5)', '(A_1/|E_2|)', '(M_0-S_5)', 'tanh(S_3+L_2)', 'tanh(E_4-L_0)', 'tanh(M_4-E_5)', '(E_3+S_1)', '(M_4*L_0)', 'tanh(E_4+A_0)', '(E_2-A_2)', '(A_2/|A_3|)', '(L_2*L_1)', 'tanh(E_3+M_1)', '(E_5*E_1)']"
+    },
+    {
+      "seed": 2,
+      "noise": 0.1,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5333333333333333,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.1,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5883333333333334,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.1,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6261111111111111,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.1,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6288888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.1,
+      "representation": "Meta-FBOHN-v4-single",
+      "feature_dim": 46,
+      "accuracy": 0.6638888888888889,
+      "extra": "['(S_3*A_3)', '(L_4/|A_0|)', '(L_5-A_5)', '(E_1*A_1)', '|A_2-L_4|', '(M_2*M_4)', '(M_2*A_1)', 'sqrt(|L_2*M_5|)', '(L_4*L_4)', 'tanh(E_4+M_5)', '|L_1-L_2|', '(M_4*M_0)', 'tanh(L_4+E_4)', '(E_0-L_2)', '|A_3-E_2|', '(M_0*E_5)']"
+    },
+    {
+      "seed": 3,
+      "noise": 0.1,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5555555555555556,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.1,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.6177777777777778,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.1,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6477777777777778,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.1,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6455555555555555,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.1,
+      "representation": "Meta-FBOHN-v4-single",
+      "feature_dim": 46,
+      "accuracy": 0.6694444444444444,
+      "extra": "['(M_1*L_0)', '|E_4-A_3|', 'tanh(L_4-S_4)', '(M_0-M_1)', '|S_2-M_0|', 'tanh(A_3-L_0)', '(E_3/|A_0|)', 'tanh(A_0+E_5)', '(E_1*L_4)', '(M_1*S_2)', '(A_4*M_4)', 'sqrt(|L_5*M_3|)', '(E_5+S_2)', '(S_3+L_5)', '(M_4*M_0)', '(L_3+S_0)']"
+    },
+    {
+      "seed": 4,
+      "noise": 0.1,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.545,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.1,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.61,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.1,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6272222222222222,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.1,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6383333333333333,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.1,
+      "representation": "Meta-FBOHN-v4-single",
+      "feature_dim": 46,
+      "accuracy": 0.6522222222222223,
+      "extra": "['(A_0+E_2)', '|E_2-A_0|', '|A_4-M_3|', '(L_4*L_0)', '(L_3*M_1)', '(A_3*S_5)', 'tanh(M_0+L_4)', '|A_2-A_3|', '(S_4+L_5)', '|M_2-M_0|', '(S_5/|L_2|)', '(E_4*L_0)', '|L_2-L_1|', '(E_5*M_1)', 'tanh(A_5-E_0)', 'tanh(E_3-M_0)']"
+    },
+    {
+      "seed": 5,
+      "noise": 0.1,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5633333333333334,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.1,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.6144444444444445,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.1,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6355555555555555,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.1,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6316666666666667,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.1,
+      "representation": "Meta-FBOHN-v4-single",
+      "feature_dim": 46,
+      "accuracy": 0.6572222222222223,
+      "extra": "['(M_0/|L_4|)', '(A_0+S_5)', 'tanh(M_2-L_3)', '(S_4*S_4)', '(A_3*L_4)', 'tanh(S_3-L_0)', '(E_1/|E_3|)', 'sqrt(|S_1*S_1|)', '|E_1-M_1|', 'tanh(M_4+A_2)', 'tanh(L_1+M_4)', '(L_1*L_2)', '(M_2+S_3)', 'sqrt(|M_0*M_2|)', 'tanh(M_2+M_5)', '(M_0-E_4)']"
+    },
+    {
+      "seed": 6,
+      "noise": 0.1,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5422222222222223,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.1,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5922222222222222,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.1,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6272222222222222,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.1,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6216666666666667,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.1,
+      "representation": "Meta-FBOHN-v4-single",
+      "feature_dim": 46,
+      "accuracy": 0.6577777777777778,
+      "extra": "['(L_4*M_0)', '(M_5+E_2)', '|L_0-A_5|', 'tanh(A_4-E_4)', 'tanh(M_3-A_1)', 'tanh(A_5+L_1)', '(L_1*M_0)', '(L_5/|M_3|)', '(A_5+L_4)', '(E_4/|E_5|)', 'sqrt(|A_5*S_1|)', '(S_0/|M_5|)', '(M_2*M_1)', 'sqrt(|M_2*L_1|)', '(L_1-L_1)', 'tanh(M_5-M_0)']"
+    },
+    {
+      "seed": 7,
+      "noise": 0.1,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5544444444444444,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.1,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.6055555555555555,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.1,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6322222222222222,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.1,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6355555555555555,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.1,
+      "representation": "Meta-FBOHN-v4-single",
+      "feature_dim": 46,
+      "accuracy": 0.6572222222222223,
+      "extra": "['|M_2-E_2|', '(E_2*E_4)', 'tanh(M_2+E_1)', '(M_3/|M_3|)', '|L_1-L_2|', 'tanh(M_5-M_5)', 'tanh(E_3-A_5)', 'tanh(E_0+M_3)', '|M_2-M_0|', '(L_2*M_4)', '(E_5/|L_1|)', '(L_2*L_3)', 'sqrt(|A_1*L_4|)', '(M_4-A_5)', 'tanh(A_4+L_2)', 'sqrt(|L_3*A_2|)']"
+    },
+    {
+      "seed": 8,
+      "noise": 0.1,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5305555555555556,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.1,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5944444444444444,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.1,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6127777777777778,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.1,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6211111111111111,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.1,
+      "representation": "Meta-FBOHN-v4-single",
+      "feature_dim": 46,
+      "accuracy": 0.6511111111111111,
+      "extra": "['(L_2*M_4)', 'sqrt(|L_0*E_0|)', 'sqrt(|A_5*S_1|)', '(A_3*L_3)', 'sqrt(|S_2*E_5|)', '(L_1*L_5)', '(M_1/|A_0|)', 'tanh(L_1+E_0)', '(L_4*M_0)', '(L_5-S_0)', 'tanh(E_4-M_4)', '(L_2/|E_3|)', '|L_4-M_3|', 'tanh(E_2+L_0)', '(L_1*L_2)', '(S_1-E_3)']"
+    },
+    {
+      "seed": 9,
+      "noise": 0.1,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5388888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.1,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.6,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.1,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.63,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.1,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6405555555555555,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.1,
+      "representation": "Meta-FBOHN-v4-single",
+      "feature_dim": 46,
+      "accuracy": 0.655,
+      "extra": "['(M_5/|L_5|)', '(A_4/|A_4|)', '(E_1-A_0)', 'tanh(S_4+M_3)', '(L_0*M_4)', '(A_4*A_0)', 'tanh(S_3+E_4)', 'tanh(A_5+E_5)', '(M_4*S_3)', '(A_4*E_2)', '(L_2+E_1)', '|L_2-L_1|', 'sqrt(|M_3*E_3|)', '|S_5-A_0|', '|L_2-M_3|', '|L_5-E_3|']"
+    },
+    {
+      "seed": 0,
+      "noise": 0.3,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5361111111111111,
+      "extra": ""
+    },
+    {
+      "seed": 0,
+      "noise": 0.3,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5938888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 0,
+      "noise": 0.3,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6083333333333333,
+      "extra": ""
+    },
+    {
+      "seed": 0,
+      "noise": 0.3,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6205555555555555,
+      "extra": ""
+    },
+    {
+      "seed": 0,
+      "noise": 0.3,
+      "representation": "Meta-FBOHN-v4-single",
+      "feature_dim": 46,
+      "accuracy": 0.6405555555555555,
+      "extra": "['tanh(M_1+M_0)', '(S_0/|L_4|)', 'tanh(A_5-M_2)', '(M_0*E_2)', 'sqrt(|L_1*S_1|)', 'tanh(E_0-A_4)', 'tanh(E_0-E_2)', '(E_2-E_4)', '(M_4*M_0)', '(A_3+A_2)', '(M_2*E_3)', '(E_2+E_3)', '(E_4+A_3)', '(L_4*M_3)', '(A_4-A_5)', 'sqrt(|M_3*S_0|)']"
+    },
+    {
+      "seed": 1,
+      "noise": 0.3,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5516666666666666,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.3,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5855555555555556,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.3,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6061111111111112,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.3,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6172222222222222,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.3,
+      "representation": "Meta-FBOHN-v4-single",
+      "feature_dim": 46,
+      "accuracy": 0.6194444444444445,
+      "extra": "['(E_0/|E_4|)', '(M_1+M_4)', '|A_4-L_0|', 'sqrt(|E_3*S_1|)', '|E_1-E_3|', 'tanh(A_3-A_2)', '(A_5/|M_3|)', '(S_4/|E_5|)', '(L_1*L_0)', '(E_3/|L_0|)', 'tanh(S_5+M_5)', '(L_1-M_4)', '(M_4*M_0)', 'tanh(E_3-E_5)', '(L_5+E_5)', 'tanh(E_1-M_2)']"
+    },
+    {
+      "seed": 2,
+      "noise": 0.3,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5394444444444444,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.3,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5905555555555555,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.3,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6188888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.3,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6327777777777778,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.3,
+      "representation": "Meta-FBOHN-v4-single",
+      "feature_dim": 46,
+      "accuracy": 0.64,
+      "extra": "['(S_3*L_2)', '(L_5-A_5)', '(M_4*E_2)', 'sqrt(|E_5*E_4|)', '|A_0-A_4|', '(E_4-E_0)', '(S_1/|E_2|)', '(M_0*M_4)', 'tanh(A_0+M_5)', '(M_5+E_1)', '(M_3*L_4)', '(A_0/|E_3|)', '(A_2-E_2)', '(A_4-L_2)', 'sqrt(|S_5*L_3|)', '(L_0/|A_5|)']"
+    },
+    {
+      "seed": 3,
+      "noise": 0.3,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5588888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.3,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5961111111111111,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.3,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6327777777777778,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.3,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6394444444444445,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.3,
+      "representation": "Meta-FBOHN-v4-single",
+      "feature_dim": 46,
+      "accuracy": 0.6427777777777778,
+      "extra": "['tanh(M_0+M_5)', '|L_4-S_2|', '(M_0+E_0)', 'tanh(A_0+M_0)', '(S_5-M_1)', 'sqrt(|E_4*L_5|)', '|E_3-M_1|', '(L_0*E_4)', 'tanh(S_5-M_4)', 'tanh(A_5+L_0)', 'tanh(M_1+A_0)', '(E_1*A_1)', 'sqrt(|A_3*M_2|)', '|M_1-L_0|', '|L_0-M_4|', 'tanh(A_1-L_1)']"
+    },
+    {
+      "seed": 4,
+      "noise": 0.3,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5361111111111111,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.3,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5983333333333334,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.3,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6322222222222222,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.3,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6238888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.3,
+      "representation": "Meta-FBOHN-v4-single",
+      "feature_dim": 46,
+      "accuracy": 0.6538888888888889,
+      "extra": "['tanh(L_5-A_1)', '(L_0*S_3)', 'tanh(A_5+S_2)', 'sqrt(|A_0*L_2|)', '(M_0*L_0)', '|S_2-S_3|', '(M_2-M_1)', '|L_1-S_4|', 'tanh(A_3-M_0)', 'sqrt(|S_0*E_3|)', '(M_0*L_4)', 'tanh(L_5-A_4)', 'sqrt(|L_3*M_4|)', 'sqrt(|S_3*S_0|)', '(A_0*E_5)', 'tanh(E_4+L_5)']"
+    },
+    {
+      "seed": 5,
+      "noise": 0.3,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5488888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.3,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5883333333333334,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.3,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6011111111111112,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.3,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6066666666666667,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.3,
+      "representation": "Meta-FBOHN-v4-single",
+      "feature_dim": 46,
+      "accuracy": 0.6516666666666666,
+      "extra": "['(M_0*M_4)', '(A_0-M_3)', 'tanh(L_5-A_5)', 'tanh(M_1+E_0)', 'tanh(A_4+E_3)', '(M_1*L_2)', '(M_2/|E_3|)', '(L_3/|M_2|)', '(E_4-E_0)', '(M_4-S_4)', '(S_2*A_4)', '(S_2+M_4)', 'tanh(E_0-M_3)', 'sqrt(|E_5*S_3|)', '(E_1*M_5)', '|A_0-A_0|']"
+    },
+    {
+      "seed": 6,
+      "noise": 0.3,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5322222222222223,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.3,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5816666666666667,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.3,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.5955555555555555,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.3,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6011111111111112,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.3,
+      "representation": "Meta-FBOHN-v4-single",
+      "feature_dim": 46,
+      "accuracy": 0.6311111111111111,
+      "extra": "['tanh(L_5-M_0)', '(M_3+L_5)', '(E_3*S_4)', '|L_2-M_3|', '(M_5-L_2)', 'tanh(L_2-A_1)', '|A_1-L_0|', '(L_1*L_2)', '(E_1*L_1)', 'sqrt(|M_2*L_3|)', '(S_5+L_0)', '(S_2+M_1)', 'sqrt(|M_1*L_4|)', 'sqrt(|E_4*S_0|)', '(S_5+L_4)', '(A_3+M_0)']"
+    },
+    {
+      "seed": 7,
+      "noise": 0.3,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5405555555555556,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.3,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5827777777777777,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.3,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.61,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.3,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6138888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.3,
+      "representation": "Meta-FBOHN-v4-single",
+      "feature_dim": 46,
+      "accuracy": 0.6416666666666667,
+      "extra": "['tanh(A_3+A_1)', '(E_2*M_0)', 'tanh(E_2-L_3)', '(E_1*A_1)', '(L_0*M_4)', '(M_5*M_1)', '|E_1-S_3|', '(M_5/|A_2|)', '(A_1*A_4)', '|L_4-S_3|', '(L_3-A_2)', 'sqrt(|M_3*L_3|)', '(A_5-M_5)', '(E_2+M_1)', 'tanh(L_4+M_3)', 'tanh(L_0-L_3)']"
+    },
+    {
+      "seed": 8,
+      "noise": 0.3,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5438888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.3,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5961111111111111,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.3,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.63,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.3,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6405555555555555,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.3,
+      "representation": "Meta-FBOHN-v4-single",
+      "feature_dim": 46,
+      "accuracy": 0.6588888888888889,
+      "extra": "['|M_3-M_1|', '(M_2*L_1)', '(L_0*M_4)', '(A_0+A_3)', '(A_5-M_4)', 'tanh(S_2-M_3)', '(L_4-M_2)', 'tanh(A_1+L_4)', 'tanh(M_0+M_4)', '(L_1*M_5)', '(L_5-A_4)', '(E_3/|M_3|)', '(L_4*M_0)', 'sqrt(|E_3*E_1|)', '(M_3*S_2)', '|A_5-A_5|']"
+    },
+    {
+      "seed": 9,
+      "noise": 0.3,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5388888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.3,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5744444444444444,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.3,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6155555555555555,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.3,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6216666666666667,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.3,
+      "representation": "Meta-FBOHN-v4-single",
+      "feature_dim": 46,
+      "accuracy": 0.6288888888888889,
+      "extra": "['(L_1*M_2)', '(L_1*M_5)', '|E_3-L_5|', '(M_1/|A_2|)', '|L_0-M_2|', '(M_0/|M_1|)', '(A_0-M_3)', '(L_5+S_1)', '(E_0*M_2)', '(E_1*L_4)', '(L_5*M_0)', 'sqrt(|S_5*L_2|)', '(E_5-L_3)', '|S_4-S_4|', '(A_2*S_4)', 'sqrt(|L_5*S_3|)']"
+    },
+    {
+      "seed": 0,
+      "noise": 0.5,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5244444444444445,
+      "extra": ""
+    },
+    {
+      "seed": 0,
+      "noise": 0.5,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.56,
+      "extra": ""
+    },
+    {
+      "seed": 0,
+      "noise": 0.5,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.585,
+      "extra": ""
+    },
+    {
+      "seed": 0,
+      "noise": 0.5,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.605,
+      "extra": ""
+    },
+    {
+      "seed": 0,
+      "noise": 0.5,
+      "representation": "Meta-FBOHN-v4-single",
+      "feature_dim": 46,
+      "accuracy": 0.62,
+      "extra": "['(M_0*M_2)', '(E_4+A_3)', '|M_1-M_2|', 'sqrt(|E_1*A_1|)', '|A_0-L_5|', '(E_4/|A_5|)', '(S_3-M_3)', '|M_2-A_3|', '(L_0+S_5)', 'tanh(E_2+M_0)', 'tanh(L_4-M_3)', '(M_4*L_0)', '(E_3-A_3)', '|A_4-M_0|', 'sqrt(|A_0*E_3|)', '(E_5+L_4)']"
+    },
+    {
+      "seed": 1,
+      "noise": 0.5,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5338888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.5,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5733333333333334,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.5,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.5938888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.5,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.5955555555555555,
+      "extra": ""
+    },
+    {
+      "seed": 1,
+      "noise": 0.5,
+      "representation": "Meta-FBOHN-v4-single",
+      "feature_dim": 46,
+      "accuracy": 0.63,
+      "extra": "['|S_4-E_3|', '(L_1-M_4)', '(A_0*A_0)', 'sqrt(|M_1*M_1|)', '(L_4*M_0)', '(A_4*A_1)', 'sqrt(|E_3*M_1|)', 'tanh(L_4+E_1)', '(M_0/|A_5|)', '(E_1/|L_5|)', '(M_1*M_2)', 'tanh(L_0-L_0)', '(M_5/|A_2|)', '(S_2+E_5)', 'sqrt(|L_5*M_5|)', '|M_1-S_4|']"
+    },
+    {
+      "seed": 2,
+      "noise": 0.5,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5505555555555556,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.5,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5794444444444444,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.5,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6044444444444445,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.5,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.62,
+      "extra": ""
+    },
+    {
+      "seed": 2,
+      "noise": 0.5,
+      "representation": "Meta-FBOHN-v4-single",
+      "feature_dim": 46,
+      "accuracy": 0.6355555555555555,
+      "extra": "['(E_1-S_3)', '(A_4/|E_2|)', '|M_0-M_4|', 'tanh(A_1+M_1)', 'tanh(E_1+L_0)', '(M_4/|E_1|)', '|E_5-A_0|', '(A_3-M_4)', '|L_4-A_5|', '(M_2*M_4)', '(M_4-L_2)', '(M_1*L_2)', '|M_0-S_2|', 'tanh(M_0+M_3)', 'tanh(M_4+M_0)', '(L_1/|A_4|)']"
+    },
+    {
+      "seed": 3,
+      "noise": 0.5,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5444444444444444,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.5,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5861111111111111,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.5,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6244444444444445,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.5,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.625,
+      "extra": ""
+    },
+    {
+      "seed": 3,
+      "noise": 0.5,
+      "representation": "Meta-FBOHN-v4-single",
+      "feature_dim": 46,
+      "accuracy": 0.65,
+      "extra": "['(M_1+A_0)', '|E_1-A_0|', 'tanh(M_0-S_0)', 'sqrt(|L_0*L_1|)', '|M_4-M_0|', '(E_3*M_3)', '(S_2-E_5)', 'tanh(A_5+E_2)', '(M_2-S_2)', '|S_1-M_0|', '(S_5+A_5)', 'tanh(L_0-M_4)', '(S_4*A_3)', '(M_2*M_1)', 'tanh(L_1+L_1)', '(M_4+S_1)']"
+    },
+    {
+      "seed": 4,
+      "noise": 0.5,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5227777777777778,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.5,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.6055555555555555,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.5,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.63,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.5,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6161111111111112,
+      "extra": ""
+    },
+    {
+      "seed": 4,
+      "noise": 0.5,
+      "representation": "Meta-FBOHN-v4-single",
+      "feature_dim": 46,
+      "accuracy": 0.6461111111111111,
+      "extra": "['(E_1+M_4)', '(A_3-L_0)', 'tanh(E_4+L_1)', '(L_4*M_3)', '(L_4*L_0)', 'sqrt(|E_2*M_5|)', 'tanh(A_2+L_5)', '(E_1+E_1)', '(E_0*E_5)', '(M_0*E_4)', '(S_1/|M_2|)', '|M_4-M_3|', '(S_2*E_2)', '(S_3/|A_4|)', 'sqrt(|S_4*L_4|)', '(A_2+E_1)']"
+    },
+    {
+      "seed": 5,
+      "noise": 0.5,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5527777777777778,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.5,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.6011111111111112,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.5,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6105555555555555,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.5,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6216666666666667,
+      "extra": ""
+    },
+    {
+      "seed": 5,
+      "noise": 0.5,
+      "representation": "Meta-FBOHN-v4-single",
+      "feature_dim": 46,
+      "accuracy": 0.6433333333333333,
+      "extra": "['(E_2-E_2)', '(L_4*S_4)', '(E_1+L_0)', 'tanh(E_5+L_1)', '|L_0-L_4|', '|E_5-A_5|', '(A_1-L_4)', '(A_5/|A_5|)', '(A_2-L_5)', '(S_3/|L_1|)', 'tanh(E_3-A_2)', 'tanh(M_4+L_4)', '(A_3+E_0)', '(S_4-L_1)', '(L_1*M_2)', 'tanh(E_1+M_2)']"
+    },
+    {
+      "seed": 6,
+      "noise": 0.5,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5233333333333333,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.5,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5633333333333334,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.5,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.5988888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.5,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.5855555555555556,
+      "extra": ""
+    },
+    {
+      "seed": 6,
+      "noise": 0.5,
+      "representation": "Meta-FBOHN-v4-single",
+      "feature_dim": 46,
+      "accuracy": 0.6311111111111111,
+      "extra": "['sqrt(|E_4*A_1|)', '|S_1-M_5|', 'sqrt(|M_3*L_0|)', 'tanh(M_1+A_1)', '(M_4*L_0)', 'tanh(M_1+M_3)', '(L_3/|L_5|)', '(S_0/|E_5|)', '(M_5+L_1)', '|M_3-L_3|', '(E_4+S_5)', '(M_2-S_5)', 'tanh(E_1-L_5)', '(M_2+S_0)', '(L_1*L_2)', '(S_2/|E_1|)']"
+    },
+    {
+      "seed": 7,
+      "noise": 0.5,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5488888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.5,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.6038888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.5,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.62,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.5,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6283333333333333,
+      "extra": ""
+    },
+    {
+      "seed": 7,
+      "noise": 0.5,
+      "representation": "Meta-FBOHN-v4-single",
+      "feature_dim": 46,
+      "accuracy": 0.635,
+      "extra": "['(L_5*M_2)', '(M_2/|A_4|)', 'sqrt(|A_0*E_4|)', '(L_4*M_3)', '|M_4-A_1|', '(L_5*E_4)', 'tanh(S_2-L_4)', '(S_1*A_5)', '(M_4*M_0)', '(A_2-A_1)', 'tanh(E_4-A_2)', '|A_2-S_2|', '|S_2-A_1|', '(M_4+S_0)', 'tanh(A_5-M_0)', 'tanh(L_4+S_4)']"
+    },
+    {
+      "seed": 8,
+      "noise": 0.5,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5455555555555556,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.5,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5922222222222222,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.5,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6188888888888889,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.5,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6211111111111111,
+      "extra": ""
+    },
+    {
+      "seed": 8,
+      "noise": 0.5,
+      "representation": "Meta-FBOHN-v4-single",
+      "feature_dim": 46,
+      "accuracy": 0.6338888888888888,
+      "extra": "['(L_1*M_5)', '(S_2*E_1)', 'sqrt(|A_0*S_2|)', '(M_4*L_2)', '(L_4/|S_0|)', 'tanh(M_2+M_4)', '(E_2*M_0)', 'tanh(S_1+M_0)', 'sqrt(|S_4*S_4|)', 'sqrt(|S_4*M_2|)', '(M_0*A_2)', '(S_4*L_1)', 'tanh(L_3-M_0)', '(S_0+M_5)', 'sqrt(|M_2*L_4|)', '(E_4*L_0)']"
+    },
+    {
+      "seed": 9,
+      "noise": 0.5,
+      "representation": "RAW",
+      "feature_dim": 18,
+      "accuracy": 0.5383333333333333,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.5,
+      "representation": "BOHN",
+      "feature_dim": 18,
+      "accuracy": 0.5711111111111111,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.5,
+      "representation": "FBOHN",
+      "feature_dim": 30,
+      "accuracy": 0.6061111111111112,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.5,
+      "representation": "FBOHN-poly-control",
+      "feature_dim": 84,
+      "accuracy": 0.6077777777777778,
+      "extra": ""
+    },
+    {
+      "seed": 9,
+      "noise": 0.5,
+      "representation": "Meta-FBOHN-v4-single",
+      "feature_dim": 46,
+      "accuracy": 0.6322222222222222,
+      "extra": "['|A_0-A_3|', '(A_0-L_1)', 'sqrt(|E_3*S_2|)', '(S_4+M_1)', 'tanh(A_4+M_2)', '|A_3-A_5|', '(A_3*M_4)', '(E_2*E_4)', '|S_0-M_2|', 'tanh(M_3+A_1)', 'tanh(L_2-S_0)', '(L_2*L_1)', 'tanh(S_0-M_1)', '(L_2*S_1)', '(L_4*L_0)', '|L_3-M_5|']"
+    }
+  ],
+  "summary": [
+    {
+      "noise": 0.0,
+      "representation": "BOHN",
+      "acc_mean": 0.6046111111111111,
+      "acc_std": 0.009504348871031451,
+      "feature_dim": 18.0
+    },
+    {
+      "noise": 0.0,
+      "representation": "FBOHN",
+      "acc_mean": 0.6224444444444445,
+      "acc_std": 0.006319130707176097,
+      "feature_dim": 30.0
+    },
+    {
+      "noise": 0.0,
+      "representation": "FBOHN-poly-control",
+      "acc_mean": 0.6350555555555555,
+      "acc_std": 0.006037434660843179,
+      "feature_dim": 84.0
+    },
+    {
+      "noise": 0.0,
+      "representation": "Meta-FBOHN-v4-single",
+      "acc_mean": 0.6498333333333333,
+      "acc_std": 0.010570327545398482,
+      "feature_dim": 46.0
+    },
+    {
+      "noise": 0.0,
+      "representation": "RAW",
+      "acc_mean": 0.5496111111111112,
+      "acc_std": 0.012286726530448168,
+      "feature_dim": 18.0
+    },
+    {
+      "noise": 0.1,
+      "representation": "BOHN",
+      "acc_mean": 0.6002222222222222,
+      "acc_std": 0.011197809897567372,
+      "feature_dim": 18.0
+    },
+    {
+      "noise": 0.1,
+      "representation": "FBOHN",
+      "acc_mean": 0.6261111111111111,
+      "acc_std": 0.011929721043263978,
+      "feature_dim": 30.0
+    },
+    {
+      "noise": 0.1,
+      "representation": "FBOHN-poly-control",
+      "acc_mean": 0.6303333333333334,
+      "acc_std": 0.01246449002806806,
+      "feature_dim": 84.0
+    },
+    {
+      "noise": 0.1,
+      "representation": "Meta-FBOHN-v4-single",
+      "acc_mean": 0.6573333333333333,
+      "acc_std": 0.007882017525630631,
+      "feature_dim": 46.0
+    },
+    {
+      "noise": 0.1,
+      "representation": "RAW",
+      "acc_mean": 0.545,
+      "acc_std": 0.010180133427322052,
+      "feature_dim": 18.0
+    },
+    {
+      "noise": 0.3,
+      "representation": "BOHN",
+      "acc_mean": 0.5887777777777778,
+      "acc_std": 0.007679270370005106,
+      "feature_dim": 18.0
+    },
+    {
+      "noise": 0.3,
+      "representation": "FBOHN",
+      "acc_mean": 0.6150555555555556,
+      "acc_std": 0.013218253372598923,
+      "feature_dim": 30.0
+    },
+    {
+      "noise": 0.3,
+      "representation": "FBOHN-poly-control",
+      "acc_mean": 0.6217777777777778,
+      "acc_std": 0.013038930838881104,
+      "feature_dim": 84.0
+    },
+    {
+      "noise": 0.3,
+      "representation": "Meta-FBOHN-v4-single",
+      "acc_mean": 0.6408888888888888,
+      "acc_std": 0.01208168358256829,
+      "feature_dim": 46.0
+    },
+    {
+      "noise": 0.3,
+      "representation": "RAW",
+      "acc_mean": 0.5426666666666666,
+      "acc_std": 0.008222722707490478,
+      "feature_dim": 18.0
+    },
+    {
+      "noise": 0.5,
+      "representation": "BOHN",
+      "acc_mean": 0.5836111111111111,
+      "acc_std": 0.016757468699109834,
+      "feature_dim": 18.0
+    },
+    {
+      "noise": 0.5,
+      "representation": "FBOHN",
+      "acc_mean": 0.6092222222222222,
+      "acc_std": 0.014282568730705466,
+      "feature_dim": 30.0
+    },
+    {
+      "noise": 0.5,
+      "representation": "FBOHN-poly-control",
+      "acc_mean": 0.6126111111111111,
+      "acc_std": 0.013848212039118431,
+      "feature_dim": 84.0
+    },
+    {
+      "noise": 0.5,
+      "representation": "Meta-FBOHN-v4-single",
+      "acc_mean": 0.6357222222222222,
+      "acc_std": 0.008737326702999744,
+      "feature_dim": 46.0
+    },
+    {
+      "noise": 0.5,
+      "representation": "RAW",
+      "acc_mean": 0.5385,
+      "acc_std": 0.011729840716621498,
+      "feature_dim": 18.0
+    }
+  ]
+}

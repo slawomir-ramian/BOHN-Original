@@ -1,0 +1,36 @@
+{
+  "experiment_id": "MF-004",
+  "source_sequence_in_stage": 6,
+  "source_order_in_monograph": 114,
+  "canonical_source": "docs/source/BOHN_PL.pdf",
+  "extraction_source": "docs/source/BOHN_EN_SOURCE.tex",
+  "source_code_level": "FULL_SUITE",
+  "execution_mode": "HISTORICAL_SUITE_FUNCTIONS_WITH_CELL_CHECKPOINTS",
+  "listing_indices": [
+    71
+  ],
+  "historical_source_files": [
+    "source_from_monograph.py"
+  ],
+  "historical_source_sha256": [
+    "7c22f9b681a821e5e7be402b3173f909e0c30ffa50ac48ee8f2086af0c33da60"
+  ],
+  "historical_source_semantic_sha256": [
+    "788b3259af58d5b7bdb56c287370473f670daf96515a21d63e15afed0455f603"
+  ],
+  "historical_source_line_ranges": [
+    [
+      17429,
+      17887
+    ]
+  ],
+  "reported_result_file": "reported_result_from_monograph.tex",
+  "reported_result_start_line": 7342,
+  "reported_result_end_line": 7389,
+  "reported_result_sha256": "0f7a0a988feb0c3a31555557476db0a3780a1889f9ece82a561412b5e6ab4e0c",
+  "historical_code_modified": false,
+  "runtime_program": "v4",
+  "runtime_compatibility": [
+    "cell_level_checkpoint_wrapper_without_source_changes"
+  ]
+}
