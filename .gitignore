@@ -104,3 +104,6 @@ reproduced/stage_07r_pilot/
 .DS_Store
 Thumbs.db
 .vscode/settings.json
+
+# Lokalny raport audytu przed publikacja
+docs/GITHUB_PUBLICATION_AUDIT.md

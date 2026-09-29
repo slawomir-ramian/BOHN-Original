@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it and the related BOHN monograph. Commercial use of repository code requires separate permission."
+title: "BOHN-Original: historical reconstruction and reproducibility archive"
+type: software
+authors:
+  - family-names: "Ramian"
+    given-names: "Sławomir"
+version: 1.0.0
+date-released: 2026-09-29
+license: PolyForm-Noncommercial-1.0.0
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.19897230"
+    description: "Related BOHN/RMIG monograph and preprint archive"
+keywords:
+  - BOHN
+  - SBOHN
+  - RMIG
+  - symmetry
+  - invariant representation
+  - reproducible research
+abstract: >-
+  Audited reconstruction and reproducibility archive for 115 experimental
+  units from the BOHN monograph, preserving the original PDF chronology,
+  historical source boundaries, reference results, local reproductions and
+  explicit classifications of numerical agreement and divergence.

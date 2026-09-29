@@ -1,5 +1,7 @@
 # BOHN-Original
 
+[English README](README_EN.md)
+
 Historyczne i reprodukowalne archiwum rozwoju BOHN/SBOHN opisanego w monografii
 Sławomira Ramiana z czerwca 2026 r.
 
@@ -303,3 +305,17 @@ SHA-256 dokumentu znajduje się w `docs/CANONICAL_SOURCE.md`.
 
 Wynik raportowany w monografii (`RESULT_REPORTED`) nigdy nie jest nadpisywany
 wynikiem nowego uruchomienia (`RESULT_REPRODUCED`).
+
+## Cytowanie i licencje
+
+Metadane cytowania znajdują się w `CITATION.cff`. Powiązany DOI:
+https://doi.org/10.5281/zenodo.19897230
+
+Kod źródłowy, testy i skrypty są udostępniane na licencji PolyForm
+Noncommercial 1.0.0. Ich wykorzystanie komercyjne wymaga osobnej pisemnej
+zgody autora.
+
+Preprint opublikowany wcześniej w Zenodo pozostaje na CC BY 4.0. Nowa
+dokumentacja, analizy i wyniki repozytorium są udostępniane na CC BY-NC 4.0,
+o ile przy konkretnym pliku nie wskazano inaczej. Szczegóły: `LICENSE`,
+`LICENSE-DOCUMENTATION.md` i `COMMERCIAL-LICENSE.md`.
