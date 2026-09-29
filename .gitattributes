@@ -36,3 +36,6 @@ experiments/12_moe_evolution/*/historical/source_from_monograph.py whitespace=-t
 experiments/12_moe_evolution/*/historical/source_fragment_from_monograph.py whitespace=-trailing-space
 experiments/12_moe_evolution/*/historical/shared_listing_context_from_monograph.py whitespace=-trailing-space
 experiments/13_rmig_meta_fbohn/*/historical/source_from_monograph.py whitespace=-trailing-space
+
+# Wyniki reprodukcji musza zachowac dokladne bajty dla SHA-256
+reproduced/** -text
