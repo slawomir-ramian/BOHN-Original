@@ -1,0 +1,274 @@
+{
+  "stage": 16,
+  "mode": "FULL",
+  "created_utc": "20261003T062344Z",
+  "python": "3.14.5 (tags/v3.14.5:5607950, May 10 2026, 10:43:50) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "threads": 4,
+  "units": {
+    "SOTA-002R": {
+      "unit": "SOTA-002R",
+      "mode": "FULL",
+      "status": "DIRECT_REPLICATION_PASS",
+      "scientific_target_hardcoded": false,
+      "historical_source_modified": false,
+      "square_3840_semantics": "3840x3840, not 3840x2160 UHD",
+      "baseline_description": "three-convolution CNN from the historical listing",
+      "rows": [
+        {
+          "shape_hw": [
+            28,
+            28
+          ],
+          "display_shape": "28x28",
+          "historical_ms": 3.4286,
+          "cnn_ms": 0.6029,
+          "cnn_over_historical_speedup": 0.1758443679636003,
+          "historical_params": 54298,
+          "cnn_params": 23946,
+          "historical_patch_side": 7,
+          "historical_token_count": 16,
+          "historical_output_finite": true,
+          "cnn_output_finite": true
+        },
+        {
+          "shape_hw": [
+            112,
+            112
+          ],
+          "display_shape": "112x112",
+          "historical_ms": 3.411,
+          "cnn_ms": 2.2241,
+          "cnn_over_historical_speedup": 0.6520375256523013,
+          "historical_params": 101338,
+          "cnn_params": 23946,
+          "historical_patch_side": 28,
+          "historical_token_count": 16,
+          "historical_output_finite": true,
+          "cnn_output_finite": true
+        },
+        {
+          "shape_hw": [
+            448,
+            448
+          ],
+          "display_shape": "448x448",
+          "historical_ms": 4.8895,
+          "cnn_ms": 28.306,
+          "cnn_over_historical_speedup": 5.789139993864404,
+          "historical_params": 853978,
+          "cnn_params": 23946,
+          "historical_patch_side": 112,
+          "historical_token_count": 16,
+          "historical_output_finite": true,
+          "cnn_output_finite": true
+        },
+        {
+          "shape_hw": [
+            1024,
+            1024
+          ],
+          "display_shape": "1024x1024",
+          "historical_ms": 10.0031,
+          "cnn_ms": 160.4341,
+          "cnn_over_historical_speedup": 16.0384380841939,
+          "historical_params": 4245466,
+          "cnn_params": 23946,
+          "historical_patch_side": 256,
+          "historical_token_count": 16,
+          "historical_output_finite": true,
+          "cnn_output_finite": true
+        },
+        {
+          "shape_hw": [
+            2048,
+            2048
+          ],
+          "display_shape": "2048x2048",
+          "historical_ms": 38.1069,
+          "cnn_ms": 806.1518,
+          "cnn_over_historical_speedup": 21.155008672969984,
+          "historical_params": 16828378,
+          "cnn_params": 23946,
+          "historical_patch_side": 512,
+          "historical_token_count": 16,
+          "historical_output_finite": true,
+          "cnn_output_finite": true
+        },
+        {
+          "shape_hw": [
+            3840,
+            3840
+          ],
+          "display_shape": "3840x3840",
+          "historical_ms": 82.9749,
+          "cnn_ms": 2959.5168,
+          "cnn_over_historical_speedup": 35.66761514626712,
+          "historical_params": 59033562,
+          "cnn_params": 23946,
+          "historical_patch_side": 960,
+          "historical_token_count": 16,
+          "historical_output_finite": true,
+          "cnn_output_finite": true
+        }
+      ],
+      "highest_resolution_profile": {
+        "patch_extract_ms": 11.3905,
+        "first_dense_layer_ms": 53.3946,
+        "complete_embedder_ms": 50.6406,
+        "relational_core_and_head_ms": 4.6834,
+        "first_dense_output_shape": [
+          1,
+          16,
+          64
+        ]
+      },
+      "parameter_growth_factor": 1087.2142988692033,
+      "duration_seconds": 55.83797969997977,
+      "threads": 4,
+      "torch_version": "2.14.0+cpu",
+      "dtype": "float32",
+      "batch_size": 1,
+      "warmups": 3,
+      "repeats": 7,
+      "timer": "time.perf_counter_ns median"
+    },
+    "SOTA-002H": {
+      "unit": "SOTA-002H",
+      "mode": "FULL",
+      "status": "STRUCTURAL_FRONTEND_PASS",
+      "architecture_claim_only": true,
+      "classification_accuracy_claim": false,
+      "entire_pipeline_o1_claim": false,
+      "model_reused_across_all_resolutions": true,
+      "rows": [
+        {
+          "shape_hw": [
+            28,
+            28
+          ],
+          "display_shape": "28x28",
+          "hierarchical_ms": 4.085,
+          "parameters": 51434,
+          "token_count": 16,
+          "output_finite": true,
+          "input_megapixels": 0.000784
+        },
+        {
+          "shape_hw": [
+            112,
+            112
+          ],
+          "display_shape": "112x112",
+          "hierarchical_ms": 4.8774,
+          "parameters": 51434,
+          "token_count": 16,
+          "output_finite": true,
+          "input_megapixels": 0.012544
+        },
+        {
+          "shape_hw": [
+            448,
+            448
+          ],
+          "display_shape": "448x448",
+          "hierarchical_ms": 7.51,
+          "parameters": 51434,
+          "token_count": 16,
+          "output_finite": true,
+          "input_megapixels": 0.200704
+        },
+        {
+          "shape_hw": [
+            1024,
+            1024
+          ],
+          "display_shape": "1024x1024",
+          "hierarchical_ms": 125.2328,
+          "parameters": 51434,
+          "token_count": 16,
+          "output_finite": true,
+          "input_megapixels": 1.048576
+        },
+        {
+          "shape_hw": [
+            2048,
+            2048
+          ],
+          "display_shape": "2048x2048",
+          "hierarchical_ms": 129.0545,
+          "parameters": 51434,
+          "token_count": 16,
+          "output_finite": true,
+          "input_megapixels": 4.194304
+        },
+        {
+          "shape_hw": [
+            3840,
+            3840
+          ],
+          "display_shape": "3840x3840",
+          "hierarchical_ms": 284.8518,
+          "parameters": 51434,
+          "token_count": 16,
+          "output_finite": true,
+          "input_megapixels": 14.7456
+        },
+        {
+          "shape_hw": [
+            1080,
+            1920
+          ],
+          "display_shape": "1920x1080",
+          "hierarchical_ms": 48.0969,
+          "parameters": 51434,
+          "token_count": 16,
+          "output_finite": true,
+          "input_megapixels": 2.0736
+        },
+        {
+          "shape_hw": [
+            1440,
+            2560
+          ],
+          "display_shape": "2560x1440",
+          "hierarchical_ms": 62.165,
+          "parameters": 51434,
+          "token_count": 16,
+          "output_finite": true,
+          "input_megapixels": 3.6864
+        },
+        {
+          "shape_hw": [
+            2160,
+            3840
+          ],
+          "display_shape": "3840x2160",
+          "hierarchical_ms": 145.5963,
+          "parameters": 51434,
+          "token_count": 16,
+          "output_finite": true,
+          "input_megapixels": 8.2944
+        }
+      ],
+      "uhd_profile": {
+        "front_end_ms": 134.48,
+        "relational_core_and_head_ms": 3.6374,
+        "token_shape": [
+          1,
+          16,
+          16
+        ]
+      },
+      "duration_seconds": 12.61469039999065,
+      "threads": 4,
+      "torch_version": "2.14.0+cpu",
+      "dtype": "float32",
+      "batch_size": 1,
+      "warmups": 3,
+      "repeats": 7,
+      "timer": "time.perf_counter_ns median"
+    }
+  },
+  "status": "PASS"
+}

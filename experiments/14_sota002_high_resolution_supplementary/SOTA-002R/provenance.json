@@ -1,0 +1,9 @@
+{
+  "id": "SOTA-002R",
+  "parent": "SOTA-002",
+  "relationship": "supplementary direct replication outside the canonical 115",
+  "historical_source_modified": false,
+  "historical_source_sha256": "ba576b945052cc70b44dcecaece3bc90eb728787ecf86f9cece1d17217a4b116",
+  "protocol": "../stage16_protocol.json"
+}
+

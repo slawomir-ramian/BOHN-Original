@@ -187,3 +187,14 @@ z opisu i tabel, bez udawania, że pełny kod został opublikowany.
 | `MF-004` | 14.4 | Meta-FBOHN v4 - Symbolic Orbit Composer | experiment | 132-133 / 133-134 | `FULL_SUITE` | `CONCLUSION_MATCH` |
 | `MF-005` | 14.5 | Meta-FBOHN v5 - Symbolic Library Discovery | experiment | 133-134 / 134-135 | `FULL_SUITE` | `NUMERIC_DIFFERENCE` |
 
+<!-- STAGE_16_SUPPLEMENTARY_START -->
+## Eksperymenty uzupełniające Etapu 16
+
+Te jednostki nie należą do kanonicznych 115 pozycji uporządkowanych według PDF:
+
+- `SOTA-002R` — bezpośrednia replikacja wysokich rozdzielczości;
+- `SOTA-002H` — nowy hierarchiczny front-end o stałej liczbie parametrów.
+
+Pełny przebieg: `reproduced/stage_16_runs/20261003T062344Z`.  
+Ocena: `TECHNICAL_CONFIRMATION_WITH_LIMITATIONS`.
+<!-- STAGE_16_SUPPLEMENTARY_END -->

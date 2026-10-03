@@ -66,3 +66,18 @@ The preprint previously published in Zenodo remains under CC BY 4.0. New
 repository documentation, analyses and reproduced results are licensed under
 CC BY-NC 4.0 unless a file states otherwise. See `LICENSE`,
 `LICENSE-DOCUMENTATION.md` and `COMMERCIAL-LICENSE.md`.
+
+<!-- STAGE_16_SUPPLEMENTARY_START -->
+## Stage 16 — supplementary high-resolution benchmark
+
+After closing the canonical 115-unit chronology, two explicitly supplementary
+units were executed for `SOTA-002`: direct high-resolution replication
+`SOTA-002R` and fixed-parameter hierarchical variant `SOTA-002H`.
+
+Result: `TECHNICAL_CONFIRMATION_WITH_LIMITATIONS`. The historical relational
+core retained 16 tokens and was 35.67× faster than the listing's simple CNN at
+3840×3840. The new variant retained 51,434 parameters at every resolution, but
+no constant end-to-end runtime or classification-accuracy advantage is claimed.
+
+Details: [`docs/STAGE_16_LOCAL_ANALYSIS.md`](docs/STAGE_16_LOCAL_ANALYSIS.md).
+<!-- STAGE_16_SUPPLEMENTARY_END -->

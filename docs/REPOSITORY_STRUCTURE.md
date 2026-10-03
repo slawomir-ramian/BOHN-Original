@@ -119,3 +119,12 @@ dzieli kompletny listing 71. Checkpointy pełnego protokołu są oddzielone od
 niezmienionych źródeł historycznych. Pełny bieg znajduje się w
 `reproduced/stage_15_runs/20260928T185044Z/`, a szczegółowa interpretacja w
 `docs/STAGE_15_LOCAL_ANALYSIS.md`. Tym etapem zakończono wszystkie 115 pozycji.
+
+<!-- STAGE_16_SUPPLEMENTARY_START -->
+## Rozszerzenie po wydaniu v1.0.0: Etap 16
+
+- `experiments/14_sota002_high_resolution_supplementary/` — protokół i dwie jednostki;
+- `src/bohn_original/stage16_high_resolution.py` — nowy wariant H;
+- `reproduced/stage_16_runs/` — wyniki i manifesty;
+- `docs/STAGE_16_LOCAL_ANALYSIS.md` — kontrolowana interpretacja.
+<!-- STAGE_16_SUPPLEMENTARY_END -->

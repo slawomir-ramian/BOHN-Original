@@ -1,0 +1,8 @@
+{
+  "id": "SOTA-002H",
+  "parent": "SOTA-002",
+  "relationship": "supplementary new architecture outside the canonical 115",
+  "historical_source_modified": false,
+  "classification_accuracy_claim": false,
+  "protocol": "../stage16_protocol.json"
+}

@@ -1,0 +1,136 @@
+{
+  "unit": "SOTA-002H",
+  "mode": "FULL",
+  "status": "STRUCTURAL_FRONTEND_PASS",
+  "architecture_claim_only": true,
+  "classification_accuracy_claim": false,
+  "entire_pipeline_o1_claim": false,
+  "model_reused_across_all_resolutions": true,
+  "rows": [
+    {
+      "shape_hw": [
+        28,
+        28
+      ],
+      "display_shape": "28x28",
+      "hierarchical_ms": 4.085,
+      "parameters": 51434,
+      "token_count": 16,
+      "output_finite": true,
+      "input_megapixels": 0.000784
+    },
+    {
+      "shape_hw": [
+        112,
+        112
+      ],
+      "display_shape": "112x112",
+      "hierarchical_ms": 4.8774,
+      "parameters": 51434,
+      "token_count": 16,
+      "output_finite": true,
+      "input_megapixels": 0.012544
+    },
+    {
+      "shape_hw": [
+        448,
+        448
+      ],
+      "display_shape": "448x448",
+      "hierarchical_ms": 7.51,
+      "parameters": 51434,
+      "token_count": 16,
+      "output_finite": true,
+      "input_megapixels": 0.200704
+    },
+    {
+      "shape_hw": [
+        1024,
+        1024
+      ],
+      "display_shape": "1024x1024",
+      "hierarchical_ms": 125.2328,
+      "parameters": 51434,
+      "token_count": 16,
+      "output_finite": true,
+      "input_megapixels": 1.048576
+    },
+    {
+      "shape_hw": [
+        2048,
+        2048
+      ],
+      "display_shape": "2048x2048",
+      "hierarchical_ms": 129.0545,
+      "parameters": 51434,
+      "token_count": 16,
+      "output_finite": true,
+      "input_megapixels": 4.194304
+    },
+    {
+      "shape_hw": [
+        3840,
+        3840
+      ],
+      "display_shape": "3840x3840",
+      "hierarchical_ms": 284.8518,
+      "parameters": 51434,
+      "token_count": 16,
+      "output_finite": true,
+      "input_megapixels": 14.7456
+    },
+    {
+      "shape_hw": [
+        1080,
+        1920
+      ],
+      "display_shape": "1920x1080",
+      "hierarchical_ms": 48.0969,
+      "parameters": 51434,
+      "token_count": 16,
+      "output_finite": true,
+      "input_megapixels": 2.0736
+    },
+    {
+      "shape_hw": [
+        1440,
+        2560
+      ],
+      "display_shape": "2560x1440",
+      "hierarchical_ms": 62.165,
+      "parameters": 51434,
+      "token_count": 16,
+      "output_finite": true,
+      "input_megapixels": 3.6864
+    },
+    {
+      "shape_hw": [
+        2160,
+        3840
+      ],
+      "display_shape": "3840x2160",
+      "hierarchical_ms": 145.5963,
+      "parameters": 51434,
+      "token_count": 16,
+      "output_finite": true,
+      "input_megapixels": 8.2944
+    }
+  ],
+  "uhd_profile": {
+    "front_end_ms": 134.48,
+    "relational_core_and_head_ms": 3.6374,
+    "token_shape": [
+      1,
+      16,
+      16
+    ]
+  },
+  "duration_seconds": 12.61469039999065,
+  "threads": 4,
+  "torch_version": "2.14.0+cpu",
+  "dtype": "float32",
+  "batch_size": 1,
+  "warmups": 3,
+  "repeats": 7,
+  "timer": "time.perf_counter_ns median"
+}

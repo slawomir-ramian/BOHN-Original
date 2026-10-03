@@ -1,0 +1,20 @@
+{
+  "protocol_id": "STAGE_16_SOTA002_HIGH_RESOLUTION_V1",
+  "historical_parent": "SOTA-002",
+  "historical_source_sha256": "ba576b945052cc70b44dcecaece3bc90eb728787ecf86f9cece1d17217a4b116",
+  "units": ["SOTA-002R", "SOTA-002H"],
+  "threads": 4,
+  "dtype": "float32",
+  "batch_size": 1,
+  "timing": "time.perf_counter_ns median",
+  "full_warmups": 3,
+  "full_repeats": 7,
+  "smoke_warmups": 1,
+  "smoke_repeats": 3,
+  "square_resolutions": [28, 112, 448, 1024, 2048, 3840],
+  "rectangular_resolutions_hw": [[1080, 1920], [1440, 2560], [2160, 3840]],
+  "claims": {
+    "SOTA-002R": "direct timing replication with unchanged historical classes",
+    "SOTA-002H": "structural fixed-parameter front-end experiment; no accuracy claim"
+  }
+}

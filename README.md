@@ -319,3 +319,18 @@ Preprint opublikowany wcześniej w Zenodo pozostaje na CC BY 4.0. Nowa
 dokumentacja, analizy i wyniki repozytorium są udostępniane na CC BY-NC 4.0,
 o ile przy konkretnym pliku nie wskazano inaczej. Szczegóły: `LICENSE`,
 `LICENSE-DOCUMENTATION.md` i `COMMERCIAL-LICENSE.md`.
+
+<!-- STAGE_16_SUPPLEMENTARY_START -->
+## Etap 16 — uzupełniający benchmark wysokich rozdzielczości
+
+Po zamknięciu kanonicznych 115 jednostek wykonano dwie jawnie uzupełniające
+jednostki związane z `SOTA-002`: bezpośrednią replikację wysokorozdzielczą
+`SOTA-002R` oraz stałoparametrowy wariant hierarchiczny `SOTA-002H`.
+
+Wynik: `TECHNICAL_CONFIRMATION_WITH_LIMITATIONS`. Historyczny rdzeń zachował
+16 tokenów i przy 3840×3840 był 35,67× szybszy od prostego CNN z listingu.
+Nowy wariant zachował 51 434 parametry dla wszystkich rozdzielczości, ale nie
+wykazał stałego czasu całego pipeline'u ani przewagi jakości klasyfikacji.
+
+Szczegóły: [`docs/STAGE_16_LOCAL_ANALYSIS.md`](docs/STAGE_16_LOCAL_ANALYSIS.md).
+<!-- STAGE_16_SUPPLEMENTARY_END -->
